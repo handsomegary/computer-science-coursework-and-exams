@@ -1,0 +1,62 @@
+[
+  {
+    "document": "solution.md",
+    "source": "assignments/2021/pa01/main.cpp",
+    "sources": [
+      "assignments/2021/pa01/main.cpp",
+      "assignments/2021/pa01/vouchers.hpp"
+    ],
+    "stdin": "255\nd\ny\n766\np\n640\np\n40\nd\nn\n-1\n",
+    "stdout": "*** Welcome to Quintuple Stimulus Vouchers System ***\nPlease enter the good price: Please enter the type of vouchers (d/p): Are you a member of NCU Bank (y/n): The price you need to pay: 183\nThe payment is processed as follows:\n    1 $100 voucher\n    1 $ 50 voucher\n    3 $ 10 voucher\n    3 $  1 voucher\nThe remaining vouchers are as follows:\n    4 $100 voucher\n    4 $ 50 voucher\n    2 $ 10 voucher\n    5 $  5 voucher\n    2 $  1 voucher\n\nPlease enter the good price: Please enter the type of vouchers (d/p): The price you need to pay: 689\nYou don't have enough voucher to buy the good\n\nPlease enter the good price: Please enter the type of vouchers (d/p): The price you need to pay: 576\nThe payment is processed as follows:\n    4 $100 voucher\n    3 $ 50 voucher\n    2 $ 10 voucher\n    1 $  5 voucher\n    1 $  1 voucher\nThe remaining vouchers are as follows:\n    1 $ 50 voucher\n    4 $  5 voucher\n    1 $  1 voucher\n\nPlease enter the good price: Please enter the type of vouchers (d/p): Are you a member of NCU Bank (y/n): The price you need to pay: 32\nThe payment is processed as follows:\n    1 $ 50 voucher\nThe remaining vouchers are as follows:\n    4 $  5 voucher\n    1 $  1 voucher\n\nPlease enter the good price: Bye~\n",
+    "stderr": "",
+    "returncode": 0
+  },
+  {
+    "document": "solution.md",
+    "source": "assignments/2021/pa01/main.cpp",
+    "sources": [
+      "assignments/2021/pa01/main.cpp",
+      "assignments/2021/pa01/vouchers.hpp"
+    ],
+    "stdin": "1000\np\n789\nd\ny\n766\np\n289\np\n3\nd\nn\n",
+    "stdout": "*** Welcome to Quintuple Stimulus Vouchers System ***\nPlease enter the good price: Please enter the type of vouchers (d/p): The price you need to pay: 900\nYou don't have enough voucher to buy the good\n\nPlease enter the good price: Please enter the type of vouchers (d/p): Are you a member of NCU Bank (y/n): The price you need to pay: 568\nThe payment is processed as follows:\n    5 $100 voucher\n    1 $ 50 voucher\n    1 $ 10 voucher\n    1 $  5 voucher\n    3 $  1 voucher\nThe remaining vouchers are as follows:\n    4 $ 50 voucher\n    4 $ 10 voucher\n    4 $  5 voucher\n    2 $  1 voucher\n\nPlease enter the good price: Please enter the type of vouchers (d/p): The price you need to pay: 689\nYou don't have enough voucher to buy the good\n\nPlease enter the good price: Please enter the type of vouchers (d/p): The price you need to pay: 260\nThe payment is processed as follows:\n    4 $ 50 voucher\n    4 $ 10 voucher\n    4 $  5 voucher\nThe remaining vouchers are as follows:\n    2 $  1 voucher\n\nPlease enter the good price: Please enter the type of vouchers (d/p): Are you a member of NCU Bank (y/n): The price you need to pay: 2\nThe payment is processed as follows:\n    2 $  1 voucher\nYou do not remain any voucher\nBye~\n",
+    "stderr": "",
+    "returncode": 0
+  },
+  {
+    "document": "solution.md",
+    "source": "assignments/2021/pa01/main.cpp",
+    "sources": [
+      "assignments/2021/pa01/main.cpp",
+      "assignments/2021/pa01/vouchers.hpp"
+    ],
+    "stdin": "1\nd\ny\n0\np\n-1\n",
+    "stdout": "*** Welcome to Quintuple Stimulus Vouchers System ***\nPlease enter the good price: Please enter the type of vouchers (d/p): Are you a member of NCU Bank (y/n): The price you need to pay: 0\nThe remaining vouchers are as follows:\n    5 $100 voucher\n    5 $ 50 voucher\n    5 $ 10 voucher\n    5 $  5 voucher\n    5 $  1 voucher\n\nPlease enter the good price: Please enter the type of vouchers (d/p): The price you need to pay: 0\nThe remaining vouchers are as follows:\n    5 $100 voucher\n    5 $ 50 voucher\n    5 $ 10 voucher\n    5 $  5 voucher\n    5 $  1 voucher\n\nPlease enter the good price: Bye~\n",
+    "stderr": "",
+    "returncode": 0
+  },
+  {
+    "document": "solution.md",
+    "source": "assignments/2021/pa01/main.cpp",
+    "sources": [
+      "assignments/2021/pa01/main.cpp",
+      "assignments/2021/pa01/vouchers.hpp"
+    ],
+    "stdin": "399\nd\nn\n408\nd\ny\n999\np\n-1\n",
+    "stdout": "*** Welcome to Quintuple Stimulus Vouchers System ***\nPlease enter the good price: Please enter the type of vouchers (d/p): Are you a member of NCU Bank (y/n): The price you need to pay: 319\nThe payment is processed as follows:\n    3 $100 voucher\n    1 $ 10 voucher\n    1 $  5 voucher\n    4 $  1 voucher\nThe remaining vouchers are as follows:\n    2 $100 voucher\n    5 $ 50 voucher\n    4 $ 10 voucher\n    4 $  5 voucher\n    1 $  1 voucher\n\nPlease enter the good price: Please enter the type of vouchers (d/p): Are you a member of NCU Bank (y/n): The price you need to pay: 293\nThe payment is processed as follows:\n    2 $100 voucher\n    2 $ 50 voucher\nThe remaining vouchers are as follows:\n    3 $ 50 voucher\n    4 $ 10 voucher\n    4 $  5 voucher\n    1 $  1 voucher\n\nPlease enter the good price: Please enter the type of vouchers (d/p): The price you need to pay: 899\nYou don't have enough voucher to buy the good\n\nPlease enter the good price: Bye~\n",
+    "stderr": "",
+    "returncode": 0
+  },
+  {
+    "document": "solution.md",
+    "source": "assignments/2021/pa01/bonus.cpp",
+    "sources": [
+      "assignments/2021/pa01/bonus.cpp",
+      "assignments/2021/pa01/vouchers.hpp"
+    ],
+    "stdin": "399\nd\nn\n408\nd\ny\n-1\n",
+    "stdout": "*** Welcome to Quintuple Stimulus Vouchers System ***\nPlease enter the good price: Please enter the type of vouchers (d/p): Are you a member of NCU Bank (y/n): The price you need to pay: 319\nThe payment is processed as follows:\n    3 $100 voucher\n    1 $ 10 voucher\n    1 $  5 voucher\n    4 $  1 voucher\nThe remaining vouchers are as follows:\n    2 $100 voucher\n    5 $ 50 voucher\n    4 $ 10 voucher\n    4 $  5 voucher\n    1 $  1 voucher\n\nPlease enter the good price: Please enter the type of vouchers (d/p): Are you a member of NCU Bank (y/n): The price you need to pay: 293\nThe payment is processed as follows:\n    2 $100 voucher\n    1 $ 50 voucher\n    4 $ 10 voucher\n    1 $  5 voucher\nThe remaining vouchers are as follows:\n    4 $ 50 voucher\n    3 $  5 voucher\n    1 $  1 voucher\n\nPlease enter the good price: Bye~\n",
+    "stderr": "",
+    "returncode": 0
+  }
+]

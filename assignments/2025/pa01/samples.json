@@ -1,0 +1,26 @@
+[
+  {
+    "stdin": "-1\n",
+    "stdout": "======Welcome to the Dinosaur Game======\nPlease enter the initial obstacle setup of the Dinosaur Game. Enter -1 to quit: -1\nThe game ended when it just started.\n======Thanks for playing Dinosaur Game, see you next time======\n",
+    "document": "solution.md",
+    "source": "assignments/2025/pa01/main.cpp"
+  },
+  {
+    "stdin": "-1\n",
+    "args": [
+      "--double"
+    ],
+    "stdout": "======Welcome to the Dinosaur Game======\nPlease enter the first layer initial obstacle setup of the Dinosaur Game. Enter -1 to quit: -1\nThe game ended when it just started.\n======Thanks for playing Dinosaur Game, see you next time======\n",
+    "document": "solution.md",
+    "source": "assignments/2025/pa01/main.cpp"
+  },
+  {
+    "stdin": "0\n0\n111111111\n-1\n",
+    "args": [
+      "--auto"
+    ],
+    "stdout": "======Welcome to the Dinosaur Game======\nPlease enter the first layer initial obstacle setup of the Dinosaur Game. Enter -1 to quit: 00000000\nPlease enter the second layer initial obstacle setup of the Dinosaur Game: 00000000\nPlease enter the initial distribution of gap in the ceiling, 0 for gap, 1 for complete ceiling: 111111111\n|  |  |  |  |  |  |  |  |  |\n|  |  |  |  |  |  |  |  |  |\n|  |  |  |  |  |  |  |  |  |\n|  |  |  |  |  |  |  |  |  |\n============================\n|  |  |  |  |  |  |  |  |  |\n|  |  |  |  |  |  |  |  |  |\n| D|  |  |  |  |  |  |  |  |\n| D|  |  |  |  |  |  |  |  |\nPlease enter a command to control the dinosaur, 0 for no action, 1=jump, 2=crouch: 0\nPlease enter the next round's first layer obstacle setup of the Dinosaur Game. Enter -1 to quit: -1\nCongratulations, you WIN the game!!!\n======Thanks for playing Dinosaur Game, see you next time======\n",
+    "document": "solution.md",
+    "source": "assignments/2025/pa01/main.cpp"
+  }
+]

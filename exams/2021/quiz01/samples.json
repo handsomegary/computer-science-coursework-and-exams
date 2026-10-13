@@ -1,0 +1,46 @@
+[
+  {
+    "document": "solution.md",
+    "source": "exams/2021/quiz01/main.cpp",
+    "args": [
+      "2"
+    ],
+    "stdin": "",
+    "stdout": "A: invalid\nB: valid\nC: valid\nD: valid\n",
+    "stderr": "",
+    "returncode": 0
+  },
+  {
+    "document": "solution.md",
+    "source": "exams/2021/quiz01/main.cpp",
+    "args": [
+      "3"
+    ],
+    "stdin": "9\n",
+    "stdout": "A: number2=2\nB: sum=4; number2=2\nC: number2=9\nD: 2; number2=2\n",
+    "stderr": "",
+    "returncode": 0
+  },
+  {
+    "document": "solution.md",
+    "source": "exams/2021/quiz01/main.cpp",
+    "args": [
+      "4"
+    ],
+    "stdin": "",
+    "stdout": "a < b\nc != d\n",
+    "stderr": "",
+    "returncode": 0
+  },
+  {
+    "document": "solution.md",
+    "source": "exams/2021/quiz01/main.cpp",
+    "args": [
+      "5"
+    ],
+    "stdin": "100 2\n",
+    "stdout": "Original:\n100 is larger than 2\n100 is bigger than 2\n2 is equal to 2\nCorrected:\n100 is larger than 2\n100 is bigger than 2\n",
+    "stderr": "",
+    "returncode": 0
+  }
+]

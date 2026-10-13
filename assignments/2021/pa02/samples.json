@@ -1,0 +1,62 @@
+[
+  {
+    "document": "solution.md",
+    "source": "assignments/2021/pa02/main.cpp",
+    "sources": [
+      "assignments/2021/pa02/main.cpp",
+      "assignments/2021/pa02/binary.hpp"
+    ],
+    "stdin": "100\n200\n300\n400\n500\n600\n700\n800\n900\n-1\n",
+    "stdout": "*** Welcome to Positive Binary adder ***\nPlease enter the 1st number in decimal: Please enter the 2nd number in decimal: Calculating... 1100100 + 11001000 = 100101100\nPartial Sum: 300\n\nPlease enter the 3rd number in decimal: Calculating... 100101100 + 100101100 = 1001011000\nPartial Sum: 600\n\nPlease enter the 4th number in decimal: Calculating... 1001011000 + 110010000 = 1111101000\nPartial Sum: 1000\n\nPlease enter the 5th number in decimal: Calculating... 1111101000 + 111110100 = 10111011100\nPartial Sum: 1500\n\nPlease enter the 6th number in decimal: Calculating... 10111011100 + 1001011000 = 100000110100\nPartial Sum: 2100\n\nPlease enter the 7th number in decimal: Calculating... 100000110100 + 1010111100 = 101011110000\nPartial Sum: 2800\n\nPlease enter the 8th number in decimal: Calculating... 101011110000 + 1100100000 = 111000010000\nPartial Sum: 3600\n\nPlease enter the 9th number in decimal: Calculating... 111000010000 + 1110000100 = 1000110010100\nPartial Sum: 4500\n\nPlease enter the 10th number in decimal: Bye\n",
+    "stderr": "",
+    "returncode": 0
+  },
+  {
+    "document": "solution.md",
+    "source": "assignments/2021/pa02/main.cpp",
+    "sources": [
+      "assignments/2021/pa02/main.cpp",
+      "assignments/2021/pa02/binary.hpp"
+    ],
+    "stdin": "123\n321\n456\n654\n-456\n-456\n12321456\n4522733\n522733\n78987\n0\n-1\n",
+    "stdout": "*** Welcome to Positive Binary adder ***\nPlease enter the 1st number in decimal: Please enter the 2nd number in decimal: Calculating... 1111011 + 101000001 = 110111100\nPartial Sum: 444\n\nPlease enter the 3rd number in decimal: Calculating... 110111100 + 111001000 = 1110000100\nPartial Sum: 900\n\nPlease enter the 4th number in decimal: Calculating... 1110000100 + 1010001110 = 11000010010\nPartial Sum: 1554\n\nPlease enter the 5th number in decimal: The decimal number you entered is out of range. Please enter the 5th decimal number again: The decimal number you entered is out of range. Please enter the 5th decimal number again: The decimal number you entered is out of range. Please enter the 5th decimal number again: The decimal number you entered is out of range. Please enter the 5th decimal number again: Calculating... 11000010010 + 1111111100111101101 = 1111111111111111111\nPartial Sum: 524287\n\nPlease enter the 6th number in decimal: The partial sum is out of range. Please enter the 6th decimal number again: Calculating... 1111111111111111111 + 0 = 1111111111111111111\nPartial Sum: 524287\n\nPlease enter the 7th number in decimal: Bye\n",
+    "stderr": "",
+    "returncode": 0
+  },
+  {
+    "document": "solution.md",
+    "source": "assignments/2021/pa02/main.cpp",
+    "sources": [
+      "assignments/2021/pa02/main.cpp",
+      "assignments/2021/pa02/binary.hpp"
+    ],
+    "stdin": "--1\n1x\n+\n-2147483648\n+5\n6\n-1\n",
+    "stdout": "*** Welcome to Positive Binary adder ***\nPlease enter the 1st number in decimal: The decimal number you entered is out of range. Please enter the 1st decimal number again: The decimal number you entered is out of range. Please enter the 1st decimal number again: The decimal number you entered is out of range. Please enter the 1st decimal number again: The decimal number you entered is out of range. Please enter the 1st decimal number again: Please enter the 2nd number in decimal: Calculating... 101 + 110 = 1011\nPartial Sum: 11\n\nPlease enter the 3rd number in decimal: Bye\n",
+    "stderr": "",
+    "returncode": 0
+  },
+  {
+    "document": "solution.md",
+    "source": "assignments/2021/pa02/bonus.cpp",
+    "sources": [
+      "assignments/2021/pa02/bonus.cpp",
+      "assignments/2021/pa02/binary.hpp"
+    ],
+    "stdin": "8\n-19\n-11\n0\n",
+    "stdout": "*** Welcome to Binary Adder and Subtractor ***\nPlease enter the 1st number in decimal: Please enter the 2nd number in decimal: Calculating... 01000 + 101101 = 10101\nPartial Sum: -11\n\nPlease enter the 3rd number in decimal: Calculating... 10101 + 10101 = 101010\nPartial Sum: -22\n\nPlease enter the 4th number in decimal: Bye\n",
+    "stderr": "",
+    "returncode": 0
+  },
+  {
+    "document": "solution.md",
+    "source": "assignments/2021/pa02/bonus.cpp",
+    "sources": [
+      "assignments/2021/pa02/bonus.cpp",
+      "assignments/2021/pa02/binary.hpp"
+    ],
+    "stdin": "1\n-1\n-1\n-1\n-2\n-4\n0\n",
+    "stdout": "*** Welcome to Binary Adder and Subtractor ***\nPlease enter the 1st number in decimal: Please enter the 2nd number in decimal: Calculating... 01 + 11 = 00\nPartial Sum: 0\n\nPlease enter the 3rd number in decimal: Calculating... 00 + 11 = 11\nPartial Sum: -1\n\nPlease enter the 4th number in decimal: Calculating... 11 + 11 = 110\nPartial Sum: -2\n\nPlease enter the 5th number in decimal: Calculating... 110 + 110 = 1100\nPartial Sum: -4\n\nPlease enter the 6th number in decimal: Calculating... 1100 + 1100 = 11000\nPartial Sum: -8\n\nPlease enter the 7th number in decimal: Bye\n",
+    "stderr": "",
+    "returncode": 0
+  }
+]

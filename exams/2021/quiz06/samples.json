@@ -1,0 +1,50 @@
+[
+  {
+    "document": "solution.md",
+    "source": "exams/2021/quiz06/main.cpp",
+    "args": [
+      "2"
+    ],
+    "stdin": "",
+    "stdout": "iostream: standard input/output\nfstream: file streams\n",
+    "stderr": "",
+    "returncode": 0
+  },
+  {
+    "document": "solution.md",
+    "source": "exams/2021/quiz06/main.cpp",
+    "args": [
+      "3",
+      "sample.dat"
+    ],
+    "stdin": "",
+    "stdout": "A: 2\nB: 18\nC: 2\nD: 2\n",
+    "stderr": "",
+    "returncode": 0,
+    "files": {
+      "sample.dat": "abcdefghij"
+    }
+  },
+  {
+    "document": "solution.md",
+    "source": "exams/2021/quiz06/main.cpp",
+    "args": [
+      "4"
+    ],
+    "stdin": "-12.5\n",
+    "stdout": "atof (double): -12.5\natoi (int): -12\natol (long): -12\n",
+    "stderr": "",
+    "returncode": 0
+  },
+  {
+    "document": "solution.md",
+    "source": "exams/2021/quiz06/main.cpp",
+    "args": [
+      "5"
+    ],
+    "stdin": "",
+    "stdout": "A: 1 2\nB: 1 2\nC (C++11): 1 2\nD: 1 2\n",
+    "stderr": "",
+    "returncode": 0
+  }
+]

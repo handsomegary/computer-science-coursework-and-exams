@@ -1,0 +1,46 @@
+[
+  {
+    "document": "solution.md",
+    "source": "exams/2021/quiz02/main.cpp",
+    "args": [
+      "2"
+    ],
+    "stdin": "",
+    "stdout": "INPUT a, b\nWHILE b is not zero\n    replace (a, b) with (b, a modulo b)\nOUTPUT a\n",
+    "stderr": "",
+    "returncode": 0
+  },
+  {
+    "document": "solution.md",
+    "source": "exams/2021/quiz02/main.cpp",
+    "args": [
+      "3"
+    ],
+    "stdin": "7\n",
+    "stdout": "A: correct\nB: ill-formed in C++11\nC: correct\nD: correct\n",
+    "stderr": "",
+    "returncode": 0
+  },
+  {
+    "document": "solution.md",
+    "source": "exams/2021/quiz02/main.cpp",
+    "args": [
+      "4"
+    ],
+    "stdin": "",
+    "stdout": "B: 7\nC: 4\nA and D: ill-formed\n",
+    "stderr": "",
+    "returncode": 0
+  },
+  {
+    "document": "solution.md",
+    "source": "exams/2021/quiz02/main.cpp",
+    "args": [
+      "5"
+    ],
+    "stdin": "165 987\n",
+    "stdout": "3\n",
+    "stderr": "",
+    "returncode": 0
+  }
+]

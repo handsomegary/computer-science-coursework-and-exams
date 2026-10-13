@@ -1,0 +1,128 @@
+[
+  {
+    "document": "solution.md",
+    "source": "exams/2021/midterm/main.cpp",
+    "args": [
+      "area"
+    ],
+    "stdin": "",
+    "stdout": "1 1024\n2 512\n3 256\n4 128\n5 64\n6 32\n7 16\n8 8\n9 4\n10 2\n"
+  },
+  {
+    "document": "solution.md",
+    "source": "exams/2021/midterm/main.cpp",
+    "args": [
+      "stack"
+    ],
+    "stdin": "",
+    "stdout": "enter area(4)\n  enter area(3)\n    enter area(2)\n      enter area(1)\n      return 1024\n    return 512\n  return 256\nreturn 128\n"
+  },
+  {
+    "document": "solution.md",
+    "source": "exams/2021/midterm/main.cpp",
+    "args": [
+      "parameter"
+    ],
+    "stdin": "",
+    "stdout": "14\n"
+  },
+  {
+    "document": "solution.md",
+    "source": "exams/2021/midterm/main.cpp",
+    "args": [
+      "pairs"
+    ],
+    "stdin": "5\n2 10 6 6 -1\n",
+    "stdout": "0 1: 2 + 10 = 12\n2 3: 6 + 6 = 12\n"
+  },
+  {
+    "document": "solution.md",
+    "source": "exams/2021/midterm/main.cpp",
+    "args": [
+      "factor"
+    ],
+    "stdin": "-111\n1\n1260\n",
+    "stdout": "Enter a number: Please enter a correct number: Please enter a correct number: 1260 = 7 x 5 x 3 x 3 x 2 x 2\n"
+  },
+  {
+    "document": "solution.md",
+    "source": "exams/2021/midterm/main.cpp",
+    "args": [
+      "conversion"
+    ],
+    "stdin": "",
+    "stdout": "8\n"
+  },
+  {
+    "document": "solution.md",
+    "source": "exams/2021/midterm/main.cpp",
+    "args": [
+      "scope"
+    ],
+    "stdin": "",
+    "stdout": "3\n7\n"
+  },
+  {
+    "document": "solution.md",
+    "source": "exams/2021/midterm/main.cpp",
+    "args": [
+      "precedence"
+    ],
+    "stdin": "",
+    "stdout": "6\n"
+  },
+  {
+    "document": "solution.md",
+    "source": "exams/2021/midterm/main.cpp",
+    "args": [
+      "array"
+    ],
+    "stdin": "",
+    "stdout": "8\n"
+  },
+  {
+    "document": "solution.md",
+    "source": "exams/2021/midterm/main.cpp",
+    "args": [
+      "counter"
+    ],
+    "stdin": "",
+    "stdout": "0 1 2 3 4 5 6 \n"
+  },
+  {
+    "document": "solution.md",
+    "source": "exams/2021/midterm/main.cpp",
+    "args": [
+      "letters"
+    ],
+    "stdin": "",
+    "stdout": "B = 66\nC = 67\nE = 69\nF = 70\nG = 71\nI = 73\nJ = 74\nK = 75\nM = 77\n"
+  },
+  {
+    "document": "solution.md",
+    "source": "exams/2021/midterm/main.cpp",
+    "args": [
+      "switch"
+    ],
+    "stdin": "1\n",
+    "stdout": "one\ntwo\n"
+  },
+  {
+    "document": "solution.md",
+    "source": "exams/2021/midterm/main.cpp",
+    "args": [
+      "width"
+    ],
+    "stdin": "",
+    "stdout": "....7|8|....9\n"
+  },
+  {
+    "document": "solution.md",
+    "source": "exams/2021/midterm/main.cpp",
+    "args": [
+      "grades"
+    ],
+    "stdin": "60 59 61\n",
+    "stdout": "60.000\nPASS\n"
+  }
+]

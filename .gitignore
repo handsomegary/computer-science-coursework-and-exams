@@ -1,0 +1,10 @@
+build/
+__pycache__/
+*.pyc
+*.exe
+*.o
+*.bin
+*.out
+*.bench
+*.kmap
+integers.txt

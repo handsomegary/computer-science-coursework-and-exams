@@ -1,0 +1,46 @@
+[
+  {
+    "document": "solution.md",
+    "source": "assignments/2021/pa05/main.cpp",
+    "sources": [
+      "assignments/2021/pa05/main.cpp",
+      "assignments/2021/pa05/logic.hpp"
+    ],
+    "args": [
+      "input.eqn",
+      "output.eqn"
+    ],
+    "stdin": "",
+    "stdout": "",
+    "stderr": "",
+    "returncode": 0,
+    "files": {
+      "input.eqn": "INORDER = a b c d;\nOUTORDER = output;\noutput = (!a*!b*!c*!d)+(!a*b*!c*d)+(!a*b*c*!d)+(!a*b*c*d)+(a*!b*!c*d)+(a*!b*c*!d)+(a*b*!c*d)+(a*b*c*!d)+(a*b*c*d)\n"
+    },
+    "outputs": {
+      "output.eqn": "INORDER = a b c d;\nOUTORDER = output;\noutput = (!a*!b*!c*!d)+(a*!c*d)+(a*c*!d)+(b*c)+(b*d)\n"
+    }
+  },
+  {
+    "document": "solution.md",
+    "source": "assignments/2021/pa05/main.cpp",
+    "sources": [
+      "assignments/2021/pa05/main.cpp",
+      "assignments/2021/pa05/logic.hpp"
+    ],
+    "args": [
+      "input.eqn",
+      "output.eqn"
+    ],
+    "stdin": "",
+    "stdout": "",
+    "stderr": "",
+    "returncode": 0,
+    "files": {
+      "input.eqn": "INORDER = a b c;\nOUTORDER = output;\noutput = (a+b)*!c + a*!a;\n"
+    },
+    "outputs": {
+      "output.eqn": "INORDER = a b c;\nOUTORDER = output;\noutput = (a*!c)+(b*!c)\n"
+    }
+  }
+]

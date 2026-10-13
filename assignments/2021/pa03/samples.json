@@ -1,0 +1,50 @@
+[
+  {
+    "document": "solution.md",
+    "source": "assignments/2021/pa03/main.cpp",
+    "sources": [
+      "assignments/2021/pa03/main.cpp",
+      "assignments/2021/pa03/bignum.hpp"
+    ],
+    "stdin": "1\n11112222333344445555\n77776666555544443333\n5\n3\n1111111111\n5\n0\n",
+    "stdout": "----Welcome to big number calculator----\nPlease choose the function\n1. Addition\n2. Subtraction\n3. Multiplication\n0. Exit\n--------------------------\n----Now for Addition----\nPlease enter the two numbers.\nResult: 88888888888888888888\nMean: 44444444444444444444\n\n----Welcome to big number calculator----\nPlease choose the function\n1. Addition\n2. Subtraction\n3. Multiplication\n0. Exit\n--------------------------\nError! Please try again.\n\n----Welcome to big number calculator----\nPlease choose the function\n1. Addition\n2. Subtraction\n3. Multiplication\n0. Exit\n--------------------------\n----Now for Multiplication----\nPlease enter the two numbers.\nResult: 5555555555\nMean: 555555558\n\n----Welcome to big number calculator----\nPlease choose the function\n1. Addition\n2. Subtraction\n3. Multiplication\n0. Exit\n--------------------------\nGood bye!\n",
+    "stderr": "",
+    "returncode": 0
+  },
+  {
+    "document": "solution.md",
+    "source": "assignments/2021/pa03/main.cpp",
+    "sources": [
+      "assignments/2021/pa03/main.cpp",
+      "assignments/2021/pa03/bignum.hpp"
+    ],
+    "stdin": "2\n111111111\n33333333\n5\n3\n29292929\n300000003\n0\n",
+    "stdout": "----Welcome to big number calculator----\nPlease choose the function\n1. Addition\n2. Subtraction\n3. Multiplication\n0. Exit\n--------------------------\n----Now for Subtraction ----\nPlease enter the two numbers.\nResult: 77777778\nMean: 72222222\n\n----Welcome to big number calculator----\nPlease choose the function\n1. Addition\n2. Subtraction\n3. Multiplication\n0. Exit\n--------------------------\nError! Please try again.\n\n----Welcome to big number calculator----\nPlease choose the function\n1. Addition\n2. Subtraction\n3. Multiplication\n0. Exit\n--------------------------\n----Now for Multiplication----\nPlease enter the two numbers.\nResult: 8787878787878787\nMean: 164646466\n\n----Welcome to big number calculator----\nPlease choose the function\n1. Addition\n2. Subtraction\n3. Multiplication\n0. Exit\n--------------------------\nGood bye!\n",
+    "stderr": "",
+    "returncode": 0
+  },
+  {
+    "document": "solution.md",
+    "source": "assignments/2021/pa03/main.cpp",
+    "sources": [
+      "assignments/2021/pa03/main.cpp",
+      "assignments/2021/pa03/bignum.hpp"
+    ],
+    "stdin": "2\n9999999999\n1212121212\n5\n3\n29292929\n3\n0\n",
+    "stdout": "----Welcome to big number calculator----\nPlease choose the function\n1. Addition\n2. Subtraction\n3. Multiplication\n0. Exit\n--------------------------\n----Now for Subtraction ----\nPlease enter the two numbers.\nResult: 8787878787\nMean: 5606060605\n\n----Welcome to big number calculator----\nPlease choose the function\n1. Addition\n2. Subtraction\n3. Multiplication\n0. Exit\n--------------------------\nError! Please try again.\n\n----Welcome to big number calculator----\nPlease choose the function\n1. Addition\n2. Subtraction\n3. Multiplication\n0. Exit\n--------------------------\n----Now for Multiplication----\nPlease enter the two numbers.\nResult: 87878787\nMean: 14646466\n\n----Welcome to big number calculator----\nPlease choose the function\n1. Addition\n2. Subtraction\n3. Multiplication\n0. Exit\n--------------------------\nGood bye!\n",
+    "stderr": "",
+    "returncode": 0
+  },
+  {
+    "document": "solution.md",
+    "source": "assignments/2021/pa03/bonus.cpp",
+    "sources": [
+      "assignments/2021/pa03/bonus.cpp",
+      "assignments/2021/pa03/bignum.hpp"
+    ],
+    "stdin": "4\n12345678901234567890\n97\n4\n17\n50\n4\n12300\n100\n4\n12\n0\n0\n",
+    "stdout": "----Welcome to big number calculator----\nPlease choose the function\n1. Addition\n2. Subtraction\n3. Multiplication\n4. Division\n0. Exit\n--------------------------\n----Now for Division----\nPlease enter the two numbers.\nResult: 127275040218913071\nRemainder: 3\nMean: 6172839450617283993\n\n----Welcome to big number calculator----\nPlease choose the function\n1. Addition\n2. Subtraction\n3. Multiplication\n4. Division\n0. Exit\n--------------------------\n----Now for Division----\nPlease enter the two numbers.\nResult: 0\nRemainder: 17\nMean: 33\n\n----Welcome to big number calculator----\nPlease choose the function\n1. Addition\n2. Subtraction\n3. Multiplication\n4. Division\n0. Exit\n--------------------------\n----Now for Division----\nPlease enter the two numbers.\nResult: 123\nRemainder: 0\nMean: 6200\n\n----Welcome to big number calculator----\nPlease choose the function\n1. Addition\n2. Subtraction\n3. Multiplication\n4. Division\n0. Exit\n--------------------------\n----Now for Division----\nPlease enter the two numbers.\nError! Please try again.\n\n----Welcome to big number calculator----\nPlease choose the function\n1. Addition\n2. Subtraction\n3. Multiplication\n4. Division\n0. Exit\n--------------------------\nGood bye!\n",
+    "stderr": "",
+    "returncode": 0
+  }
+]

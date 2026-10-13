@@ -1,0 +1,127 @@
+[
+  {
+    "document": "solution.md",
+    "source": "assignments/2021/pa04/main.cpp",
+    "sources": [
+      "assignments/2021/pa04/main.cpp",
+      "assignments/2021/pa04/myspice.hpp"
+    ],
+    "args": [
+      "circuit.txt",
+      "result.txt",
+      "--swap",
+      "1",
+      "2",
+      "--merge",
+      "1",
+      "2"
+    ],
+    "stdin": "",
+    "stdout": "",
+    "stderr": "",
+    "returncode": 0,
+    "files": {
+      "circuit.txt": "stage 2\n\nv1 vdd gnd 5V\n\nRS1_1 vdd ns1_1 2K\nRS1_2 ns1_1 n1 2K\nRP1_1 n1 gnd 2K\nRS2_1 n1 n2 2K\nRP2_1 n2 np2_1 3K\nRP2_2 np2_1 gnd 3K\n\nend\n"
+    },
+    "outputs": {
+      "result.txt": "***circuits***\nstage 1\n\nv1 vdd gnd 5V\n\nRS2_1 vdd n2 2.000K\nRP1 n2 gnd 3.000K\nend\n\n***calculation results***\n**************************************\n** <<voltage>>                      **\n** vdd          5.000v              **\n** n2           3.000v              **\n** <<current>>                      **\n** RS2_1        1.000mA             **\n** RP1          1.000mA             **\n**                                  **\n** myspice2021                      **\n**************************************\n"
+    }
+  },
+  {
+    "document": "solution.md",
+    "source": "assignments/2021/pa04/bonus.cpp",
+    "sources": [
+      "assignments/2021/pa04/bonus.cpp",
+      "assignments/2021/pa04/myspice.hpp"
+    ],
+    "args": [
+      "circuit.txt",
+      "result.txt",
+      "--swap",
+      "1",
+      "2",
+      "--merge",
+      "1",
+      "2"
+    ],
+    "stdin": "",
+    "stdout": "",
+    "stderr": "",
+    "returncode": 0,
+    "files": {
+      "circuit.txt": "stage 2\n\nv1 vdd gnd 5V\n\nRS1_1 vdd ns1_1 2K\nRS1_2 ns1_1 n1 2K\nRP1_1 n1 gnd 2K\nRS2_1 n1 n2 2K\nRP2_1 n2 np2_1 3K\nRP2_2 np2_1 gnd 3K\n\nend\n"
+    },
+    "outputs": {
+      "result.txt": "***Thevenin equivalence circuit***\nRth = 1.200K\nVth = 3.000v\n"
+    }
+  },
+  {
+    "document": "solution.md",
+    "source": "assignments/2021/pa04/bonus.cpp",
+    "sources": [
+      "assignments/2021/pa04/bonus.cpp",
+      "assignments/2021/pa04/myspice.hpp"
+    ],
+    "args": [
+      "circuit.txt",
+      "result.txt",
+      "--swap",
+      "1",
+      "2",
+      "--merge",
+      "1",
+      "2",
+      "--legacy-thevenin"
+    ],
+    "stdin": "",
+    "stdout": "",
+    "stderr": "",
+    "returncode": 0,
+    "files": {
+      "circuit.txt": "stage 2\n\nv1 vdd gnd 5V\n\nRS1_1 vdd ns1_1 2K\nRS1_2 ns1_1 n1 2K\nRP1_1 n1 gnd 2K\nRS2_1 n1 n2 2K\nRP2_1 n2 np2_1 3K\nRP2_2 np2_1 gnd 3K\n\nend\n"
+    },
+    "outputs": {
+      "result.txt": "***Thevenin equivalence circuit***\nRth = 5.000K\nVth = 5.000v\n"
+    }
+  },
+  {
+    "document": "solution.md",
+    "source": "assignments/2021/pa04/main.cpp",
+    "sources": [
+      "assignments/2021/pa04/main.cpp",
+      "assignments/2021/pa04/myspice.hpp"
+    ],
+    "args": [
+      "circuit.txt",
+      "result.txt",
+      "--merge",
+      "1",
+      "2"
+    ],
+    "stdin": "",
+    "stdout": "",
+    "stderr": "",
+    "returncode": 0,
+    "files": {
+      "circuit.txt": "stage 3\nv1 vdd gnd 6V\nRS1_1 vdd n1 2K\nRP1_1 n1 gnd 16K\nRS2_1 n1 n2 8K\nRP2_1 n2 gnd 8K\nRS3_1 n2 n3 4K\nRP3_1 n3 gnd 4K\nend\n"
+    },
+    "outputs": {
+      "result.txt": "***circuits***\nstage 2\n\nv1 vdd gnd 6V\n\nRS1_1 vdd n1 2.000K\nRP1 n1 gnd 8.000K\nRS3_1 n1 n3 4.000K\nRP3_1 n3 gnd 4.000K\nend\n\n***calculation results***\n**************************************\n** <<voltage>>                      **\n** vdd          6.000v              **\n** n1           4.000v              **\n** n3           2.000v              **\n** <<current>>                      **\n** RS1_1        1.000mA             **\n** RP1          500.000uA           **\n** RS3_1        500.000uA           **\n** RP3_1        500.000uA           **\n**                                  **\n** myspice2021                      **\n**************************************\n"
+    }
+  },
+  {
+    "document": "solution.md",
+    "source": "assignments/2021/pa04/main.cpp",
+    "sources": [
+      "assignments/2021/pa04/main.cpp",
+      "assignments/2021/pa04/myspice.hpp"
+    ],
+    "args": [],
+    "stdin": "2\n6\n",
+    "stdout": "*** Welcome to MySpice ***\n==========================================\nPlease type 1 to input file\nPlease type 2 to calculate voltage and current\nPlease type 3 to swap stage\nPlease type 4 to merge stage\nPlease type 5 to output file\nPlease type 6 to exit\nEnter your selection Here: ==========================================\nThere is no circuit\n==========================================\nPlease type 1 to input file\nPlease type 2 to calculate voltage and current\nPlease type 3 to swap stage\nPlease type 4 to merge stage\nPlease type 5 to output file\nPlease type 6 to exit\nEnter your selection Here: ==========================================\nBye~\n",
+    "stderr": "",
+    "returncode": 0,
+    "files": {},
+    "outputs": {}
+  }
+]

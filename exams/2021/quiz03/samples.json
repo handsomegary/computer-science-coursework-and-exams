@@ -1,0 +1,46 @@
+[
+  {
+    "document": "solution.md",
+    "source": "exams/2021/quiz03/main.cpp",
+    "args": [
+      "2"
+    ],
+    "stdin": "",
+    "stdout": "floating iterations: 11\ninteger iterations: 10\n",
+    "stderr": "",
+    "returncode": 0
+  },
+  {
+    "document": "solution.md",
+    "source": "exams/2021/quiz03/main.cpp",
+    "args": [
+      "3"
+    ],
+    "stdin": "",
+    "stdout": "1 2 3 4 5 6 7 8 9 10 \n",
+    "stderr": "",
+    "returncode": 0
+  },
+  {
+    "document": "solution.md",
+    "source": "exams/2021/quiz03/main.cpp",
+    "args": [
+      "4"
+    ],
+    "stdin": "",
+    "stdout": "C: 0 1 2 3 4 5 6 7 8 9 \nD: 0 1 2 3 4 5 6 7 8 9 \n",
+    "stderr": "",
+    "returncode": 0
+  },
+  {
+    "document": "solution.md",
+    "source": "exams/2021/quiz03/main.cpp",
+    "args": [
+      "5"
+    ],
+    "stdin": "",
+    "stdout": "[    7][8]\n1.25 2.50\n",
+    "stderr": "",
+    "returncode": 0
+  }
+]

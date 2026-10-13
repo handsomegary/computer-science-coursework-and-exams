@@ -1,0 +1,27 @@
+[
+  {
+    "stdin": "1 1 1\n3 2 1\nS\n",
+    "stdout": "Welcome to Knight's Treasure Hunt!!\nEnter board size N, step limit, and starting energy (e.g., 7 25 5): Enter values for Bonus (B), Energy (E), and Bomb penalty (X) (e.g., 5 4 10): Enter the board with 1 lines, each with 1 tokens separated by spaces:\n\n----The Result Of Knight's Treasure Hunt----\nBest score: 0\nSteps: 0\n\n----The Replay Of Knight's Treasure Hunt----\nStep  (x,y)     Type        Score     Energy\n------------------------------------------------\n0     (0,0)     start       0         1\n\n----The Best Path Grid Of Knight's Treasure Hunt----\nS  \n",
+    "document": "solution.md",
+    "source": "assignments/2025/pa02/main.cpp"
+  },
+  {
+    "stdin": "3 3 1\n3 2 1\nS # #\n# # B\n# # #\n",
+    "args": [
+      "--summary"
+    ],
+    "stdout": "4 1\n",
+    "document": "solution.md",
+    "source": "assignments/2025/pa02/main.cpp"
+  },
+  {
+    "stdin": "3 3 1\n3 2 1\nS # #\n# # B\nA # #\n",
+    "args": [
+      "--bonus",
+      "--summary"
+    ],
+    "stdout": "4 1\n",
+    "document": "solution.md",
+    "source": "assignments/2025/pa02/main.cpp"
+  }
+]
