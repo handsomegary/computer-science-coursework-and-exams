@@ -56,7 +56,7 @@ Windows 編譯後可執行 `pa03_main.exe` 或 `pa03_bonus.exe`。編譯時保�
 
 以本次提供資料中最新的[作業題面（2021-11-23）](originals/PA3_20211123_2330_Andy.pdf)為準。11/23 修訂版。
 
-原始檔名與 PDF 內容完整保留。後續補充說明／Q&A 與題面一起核對；舊題面另存於歷史版本，不作為目前預設規格。
+主題面只保留這個年度／作業的最新版；補充說明、Q&A、公開測資與必要附件依各自用途保留。
 
 | 類型 | 原始檔案 |
 |---|---|
@@ -65,11 +65,6 @@ Windows 編譯後可執行 `pa03_main.exe` 或 `pa03_bonus.exe`。編譯時保�
 | 公開測資／範例 | [PA3_testcase2.pdf](originals/PA3_testcase2.pdf) |
 | 公開測資／範例 | [PA3_testcase3.pdf](originals/PA3_testcase3.pdf) |
 
-### 歷史題面
-
-| 原始版本 |
-|---|
-| [PA3_20211110_1100_Andy.pdf](originals/archive/PA3_20211110_1100_Andy.pdf) |
 
 ## 匿名參考程式與有誤原版
 

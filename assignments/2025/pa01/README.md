@@ -46,7 +46,7 @@ course_support/checker.out auto.log "course_support/public_testcases/Bonus2 test
 
 以本次提供資料中最新的[作業題面（2025-09-25）](originals/2025Fall_EE1003_Intro_to_CS_PA1_Andy_20250925.pdf)為準。內文列 version 3（2025-09-21）；使用提供資料中 9/25 命名的修訂檔。
 
-原始檔名與 PDF 內容完整保留。後續補充說明／Q&A 與題面一起核對；舊題面另存於歷史版本，不作為目前預設規格。
+主題面只保留這個年度／作業的最新版；補充說明、Q&A、公開測資與必要附件依各自用途保留。
 
 | 類型 | 原始檔案 |
 |---|---|

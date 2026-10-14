@@ -41,6 +41,14 @@ def check_bytes(row):
 def main():
     manifest = json.loads(MANIFEST.read_text(encoding="utf-8"))
     require(manifest["schema_version"] == 1, "Unsupported manifest schema")
+    require(manifest["instruction_version_policy"] == "latest_only_per_course_year_assignment_and_document_type",
+            "Instruction documents must use the latest-only publication policy")
+    specifications = json.loads((ROOT / "assignments/specifications.json").read_text(encoding="utf-8"))
+    require(specifications["instruction_version_policy"] == "latest_only", "Superseded specifications must not be published")
+    for specification in specifications["assignments"]:
+        require(specification["archive"] == [], "Old instruction PDFs must not be archived in the repository")
+        for old in specification["superseded_not_published"]:
+            require(not any(ROOT.rglob(old["filename"])), "Superseded instruction PDF has been restored: " + old["filename"])
     groups = manifest["assignments"]
     require(len(groups) == 10 and len({row["assignment"] for row in groups}) == 10, "Expected ten distinct assignments")
     files = manifest["files"]
@@ -52,6 +60,8 @@ def main():
         require(group["status"] in ("all_locally_supplied_companions_preserved", "no_separate_official_companion_provided"),
                 "Unresolved group status: " + group["assignment"])
         file_path(group["current_specification"])
+        mains = [row["path"] for row in group["instruction_documents"] if row["role"] == "main_instruction"]
+        require(mains == [group["current_specification"]], "Expected only the latest main instruction: " + group["assignment"])
         for path in group["companion_paths"]:
             require(path in known and known[path]["assignment"] == group["assignment"], "Uncatalogued companion: " + path)
         for row in group["instruction_documents"]:

@@ -27,7 +27,7 @@ g++ -std=c++11 -Wall -Wextra -Wpedantic bonus.cpp -o pa01_bonus
 
 以本次提供資料中最新的[作業題面（2021-10-17）](originals/2021Fall_EE1003_IntroCS_PA1_Quintuple-Stimulus-Voicher_Andy_20211017_0400.pdf)為準。V2；內文更新日為 2021-09-30，10/17 檔修正報告檔名範例。
 
-原始檔名與 PDF 內容完整保留。後續補充說明／Q&A 與題面一起核對；舊題面另存於歷史版本，不作為目前預設規格。
+主題面只保留這個年度／作業的最新版；補充說明、Q&A、公開測資與必要附件依各自用途保留。
 
 | 類型 | 原始檔案 |
 |---|---|
@@ -39,12 +39,6 @@ g++ -std=c++11 -Wall -Wextra -Wpedantic bonus.cpp -o pa01_bonus
 | 公開測資／範例 | [PA1_testcase4.pdf](originals/PA1_testcase4.pdf) |
 | 公開測資／範例 | [PA1_testcase5.pdf](originals/PA1_testcase5.pdf) |
 
-### 歷史題面
-
-| 原始版本 |
-|---|
-| [2021Fall_EE1003_IntroCS_PA1_Quintuple-Stimulus-Voicher_Andy_20210927_0038.pdf](originals/archive/2021Fall_EE1003_IntroCS_PA1_Quintuple-Stimulus-Voicher_Andy_20210927_0038.pdf) |
-| [2021Fall_EE1003_IntroCS_PA1_Quintuple-Stimulus-Voicher_V2_Andy_20210990_0022.pdf](originals/archive/2021Fall_EE1003_IntroCS_PA1_Quintuple-Stimulus-Voicher_V2_Andy_20210990_0022.pdf) |
 
 ## 經驗證的匿名參考程式
 

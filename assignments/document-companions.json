@@ -290,44 +290,6 @@
       "current_specification": "assignments/2021/pa01/originals/2021Fall_EE1003_IntroCS_PA1_Quintuple-Stimulus-Voicher_Andy_20211017_0400.pdf",
       "instruction_documents": [
         {
-          "path": "assignments/2021/pa01/originals/archive/2021Fall_EE1003_IntroCS_PA1_Quintuple-Stimulus-Voicher_Andy_20210927_0038.pdf",
-          "sha256": "29793bf56228e3f5a67b8a4667e2d81f0108c070c3d838c0038d450a3658e2e9",
-          "pages": 7,
-          "role": "main_instruction",
-          "file_references": [
-            {
-              "page": 6,
-              "name": "student_submission_name",
-              "kind": "student_submission_requirement"
-            },
-            {
-              "page": 6,
-              "name": "student_submission_name",
-              "kind": "student_submission_requirement"
-            },
-            {
-              "page": 6,
-              "name": "student_submission_name",
-              "kind": "student_submission_requirement"
-            },
-            {
-              "page": 6,
-              "name": "student_submission_name",
-              "kind": "student_submission_requirement"
-            },
-            {
-              "page": 6,
-              "name": "student_submission_name",
-              "kind": "student_submission_requirement"
-            },
-            {
-              "page": 6,
-              "name": "_PA1.pdf",
-              "kind": "file_reference_to_resolve_in_context"
-            }
-          ]
-        },
-        {
           "path": "assignments/2021/pa01/originals/2021Fall_EE1003_IntroCS_PA1_Quintuple-Stimulus-Voicher_Andy_20211017_0400.pdf",
           "sha256": "24b20e17c0df3aeb770a2320771ea4e813d75d90a03f8ac0140283deb9e6e23d",
           "pages": 7,
@@ -361,44 +323,6 @@
             {
               "page": 6,
               "name": "_PA1_report.pdf",
-              "kind": "file_reference_to_resolve_in_context"
-            }
-          ]
-        },
-        {
-          "path": "assignments/2021/pa01/originals/archive/2021Fall_EE1003_IntroCS_PA1_Quintuple-Stimulus-Voicher_V2_Andy_20210990_0022.pdf",
-          "sha256": "790e6a10cdd7c6132ddaa8805d4649948e29ce2147a3d6676f8317dfb462a3f0",
-          "pages": 7,
-          "role": "main_instruction",
-          "file_references": [
-            {
-              "page": 6,
-              "name": "student_submission_name",
-              "kind": "student_submission_requirement"
-            },
-            {
-              "page": 6,
-              "name": "student_submission_name",
-              "kind": "student_submission_requirement"
-            },
-            {
-              "page": 6,
-              "name": "student_submission_name",
-              "kind": "student_submission_requirement"
-            },
-            {
-              "page": 6,
-              "name": "student_submission_name",
-              "kind": "student_submission_requirement"
-            },
-            {
-              "page": 6,
-              "name": "student_submission_name",
-              "kind": "student_submission_requirement"
-            },
-            {
-              "page": 6,
-              "name": "_PA1.pdf",
               "kind": "file_reference_to_resolve_in_context"
             }
           ]
@@ -452,11 +376,6 @@
       "scope_note": "Specification inputs/examples are embedded in the supplied documents; no separately provided official starter/header/input archive was found for this assignment. Submitted student source filenames are requirements for students to create, not missing course attachments.",
       "reference_resolutions": [
         {
-          "name": "_PA1.pdf",
-          "status": "student_submission_requirement",
-          "note": "This is a required name for the student's own work, not an instructor-provided attachment."
-        },
-        {
           "name": "_PA1_report.pdf",
           "status": "student_submission_requirement",
           "note": "This is a required name for the student's own work, not an instructor-provided attachment."
@@ -479,82 +398,6 @@
           "pages": 1,
           "role": "official_testcase",
           "file_references": []
-        },
-        {
-          "path": "assignments/2021/pa02/originals/archive/PA2_20211018_0410_Andy.pdf",
-          "sha256": "3b4dfb3c209ae80bc94b6f122595b3a8614990c7160c3f704e9dc2f27f10b2a8",
-          "pages": 6,
-          "role": "main_instruction",
-          "file_references": [
-            {
-              "page": 5,
-              "name": "2.cpp",
-              "kind": "file_reference_to_resolve_in_context"
-            },
-            {
-              "page": 5,
-              "name": "2_bonus.cpp",
-              "kind": "file_reference_to_resolve_in_context"
-            },
-            {
-              "page": 5,
-              "name": "student_submission_name",
-              "kind": "student_submission_requirement"
-            },
-            {
-              "page": 5,
-              "name": "student_submission_name",
-              "kind": "student_submission_requirement"
-            },
-            {
-              "page": 5,
-              "name": "student_submission_name",
-              "kind": "student_submission_requirement"
-            },
-            {
-              "page": 5,
-              "name": "_PA2_report.pdf",
-              "kind": "file_reference_to_resolve_in_context"
-            }
-          ]
-        },
-        {
-          "path": "assignments/2021/pa02/originals/archive/PA2_20211028_2006_Andy.pdf",
-          "sha256": "cc538c75ec7f3ec07614eb7d53a6961eef3ef202e68ffb320c2bdd287acf3e4b",
-          "pages": 6,
-          "role": "main_instruction",
-          "file_references": [
-            {
-              "page": 5,
-              "name": "2.cpp",
-              "kind": "file_reference_to_resolve_in_context"
-            },
-            {
-              "page": 5,
-              "name": "2_bonus.cpp",
-              "kind": "file_reference_to_resolve_in_context"
-            },
-            {
-              "page": 5,
-              "name": "student_submission_name",
-              "kind": "student_submission_requirement"
-            },
-            {
-              "page": 5,
-              "name": "student_submission_name",
-              "kind": "student_submission_requirement"
-            },
-            {
-              "page": 5,
-              "name": "student_submission_name",
-              "kind": "student_submission_requirement"
-            },
-            {
-              "page": 5,
-              "name": "_PA2_report.pdf",
-              "kind": "file_reference_to_resolve_in_context"
-            }
-          ]
         },
         {
           "path": "assignments/2021/pa02/originals/PA2_20211114_1530_Andy.pdf",
@@ -678,44 +521,6 @@
       "assignment": "assignments/2021/pa03",
       "current_specification": "assignments/2021/pa03/originals/PA3_20211123_2330_Andy.pdf",
       "instruction_documents": [
-        {
-          "path": "assignments/2021/pa03/originals/archive/PA3_20211110_1100_Andy.pdf",
-          "sha256": "3adf6082377a065cb17cde71d6ebca13900d2011d0868d82a634a7aa53f8a942",
-          "pages": 4,
-          "role": "main_instruction",
-          "file_references": [
-            {
-              "page": 4,
-              "name": "3.cpp",
-              "kind": "file_reference_to_resolve_in_context"
-            },
-            {
-              "page": 4,
-              "name": "3_bonus.cpp",
-              "kind": "file_reference_to_resolve_in_context"
-            },
-            {
-              "page": 4,
-              "name": "student_submission_name",
-              "kind": "student_submission_requirement"
-            },
-            {
-              "page": 4,
-              "name": "student_submission_name",
-              "kind": "student_submission_requirement"
-            },
-            {
-              "page": 4,
-              "name": "student_submission_name",
-              "kind": "student_submission_requirement"
-            },
-            {
-              "page": 4,
-              "name": "_PA3_report.pdf",
-              "kind": "file_reference_to_resolve_in_context"
-            }
-          ]
-        },
         {
           "path": "assignments/2021/pa03/originals/PA3_20211123_2330_Andy.pdf",
           "sha256": "ad1718e52e9722eb07be7543c8463fb614d87e925563610ccc99b2c3d9871cf8",
@@ -873,165 +678,6 @@
             {
               "page": 3,
               "name": "output.txt",
-              "kind": "file_reference_to_resolve_in_context"
-            }
-          ]
-        },
-        {
-          "path": "assignments/2021/pa04/originals/archive/PA4_MySpice_Andy_20211207_0200.pdf",
-          "sha256": "7940d92492b99701a93f98c515a0f6c0f7db28888dc1692ec7bec7c9e99c09a6",
-          "pages": 9,
-          "role": "main_instruction",
-          "file_references": [
-            {
-              "page": 3,
-              "name": "input.txt",
-              "kind": "file_reference_to_resolve_in_context"
-            },
-            {
-              "page": 3,
-              "name": "myspice.txt",
-              "kind": "file_reference_to_resolve_in_context"
-            },
-            {
-              "page": 7,
-              "name": "result.txt",
-              "kind": "file_reference_to_resolve_in_context"
-            },
-            {
-              "page": 8,
-              "name": "4_bonus.cpp",
-              "kind": "file_reference_to_resolve_in_context"
-            },
-            {
-              "page": 8,
-              "name": "student_submission_name",
-              "kind": "student_submission_requirement"
-            },
-            {
-              "page": 8,
-              "name": "student_submission_name",
-              "kind": "student_submission_requirement"
-            },
-            {
-              "page": 8,
-              "name": "student_submission_name",
-              "kind": "student_submission_requirement"
-            },
-            {
-              "page": 8,
-              "name": "student_submission_name",
-              "kind": "student_submission_requirement"
-            },
-            {
-              "page": 8,
-              "name": "_PA4_report.pdf",
-              "kind": "file_reference_to_resolve_in_context"
-            }
-          ]
-        },
-        {
-          "path": "assignments/2021/pa04/originals/archive/PA4_MySpice_HO_20211223_2300.pdf",
-          "sha256": "42a9950a1ebb11f6eb55f997c1547e5f42ae06d4bf26f3ccd551592f051e9d51",
-          "pages": 10,
-          "role": "main_instruction",
-          "file_references": [
-            {
-              "page": 3,
-              "name": "input.txt",
-              "kind": "file_reference_to_resolve_in_context"
-            },
-            {
-              "page": 3,
-              "name": "myspice.txt",
-              "kind": "file_reference_to_resolve_in_context"
-            },
-            {
-              "page": 7,
-              "name": "result.txt",
-              "kind": "file_reference_to_resolve_in_context"
-            },
-            {
-              "page": 8,
-              "name": "4_bonus.cpp",
-              "kind": "file_reference_to_resolve_in_context"
-            },
-            {
-              "page": 8,
-              "name": "student_submission_name",
-              "kind": "student_submission_requirement"
-            },
-            {
-              "page": 8,
-              "name": "student_submission_name",
-              "kind": "student_submission_requirement"
-            },
-            {
-              "page": 8,
-              "name": "student_submission_name",
-              "kind": "student_submission_requirement"
-            },
-            {
-              "page": 8,
-              "name": "student_submission_name",
-              "kind": "student_submission_requirement"
-            },
-            {
-              "page": 8,
-              "name": "_PA4_report.pdf",
-              "kind": "file_reference_to_resolve_in_context"
-            }
-          ]
-        },
-        {
-          "path": "assignments/2021/pa04/originals/archive/PA4_MySpice_HO_20211228_2330.pdf",
-          "sha256": "a62499d340450e031579c9f030fb299f6fec710cac49c51aa1c921a382d8b4e2",
-          "pages": 10,
-          "role": "main_instruction",
-          "file_references": [
-            {
-              "page": 3,
-              "name": "input.txt",
-              "kind": "file_reference_to_resolve_in_context"
-            },
-            {
-              "page": 3,
-              "name": "myspice.txt",
-              "kind": "file_reference_to_resolve_in_context"
-            },
-            {
-              "page": 7,
-              "name": "result.txt",
-              "kind": "file_reference_to_resolve_in_context"
-            },
-            {
-              "page": 8,
-              "name": "4_bonus.cpp",
-              "kind": "file_reference_to_resolve_in_context"
-            },
-            {
-              "page": 8,
-              "name": "student_submission_name",
-              "kind": "student_submission_requirement"
-            },
-            {
-              "page": 8,
-              "name": "student_submission_name",
-              "kind": "student_submission_requirement"
-            },
-            {
-              "page": 8,
-              "name": "student_submission_name",
-              "kind": "student_submission_requirement"
-            },
-            {
-              "page": 8,
-              "name": "student_submission_name",
-              "kind": "student_submission_requirement"
-            },
-            {
-              "page": 8,
-              "name": "_PA4_report.pdf",
               "kind": "file_reference_to_resolve_in_context"
             }
           ]
@@ -5488,5 +5134,7 @@
     }
   ],
   "file_count": 107,
-  "new_file_count": 27
+  "new_file_count": 27,
+  "instruction_version_policy": "latest_only_per_course_year_assignment_and_document_type",
+  "superseded_instruction_count_excluded": 8
 }

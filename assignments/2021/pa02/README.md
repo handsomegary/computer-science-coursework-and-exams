@@ -29,7 +29,7 @@ g++ -std=c++11 -Wall -Wextra -Wpedantic bonus.cpp -o pa02_bonus
 
 以本次提供資料中最新的[作業題面（2021-11-14）](originals/PA2_20211114_1530_Andy.pdf)為準。11/14 修訂版。
 
-原始檔名與 PDF 內容完整保留。後續補充說明／Q&A 與題面一起核對；舊題面另存於歷史版本，不作為目前預設規格。
+主題面只保留這個年度／作業的最新版；補充說明、Q&A、公開測資與必要附件依各自用途保留。
 
 | 類型 | 原始檔案 |
 |---|---|
@@ -42,12 +42,6 @@ g++ -std=c++11 -Wall -Wextra -Wpedantic bonus.cpp -o pa02_bonus
 | 公開測資／範例 | [PA2_Bonus_1_測資.pdf](originals/PA2_Bonus_1_%E6%B8%AC%E8%B3%87.pdf) |
 | 公開測資／範例 | [PA2_Bonus_2_測資.pdf](originals/PA2_Bonus_2_%E6%B8%AC%E8%B3%87.pdf) |
 
-### 歷史題面
-
-| 原始版本 |
-|---|
-| [PA2_20211018_0410_Andy.pdf](originals/archive/PA2_20211018_0410_Andy.pdf) |
-| [PA2_20211028_2006_Andy.pdf](originals/archive/PA2_20211028_2006_Andy.pdf) |
 
 ## 匿名參考程式與有誤原版
 
