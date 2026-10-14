@@ -8,7 +8,7 @@
 
 作業原始 PDF 已按年度與專案存放於各作業的 `originals/`：共 **58 份**，包括 10 份目前題面、8 份歷史題面、13 份補充說明，以及 27 份公開測資／範例。每份檔案保留來源檔名與原始內容；表格直接連到目前題面，舊版本保留於 `originals/archive/`。版本判定依文件內文、修訂差異及 PDF 日期交叉核對，以本次提供資料中最新版本為準。
 
-主要 `solution.md` 與作業入口為重新實作的解答。另收錄經篩選的兩份[匿名 PA1 參考程式](assignments/2021/pa01/references/moss-lynx-5375/README.md)與[課程原版 K-map 支援程式](assignments/2021/final/course_support/README.md)，各自說明來源、介面與限制。全部候選來源的匿名結果見 [驗證紀錄](reports/reference-validation.md)。
+主要 `solution.md` 與作業入口為重新實作的解答。另收錄 13 份經重新驗證的匿名修正版、對應的 13 份有誤原版，以及原先通過的兩份匿名 PA1 程式；詳見[修復與驗證紀錄](reports/reference-repairs.md)。來源以隨機代稱呈現，原版位元組保留；[課程原版 K-map 支援程式](assignments/2021/final/course_support/README.md)另列介面與限制。[初次審查紀錄](reports/reference-validation.md)保留修復前的判定。
 
 ## 2021 作業
 

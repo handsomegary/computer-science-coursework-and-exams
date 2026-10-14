@@ -1,0 +1,705 @@
+{
+  "schema_version": 1,
+  "scope": "2021 supplied student source variants, repaired against latest supplied specifications and supplements",
+  "compiler": "GCC 14.2.0, C++11",
+  "anonymity": "Random aliases and generic filenames; no public identity mapping. Original C++ source bytes preserved.",
+  "repaired_variants": 13,
+  "archived_original_variants": 13,
+  "previously_accepted_unchanged_pa1_variants": 2,
+  "validation_groups": {
+    "pa1_pa2": {
+      "executions": 1780,
+      "passed": 1780,
+      "signed_compatibility_executions": 366,
+      "wallet_states": 1331,
+      "wallet_executions": 2662
+    },
+    "pa3": {
+      "executions": 4906,
+      "passed": 4906,
+      "original_failure_witnesses": 10
+    },
+    "pa4": {
+      "scenario_records": 192,
+      "program_executions": 195,
+      "passed": true,
+      "original_failure_witnesses": 3
+    },
+    "final": {
+      "cases_per_build": 127,
+      "builds": 2,
+      "passed": 254,
+      "output_functions_per_build": 65808
+    }
+  },
+  "limitations": [
+    "Latest means latest among supplied local course documents, not an external course-site claim.",
+    "PA2 minimum negative width conflicts with old public samples. Default is mathematically shortest; COURSE_WIDTH=1 implements separately verified sample convention.",
+    "PA4 supports ordered official ladder netlists, not arbitrary SPICE. Physical Thevenin results take precedence over inconsistent old bonus sample numbers.",
+    "Final uses the preserved course K-map module. Equivalence is verified; exact minimum SOP is not guaranteed.",
+    "The cobalt-heron-2230 source has conflicting source labels; authorship is not asserted.",
+    "Archived originals are not passing solutions. Main independently implemented solutions were not replaced."
+  ],
+  "entries": [
+    {
+      "assignment": "pa01",
+      "alias": "jade-lynx-c0ee",
+      "variant": "basic",
+      "original": {
+        "path": "assignments/2021/pa01/references/jade-lynx-c0ee/original/basic.cpp",
+        "sha256": "23426c3d177492abb8b264eceea99e388e17d8dec898fa7c716e43f8e9a61a11",
+        "status": "known defective or nonconforming archive; not a passing solution",
+        "source_bytes_preserved": true,
+        "evidence": "Initial bounded execution and static specification audit; early variant was not executed."
+      },
+      "fixed": {
+        "path": "assignments/2021/pa01/references/jade-lynx-c0ee/fixed/basic.cpp",
+        "sha256": "7d8c55f377c070a4502318c3378ebedd91bb6e2941243cb60e40c9adabff6d52",
+        "verified": true
+      },
+      "specification": {
+        "path": "assignments/2021/pa01/originals/2021Fall_EE1003_IntroCS_PA1_Quintuple-Stimulus-Voicher_Andy_20211017_0400.pdf",
+        "sha256": "24b20e17c0df3aeb770a2320771ea4e813d75d90a03f8ac0140283deb9e6e23d",
+        "note": "V2；內文更新日為 2021-09-30，10/17 檔修正報告檔名範例。"
+      },
+      "bug": "拒絕合法零元交易；初始條件讀取未初始化價格。",
+      "repair": "初始化價格並接受 0，保留原票券枚舉與庫存更新。",
+      "validation": {
+        "tests": {
+          "passed": 306,
+          "total": 306,
+          "modes": [
+            "-O0",
+            "-O2"
+          ],
+          "original_rejection_basis": "initial review; see reference-validation.md"
+        },
+        "script": "tests/test_repaired_pa1_pa2.py"
+      },
+      "readme": "assignments/2021/pa01/references/jade-lynx-c0ee/README.md"
+    },
+    {
+      "assignment": "pa01",
+      "alias": "moss-lynx-5375",
+      "variant": "early",
+      "original": {
+        "path": "assignments/2021/pa01/references/moss-lynx-5375/original/early.cpp",
+        "sha256": "2da94eb7435795ff7793ce8f715e3fcd5063d4c611be1e27bb4e9c9edb490336",
+        "status": "known defective or nonconforming archive; not a passing solution",
+        "source_bytes_preserved": true,
+        "evidence": "Initial bounded execution and static specification audit; early variant was not executed."
+      },
+      "fixed": {
+        "path": "assignments/2021/pa01/references/moss-lynx-5375/fixed/early.cpp",
+        "sha256": "216df1c60198070e9da9a49293814f527e7c140fdcbe3e9b58bb06564aa9e46f",
+        "verified": true
+      },
+      "specification": {
+        "path": "assignments/2021/pa01/originals/2021Fall_EE1003_IntroCS_PA1_Quintuple-Stimulus-Voicher_Andy_20211017_0400.pdf",
+        "sha256": "24b20e17c0df3aeb770a2320771ea4e813d75d90a03f8ac0140283deb9e6e23d",
+        "note": "V2；內文更新日為 2021-09-30，10/17 檔修正報告檔名範例。"
+      },
+      "bug": "早期稿含 system(\"pause\")、不穩定輸入控制與不符題面提示；初次僅編譯和靜態檢查。",
+      "repair": "移除 pause，修正輸入、零元及提示，保留原付款方法。",
+      "validation": {
+        "tests": {
+          "passed": 184,
+          "total": 184,
+          "modes": [
+            "-O0",
+            "-O2"
+          ],
+          "original_rejection_basis": "initial review; see reference-validation.md"
+        },
+        "script": "tests/test_repaired_pa1_pa2.py"
+      },
+      "readme": "assignments/2021/pa01/references/moss-lynx-5375/README.md"
+    },
+    {
+      "assignment": "pa01",
+      "alias": "jade-lynx-c0ee",
+      "variant": "return_change",
+      "original": {
+        "path": "assignments/2021/pa01/references/jade-lynx-c0ee/original/return_change.cpp",
+        "sha256": "1faf655e1244815879b3fc8fbc68e163ab7d7c2a1999855cd182d24171f60c7a",
+        "status": "known defective or nonconforming archive; not a passing solution",
+        "source_bytes_preserved": true,
+        "evidence": "Initial bounded execution and static specification audit; early variant was not executed."
+      },
+      "fixed": {
+        "path": "assignments/2021/pa01/references/jade-lynx-c0ee/fixed/return_change.cpp",
+        "sha256": "c1484e444a8a291d1b6d45c574f7668315c58aeb831a687e299ab1d3b569f2f4",
+        "verified": true
+      },
+      "specification": {
+        "path": "assignments/2021/pa01/originals/2021Fall_EE1003_IntroCS_PA1_Quintuple-Stimulus-Voicher_Andy_20211017_0400.pdf",
+        "sha256": "24b20e17c0df3aeb770a2320771ea4e813d75d90a03f8ac0140283deb9e6e23d",
+        "note": "V2；內文更新日為 2021-09-30，10/17 檔修正報告檔名範例。"
+      },
+      "bug": "同樣拒絕 0、讀取未初始化價格；輸入失敗缺少復原。",
+      "repair": "修正交易控制與輸入復原，保留原找零枚舉；驗證票券可用性及金額守恆。",
+      "validation": {
+        "tests": {
+          "passed": 328,
+          "total": 328,
+          "modes": [
+            "-O0",
+            "-O2"
+          ],
+          "original_rejection_basis": "initial review; see reference-validation.md"
+        },
+        "script": "tests/test_repaired_pa1_pa2.py"
+      },
+      "readme": "assignments/2021/pa01/references/jade-lynx-c0ee/README.md"
+    },
+    {
+      "assignment": "pa02",
+      "alias": "jade-lynx-c0ee",
+      "variant": "basic",
+      "original": {
+        "path": "assignments/2021/pa02/references/jade-lynx-c0ee/original/basic.cpp",
+        "sha256": "789196294a23a967266cfc39bf1e083715e0d3f2fc6ac5a94ec6aabdb6e52bcc",
+        "status": "known defective or nonconforming archive; not a passing solution",
+        "source_bytes_preserved": true,
+        "evidence": "Initial bounded execution and static specification audit; early variant was not executed."
+      },
+      "fixed": {
+        "path": "assignments/2021/pa02/references/jade-lynx-c0ee/fixed/basic.cpp",
+        "sha256": "4630b35907e556c80c312645bbd344da810329cd11c6a683492ec09778daa9af",
+        "verified": true
+      },
+      "specification": {
+        "path": "assignments/2021/pa02/originals/PA2_20211114_1530_Andy.pdf",
+        "sha256": "61663673eca19895546b5153bcb0b0eeeffc4c549afa366a8b5cb85a2b354fa2",
+        "note": "11/14 修訂版。"
+      },
+      "bug": "第 21／22／23 次提示用 th；範圍檢查和第 19 位遞迴乘 10 有有號溢位風險。",
+      "repair": "修正序數、合法範圍檢查及有界遞迴進位。",
+      "validation": {
+        "tests": {
+          "passed": 298,
+          "total": 298,
+          "modes": [
+            "-O0",
+            "-O2"
+          ],
+          "original_rejection_basis": "initial review; see reference-validation.md"
+        },
+        "script": "tests/test_repaired_pa1_pa2.py"
+      },
+      "readme": "assignments/2021/pa02/references/jade-lynx-c0ee/README.md"
+    },
+    {
+      "assignment": "pa02",
+      "alias": "moss-lynx-5375",
+      "variant": "basic",
+      "original": {
+        "path": "assignments/2021/pa02/references/moss-lynx-5375/original/basic.cpp",
+        "sha256": "03730be33960062931addf6b6c387be64e8f59802167e04777e634882073e76f",
+        "status": "known defective or nonconforming archive; not a passing solution",
+        "source_bytes_preserved": true,
+        "evidence": "Initial bounded execution and static specification audit; early variant was not executed."
+      },
+      "fixed": {
+        "path": "assignments/2021/pa02/references/moss-lynx-5375/fixed/basic.cpp",
+        "sha256": "d76ed7f4eece399f03d6170539a9a8c31574337ad2d44889586ebd9eacd7363e",
+        "verified": true
+      },
+      "specification": {
+        "path": "assignments/2021/pa02/originals/PA2_20211114_1530_Andy.pdf",
+        "sha256": "61663673eca19895546b5153bcb0b0eeeffc4c549afa366a8b5cb85a2b354fa2",
+        "note": "11/14 修訂版。"
+      },
+      "bug": "十進位輸入用 long long、以十進位 a += b 算累加值，違反最新限制；第 19 位 c*10 溢位。",
+      "repair": "輸入改用 int；轉換、位元全加器及回轉換均遞迴，使用有界 19 位容器。",
+      "validation": {
+        "tests": {
+          "passed": 298,
+          "total": 298,
+          "modes": [
+            "-O0",
+            "-O2"
+          ],
+          "original_rejection_basis": "initial review; see reference-validation.md"
+        },
+        "script": "tests/test_repaired_pa1_pa2.py"
+      },
+      "readme": "assignments/2021/pa02/references/moss-lynx-5375/README.md"
+    },
+    {
+      "assignment": "pa02",
+      "alias": "moss-lynx-5375",
+      "variant": "signed",
+      "original": {
+        "path": "assignments/2021/pa02/references/moss-lynx-5375/original/signed.cpp",
+        "sha256": "9231f7c49ce8ec21a0d0bf25fcc61ae9a5df9aaf0db6e92d274a1cdd627a2cf1",
+        "status": "known defective or nonconforming archive; not a passing solution",
+        "source_bytes_preserved": true,
+        "evidence": "Initial bounded execution and static specification audit; early variant was not executed."
+      },
+      "fixed": {
+        "path": "assignments/2021/pa02/references/moss-lynx-5375/fixed/signed.cpp",
+        "sha256": "1b007cfe870777cedb4a354f10238b6f7ae01255a5db515625924e67ebce07f8",
+        "verified": true
+      },
+      "specification": {
+        "path": "assignments/2021/pa02/originals/PA2_20211114_1530_Andy.pdf",
+        "sha256": "61663673eca19895546b5153bcb0b0eeeffc4c549afa366a8b5cb85a2b354fa2",
+        "note": "11/14 修訂版。"
+      },
+      "bug": "混合正負數錯誤，例如 −11 印成 1100101；static、浮點判斷、非遞迴負數轉換和十進位累加違反限制。",
+      "repair": "修正二補數、符號延伸、零和與溢位；採遞迴有界位元容器，另提供舊範例寬度相容模式。",
+      "validation": {
+        "tests": {
+          "passed": 366,
+          "total": 366,
+          "modes": [
+            "-O0",
+            "-O2"
+          ],
+          "original_rejection_basis": "initial review; see reference-validation.md"
+        },
+        "script": "tests/test_repaired_pa1_pa2.py"
+      },
+      "readme": "assignments/2021/pa02/references/moss-lynx-5375/README.md"
+    },
+    {
+      "assignment": "pa03",
+      "alias": "moss-lynx-5375",
+      "variant": "basic",
+      "original": {
+        "path": "assignments/2021/pa03/references/moss-lynx-5375/original/basic.cpp",
+        "sha256": "aed148ab889650320bfb587a496225497c225b7b6734f6a293df2d6f5186ab7b",
+        "status": "known defective or nonconforming archive; not a passing solution",
+        "source_bytes_preserved": true,
+        "evidence": [
+          {
+            "name": "negative_subtraction",
+            "operation": 2,
+            "a": "1",
+            "b": "2",
+            "expected": "-1",
+            "actual": "99",
+            "expected_mean": "1",
+            "actual_mean": "1",
+            "status": "completed",
+            "returncode": 0,
+            "passed": false
+          }
+        ]
+      },
+      "fixed": {
+        "path": "assignments/2021/pa03/references/moss-lynx-5375/fixed/basic.cpp",
+        "sha256": "1cb0f7259e24367cba43a37272cec904f227017b9e8b9685e4619a7af1742ab9",
+        "verified": true
+      },
+      "specification": {
+        "path": "assignments/2021/pa03/originals/PA3_20211123_2330_Andy.pdf",
+        "sha256": "ad1718e52e9722eb07be7543c8463fb614d87e925563610ccc99b2c3d9871cf8",
+        "note": "11/23 修訂版。"
+      },
+      "bug": "1−2 得到 99；借位和負差值符號錯誤。",
+      "repair": "保留十進位陣列，修正大小比較、借位、符號及輸出容量。",
+      "validation": {
+        "tests": {
+          "passed": 1424,
+          "total": 1424,
+          "builds": [
+            {
+              "mode": "debug",
+              "passed": 712,
+              "tests": 712
+            },
+            {
+              "mode": "optimized",
+              "passed": 712,
+              "tests": 712
+            }
+          ]
+        },
+        "script": "tests/test_repaired_pa3.py"
+      },
+      "readme": "assignments/2021/pa03/references/moss-lynx-5375/README.md"
+    },
+    {
+      "assignment": "pa03",
+      "alias": "moss-lynx-5375",
+      "variant": "division",
+      "original": {
+        "path": "assignments/2021/pa03/references/moss-lynx-5375/original/division.cpp",
+        "sha256": "7ac67930e7ab6448b59cf5eaded9ec06c8f7f5f7bea10364399d2f6a270de1ca",
+        "status": "known defective or nonconforming archive; not a passing solution",
+        "source_bytes_preserved": true,
+        "evidence": [
+          {
+            "name": "negative_subtraction",
+            "operation": 2,
+            "a": "1",
+            "b": "2",
+            "expected": "-1",
+            "actual": "99",
+            "expected_mean": "1",
+            "actual_mean": "1",
+            "status": "completed",
+            "returncode": 0,
+            "passed": false
+          },
+          {
+            "name": "equal_subtraction",
+            "operation": 2,
+            "a": "123",
+            "b": "123",
+            "expected": "0",
+            "actual": "",
+            "expected_mean": "123",
+            "actual_mean": "123",
+            "status": "completed",
+            "returncode": 0,
+            "passed": false
+          },
+          {
+            "name": "single_digit_division",
+            "operation": 4,
+            "a": "1",
+            "b": "2",
+            "expected": "0",
+            "actual": "0",
+            "expected_mean": "1",
+            "actual_mean": null,
+            "status": "completed",
+            "returncode": 3221226356,
+            "passed": false,
+            "expected_remainder": "1",
+            "actual_remainder": null
+          },
+          {
+            "name": "equal_division",
+            "operation": 4,
+            "a": "7",
+            "b": "7",
+            "expected": "1",
+            "actual": "1",
+            "expected_mean": "7",
+            "actual_mean": null,
+            "status": "completed",
+            "returncode": 3221226356,
+            "passed": false,
+            "expected_remainder": "0",
+            "actual_remainder": null
+          },
+          {
+            "name": "huge_division_by_one",
+            "operation": 4,
+            "a": "9999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999",
+            "b": "1",
+            "expected": "9999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999",
+            "actual": "0",
+            "expected_mean": "5000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+            "actual_mean": null,
+            "status": "completed",
+            "returncode": 3221226356,
+            "passed": false,
+            "expected_remainder": "0",
+            "actual_remainder": null
+          }
+        ]
+      },
+      "fixed": {
+        "path": "assignments/2021/pa03/references/moss-lynx-5375/fixed/division.cpp",
+        "sha256": "c67fa95f94d51035e7a15862816826fa816c7ba17fcd1002a591720c3af1e4a1",
+        "verified": true
+      },
+      "specification": {
+        "path": "assignments/2021/pa03/originals/PA3_20211123_2330_Andy.pdf",
+        "sha256": "ad1718e52e9722eb07be7543c8463fb614d87e925563610ccc99b2c3d9871cf8",
+        "note": "11/23 修訂版。"
+      },
+      "bug": "負差值、相等減法和除法邊界失敗；1/2、7/7、100 位數/1 有反例。",
+      "repair": "修正共用加減乘；以十進位長除法重整商與餘數流程。",
+      "validation": {
+        "tests": {
+          "passed": 2058,
+          "total": 2058,
+          "builds": [
+            {
+              "mode": "debug",
+              "passed": 1029,
+              "tests": 1029
+            },
+            {
+              "mode": "optimized",
+              "passed": 1029,
+              "tests": 1029
+            }
+          ]
+        },
+        "script": "tests/test_repaired_pa3.py"
+      },
+      "readme": "assignments/2021/pa03/references/moss-lynx-5375/README.md"
+    },
+    {
+      "assignment": "pa03",
+      "alias": "cobalt-heron-2230",
+      "variant": "basic",
+      "original": {
+        "path": "assignments/2021/pa03/references/cobalt-heron-2230/original/basic.cpp",
+        "sha256": "6e6f0c3e594ceb3ea3c0dd00e904f423014c024f1cac052792ebe680201cb0a3",
+        "status": "known defective or nonconforming archive; not a passing solution",
+        "source_bytes_preserved": true,
+        "evidence": [
+          {
+            "name": "negative_subtraction",
+            "operation": 2,
+            "a": "1",
+            "b": "2",
+            "expected": "-1",
+            "actual": "1",
+            "expected_mean": "1",
+            "actual_mean": "1",
+            "status": "completed",
+            "returncode": 0,
+            "passed": false
+          },
+          {
+            "name": "addition_101digits",
+            "operation": 1,
+            "a": "9999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999",
+            "b": "1",
+            "expected": "10000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+            "actual": "0",
+            "expected_mean": "5000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+            "actual_mean": "0",
+            "status": "completed",
+            "returncode": 0,
+            "passed": false
+          },
+          {
+            "name": "mean_carry",
+            "operation": 1,
+            "a": "9999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999",
+            "b": "9999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999",
+            "expected": "19999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999998",
+            "actual": "9999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999998",
+            "expected_mean": "9999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999",
+            "actual_mean": "4999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999",
+            "status": "completed",
+            "returncode": 0,
+            "passed": false
+          },
+          {
+            "name": "multiplication_200digits",
+            "operation": 3,
+            "a": "9999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999",
+            "b": "9999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999",
+            "expected": "99999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999980000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000001",
+            "actual": "1",
+            "expected_mean": "9999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999",
+            "actual_mean": "4999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999",
+            "status": "completed",
+            "returncode": 0,
+            "passed": false
+          }
+        ]
+      },
+      "fixed": {
+        "path": "assignments/2021/pa03/references/cobalt-heron-2230/fixed/basic.cpp",
+        "sha256": "e2641fb3bfdd045c3e4f4ea979a98bf707d82b19f2deb257f1229ff646bdddd2",
+        "verified": true
+      },
+      "specification": {
+        "path": "assignments/2021/pa03/originals/PA3_20211123_2330_Andy.pdf",
+        "sha256": "ad1718e52e9722eb07be7543c8463fb614d87e925563610ccc99b2c3d9871cf8",
+        "note": "11/23 修訂版。"
+      },
+      "bug": "1−2 輸出 +1；100 個 9 加 1 得到 0；乘积截為低 100 位。",
+      "repair": "修正符號並保留 101 位和、200 位乘積與完整整數平均。",
+      "validation": {
+        "tests": {
+          "passed": 1424,
+          "total": 1424,
+          "builds": [
+            {
+              "mode": "debug",
+              "passed": 712,
+              "tests": 712
+            },
+            {
+              "mode": "optimized",
+              "passed": 712,
+              "tests": 712
+            }
+          ]
+        },
+        "script": "tests/test_repaired_pa3.py"
+      },
+      "readme": "assignments/2021/pa03/references/cobalt-heron-2230/README.md"
+    },
+    {
+      "assignment": "pa04",
+      "alias": "jade-lynx-c0ee",
+      "variant": "basic",
+      "original": {
+        "path": "assignments/2021/pa04/references/jade-lynx-c0ee/original/basic.cpp",
+        "sha256": "5ee004fb8b1e39b6eb5b7ad2759e31346ef322b04f3ac376111031059b88e78a",
+        "status": "known defective or nonconforming archive; not a passing solution",
+        "source_bytes_preserved": true,
+        "evidence": {
+          "sha256": "5ee004fb8b1e39b6eb5b7ad2759e31346ef322b04f3ac376111031059b88e78a",
+          "case": "fifteen_stages",
+          "timeout": true,
+          "exit_code": 1,
+          "failed_expected": true
+        }
+      },
+      "fixed": {
+        "path": "assignments/2021/pa04/references/jade-lynx-c0ee/fixed/basic.cpp",
+        "sha256": "34d389d28b37d4e6d63f645cf767278ef9b7a9c49710c1544fd959e06b283e9b",
+        "verified": true
+      },
+      "specification": {
+        "path": "assignments/2021/pa04/originals/PA4_MySpice_HO_20220104_1730.pdf",
+        "sha256": "94d17a6c71383ee640cde37a4d8e4bc23da85274f77532971eeee5e1034ed64e",
+        "note": "1/4 修訂版；仍屬 2021 Fall。"
+      },
+      "bug": "兩位數 stage ID 只讀首位；合法 15 stage 崩潰；單 stage 索引、零／負值格式與重複載入有問題。",
+      "repair": "保留 ladder reduction 和相鄰合併；重整 ID／電阻解析、容量、輸出與載入狀態。",
+      "validation": {
+        "tests": {
+          "passed": 64,
+          "total": 64,
+          "modes": [
+            "-O2"
+          ],
+          "compiler_warnings": 0
+        },
+        "script": "tests/test_repaired_pa4.py"
+      },
+      "readme": "assignments/2021/pa04/references/jade-lynx-c0ee/README.md"
+    },
+    {
+      "assignment": "pa04",
+      "alias": "moss-lynx-5375",
+      "variant": "basic",
+      "original": {
+        "path": "assignments/2021/pa04/references/moss-lynx-5375/original/basic.cpp",
+        "sha256": "1853738558f071db0d39fb50df24c2118c7c454dc1a8bf24fe265325963e8127",
+        "status": "known defective or nonconforming archive; not a passing solution",
+        "source_bytes_preserved": true,
+        "evidence": {
+          "sha256": "1853738558f071db0d39fb50df24c2118c7c454dc1a8bf24fe265325963e8127",
+          "case": "plain_ohms",
+          "timeout": false,
+          "exit_code": 0,
+          "failed_expected": true
+        }
+      },
+      "fixed": {
+        "path": "assignments/2021/pa04/references/moss-lynx-5375/fixed/basic.cpp",
+        "sha256": "4c9916f81135ec2df97f849fd2f7188edb33ccef2d6b11a4673c3d4b667c15e9",
+        "verified": true
+      },
+      "specification": {
+        "path": "assignments/2021/pa04/originals/PA4_MySpice_HO_20220104_1730.pdf",
+        "sha256": "94d17a6c71383ee640cde37a4d8e4bc23da85274f77532971eeee5e1034ed64e",
+        "note": "1/4 修訂版；仍屬 2021 Fall。"
+      },
+      "bug": "無前綴 Ω、u／G 電阻解析失敗或崩潰；格式函式缺回傳，合併索引和載入狀態不穩。",
+      "repair": "正確解析合法前綴與浮點電阻；修正合併、格式、重載及直接匯出。",
+      "validation": {
+        "tests": {
+          "passed": 64,
+          "total": 64,
+          "modes": [
+            "-O2"
+          ],
+          "compiler_warnings": 0
+        },
+        "script": "tests/test_repaired_pa4.py"
+      },
+      "readme": "assignments/2021/pa04/references/moss-lynx-5375/README.md"
+    },
+    {
+      "assignment": "pa04",
+      "alias": "moss-lynx-5375",
+      "variant": "thevenin",
+      "original": {
+        "path": "assignments/2021/pa04/references/moss-lynx-5375/original/thevenin.cpp",
+        "sha256": "283be3e1eaee761d6ca35d30e9715c4301fa7777fcf88dd7e21a41a125213588",
+        "status": "known defective or nonconforming archive; not a passing solution",
+        "source_bytes_preserved": true,
+        "evidence": {
+          "sha256": "283be3e1eaee761d6ca35d30e9715c4301fa7777fcf88dd7e21a41a125213588",
+          "case": "plain_ohms",
+          "timeout": false,
+          "exit_code": 0,
+          "failed_expected": true
+        }
+      },
+      "fixed": {
+        "path": "assignments/2021/pa04/references/moss-lynx-5375/fixed/thevenin.cpp",
+        "sha256": "3c7f003948a334037a0b13e07ed2fd9f594a617aa05e61076e42386135d0d504",
+        "verified": true
+      },
+      "specification": {
+        "path": "assignments/2021/pa04/originals/PA4_MySpice_HO_20220104_1730.pdf",
+        "sha256": "94d17a6c71383ee640cde37a4d8e4bc23da85274f77532971eeee5e1034ed64e",
+        "note": "1/4 修訂版；仍屬 2021 Fall。"
+      },
+      "bug": "同樣的電阻解析／輸出問題；操作後戴維寧結果可能沿用舊狀態。",
+      "repair": "修正一般版並依新電路重算戴維寧等效，以獨立 KCL 與物理模型驗證。",
+      "validation": {
+        "tests": {
+          "passed": 64,
+          "total": 64,
+          "modes": [
+            "-O2"
+          ],
+          "compiler_warnings": 0
+        },
+        "script": "tests/test_repaired_pa4.py"
+      },
+      "readme": "assignments/2021/pa04/references/moss-lynx-5375/README.md"
+    },
+    {
+      "assignment": "final",
+      "alias": "jade-lynx-c0ee",
+      "variant": "basic",
+      "original": {
+        "path": "assignments/2021/final/references/jade-lynx-c0ee/original/basic.cpp",
+        "sha256": "6f881c0e5a6aef730980455b0b6b38a44ce37f35d435098f77c0278c24ba020a",
+        "status": "known defective or nonconforming archive; not a passing solution",
+        "source_bytes_preserved": true,
+        "evidence": {
+          "initial_normal_build": "19/28",
+          "current_assertion_build": "0/28",
+          "reason": "short-line/container out-of-bounds undefined behavior"
+        }
+      },
+      "fixed": {
+        "path": "assignments/2021/final/references/jade-lynx-c0ee/fixed/basic.cpp",
+        "sha256": "92d710c3e9e01132398cf3525f37bf2ff93de1731a2e7aa882eefea4051ad0cb",
+        "verified": true
+      },
+      "specification": {
+        "path": "assignments/2021/final/originals/2021Fall_EE1003_IntroCS_Final_Project_Andy_20211210_0030.pdf",
+        "sha256": "19ae25165934c2b7d4a87a887decc888975fbf3917893378f996ffbed0ef829f",
+        "note": "搭配 2022-01-12 補充說明與課程 Q&A。"
+      },
+      "bug": "二變數 Gray-order 錯誤；常數 0／1、短行／容器越界、VLA、線名衝突及檔名別名可造成錯誤。",
+      "repair": "保留課程 K-map 流程，重整 section／真值表解析與 BENCH；處理常數、唯一線名和檔案身分檢查。",
+      "validation": {
+        "tests": {
+          "passed": 254,
+          "total": 254,
+          "modes": [
+            "-O0",
+            "-O2"
+          ],
+          "exhaustive_output_functions_per_build": 65808
+        },
+        "script": "tests/test_repaired_final.py"
+      },
+      "readme": "assignments/2021/final/references/jade-lynx-c0ee/README.md"
+    }
+  ]
+}

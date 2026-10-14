@@ -1,0 +1,138 @@
+{
+  "latest_spec": "PA3_20211123_2330_Andy.pdf",
+  "standard": "C++11",
+  "compiler": "GCC 14.2.0",
+  "oracle": "Python arbitrary-precision integer arithmetic, exact decimal output strings, integer mean, divmod.",
+  "sources": {
+    "moss-lynx-5375/basic.cpp": {
+      "alias": "moss-lynx-5375",
+      "source_file": "basic.cpp",
+      "original_sha256": "aed148ab889650320bfb587a496225497c225b7b6734f6a293df2d6f5186ab7b",
+      "fixed_sha256": "1cb0f7259e24367cba43a37272cec904f227017b9e8b9685e4619a7af1742ab9",
+      "original_status": "known failing archive; source bytes preserved",
+      "privacy_changes": "Random directory alias and generic filenames; no source-content redaction needed.",
+      "fixed_builds": [
+        {
+          "mode": "debug",
+          "passed": 712,
+          "tests": 712
+        },
+        {
+          "mode": "optimized",
+          "passed": 712,
+          "tests": 712
+        }
+      ],
+      "test_script": "tests/test_repaired_pa3.py",
+      "original_failure_witnesses": [
+        {
+          "name": "negative_subtraction",
+          "operation": 2,
+          "a": "1",
+          "b": "2",
+          "expected": "-1",
+          "actual": "99",
+          "expected_mean": "1",
+          "actual_mean": "1",
+          "status": "completed",
+          "returncode": 0,
+          "passed": false
+        }
+      ]
+    },
+    "moss-lynx-5375/division.cpp": {
+      "alias": "moss-lynx-5375",
+      "source_file": "division.cpp",
+      "original_sha256": "7ac67930e7ab6448b59cf5eaded9ec06c8f7f5f7bea10364399d2f6a270de1ca",
+      "fixed_sha256": "c67fa95f94d51035e7a15862816826fa816c7ba17fcd1002a591720c3af1e4a1",
+      "original_status": "known failing archive; source bytes preserved",
+      "privacy_changes": "Random directory alias and generic filenames; no source-content redaction needed.",
+      "fixed_builds": [
+        {
+          "mode": "debug",
+          "passed": 1029,
+          "tests": 1029
+        },
+        {
+          "mode": "optimized",
+          "passed": 1029,
+          "tests": 1029
+        }
+      ],
+      "test_script": "tests/test_repaired_pa3.py",
+      "original_failure_witnesses": [
+        {
+          "name": "negative_subtraction",
+          "operation": 2,
+          "a": "1",
+          "b": "2",
+          "expected": "-1",
+          "actual": "99",
+          "expected_mean": "1",
+          "actual_mean": "1",
+          "status": "completed",
+          "returncode": 0,
+          "passed": false
+        },
+        {
+          "name": "equal_subtraction",
+          "operation": 2,
+          "a": "123",
+          "b": "123",
+          "expected": "0",
+          "actual": "",
+          "expected_mean": "123",
+          "actual_mean": "123",
+          "status": "completed",
+          "returncode": 0,
+          "passed": false
+        },
+        {
+          "name": "single_digit_division",
+          "operation": 4,
+          "a": "1",
+          "b": "2",
+          "expected": "0",
+          "actual": "0",
+          "expected_mean": "1",
+          "actual_mean": null,
+          "status": "completed",
+          "returncode": 3221226356,
+          "passed": false,
+          "expected_remainder": "1",
+          "actual_remainder": null
+        },
+        {
+          "name": "equal_division",
+          "operation": 4,
+          "a": "7",
+          "b": "7",
+          "expected": "1",
+          "actual": "1",
+          "expected_mean": "7",
+          "actual_mean": null,
+          "status": "completed",
+          "returncode": 3221226356,
+          "passed": false,
+          "expected_remainder": "0",
+          "actual_remainder": null
+        },
+        {
+          "name": "huge_division_by_one",
+          "operation": 4,
+          "a": "9999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999",
+          "b": "1",
+          "expected": "9999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999",
+          "actual": "0",
+          "expected_mean": "5000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+          "actual_mean": null,
+          "status": "completed",
+          "returncode": 3221226356,
+          "passed": false,
+          "expected_remainder": "0",
+          "actual_remainder": null
+        }
+      ]
+    }
+  }
+}

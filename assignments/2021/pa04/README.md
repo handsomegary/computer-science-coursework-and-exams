@@ -48,3 +48,10 @@ Thevenin 預設觀察最後 stage 節點對地，包含原電路最後的 `RP` �
 | [PA4_MySpice_Andy_20211207_0200.pdf](originals/archive/PA4_MySpice_Andy_20211207_0200.pdf) |
 | [PA4_MySpice_HO_20211223_2300.pdf](originals/archive/PA4_MySpice_HO_20211223_2300.pdf) |
 | [PA4_MySpice_HO_20211228_2330.pdf](originals/archive/PA4_MySpice_HO_20211228_2330.pdf) |
+
+## 匿名參考程式與有誤原版
+
+最新版修復、原版問題與可重跑測試見[總驗證紀錄](../../../reports/reference-repairs.md)。各來源將有誤 `original/` 與通過驗證的 `fixed/` 分開保存：
+
+- [jade-lynx-c0ee](references/jade-lynx-c0ee/README.md)
+- [moss-lynx-5375](references/moss-lynx-5375/README.md)

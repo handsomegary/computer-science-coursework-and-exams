@@ -20,3 +20,11 @@ g++ -std=c++11 minimum_loss.cpp -o minimum_loss
 |---|---|
 | 一般版 | `1efbab9497a6e50ed6b71e1ecb5cf6807d2ae5a3af9be739838b4e966a02f0ad` |
 | 最少損失版 | `9241650d482b9b561b1b65f3c5094e87ff6be38147647d193e5934a273b875ed` |
+
+## 早期稿：原版與修復版
+
+[original/early.cpp](original/early.cpp) 是另外一份早期歷史稿，原始位元組完整保留；它含 `system("pause")`，僅作已知問題的歷史比較，測試腳本不執行它。[fixed/early.cpp](fixed/early.cpp) 移除系統暫停命令，保留五個面額變數、先嘗試剛好付款／不足時重新大面額付款的原方法。另把折扣改成整數百分比後截尾、避免零元多印空付款標題，並修復持券用盡仍多印剩券標題的輸出問題，以及讀取失敗時的迴圈。
+
+修復早期稿依最新 V2 題面及零元補充案例完成 184 組完整輸出檢查（五組公開案例、零元、最大整數、券用盡、固定種子有狀態交易；忽略空白差異），包含 `-O0`／`-O2` 編譯，`-Wall -Wextra -Wpedantic -Wconversion -Werror` 全部通過。既有 `basic.cpp`、`minimum_loss.cpp` 保持原樣。
+
+在儲存庫根目錄執行 `python tests/test_repaired_pa1_pa2.py`，可用 `--cxx` 指定編譯器，`--build-dir` 指定建置位置。歷史早期稿 SHA256：`2da94eb7435795ff7793ce8f715e3fcd5063d4c611be1e27bb4e9c9edb490336`。

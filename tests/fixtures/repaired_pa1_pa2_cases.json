@@ -1,0 +1,2738 @@
+[
+  {
+    "source": "pa01/jade-lynx-c0ee/basic",
+    "label": "PA1 public 1",
+    "input": "255\nd\ny\n766\np\n640\np\n40\nd\nn\n-1\n"
+  },
+  {
+    "source": "pa01/jade-lynx-c0ee/basic",
+    "label": "PA1 public 2",
+    "input": "1000\np\n789\nd\ny\n766\np\n289\np\n3\nd\nn\n"
+  },
+  {
+    "source": "pa01/jade-lynx-c0ee/basic",
+    "label": "PA1 public 3",
+    "input": "956\nd\ny\n148\np\n-1\n"
+  },
+  {
+    "source": "pa01/jade-lynx-c0ee/basic",
+    "label": "PA1 public 4",
+    "input": "849\nd\nn\n167\np\n2\np\n"
+  },
+  {
+    "source": "pa01/jade-lynx-c0ee/basic",
+    "label": "PA1 public 5",
+    "input": "399\nd\nn\n408\nd\ny\n999\np\n-1\n"
+  },
+  {
+    "source": "pa01/jade-lynx-c0ee/basic",
+    "label": "official zero-discount corner",
+    "input": "1\nd\ny\n-1\n"
+  },
+  {
+    "source": "pa01/jade-lynx-c0ee/basic",
+    "label": "official zero input",
+    "input": "0\np\n-1\n"
+  },
+  {
+    "source": "pa01/jade-lynx-c0ee/basic",
+    "label": "discount exact 72",
+    "input": "100\nd\ny\n-1\n"
+  },
+  {
+    "source": "pa01/jade-lynx-c0ee/basic",
+    "label": "discount exact 144",
+    "input": "200\nd\ny\n-1\n"
+  },
+  {
+    "source": "pa01/jade-lynx-c0ee/basic",
+    "label": "int max insufficient and wallet preserved",
+    "input": "2147483647\nd\ny\n923\np\n"
+  },
+  {
+    "source": "pa01/jade-lynx-c0ee/basic",
+    "label": "sentinel at first input",
+    "input": "-1\n"
+  },
+  {
+    "source": "pa01/jade-lynx-c0ee/basic",
+    "label": "stateful seed202101 case0",
+    "input": "900\nd\nn\n692\nd\nn\n13\nd\ny\n634\nd\nn\n1164\nd\ny\n652\nd\ny\n-1\n"
+  },
+  {
+    "source": "pa01/jade-lynx-c0ee/basic",
+    "label": "stateful seed202101 case1",
+    "input": "801\nd\ny\n463\np\n256\np\n705\np\n1081\nd\ny\n461\nd\ny\n-1\n"
+  },
+  {
+    "source": "pa01/jade-lynx-c0ee/basic",
+    "label": "stateful seed202101 case2",
+    "input": "694\np\n327\np\n95\nd\nn\n173\np\n138\nd\nn\n1039\nd\ny\n-1\n"
+  },
+  {
+    "source": "pa01/jade-lynx-c0ee/basic",
+    "label": "stateful seed202101 case3",
+    "input": "664\nd\nn\n591\np\n335\nd\ny\n495\np\n885\np\n435\nd\ny\n-1\n"
+  },
+  {
+    "source": "pa01/jade-lynx-c0ee/basic",
+    "label": "stateful seed202101 case4",
+    "input": "621\np\n1117\nd\nn\n511\np\n616\np\n1009\np\n191\np\n-1\n"
+  },
+  {
+    "source": "pa01/jade-lynx-c0ee/basic",
+    "label": "stateful seed202101 case5",
+    "input": "844\np\n48\nd\ny\n1010\nd\ny\n721\np\n905\nd\ny\n857\np\n-1\n"
+  },
+  {
+    "source": "pa01/jade-lynx-c0ee/basic",
+    "label": "stateful seed202101 case6",
+    "input": "768\nd\nn\n723\nd\nn\n364\nd\nn\n1140\np\n505\np\n622\np\n-1\n"
+  },
+  {
+    "source": "pa01/jade-lynx-c0ee/basic",
+    "label": "stateful seed202101 case7",
+    "input": "1184\np\n419\np\n714\np\n1166\nd\nn\n544\nd\nn\n1010\np\n-1\n"
+  },
+  {
+    "source": "pa01/jade-lynx-c0ee/basic",
+    "label": "stateful seed202101 case8",
+    "input": "381\nd\ny\n301\np\n1038\nd\ny\n561\np\n559\nd\nn\n238\nd\ny\n-1\n"
+  },
+  {
+    "source": "pa01/jade-lynx-c0ee/basic",
+    "label": "stateful seed202101 case9",
+    "input": "734\nd\nn\n900\np\n535\nd\ny\n1173\nd\nn\n1018\nd\ny\n1118\np\n-1\n"
+  },
+  {
+    "source": "pa01/jade-lynx-c0ee/basic",
+    "label": "stateful seed202101 case10",
+    "input": "364\np\n507\nd\ny\n1060\nd\ny\n141\nd\nn\n8\np\n1111\nd\nn\n-1\n"
+  },
+  {
+    "source": "pa01/jade-lynx-c0ee/basic",
+    "label": "stateful seed202101 case11",
+    "input": "902\nd\ny\n197\np\n91\np\n1003\np\n710\nd\nn\n225\np\n-1\n"
+  },
+  {
+    "source": "pa01/jade-lynx-c0ee/basic",
+    "label": "stateful seed202101 case12",
+    "input": "536\np\n432\nd\nn\n270\nd\ny\n317\np\n508\nd\ny\n454\np\n-1\n"
+  },
+  {
+    "source": "pa01/jade-lynx-c0ee/basic",
+    "label": "stateful seed202101 case13",
+    "input": "1156\nd\nn\n937\np\n706\np\n954\nd\nn\n379\np\n1074\nd\ny\n-1\n"
+  },
+  {
+    "source": "pa01/jade-lynx-c0ee/basic",
+    "label": "stateful seed202101 case14",
+    "input": "1024\nd\nn\n1024\np\n316\nd\nn\n487\np\n356\np\n606\nd\ny\n-1\n"
+  },
+  {
+    "source": "pa01/jade-lynx-c0ee/basic",
+    "label": "stateful seed202101 case15",
+    "input": "37\nd\nn\n605\np\n894\nd\nn\n860\nd\ny\n653\nd\nn\n758\nd\nn\n-1\n"
+  },
+  {
+    "source": "pa01/jade-lynx-c0ee/basic",
+    "label": "stateful seed202101 case16",
+    "input": "138\nd\nn\n53\nd\nn\n889\nd\ny\n1168\nd\ny\n143\np\n126\np\n-1\n"
+  },
+  {
+    "source": "pa01/jade-lynx-c0ee/basic",
+    "label": "stateful seed202101 case17",
+    "input": "485\np\n776\np\n256\nd\nn\n657\np\n830\np\n238\np\n-1\n"
+  },
+  {
+    "source": "pa01/jade-lynx-c0ee/basic",
+    "label": "stateful seed202101 case18",
+    "input": "794\np\n4\nd\nn\n49\nd\nn\n1100\np\n552\nd\nn\n140\np\n-1\n"
+  },
+  {
+    "source": "pa01/jade-lynx-c0ee/basic",
+    "label": "stateful seed202101 case19",
+    "input": "1111\nd\nn\n126\nd\ny\n1118\nd\ny\n999\np\n35\np\n1027\np\n-1\n"
+  },
+  {
+    "source": "pa01/jade-lynx-c0ee/basic",
+    "label": "stateful seed202101 case20",
+    "input": "896\np\n838\np\n823\np\n146\nd\nn\n818\nd\nn\n399\np\n-1\n"
+  },
+  {
+    "source": "pa01/jade-lynx-c0ee/basic",
+    "label": "stateful seed202101 case21",
+    "input": "91\np\n400\np\n456\nd\ny\n541\np\n747\np\n695\np\n-1\n"
+  },
+  {
+    "source": "pa01/jade-lynx-c0ee/basic",
+    "label": "stateful seed202101 case22",
+    "input": "73\np\n692\np\n657\np\n456\nd\ny\n1014\nd\nn\n1006\nd\nn\n-1\n"
+  },
+  {
+    "source": "pa01/jade-lynx-c0ee/basic",
+    "label": "stateful seed202101 case23",
+    "input": "1177\np\n616\np\n613\np\n526\nd\ny\n1127\np\n201\np\n-1\n"
+  },
+  {
+    "source": "pa01/jade-lynx-c0ee/basic",
+    "label": "stateful seed202101 case24",
+    "input": "653\nd\nn\n513\np\n1169\np\n551\nd\nn\n701\np\n496\np\n-1\n"
+  },
+  {
+    "source": "pa01/jade-lynx-c0ee/basic",
+    "label": "stateful seed202101 case25",
+    "input": "430\np\n86\np\n611\nd\ny\n909\nd\ny\n415\nd\ny\n627\np\n-1\n"
+  },
+  {
+    "source": "pa01/jade-lynx-c0ee/basic",
+    "label": "stateful seed202101 case26",
+    "input": "154\np\n1054\np\n466\np\n271\nd\ny\n746\nd\nn\n848\np\n-1\n"
+  },
+  {
+    "source": "pa01/jade-lynx-c0ee/basic",
+    "label": "stateful seed202101 case27",
+    "input": "283\np\n1018\np\n637\np\n43\np\n640\np\n615\np\n-1\n"
+  },
+  {
+    "source": "pa01/jade-lynx-c0ee/basic",
+    "label": "stateful seed202101 case28",
+    "input": "32\np\n796\nd\ny\n358\np\n143\nd\ny\n106\np\n92\np\n-1\n"
+  },
+  {
+    "source": "pa01/jade-lynx-c0ee/basic",
+    "label": "stateful seed202101 case29",
+    "input": "1163\np\n1020\nd\nn\n641\np\n1150\nd\nn\n762\np\n300\np\n-1\n"
+  },
+  {
+    "source": "pa01/jade-lynx-c0ee/basic",
+    "label": "stateful seed202101 case30",
+    "input": "1080\nd\ny\n84\nd\nn\n115\np\n1056\nd\nn\n222\np\n1124\nd\ny\n-1\n"
+  },
+  {
+    "source": "pa01/jade-lynx-c0ee/basic",
+    "label": "stateful seed202101 case31",
+    "input": "1009\nd\ny\n108\np\n698\np\n759\nd\ny\n194\nd\ny\n115\nd\nn\n-1\n"
+  },
+  {
+    "source": "pa01/jade-lynx-c0ee/basic",
+    "label": "stateful seed202101 case32",
+    "input": "1050\np\n436\nd\nn\n802\nd\nn\n402\np\n98\np\n1020\np\n-1\n"
+  },
+  {
+    "source": "pa01/jade-lynx-c0ee/basic",
+    "label": "stateful seed202101 case33",
+    "input": "728\np\n812\nd\nn\n574\nd\ny\n783\np\n520\nd\nn\n1058\np\n-1\n"
+  },
+  {
+    "source": "pa01/jade-lynx-c0ee/basic",
+    "label": "stateful seed202101 case34",
+    "input": "709\np\n168\np\n747\np\n742\nd\nn\n971\np\n66\nd\ny\n-1\n"
+  },
+  {
+    "source": "pa01/jade-lynx-c0ee/basic",
+    "label": "stateful seed202101 case35",
+    "input": "443\np\n1118\nd\ny\n334\nd\ny\n362\nd\ny\n845\nd\nn\n1018\nd\ny\n-1\n"
+  },
+  {
+    "source": "pa01/jade-lynx-c0ee/basic",
+    "label": "stateful seed202101 case36",
+    "input": "615\np\n237\nd\ny\n478\np\n553\nd\nn\n966\np\n1110\nd\ny\n-1\n"
+  },
+  {
+    "source": "pa01/jade-lynx-c0ee/basic",
+    "label": "stateful seed202101 case37",
+    "input": "63\np\n733\nd\ny\n623\np\n448\nd\nn\n76\np\n289\np\n-1\n"
+  },
+  {
+    "source": "pa01/jade-lynx-c0ee/basic",
+    "label": "stateful seed202101 case38",
+    "input": "246\nd\ny\n605\np\n908\np\n761\nd\ny\n485\np\n1157\np\n-1\n"
+  },
+  {
+    "source": "pa01/jade-lynx-c0ee/basic",
+    "label": "stateful seed202101 case39",
+    "input": "845\np\n598\np\n623\np\n159\nd\nn\n286\np\n742\np\n-1\n"
+  },
+  {
+    "source": "pa01/jade-lynx-c0ee/basic",
+    "label": "stateful seed202101 case40",
+    "input": "38\nd\nn\n318\nd\nn\n478\nd\ny\n845\np\n922\np\n146\np\n-1\n"
+  },
+  {
+    "source": "pa01/jade-lynx-c0ee/basic",
+    "label": "stateful seed202101 case41",
+    "input": "45\nd\ny\n607\nd\nn\n985\nd\ny\n348\np\n"
+  },
+  {
+    "source": "pa01/jade-lynx-c0ee/basic",
+    "label": "stateful seed202101 case42",
+    "input": "953\nd\ny\n269\nd\ny\n950\np\n948\nd\nn\n1039\np\n1039\nd\nn\n-1\n"
+  },
+  {
+    "source": "pa01/jade-lynx-c0ee/basic",
+    "label": "stateful seed202101 case43",
+    "input": "228\np\n26\nd\ny\n1015\nd\ny\n54\np\n507\nd\ny\n996\np\n-1\n"
+  },
+  {
+    "source": "pa01/jade-lynx-c0ee/basic",
+    "label": "stateful seed202101 case44",
+    "input": "1192\np\n130\np\n324\nd\ny\n544\np\n65\nd\ny\n277\nd\ny\n-1\n"
+  },
+  {
+    "source": "pa01/jade-lynx-c0ee/basic",
+    "label": "stateful seed202101 case45",
+    "input": "695\nd\ny\n398\nd\nn\n688\np\n880\np\n53\np\n1087\nd\ny\n-1\n"
+  },
+  {
+    "source": "pa01/jade-lynx-c0ee/basic",
+    "label": "stateful seed202101 case46",
+    "input": "794\np\n1047\nd\nn\n487\nd\ny\n763\nd\nn\n1117\np\n183\np\n-1\n"
+  },
+  {
+    "source": "pa01/jade-lynx-c0ee/basic",
+    "label": "stateful seed202101 case47",
+    "input": "508\nd\ny\n362\nd\nn\n856\np\n316\nd\ny\n338\nd\nn\n1085\nd\ny\n-1\n"
+  },
+  {
+    "source": "pa01/jade-lynx-c0ee/basic",
+    "label": "stateful seed202101 case48",
+    "input": "204\np\n674\np\n132\nd\ny\n395\np\n1019\np\n85\nd\nn\n-1\n"
+  },
+  {
+    "source": "pa01/jade-lynx-c0ee/basic",
+    "label": "stateful seed202101 case49",
+    "input": "429\nd\ny\n855\np\n714\nd\ny\n1126\np\n1078\nd\ny\n198\np\n-1\n"
+  },
+  {
+    "source": "pa02/jade-lynx-c0ee/basic",
+    "label": "PA2 public 1",
+    "input": "100\n200\n300\n400\n500\n600\n700\n800\n900\n-1\n"
+  },
+  {
+    "source": "pa02/jade-lynx-c0ee/basic",
+    "label": "PA2 public 2",
+    "input": "-123\n9999987\n12321\n45654\n1314\n7414\n-1\n"
+  },
+  {
+    "source": "pa02/jade-lynx-c0ee/basic",
+    "label": "PA2 public 3",
+    "input": "123\n321\n456\n654\n-456\n-456\n12321456\n4522733\n522733\n78987\n0\n-1\n"
+  },
+  {
+    "source": "pa02/jade-lynx-c0ee/basic",
+    "label": "PA2 public 4",
+    "input": "0\n0\n123321\n321321\n456654\n123321\n78999874\n123321\n46711\n-1\n"
+  },
+  {
+    "source": "pa02/jade-lynx-c0ee/basic",
+    "label": "PA2 public 5",
+    "input": "214987654\n123456\n12345\n778665\n-1\n"
+  },
+  {
+    "source": "pa02/jade-lynx-c0ee/basic",
+    "label": "main-spec sample",
+    "input": "-20\n-255\n8\n-77\n-88\n19\n2147483647\n152341\n412386\n999\n-1\n"
+  },
+  {
+    "source": "pa02/jade-lynx-c0ee/basic",
+    "label": "first sentinel",
+    "input": "-1\n"
+  },
+  {
+    "source": "pa02/jade-lynx-c0ee/basic",
+    "label": "second sentinel",
+    "input": "5\n-1\n"
+  },
+  {
+    "source": "pa02/jade-lynx-c0ee/basic",
+    "label": "sentinel while retry first",
+    "input": "-2\n-1\n"
+  },
+  {
+    "source": "pa02/jade-lynx-c0ee/basic",
+    "label": "sentinel while retry second",
+    "input": "5\n524288\n-1\n"
+  },
+  {
+    "source": "pa02/jade-lynx-c0ee/basic",
+    "label": "max binary input",
+    "input": "524287\n1\n0\n-1\n"
+  },
+  {
+    "source": "pa02/jade-lynx-c0ee/basic",
+    "label": "partial overflow preserve sum",
+    "input": "524286\n1\n1\n0\n-1\n"
+  },
+  {
+    "source": "pa02/jade-lynx-c0ee/basic",
+    "label": "max int rejected",
+    "input": "2147483647\n8\n19\n-1\n"
+  },
+  {
+    "source": "pa02/jade-lynx-c0ee/basic",
+    "label": "ordinal 21,22,23",
+    "input": "0\n0\n0\n0\n0\n0\n0\n0\n0\n0\n0\n0\n0\n0\n0\n0\n0\n0\n0\n0\n0\n0\n0\n0\n-1\n"
+  },
+  {
+    "source": "pa02/jade-lynx-c0ee/basic",
+    "label": "carry19bits",
+    "input": "262143\n1\n262142\n-1\n"
+  },
+  {
+    "source": "pa02/jade-lynx-c0ee/basic",
+    "label": "unsigned seed202102 case0",
+    "input": "440242\n266339\n369660\n582701\n355389\n396464\n290608\n597524\n129947\n547840\n13883\n586255\n-1\n"
+  },
+  {
+    "source": "pa02/jade-lynx-c0ee/basic",
+    "label": "unsigned seed202102 case1",
+    "input": "479178\n16101\n497203\n449727\n310254\n428654\n358654\n359812\n243408\n446163\n194523\n371063\n-1\n"
+  },
+  {
+    "source": "pa02/jade-lynx-c0ee/basic",
+    "label": "unsigned seed202102 case2",
+    "input": "361190\n28864\n390929\n349072\n444664\n542211\n493025\n330309\n551911\n579448\n158178\n55755\n-1\n"
+  },
+  {
+    "source": "pa02/jade-lynx-c0ee/basic",
+    "label": "unsigned seed202102 case3",
+    "input": "563984\n301936\n594646\n84379\n509980\n187881\n176836\n14897\n321944\n78778\n31882\n35909\n-1\n"
+  },
+  {
+    "source": "pa02/jade-lynx-c0ee/basic",
+    "label": "unsigned seed202102 case4",
+    "input": "271211\n239355\n102554\n27233\n524622\n545968\n38393\n209699\n35393\n405842\n2655\n591971\n-1\n"
+  },
+  {
+    "source": "pa02/jade-lynx-c0ee/basic",
+    "label": "unsigned seed202102 case5",
+    "input": "476910\n502530\n36775\n291550\n400056\n595918\n40197\n407077\n139064\n599863\n338943\n597492\n-1\n"
+  },
+  {
+    "source": "pa02/jade-lynx-c0ee/basic",
+    "label": "unsigned seed202102 case6",
+    "input": "521518\n276064\n496375\n67353\n584276\n96894\n420840\n131767\n568431\n174777\n240143\n564157\n-1\n"
+  },
+  {
+    "source": "pa02/jade-lynx-c0ee/basic",
+    "label": "unsigned seed202102 case7",
+    "input": "231139\n448490\n531198\n463541\n308373\n349441\n503482\n150205\n473780\n10881\n139144\n571081\n-1\n"
+  },
+  {
+    "source": "pa02/jade-lynx-c0ee/basic",
+    "label": "unsigned seed202102 case8",
+    "input": "262849\n123781\n207193\n347310\n51270\n391130\n150095\n200795\n464106\n297622\n468126\n97146\n-1\n"
+  },
+  {
+    "source": "pa02/jade-lynx-c0ee/basic",
+    "label": "unsigned seed202102 case9",
+    "input": "501776\n154681\n96203\n492979\n559886\n391667\n224068\n84926\n137216\n318129\n300555\n378282\n-1\n"
+  },
+  {
+    "source": "pa02/jade-lynx-c0ee/basic",
+    "label": "unsigned seed202102 case10",
+    "input": "502970\n252404\n135523\n295979\n72338\n520400\n519285\n274386\n281292\n66019\n172091\n197701\n-1\n"
+  },
+  {
+    "source": "pa02/jade-lynx-c0ee/basic",
+    "label": "unsigned seed202102 case11",
+    "input": "546680\n368649\n79614\n530960\n213524\n508268\n150978\n168868\n62976\n340933\n587649\n556102\n-1\n"
+  },
+  {
+    "source": "pa02/jade-lynx-c0ee/basic",
+    "label": "unsigned seed202102 case12",
+    "input": "435643\n586979\n526499\n213274\n151521\n371308\n271392\n105086\n110512\n582388\n121280\n329575\n-1\n"
+  },
+  {
+    "source": "pa02/jade-lynx-c0ee/basic",
+    "label": "unsigned seed202102 case13",
+    "input": "379580\n82373\n483763\n565006\n129690\n509390\n591201\n80767\n339888\n476749\n257727\n532637\n-1\n"
+  },
+  {
+    "source": "pa02/jade-lynx-c0ee/basic",
+    "label": "unsigned seed202102 case14",
+    "input": "141549\n142141\n505815\n592486\n36688\n578436\n196546\n596466\n122226\n86312\n118841\n193352\n-1\n"
+  },
+  {
+    "source": "pa02/jade-lynx-c0ee/basic",
+    "label": "unsigned seed202102 case15",
+    "input": "469602\n1526\n342083\n449359\n156474\n575891\n275842\n102516\n472253\n383724\n435683\n109165\n-1\n"
+  },
+  {
+    "source": "pa02/jade-lynx-c0ee/basic",
+    "label": "unsigned seed202102 case16",
+    "input": "333848\n159720\n84949\n536463\n568633\n159590\n279147\n241987\n345850\n104105\n447572\n143798\n-1\n"
+  },
+  {
+    "source": "pa02/jade-lynx-c0ee/basic",
+    "label": "unsigned seed202102 case17",
+    "input": "587475\n63631\n515018\n370422\n150796\n40284\n482357\n275639\n523933\n336635\n22457\n255734\n-1\n"
+  },
+  {
+    "source": "pa02/jade-lynx-c0ee/basic",
+    "label": "unsigned seed202102 case18",
+    "input": "390937\n368800\n197293\n330251\n156174\n473382\n570205\n24087\n22359\n491995\n517765\n203318\n-1\n"
+  },
+  {
+    "source": "pa02/jade-lynx-c0ee/basic",
+    "label": "unsigned seed202102 case19",
+    "input": "69860\n511315\n487885\n419759\n268310\n128881\n436988\n381146\n453585\n103676\n320629\n505647\n-1\n"
+  },
+  {
+    "source": "pa02/jade-lynx-c0ee/basic",
+    "label": "unsigned seed202102 case20",
+    "input": "357971\n409642\n195478\n376626\n589762\n344142\n311590\n310338\n521313\n406217\n10743\n299198\n-1\n"
+  },
+  {
+    "source": "pa02/jade-lynx-c0ee/basic",
+    "label": "unsigned seed202102 case21",
+    "input": "13597\n553831\n287288\n512543\n204548\n437474\n454003\n376079\n256634\n133129\n129351\n164642\n-1\n"
+  },
+  {
+    "source": "pa02/jade-lynx-c0ee/basic",
+    "label": "unsigned seed202102 case22",
+    "input": "590578\n448895\n189439\n360392\n140858\n21623\n522262\n72949\n507152\n574003\n400071\n333458\n-1\n"
+  },
+  {
+    "source": "pa02/jade-lynx-c0ee/basic",
+    "label": "unsigned seed202102 case23",
+    "input": "51747\n320799\n366470\n50614\n135214\n437357\n229878\n177659\n191541\n556401\n436581\n276711\n-1\n"
+  },
+  {
+    "source": "pa02/jade-lynx-c0ee/basic",
+    "label": "unsigned seed202102 case24",
+    "input": "138618\n244058\n481525\n15499\n248227\n413625\n97220\n283710\n397846\n404472\n102996\n258776\n-1\n"
+  },
+  {
+    "source": "pa02/jade-lynx-c0ee/basic",
+    "label": "unsigned seed202102 case25",
+    "input": "547772\n342949\n411511\n350647\n44435\n481537\n101611\n336989\n170600\n164222\n116700\n409146\n-1\n"
+  },
+  {
+    "source": "pa02/jade-lynx-c0ee/basic",
+    "label": "unsigned seed202102 case26",
+    "input": "250573\n567046\n285517\n541219\n228178\n376294\n366734\n330019\n301340\n84744\n13188\n332615\n-1\n"
+  },
+  {
+    "source": "pa02/jade-lynx-c0ee/basic",
+    "label": "unsigned seed202102 case27",
+    "input": "588868\n234809\n474916\n81749\n461795\n452610\n165725\n305207\n534955\n54996\n404782\n79805\n-1\n"
+  },
+  {
+    "source": "pa02/jade-lynx-c0ee/basic",
+    "label": "unsigned seed202102 case28",
+    "input": "543427\n262743\n510362\n67265\n308863\n492043\n45171\n108094\n170841\n315274\n589052\n579141\n-1\n"
+  },
+  {
+    "source": "pa02/jade-lynx-c0ee/basic",
+    "label": "unsigned seed202102 case29",
+    "input": "28375\n174038\n507757\n467295\n357145\n90200\n219073\n240478\n149142\n596901\n330667\n102469\n-1\n"
+  },
+  {
+    "source": "pa02/jade-lynx-c0ee/basic",
+    "label": "unsigned seed202102 case30",
+    "input": "19123\n113360\n480213\n256588\n537360\n353890\n437145\n494397\n577987\n44295\n545589\n301073\n-1\n"
+  },
+  {
+    "source": "pa02/jade-lynx-c0ee/basic",
+    "label": "unsigned seed202102 case31",
+    "input": "120655\n316385\n473446\n295085\n538841\n322248\n568009\n572216\n238745\n27440\n397754\n86056\n-1\n"
+  },
+  {
+    "source": "pa02/jade-lynx-c0ee/basic",
+    "label": "unsigned seed202102 case32",
+    "input": "16742\n185469\n425268\n125998\n79323\n561443\n450628\n3639\n379025\n250946\n108158\n443814\n-1\n"
+  },
+  {
+    "source": "pa02/jade-lynx-c0ee/basic",
+    "label": "unsigned seed202102 case33",
+    "input": "351539\n472527\n455989\n124957\n66278\n495631\n120855\n254957\n440718\n161220\n2067\n61207\n-1\n"
+  },
+  {
+    "source": "pa02/jade-lynx-c0ee/basic",
+    "label": "unsigned seed202102 case34",
+    "input": "597458\n461574\n595197\n446435\n227055\n124361\n188556\n553376\n578280\n181237\n154099\n316578\n-1\n"
+  },
+  {
+    "source": "pa02/moss-lynx-5375/basic",
+    "label": "PA2 public 1",
+    "input": "100\n200\n300\n400\n500\n600\n700\n800\n900\n-1\n"
+  },
+  {
+    "source": "pa02/moss-lynx-5375/basic",
+    "label": "PA2 public 2",
+    "input": "-123\n9999987\n12321\n45654\n1314\n7414\n-1\n"
+  },
+  {
+    "source": "pa02/moss-lynx-5375/basic",
+    "label": "PA2 public 3",
+    "input": "123\n321\n456\n654\n-456\n-456\n12321456\n4522733\n522733\n78987\n0\n-1\n"
+  },
+  {
+    "source": "pa02/moss-lynx-5375/basic",
+    "label": "PA2 public 4",
+    "input": "0\n0\n123321\n321321\n456654\n123321\n78999874\n123321\n46711\n-1\n"
+  },
+  {
+    "source": "pa02/moss-lynx-5375/basic",
+    "label": "PA2 public 5",
+    "input": "214987654\n123456\n12345\n778665\n-1\n"
+  },
+  {
+    "source": "pa02/moss-lynx-5375/basic",
+    "label": "main-spec sample",
+    "input": "-20\n-255\n8\n-77\n-88\n19\n2147483647\n152341\n412386\n999\n-1\n"
+  },
+  {
+    "source": "pa02/moss-lynx-5375/basic",
+    "label": "first sentinel",
+    "input": "-1\n"
+  },
+  {
+    "source": "pa02/moss-lynx-5375/basic",
+    "label": "second sentinel",
+    "input": "5\n-1\n"
+  },
+  {
+    "source": "pa02/moss-lynx-5375/basic",
+    "label": "sentinel while retry first",
+    "input": "-2\n-1\n"
+  },
+  {
+    "source": "pa02/moss-lynx-5375/basic",
+    "label": "sentinel while retry second",
+    "input": "5\n524288\n-1\n"
+  },
+  {
+    "source": "pa02/moss-lynx-5375/basic",
+    "label": "max binary input",
+    "input": "524287\n1\n0\n-1\n"
+  },
+  {
+    "source": "pa02/moss-lynx-5375/basic",
+    "label": "partial overflow preserve sum",
+    "input": "524286\n1\n1\n0\n-1\n"
+  },
+  {
+    "source": "pa02/moss-lynx-5375/basic",
+    "label": "max int rejected",
+    "input": "2147483647\n8\n19\n-1\n"
+  },
+  {
+    "source": "pa02/moss-lynx-5375/basic",
+    "label": "ordinal 21,22,23",
+    "input": "0\n0\n0\n0\n0\n0\n0\n0\n0\n0\n0\n0\n0\n0\n0\n0\n0\n0\n0\n0\n0\n0\n0\n0\n-1\n"
+  },
+  {
+    "source": "pa02/moss-lynx-5375/basic",
+    "label": "carry19bits",
+    "input": "262143\n1\n262142\n-1\n"
+  },
+  {
+    "source": "pa02/moss-lynx-5375/basic",
+    "label": "unsigned seed202102 case0",
+    "input": "440242\n266339\n369660\n582701\n355389\n396464\n290608\n597524\n129947\n547840\n13883\n586255\n-1\n"
+  },
+  {
+    "source": "pa02/moss-lynx-5375/basic",
+    "label": "unsigned seed202102 case1",
+    "input": "479178\n16101\n497203\n449727\n310254\n428654\n358654\n359812\n243408\n446163\n194523\n371063\n-1\n"
+  },
+  {
+    "source": "pa02/moss-lynx-5375/basic",
+    "label": "unsigned seed202102 case2",
+    "input": "361190\n28864\n390929\n349072\n444664\n542211\n493025\n330309\n551911\n579448\n158178\n55755\n-1\n"
+  },
+  {
+    "source": "pa02/moss-lynx-5375/basic",
+    "label": "unsigned seed202102 case3",
+    "input": "563984\n301936\n594646\n84379\n509980\n187881\n176836\n14897\n321944\n78778\n31882\n35909\n-1\n"
+  },
+  {
+    "source": "pa02/moss-lynx-5375/basic",
+    "label": "unsigned seed202102 case4",
+    "input": "271211\n239355\n102554\n27233\n524622\n545968\n38393\n209699\n35393\n405842\n2655\n591971\n-1\n"
+  },
+  {
+    "source": "pa02/moss-lynx-5375/basic",
+    "label": "unsigned seed202102 case5",
+    "input": "476910\n502530\n36775\n291550\n400056\n595918\n40197\n407077\n139064\n599863\n338943\n597492\n-1\n"
+  },
+  {
+    "source": "pa02/moss-lynx-5375/basic",
+    "label": "unsigned seed202102 case6",
+    "input": "521518\n276064\n496375\n67353\n584276\n96894\n420840\n131767\n568431\n174777\n240143\n564157\n-1\n"
+  },
+  {
+    "source": "pa02/moss-lynx-5375/basic",
+    "label": "unsigned seed202102 case7",
+    "input": "231139\n448490\n531198\n463541\n308373\n349441\n503482\n150205\n473780\n10881\n139144\n571081\n-1\n"
+  },
+  {
+    "source": "pa02/moss-lynx-5375/basic",
+    "label": "unsigned seed202102 case8",
+    "input": "262849\n123781\n207193\n347310\n51270\n391130\n150095\n200795\n464106\n297622\n468126\n97146\n-1\n"
+  },
+  {
+    "source": "pa02/moss-lynx-5375/basic",
+    "label": "unsigned seed202102 case9",
+    "input": "501776\n154681\n96203\n492979\n559886\n391667\n224068\n84926\n137216\n318129\n300555\n378282\n-1\n"
+  },
+  {
+    "source": "pa02/moss-lynx-5375/basic",
+    "label": "unsigned seed202102 case10",
+    "input": "502970\n252404\n135523\n295979\n72338\n520400\n519285\n274386\n281292\n66019\n172091\n197701\n-1\n"
+  },
+  {
+    "source": "pa02/moss-lynx-5375/basic",
+    "label": "unsigned seed202102 case11",
+    "input": "546680\n368649\n79614\n530960\n213524\n508268\n150978\n168868\n62976\n340933\n587649\n556102\n-1\n"
+  },
+  {
+    "source": "pa02/moss-lynx-5375/basic",
+    "label": "unsigned seed202102 case12",
+    "input": "435643\n586979\n526499\n213274\n151521\n371308\n271392\n105086\n110512\n582388\n121280\n329575\n-1\n"
+  },
+  {
+    "source": "pa02/moss-lynx-5375/basic",
+    "label": "unsigned seed202102 case13",
+    "input": "379580\n82373\n483763\n565006\n129690\n509390\n591201\n80767\n339888\n476749\n257727\n532637\n-1\n"
+  },
+  {
+    "source": "pa02/moss-lynx-5375/basic",
+    "label": "unsigned seed202102 case14",
+    "input": "141549\n142141\n505815\n592486\n36688\n578436\n196546\n596466\n122226\n86312\n118841\n193352\n-1\n"
+  },
+  {
+    "source": "pa02/moss-lynx-5375/basic",
+    "label": "unsigned seed202102 case15",
+    "input": "469602\n1526\n342083\n449359\n156474\n575891\n275842\n102516\n472253\n383724\n435683\n109165\n-1\n"
+  },
+  {
+    "source": "pa02/moss-lynx-5375/basic",
+    "label": "unsigned seed202102 case16",
+    "input": "333848\n159720\n84949\n536463\n568633\n159590\n279147\n241987\n345850\n104105\n447572\n143798\n-1\n"
+  },
+  {
+    "source": "pa02/moss-lynx-5375/basic",
+    "label": "unsigned seed202102 case17",
+    "input": "587475\n63631\n515018\n370422\n150796\n40284\n482357\n275639\n523933\n336635\n22457\n255734\n-1\n"
+  },
+  {
+    "source": "pa02/moss-lynx-5375/basic",
+    "label": "unsigned seed202102 case18",
+    "input": "390937\n368800\n197293\n330251\n156174\n473382\n570205\n24087\n22359\n491995\n517765\n203318\n-1\n"
+  },
+  {
+    "source": "pa02/moss-lynx-5375/basic",
+    "label": "unsigned seed202102 case19",
+    "input": "69860\n511315\n487885\n419759\n268310\n128881\n436988\n381146\n453585\n103676\n320629\n505647\n-1\n"
+  },
+  {
+    "source": "pa02/moss-lynx-5375/basic",
+    "label": "unsigned seed202102 case20",
+    "input": "357971\n409642\n195478\n376626\n589762\n344142\n311590\n310338\n521313\n406217\n10743\n299198\n-1\n"
+  },
+  {
+    "source": "pa02/moss-lynx-5375/basic",
+    "label": "unsigned seed202102 case21",
+    "input": "13597\n553831\n287288\n512543\n204548\n437474\n454003\n376079\n256634\n133129\n129351\n164642\n-1\n"
+  },
+  {
+    "source": "pa02/moss-lynx-5375/basic",
+    "label": "unsigned seed202102 case22",
+    "input": "590578\n448895\n189439\n360392\n140858\n21623\n522262\n72949\n507152\n574003\n400071\n333458\n-1\n"
+  },
+  {
+    "source": "pa02/moss-lynx-5375/basic",
+    "label": "unsigned seed202102 case23",
+    "input": "51747\n320799\n366470\n50614\n135214\n437357\n229878\n177659\n191541\n556401\n436581\n276711\n-1\n"
+  },
+  {
+    "source": "pa02/moss-lynx-5375/basic",
+    "label": "unsigned seed202102 case24",
+    "input": "138618\n244058\n481525\n15499\n248227\n413625\n97220\n283710\n397846\n404472\n102996\n258776\n-1\n"
+  },
+  {
+    "source": "pa02/moss-lynx-5375/basic",
+    "label": "unsigned seed202102 case25",
+    "input": "547772\n342949\n411511\n350647\n44435\n481537\n101611\n336989\n170600\n164222\n116700\n409146\n-1\n"
+  },
+  {
+    "source": "pa02/moss-lynx-5375/basic",
+    "label": "unsigned seed202102 case26",
+    "input": "250573\n567046\n285517\n541219\n228178\n376294\n366734\n330019\n301340\n84744\n13188\n332615\n-1\n"
+  },
+  {
+    "source": "pa02/moss-lynx-5375/basic",
+    "label": "unsigned seed202102 case27",
+    "input": "588868\n234809\n474916\n81749\n461795\n452610\n165725\n305207\n534955\n54996\n404782\n79805\n-1\n"
+  },
+  {
+    "source": "pa02/moss-lynx-5375/basic",
+    "label": "unsigned seed202102 case28",
+    "input": "543427\n262743\n510362\n67265\n308863\n492043\n45171\n108094\n170841\n315274\n589052\n579141\n-1\n"
+  },
+  {
+    "source": "pa02/moss-lynx-5375/basic",
+    "label": "unsigned seed202102 case29",
+    "input": "28375\n174038\n507757\n467295\n357145\n90200\n219073\n240478\n149142\n596901\n330667\n102469\n-1\n"
+  },
+  {
+    "source": "pa02/moss-lynx-5375/basic",
+    "label": "unsigned seed202102 case30",
+    "input": "19123\n113360\n480213\n256588\n537360\n353890\n437145\n494397\n577987\n44295\n545589\n301073\n-1\n"
+  },
+  {
+    "source": "pa02/moss-lynx-5375/basic",
+    "label": "unsigned seed202102 case31",
+    "input": "120655\n316385\n473446\n295085\n538841\n322248\n568009\n572216\n238745\n27440\n397754\n86056\n-1\n"
+  },
+  {
+    "source": "pa02/moss-lynx-5375/basic",
+    "label": "unsigned seed202102 case32",
+    "input": "16742\n185469\n425268\n125998\n79323\n561443\n450628\n3639\n379025\n250946\n108158\n443814\n-1\n"
+  },
+  {
+    "source": "pa02/moss-lynx-5375/basic",
+    "label": "unsigned seed202102 case33",
+    "input": "351539\n472527\n455989\n124957\n66278\n495631\n120855\n254957\n440718\n161220\n2067\n61207\n-1\n"
+  },
+  {
+    "source": "pa02/moss-lynx-5375/basic",
+    "label": "unsigned seed202102 case34",
+    "input": "597458\n461574\n595197\n446435\n227055\n124361\n188556\n553376\n578280\n181237\n154099\n316578\n-1\n"
+  },
+  {
+    "source": "pa02/moss-lynx-5375/signed",
+    "label": "public bonus1",
+    "input": "8\n-19\n-11\n0\n"
+  },
+  {
+    "source": "pa02/moss-lynx-5375/signed",
+    "label": "public bonus2",
+    "input": "-1\n-3\n-123456\n-451231\n0\n"
+  },
+  {
+    "source": "pa02/moss-lynx-5375/signed",
+    "label": "main-spec signed sample",
+    "input": "8\n19\n2147483647\n50\n-222222\n-444444\n-1\n0\n"
+  },
+  {
+    "source": "pa02/moss-lynx-5375/signed",
+    "label": "first sentinel",
+    "input": "0\n"
+  },
+  {
+    "source": "pa02/moss-lynx-5375/signed",
+    "label": "second sentinel",
+    "input": "5\n0\n"
+  },
+  {
+    "source": "pa02/moss-lynx-5375/signed",
+    "label": "mixed-sign positive result",
+    "input": "8\n-3\n0\n"
+  },
+  {
+    "source": "pa02/moss-lynx-5375/signed",
+    "label": "mixed-sign negative result",
+    "input": "3\n-8\n0\n"
+  },
+  {
+    "source": "pa02/moss-lynx-5375/signed",
+    "label": "zero sum followed by positive",
+    "input": "1\n-1\n5\n0\n"
+  },
+  {
+    "source": "pa02/moss-lynx-5375/signed",
+    "label": "zero sum followed by negative",
+    "input": "1\n-1\n-5\n0\n"
+  },
+  {
+    "source": "pa02/moss-lynx-5375/signed",
+    "label": "largest negative fitting19digits",
+    "input": "-262143\n-1\n1\n0\n"
+  },
+  {
+    "source": "pa02/moss-lynx-5375/signed",
+    "label": "positive max boundary",
+    "input": "524287\n-1\n1\n0\n"
+  },
+  {
+    "source": "pa02/moss-lynx-5375/signed",
+    "label": "signed seed202103 case0",
+    "input": "455947\n246063\n-6984\n-170496\n109837\n151727\n-120315\n-113745\n283507\n-125897\n0\n"
+  },
+  {
+    "source": "pa02/moss-lynx-5375/signed",
+    "label": "signed seed202103 case1",
+    "input": "339483\n401436\n252144\n299885\n175472\n147949\n-196812\n355318\n-100467\n345008\n0\n"
+  },
+  {
+    "source": "pa02/moss-lynx-5375/signed",
+    "label": "signed seed202103 case2",
+    "input": "-116218\n381792\n252907\n-95060\n-55363\n-219913\n266906\n-50186\n-182888\n-240641\n0\n"
+  },
+  {
+    "source": "pa02/moss-lynx-5375/signed",
+    "label": "signed seed202103 case3",
+    "input": "175169\n3053\n375591\n99378\n-90043\n-77815\n174595\n-112191\n195944\n-90989\n0\n"
+  },
+  {
+    "source": "pa02/moss-lynx-5375/signed",
+    "label": "signed seed202103 case4",
+    "input": "-1973\n259890\n325294\n131566\n131995\n-109160\n-26529\n79654\n304450\n82647\n0\n"
+  },
+  {
+    "source": "pa02/moss-lynx-5375/signed",
+    "label": "signed seed202103 case5",
+    "input": "-122949\n10258\n-9230\n20461\n-16178\n137549\n416432\n-134117\n320554\n-121859\n0\n"
+  },
+  {
+    "source": "pa02/moss-lynx-5375/signed",
+    "label": "signed seed202103 case6",
+    "input": "303478\n80181\n-235821\n317504\n441832\n72764\n366645\n466969\n399975\n6944\n0\n"
+  },
+  {
+    "source": "pa02/moss-lynx-5375/signed",
+    "label": "signed seed202103 case7",
+    "input": "-211217\n460986\n72062\n-185852\n-199055\n167529\n-117439\n450425\n-114811\n186037\n0\n"
+  },
+  {
+    "source": "pa02/moss-lynx-5375/signed",
+    "label": "signed seed202103 case8",
+    "input": "-166132\n-242960\n-144795\n234631\n-185375\n228961\n420521\n-195260\n-231474\n300986\n0\n"
+  },
+  {
+    "source": "pa02/moss-lynx-5375/signed",
+    "label": "signed seed202103 case9",
+    "input": "347672\n-207878\n204697\n116179\n-88357\n-109215\n384126\n-30512\n128034\n431932\n0\n"
+  },
+  {
+    "source": "pa02/moss-lynx-5375/signed",
+    "label": "signed seed202103 case10",
+    "input": "148212\n442081\n231634\n183529\n-192086\n249471\n398791\n464644\n461466\n110281\n0\n"
+  },
+  {
+    "source": "pa02/moss-lynx-5375/signed",
+    "label": "signed seed202103 case11",
+    "input": "-247628\n-107200\n-239162\n90504\n252923\n136169\n89386\n15439\n111811\n261708\n0\n"
+  },
+  {
+    "source": "pa02/moss-lynx-5375/signed",
+    "label": "signed seed202103 case12",
+    "input": "-245626\n21435\n476890\n-5946\n343574\n236043\n142737\n333407\n393808\n-207724\n0\n"
+  },
+  {
+    "source": "pa02/moss-lynx-5375/signed",
+    "label": "signed seed202103 case13",
+    "input": "300254\n-132868\n344927\n438832\n134828\n302701\n-102852\n262506\n-185039\n281881\n0\n"
+  },
+  {
+    "source": "pa02/moss-lynx-5375/signed",
+    "label": "signed seed202103 case14",
+    "input": "294914\n445582\n224258\n448548\n180889\n-12195\n469997\n495483\n455822\n180920\n0\n"
+  },
+  {
+    "source": "pa02/moss-lynx-5375/signed",
+    "label": "signed seed202103 case15",
+    "input": "303799\n393229\n84521\n141413\n-9073\n-94641\n-150972\n491013\n-249411\n273469\n0\n"
+  },
+  {
+    "source": "pa02/moss-lynx-5375/signed",
+    "label": "signed seed202103 case16",
+    "input": "484753\n492871\n277651\n57814\n120223\n326967\n9939\n-173287\n114613\n262711\n0\n"
+  },
+  {
+    "source": "pa02/moss-lynx-5375/signed",
+    "label": "signed seed202103 case17",
+    "input": "-152254\n412576\n-245167\n104239\n442004\n472644\n-129997\n22682\n-211647\n437536\n0\n"
+  },
+  {
+    "source": "pa02/moss-lynx-5375/signed",
+    "label": "signed seed202103 case18",
+    "input": "359872\n63058\n34230\n314228\n421898\n32265\n389219\n424007\n290816\n-171926\n0\n"
+  },
+  {
+    "source": "pa02/moss-lynx-5375/signed",
+    "label": "signed seed202103 case19",
+    "input": "-233760\n-173705\n365233\n107035\n-30573\n-131867\n-147692\n-174050\n490557\n390337\n0\n"
+  },
+  {
+    "source": "pa02/moss-lynx-5375/signed",
+    "label": "signed seed202103 case20",
+    "input": "216323\n395343\n196705\n-146110\n258269\n99915\n240516\n310845\n6867\n462436\n0\n"
+  },
+  {
+    "source": "pa02/moss-lynx-5375/signed",
+    "label": "signed seed202103 case21",
+    "input": "-60709\n75248\n-117352\n115448\n335610\n417886\n-112218\n46845\n-8338\n322354\n0\n"
+  },
+  {
+    "source": "pa02/moss-lynx-5375/signed",
+    "label": "signed seed202103 case22",
+    "input": "417571\n122402\n106662\n-183062\n314652\n358525\n-145852\n292410\n-227211\n8398\n0\n"
+  },
+  {
+    "source": "pa02/moss-lynx-5375/signed",
+    "label": "signed seed202103 case23",
+    "input": "160472\n-232818\n-154151\n-172417\n359683\n166454\n496316\n-77011\n236964\n493501\n0\n"
+  },
+  {
+    "source": "pa02/moss-lynx-5375/signed",
+    "label": "signed seed202103 case24",
+    "input": "-94612\n-243916\n36831\n480841\n-56147\n275953\n327160\n302387\n181970\n391862\n0\n"
+  },
+  {
+    "source": "pa02/moss-lynx-5375/signed",
+    "label": "signed seed202103 case25",
+    "input": "-239819\n341357\n-216235\n303874\n-97425\n258311\n254574\n447766\n-45397\n446488\n0\n"
+  },
+  {
+    "source": "pa02/moss-lynx-5375/signed",
+    "label": "signed seed202103 case26",
+    "input": "-12122\n-226450\n3454\n-162940\n-224367\n466815\n268026\n119381\n-170246\n-115250\n0\n"
+  },
+  {
+    "source": "pa02/moss-lynx-5375/signed",
+    "label": "signed seed202103 case27",
+    "input": "333331\n471973\n401786\n-215753\n-215305\n334608\n-30958\n273179\n355783\n27416\n0\n"
+  },
+  {
+    "source": "pa02/moss-lynx-5375/signed",
+    "label": "signed seed202103 case28",
+    "input": "-126073\n-18114\n30426\n479629\n82044\n-30258\n7305\n244687\n176157\n-197716\n0\n"
+  },
+  {
+    "source": "pa02/moss-lynx-5375/signed",
+    "label": "signed seed202103 case29",
+    "input": "11608\n414180\n370517\n75881\n172832\n-147995\n-13346\n-49589\n-62985\n-93483\n0\n"
+  },
+  {
+    "source": "pa02/moss-lynx-5375/signed",
+    "label": "signed seed202103 case30",
+    "input": "21245\n157226\n365170\n-188859\n414922\n-2864\n282617\n-242795\n480748\n56846\n0\n"
+  },
+  {
+    "source": "pa02/moss-lynx-5375/signed",
+    "label": "signed seed202103 case31",
+    "input": "189809\n245292\n384644\n-124351\n124506\n-142221\n59329\n298235\n230868\n287397\n0\n"
+  },
+  {
+    "source": "pa02/moss-lynx-5375/signed",
+    "label": "signed seed202103 case32",
+    "input": "351271\n273811\n234311\n446940\n224197\n8704\n-105611\n85297\n336673\n380992\n0\n"
+  },
+  {
+    "source": "pa02/moss-lynx-5375/signed",
+    "label": "signed seed202103 case33",
+    "input": "467842\n382609\n201263\n315404\n127518\n100402\n-18315\n192515\n-16881\n488049\n0\n"
+  },
+  {
+    "source": "pa02/moss-lynx-5375/signed",
+    "label": "signed seed202103 case34",
+    "input": "-216572\n49986\n-140611\n175535\n374355\n-40639\n151487\n127788\n-157532\n286442\n0\n"
+  },
+  {
+    "source": "pa01/jade-lynx-c0ee/return_change",
+    "label": "three exact purchases",
+    "input": "100\np\n100\nd\nn\n100\nd\ny\n-1\n",
+    "transactions": [
+      [
+        100,
+        "p",
+        ""
+      ],
+      [
+        100,
+        "d",
+        "n"
+      ],
+      [
+        100,
+        "d",
+        "y"
+      ]
+    ]
+  },
+  {
+    "source": "pa01/jade-lynx-c0ee/return_change",
+    "label": "official fifth public payment sequence",
+    "input": "399\nd\nn\n408\nd\ny\n999\np\n-1\n",
+    "transactions": [
+      [
+        399,
+        "d",
+        "n"
+      ],
+      [
+        408,
+        "d",
+        "y"
+      ],
+      [
+        999,
+        "p",
+        ""
+      ]
+    ]
+  },
+  {
+    "source": "pa01/jade-lynx-c0ee/return_change",
+    "label": "official zero input",
+    "input": "0\np\n-1\n",
+    "transactions": [
+      [
+        0,
+        "p",
+        ""
+      ]
+    ]
+  },
+  {
+    "source": "pa01/jade-lynx-c0ee/return_change",
+    "label": "valid stateful seed202111 case0",
+    "input": "239\nd\ny\n112\nd\ny\n113\np\n369\np\n518\np\n333\nd\ny\n99\nd\nn\n598\np\n-1\n",
+    "transactions": [
+      [
+        239,
+        "d",
+        "y"
+      ],
+      [
+        112,
+        "d",
+        "y"
+      ],
+      [
+        113,
+        "p",
+        "n"
+      ],
+      [
+        369,
+        "p",
+        "n"
+      ],
+      [
+        518,
+        "p",
+        "n"
+      ],
+      [
+        333,
+        "d",
+        "y"
+      ],
+      [
+        99,
+        "d",
+        "n"
+      ],
+      [
+        598,
+        "p",
+        "y"
+      ]
+    ]
+  },
+  {
+    "source": "pa01/jade-lynx-c0ee/return_change",
+    "label": "valid stateful seed202111 case1",
+    "input": "162\np\n633\np\n346\nd\ny\n283\np\n477\np\n547\nd\ny\n605\np\n222\np\n-1\n",
+    "transactions": [
+      [
+        162,
+        "p",
+        "n"
+      ],
+      [
+        633,
+        "p",
+        "y"
+      ],
+      [
+        346,
+        "d",
+        "y"
+      ],
+      [
+        283,
+        "p",
+        "y"
+      ],
+      [
+        477,
+        "p",
+        "y"
+      ],
+      [
+        547,
+        "d",
+        "y"
+      ],
+      [
+        605,
+        "p",
+        "y"
+      ],
+      [
+        222,
+        "p",
+        "n"
+      ]
+    ]
+  },
+  {
+    "source": "pa01/jade-lynx-c0ee/return_change",
+    "label": "valid stateful seed202111 case2",
+    "input": "203\nd\nn\n85\nd\ny\n362\np\n353\np\n152\nd\nn\n87\nd\ny\n40\nd\ny\n172\np\n-1\n",
+    "transactions": [
+      [
+        203,
+        "d",
+        "n"
+      ],
+      [
+        85,
+        "d",
+        "y"
+      ],
+      [
+        362,
+        "p",
+        "y"
+      ],
+      [
+        353,
+        "p",
+        "n"
+      ],
+      [
+        152,
+        "d",
+        "n"
+      ],
+      [
+        87,
+        "d",
+        "y"
+      ],
+      [
+        40,
+        "d",
+        "y"
+      ],
+      [
+        172,
+        "p",
+        "y"
+      ]
+    ]
+  },
+  {
+    "source": "pa01/jade-lynx-c0ee/return_change",
+    "label": "valid stateful seed202111 case3",
+    "input": "589\np\n627\nd\ny\n275\np\n135\nd\nn\n473\nd\nn\n538\np\n654\nd\nn\n697\nd\nn\n-1\n",
+    "transactions": [
+      [
+        589,
+        "p",
+        "y"
+      ],
+      [
+        627,
+        "d",
+        "y"
+      ],
+      [
+        275,
+        "p",
+        "n"
+      ],
+      [
+        135,
+        "d",
+        "n"
+      ],
+      [
+        473,
+        "d",
+        "n"
+      ],
+      [
+        538,
+        "p",
+        "n"
+      ],
+      [
+        654,
+        "d",
+        "n"
+      ],
+      [
+        697,
+        "d",
+        "n"
+      ]
+    ]
+  },
+  {
+    "source": "pa01/jade-lynx-c0ee/return_change",
+    "label": "valid stateful seed202111 case4",
+    "input": "262\nd\nn\n692\nd\nn\n590\np\n422\nd\nn\n98\np\n610\np\n167\nd\nn\n8\np\n-1\n",
+    "transactions": [
+      [
+        262,
+        "d",
+        "n"
+      ],
+      [
+        692,
+        "d",
+        "n"
+      ],
+      [
+        590,
+        "p",
+        "n"
+      ],
+      [
+        422,
+        "d",
+        "n"
+      ],
+      [
+        98,
+        "p",
+        "y"
+      ],
+      [
+        610,
+        "p",
+        "n"
+      ],
+      [
+        167,
+        "d",
+        "n"
+      ],
+      [
+        8,
+        "p",
+        "n"
+      ]
+    ]
+  },
+  {
+    "source": "pa01/jade-lynx-c0ee/return_change",
+    "label": "valid stateful seed202111 case5",
+    "input": "401\np\n463\np\n408\np\n332\np\n552\np\n470\nd\ny\n50\nd\nn\n433\np\n-1\n",
+    "transactions": [
+      [
+        401,
+        "p",
+        "n"
+      ],
+      [
+        463,
+        "p",
+        "y"
+      ],
+      [
+        408,
+        "p",
+        "y"
+      ],
+      [
+        332,
+        "p",
+        "y"
+      ],
+      [
+        552,
+        "p",
+        "y"
+      ],
+      [
+        470,
+        "d",
+        "y"
+      ],
+      [
+        50,
+        "d",
+        "n"
+      ],
+      [
+        433,
+        "p",
+        "n"
+      ]
+    ]
+  },
+  {
+    "source": "pa01/jade-lynx-c0ee/return_change",
+    "label": "valid stateful seed202111 case6",
+    "input": "246\np\n74\np\n241\nd\nn\n305\nd\nn\n602\nd\nn\n326\np\n89\nd\ny\n144\np\n-1\n",
+    "transactions": [
+      [
+        246,
+        "p",
+        "y"
+      ],
+      [
+        74,
+        "p",
+        "y"
+      ],
+      [
+        241,
+        "d",
+        "n"
+      ],
+      [
+        305,
+        "d",
+        "n"
+      ],
+      [
+        602,
+        "d",
+        "n"
+      ],
+      [
+        326,
+        "p",
+        "n"
+      ],
+      [
+        89,
+        "d",
+        "y"
+      ],
+      [
+        144,
+        "p",
+        "n"
+      ]
+    ]
+  },
+  {
+    "source": "pa01/jade-lynx-c0ee/return_change",
+    "label": "valid stateful seed202111 case7",
+    "input": "677\np\n531\nd\ny\n185\nd\nn\n213\np\n163\nd\ny\n598\np\n381\np\n516\nd\ny\n-1\n",
+    "transactions": [
+      [
+        677,
+        "p",
+        "y"
+      ],
+      [
+        531,
+        "d",
+        "y"
+      ],
+      [
+        185,
+        "d",
+        "n"
+      ],
+      [
+        213,
+        "p",
+        "n"
+      ],
+      [
+        163,
+        "d",
+        "y"
+      ],
+      [
+        598,
+        "p",
+        "y"
+      ],
+      [
+        381,
+        "p",
+        "n"
+      ],
+      [
+        516,
+        "d",
+        "y"
+      ]
+    ]
+  },
+  {
+    "source": "pa01/jade-lynx-c0ee/return_change",
+    "label": "valid stateful seed202111 case8",
+    "input": "426\nd\ny\n215\nd\nn\n313\nd\ny\n34\np\n24\nd\ny\n692\np\n83\nd\nn\n350\nd\ny\n-1\n",
+    "transactions": [
+      [
+        426,
+        "d",
+        "y"
+      ],
+      [
+        215,
+        "d",
+        "n"
+      ],
+      [
+        313,
+        "d",
+        "y"
+      ],
+      [
+        34,
+        "p",
+        "n"
+      ],
+      [
+        24,
+        "d",
+        "y"
+      ],
+      [
+        692,
+        "p",
+        "y"
+      ],
+      [
+        83,
+        "d",
+        "n"
+      ],
+      [
+        350,
+        "d",
+        "y"
+      ]
+    ]
+  },
+  {
+    "source": "pa01/jade-lynx-c0ee/return_change",
+    "label": "valid stateful seed202111 case9",
+    "input": "51\nd\ny\n275\np\n239\np\n129\nd\nn\n36\np\n42\np\n168\nd\nn\n311\nd\nn\n-1\n",
+    "transactions": [
+      [
+        51,
+        "d",
+        "y"
+      ],
+      [
+        275,
+        "p",
+        "y"
+      ],
+      [
+        239,
+        "p",
+        "y"
+      ],
+      [
+        129,
+        "d",
+        "n"
+      ],
+      [
+        36,
+        "p",
+        "y"
+      ],
+      [
+        42,
+        "p",
+        "y"
+      ],
+      [
+        168,
+        "d",
+        "n"
+      ],
+      [
+        311,
+        "d",
+        "n"
+      ]
+    ]
+  },
+  {
+    "source": "pa01/jade-lynx-c0ee/return_change",
+    "label": "valid stateful seed202111 case10",
+    "input": "282\np\n688\np\n577\np\n458\nd\ny\n114\np\n695\nd\nn\n35\nd\ny\n53\nd\nn\n-1\n",
+    "transactions": [
+      [
+        282,
+        "p",
+        "y"
+      ],
+      [
+        688,
+        "p",
+        "y"
+      ],
+      [
+        577,
+        "p",
+        "y"
+      ],
+      [
+        458,
+        "d",
+        "y"
+      ],
+      [
+        114,
+        "p",
+        "n"
+      ],
+      [
+        695,
+        "d",
+        "n"
+      ],
+      [
+        35,
+        "d",
+        "y"
+      ],
+      [
+        53,
+        "d",
+        "n"
+      ]
+    ]
+  },
+  {
+    "source": "pa01/jade-lynx-c0ee/return_change",
+    "label": "valid stateful seed202111 case11",
+    "input": "569\nd\ny\n670\nd\ny\n621\np\n617\nd\ny\n538\np\n322\np\n599\nd\nn\n410\nd\ny\n-1\n",
+    "transactions": [
+      [
+        569,
+        "d",
+        "y"
+      ],
+      [
+        670,
+        "d",
+        "y"
+      ],
+      [
+        621,
+        "p",
+        "n"
+      ],
+      [
+        617,
+        "d",
+        "y"
+      ],
+      [
+        538,
+        "p",
+        "n"
+      ],
+      [
+        322,
+        "p",
+        "y"
+      ],
+      [
+        599,
+        "d",
+        "n"
+      ],
+      [
+        410,
+        "d",
+        "y"
+      ]
+    ]
+  },
+  {
+    "source": "pa01/jade-lynx-c0ee/return_change",
+    "label": "valid stateful seed202111 case12",
+    "input": "293\np\n641\nd\nn\n313\np\n71\np\n622\np\n579\np\n448\np\n359\np\n-1\n",
+    "transactions": [
+      [
+        293,
+        "p",
+        "y"
+      ],
+      [
+        641,
+        "d",
+        "n"
+      ],
+      [
+        313,
+        "p",
+        "n"
+      ],
+      [
+        71,
+        "p",
+        "y"
+      ],
+      [
+        622,
+        "p",
+        "y"
+      ],
+      [
+        579,
+        "p",
+        "n"
+      ],
+      [
+        448,
+        "p",
+        "n"
+      ],
+      [
+        359,
+        "p",
+        "n"
+      ]
+    ]
+  },
+  {
+    "source": "pa01/jade-lynx-c0ee/return_change",
+    "label": "valid stateful seed202111 case13",
+    "input": "692\nd\nn\n456\np\n27\np\n362\np\n15\np\n35\nd\ny\n536\np\n411\nd\ny\n-1\n",
+    "transactions": [
+      [
+        692,
+        "d",
+        "n"
+      ],
+      [
+        456,
+        "p",
+        "y"
+      ],
+      [
+        27,
+        "p",
+        "n"
+      ],
+      [
+        362,
+        "p",
+        "n"
+      ],
+      [
+        15,
+        "p",
+        "y"
+      ],
+      [
+        35,
+        "d",
+        "y"
+      ],
+      [
+        536,
+        "p",
+        "y"
+      ],
+      [
+        411,
+        "d",
+        "y"
+      ]
+    ]
+  },
+  {
+    "source": "pa01/jade-lynx-c0ee/return_change",
+    "label": "valid stateful seed202111 case14",
+    "input": "513\np\n660\np\n469\np\n263\np\n588\nd\nn\n321\np\n229\nd\ny\n346\np\n-1\n",
+    "transactions": [
+      [
+        513,
+        "p",
+        "y"
+      ],
+      [
+        660,
+        "p",
+        "n"
+      ],
+      [
+        469,
+        "p",
+        "y"
+      ],
+      [
+        263,
+        "p",
+        "y"
+      ],
+      [
+        588,
+        "d",
+        "n"
+      ],
+      [
+        321,
+        "p",
+        "n"
+      ],
+      [
+        229,
+        "d",
+        "y"
+      ],
+      [
+        346,
+        "p",
+        "y"
+      ]
+    ]
+  },
+  {
+    "source": "pa01/jade-lynx-c0ee/return_change",
+    "label": "valid stateful seed202111 case15",
+    "input": "319\np\n509\nd\nn\n656\nd\nn\n123\np\n372\np\n1\np\n517\nd\ny\n291\np\n-1\n",
+    "transactions": [
+      [
+        319,
+        "p",
+        "y"
+      ],
+      [
+        509,
+        "d",
+        "n"
+      ],
+      [
+        656,
+        "d",
+        "n"
+      ],
+      [
+        123,
+        "p",
+        "n"
+      ],
+      [
+        372,
+        "p",
+        "y"
+      ],
+      [
+        1,
+        "p",
+        "y"
+      ],
+      [
+        517,
+        "d",
+        "y"
+      ],
+      [
+        291,
+        "p",
+        "n"
+      ]
+    ]
+  },
+  {
+    "source": "pa01/jade-lynx-c0ee/return_change",
+    "label": "valid stateful seed202111 case16",
+    "input": "263\nd\nn\n610\np\n184\nd\ny\n455\nd\ny\n22\np\n278\nd\ny\n475\nd\ny\n498\np\n-1\n",
+    "transactions": [
+      [
+        263,
+        "d",
+        "n"
+      ],
+      [
+        610,
+        "p",
+        "n"
+      ],
+      [
+        184,
+        "d",
+        "y"
+      ],
+      [
+        455,
+        "d",
+        "y"
+      ],
+      [
+        22,
+        "p",
+        "n"
+      ],
+      [
+        278,
+        "d",
+        "y"
+      ],
+      [
+        475,
+        "d",
+        "y"
+      ],
+      [
+        498,
+        "p",
+        "y"
+      ]
+    ]
+  },
+  {
+    "source": "pa01/jade-lynx-c0ee/return_change",
+    "label": "valid stateful seed202111 case17",
+    "input": "371\nd\nn\n445\np\n668\np\n263\nd\ny\n226\np\n98\np\n316\np\n459\nd\nn\n-1\n",
+    "transactions": [
+      [
+        371,
+        "d",
+        "n"
+      ],
+      [
+        445,
+        "p",
+        "y"
+      ],
+      [
+        668,
+        "p",
+        "n"
+      ],
+      [
+        263,
+        "d",
+        "y"
+      ],
+      [
+        226,
+        "p",
+        "y"
+      ],
+      [
+        98,
+        "p",
+        "n"
+      ],
+      [
+        316,
+        "p",
+        "y"
+      ],
+      [
+        459,
+        "d",
+        "n"
+      ]
+    ]
+  },
+  {
+    "source": "pa01/jade-lynx-c0ee/return_change",
+    "label": "valid stateful seed202111 case18",
+    "input": "546\nd\nn\n479\np\n356\nd\ny\n49\np\n39\np\n375\nd\ny\n456\np\n633\nd\ny\n-1\n",
+    "transactions": [
+      [
+        546,
+        "d",
+        "n"
+      ],
+      [
+        479,
+        "p",
+        "n"
+      ],
+      [
+        356,
+        "d",
+        "y"
+      ],
+      [
+        49,
+        "p",
+        "n"
+      ],
+      [
+        39,
+        "p",
+        "n"
+      ],
+      [
+        375,
+        "d",
+        "y"
+      ],
+      [
+        456,
+        "p",
+        "y"
+      ],
+      [
+        633,
+        "d",
+        "y"
+      ]
+    ]
+  },
+  {
+    "source": "pa01/jade-lynx-c0ee/return_change",
+    "label": "valid stateful seed202111 case19",
+    "input": "298\np\n678\nd\ny\n227\nd\nn\n471\np\n659\np\n171\nd\nn\n190\np\n497\np\n-1\n",
+    "transactions": [
+      [
+        298,
+        "p",
+        "n"
+      ],
+      [
+        678,
+        "d",
+        "y"
+      ],
+      [
+        227,
+        "d",
+        "n"
+      ],
+      [
+        471,
+        "p",
+        "y"
+      ],
+      [
+        659,
+        "p",
+        "n"
+      ],
+      [
+        171,
+        "d",
+        "n"
+      ],
+      [
+        190,
+        "p",
+        "n"
+      ],
+      [
+        497,
+        "p",
+        "y"
+      ]
+    ]
+  },
+  {
+    "source": "pa01/jade-lynx-c0ee/return_change",
+    "label": "valid stateful seed202111 case20",
+    "input": "92\np\n343\nd\ny\n82\np\n395\nd\ny\n370\nd\nn\n184\nd\ny\n283\np\n669\nd\nn\n-1\n",
+    "transactions": [
+      [
+        92,
+        "p",
+        "y"
+      ],
+      [
+        343,
+        "d",
+        "y"
+      ],
+      [
+        82,
+        "p",
+        "n"
+      ],
+      [
+        395,
+        "d",
+        "y"
+      ],
+      [
+        370,
+        "d",
+        "n"
+      ],
+      [
+        184,
+        "d",
+        "y"
+      ],
+      [
+        283,
+        "p",
+        "n"
+      ],
+      [
+        669,
+        "d",
+        "n"
+      ]
+    ]
+  },
+  {
+    "source": "pa01/jade-lynx-c0ee/return_change",
+    "label": "valid stateful seed202111 case21",
+    "input": "328\np\n355\np\n49\nd\nn\n110\nd\ny\n19\nd\ny\n484\nd\ny\n635\np\n110\np\n-1\n",
+    "transactions": [
+      [
+        328,
+        "p",
+        "y"
+      ],
+      [
+        355,
+        "p",
+        "n"
+      ],
+      [
+        49,
+        "d",
+        "n"
+      ],
+      [
+        110,
+        "d",
+        "y"
+      ],
+      [
+        19,
+        "d",
+        "y"
+      ],
+      [
+        484,
+        "d",
+        "y"
+      ],
+      [
+        635,
+        "p",
+        "n"
+      ],
+      [
+        110,
+        "p",
+        "y"
+      ]
+    ]
+  },
+  {
+    "source": "pa01/jade-lynx-c0ee/return_change",
+    "label": "valid stateful seed202111 case22",
+    "input": "426\nd\ny\n559\np\n583\np\n39\nd\nn\n316\nd\nn\n427\np\n85\np\n525\nd\nn\n-1\n",
+    "transactions": [
+      [
+        426,
+        "d",
+        "y"
+      ],
+      [
+        559,
+        "p",
+        "y"
+      ],
+      [
+        583,
+        "p",
+        "y"
+      ],
+      [
+        39,
+        "d",
+        "n"
+      ],
+      [
+        316,
+        "d",
+        "n"
+      ],
+      [
+        427,
+        "p",
+        "n"
+      ],
+      [
+        85,
+        "p",
+        "y"
+      ],
+      [
+        525,
+        "d",
+        "n"
+      ]
+    ]
+  },
+  {
+    "source": "pa01/jade-lynx-c0ee/return_change",
+    "label": "valid stateful seed202111 case23",
+    "input": "321\nd\nn\n458\nd\nn\n629\nd\nn\n386\np\n443\np\n301\nd\nn\n400\nd\nn\n582\nd\ny\n-1\n",
+    "transactions": [
+      [
+        321,
+        "d",
+        "n"
+      ],
+      [
+        458,
+        "d",
+        "n"
+      ],
+      [
+        629,
+        "d",
+        "n"
+      ],
+      [
+        386,
+        "p",
+        "n"
+      ],
+      [
+        443,
+        "p",
+        "n"
+      ],
+      [
+        301,
+        "d",
+        "n"
+      ],
+      [
+        400,
+        "d",
+        "n"
+      ],
+      [
+        582,
+        "d",
+        "y"
+      ]
+    ]
+  },
+  {
+    "source": "pa01/jade-lynx-c0ee/return_change",
+    "label": "valid stateful seed202111 case24",
+    "input": "19\np\n359\np\n229\nd\nn\n238\np\n17\np\n679\np\n169\nd\ny\n261\nd\nn\n-1\n",
+    "transactions": [
+      [
+        19,
+        "p",
+        "y"
+      ],
+      [
+        359,
+        "p",
+        "y"
+      ],
+      [
+        229,
+        "d",
+        "n"
+      ],
+      [
+        238,
+        "p",
+        "n"
+      ],
+      [
+        17,
+        "p",
+        "y"
+      ],
+      [
+        679,
+        "p",
+        "y"
+      ],
+      [
+        169,
+        "d",
+        "y"
+      ],
+      [
+        261,
+        "d",
+        "n"
+      ]
+    ]
+  },
+  {
+    "source": "pa01/jade-lynx-c0ee/return_change",
+    "label": "valid stateful seed202111 case25",
+    "input": "645\nd\nn\n415\np\n90\nd\ny\n288\np\n499\np\n635\nd\nn\n110\np\n373\np\n-1\n",
+    "transactions": [
+      [
+        645,
+        "d",
+        "n"
+      ],
+      [
+        415,
+        "p",
+        "n"
+      ],
+      [
+        90,
+        "d",
+        "y"
+      ],
+      [
+        288,
+        "p",
+        "n"
+      ],
+      [
+        499,
+        "p",
+        "n"
+      ],
+      [
+        635,
+        "d",
+        "n"
+      ],
+      [
+        110,
+        "p",
+        "n"
+      ],
+      [
+        373,
+        "p",
+        "y"
+      ]
+    ]
+  },
+  {
+    "source": "pa01/jade-lynx-c0ee/return_change",
+    "label": "valid stateful seed202111 case26",
+    "input": "158\np\n262\np\n663\np\n268\np\n47\np\n203\np\n474\nd\ny\n607\np\n-1\n",
+    "transactions": [
+      [
+        158,
+        "p",
+        "y"
+      ],
+      [
+        262,
+        "p",
+        "y"
+      ],
+      [
+        663,
+        "p",
+        "y"
+      ],
+      [
+        268,
+        "p",
+        "n"
+      ],
+      [
+        47,
+        "p",
+        "y"
+      ],
+      [
+        203,
+        "p",
+        "n"
+      ],
+      [
+        474,
+        "d",
+        "y"
+      ],
+      [
+        607,
+        "p",
+        "y"
+      ]
+    ]
+  },
+  {
+    "source": "pa01/jade-lynx-c0ee/return_change",
+    "label": "valid stateful seed202111 case27",
+    "input": "560\np\n492\nd\ny\n490\nd\ny\n224\nd\ny\n377\np\n500\nd\ny\n129\np\n113\np\n-1\n",
+    "transactions": [
+      [
+        560,
+        "p",
+        "n"
+      ],
+      [
+        492,
+        "d",
+        "y"
+      ],
+      [
+        490,
+        "d",
+        "y"
+      ],
+      [
+        224,
+        "d",
+        "y"
+      ],
+      [
+        377,
+        "p",
+        "y"
+      ],
+      [
+        500,
+        "d",
+        "y"
+      ],
+      [
+        129,
+        "p",
+        "y"
+      ],
+      [
+        113,
+        "p",
+        "n"
+      ]
+    ]
+  },
+  {
+    "source": "pa01/jade-lynx-c0ee/return_change",
+    "label": "valid stateful seed202111 case28",
+    "input": "466\np\n119\nd\ny\n241\np\n186\nd\nn\n611\np\n110\np\n202\nd\ny\n484\nd\ny\n-1\n",
+    "transactions": [
+      [
+        466,
+        "p",
+        "n"
+      ],
+      [
+        119,
+        "d",
+        "y"
+      ],
+      [
+        241,
+        "p",
+        "y"
+      ],
+      [
+        186,
+        "d",
+        "n"
+      ],
+      [
+        611,
+        "p",
+        "n"
+      ],
+      [
+        110,
+        "p",
+        "y"
+      ],
+      [
+        202,
+        "d",
+        "y"
+      ],
+      [
+        484,
+        "d",
+        "y"
+      ]
+    ]
+  },
+  {
+    "source": "pa01/jade-lynx-c0ee/return_change",
+    "label": "valid stateful seed202111 case29",
+    "input": "246\nd\ny\n444\np\n336\nd\ny\n508\nd\nn\n204\nd\nn\n400\nd\ny\n285\nd\ny\n274\np\n-1\n",
+    "transactions": [
+      [
+        246,
+        "d",
+        "y"
+      ],
+      [
+        444,
+        "p",
+        "y"
+      ],
+      [
+        336,
+        "d",
+        "y"
+      ],
+      [
+        508,
+        "d",
+        "n"
+      ],
+      [
+        204,
+        "d",
+        "n"
+      ],
+      [
+        400,
+        "d",
+        "y"
+      ],
+      [
+        285,
+        "d",
+        "y"
+      ],
+      [
+        274,
+        "p",
+        "n"
+      ]
+    ]
+  },
+  {
+    "source": "pa01/jade-lynx-c0ee/return_change",
+    "label": "valid stateful seed202111 case30",
+    "input": "297\nd\ny\n17\np\n517\nd\nn\n76\nd\nn\n202\nd\ny\n155\np\n234\nd\ny\n82\np\n-1\n",
+    "transactions": [
+      [
+        297,
+        "d",
+        "y"
+      ],
+      [
+        17,
+        "p",
+        "n"
+      ],
+      [
+        517,
+        "d",
+        "n"
+      ],
+      [
+        76,
+        "d",
+        "n"
+      ],
+      [
+        202,
+        "d",
+        "y"
+      ],
+      [
+        155,
+        "p",
+        "n"
+      ],
+      [
+        234,
+        "d",
+        "y"
+      ],
+      [
+        82,
+        "p",
+        "y"
+      ]
+    ]
+  },
+  {
+    "source": "pa01/jade-lynx-c0ee/return_change",
+    "label": "valid stateful seed202111 case31",
+    "input": "39\nd\nn\n119\np\n66\nd\ny\n673\nd\nn\n463\np\n303\np\n173\np\n312\nd\nn\n-1\n",
+    "transactions": [
+      [
+        39,
+        "d",
+        "n"
+      ],
+      [
+        119,
+        "p",
+        "n"
+      ],
+      [
+        66,
+        "d",
+        "y"
+      ],
+      [
+        673,
+        "d",
+        "n"
+      ],
+      [
+        463,
+        "p",
+        "y"
+      ],
+      [
+        303,
+        "p",
+        "y"
+      ],
+      [
+        173,
+        "p",
+        "n"
+      ],
+      [
+        312,
+        "d",
+        "n"
+      ]
+    ]
+  },
+  {
+    "source": "pa01/jade-lynx-c0ee/return_change",
+    "label": "valid stateful seed202111 case32",
+    "input": "256\nd\nn\n468\np\n234\nd\ny\n406\nd\ny\n403\np\n291\nd\nn\n276\np\n275\np\n-1\n",
+    "transactions": [
+      [
+        256,
+        "d",
+        "n"
+      ],
+      [
+        468,
+        "p",
+        "y"
+      ],
+      [
+        234,
+        "d",
+        "y"
+      ],
+      [
+        406,
+        "d",
+        "y"
+      ],
+      [
+        403,
+        "p",
+        "y"
+      ],
+      [
+        291,
+        "d",
+        "n"
+      ],
+      [
+        276,
+        "p",
+        "n"
+      ],
+      [
+        275,
+        "p",
+        "y"
+      ]
+    ]
+  },
+  {
+    "source": "pa01/jade-lynx-c0ee/return_change",
+    "label": "valid stateful seed202111 case33",
+    "input": "319\nd\nn\n108\np\n555\nd\nn\n147\np\n256\nd\nn\n555\nd\ny\n216\np\n279\np\n-1\n",
+    "transactions": [
+      [
+        319,
+        "d",
+        "n"
+      ],
+      [
+        108,
+        "p",
+        "n"
+      ],
+      [
+        555,
+        "d",
+        "n"
+      ],
+      [
+        147,
+        "p",
+        "n"
+      ],
+      [
+        256,
+        "d",
+        "n"
+      ],
+      [
+        555,
+        "d",
+        "y"
+      ],
+      [
+        216,
+        "p",
+        "y"
+      ],
+      [
+        279,
+        "p",
+        "y"
+      ]
+    ]
+  },
+  {
+    "source": "pa01/jade-lynx-c0ee/return_change",
+    "label": "valid stateful seed202111 case34",
+    "input": "639\nd\nn\n669\np\n280\nd\ny\n202\np\n169\nd\ny\n617\nd\nn\n299\np\n614\nd\nn\n-1\n",
+    "transactions": [
+      [
+        639,
+        "d",
+        "n"
+      ],
+      [
+        669,
+        "p",
+        "n"
+      ],
+      [
+        280,
+        "d",
+        "y"
+      ],
+      [
+        202,
+        "p",
+        "n"
+      ],
+      [
+        169,
+        "d",
+        "y"
+      ],
+      [
+        617,
+        "d",
+        "n"
+      ],
+      [
+        299,
+        "p",
+        "y"
+      ],
+      [
+        614,
+        "d",
+        "n"
+      ]
+    ]
+  }
+]

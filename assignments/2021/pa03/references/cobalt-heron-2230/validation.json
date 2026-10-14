@@ -1,0 +1,84 @@
+{
+  "latest_spec": "PA3_20211123_2330_Andy.pdf",
+  "standard": "C++11",
+  "compiler": "GCC 14.2.0",
+  "oracle": "Python arbitrary-precision integer arithmetic, exact decimal output strings, integer mean, divmod.",
+  "sources": {
+    "cobalt-heron-2230/basic.cpp": {
+      "alias": "cobalt-heron-2230",
+      "source_file": "basic.cpp",
+      "original_sha256": "6e6f0c3e594ceb3ea3c0dd00e904f423014c024f1cac052792ebe680201cb0a3",
+      "fixed_sha256": "e2641fb3bfdd045c3e4f4ea979a98bf707d82b19f2deb257f1229ff646bdddd2",
+      "original_status": "known failing archive; source bytes preserved",
+      "privacy_changes": "Random directory alias and generic filenames; no source-content redaction needed.",
+      "fixed_builds": [
+        {
+          "mode": "debug",
+          "passed": 712,
+          "tests": 712
+        },
+        {
+          "mode": "optimized",
+          "passed": 712,
+          "tests": 712
+        }
+      ],
+      "test_script": "tests/test_repaired_pa3.py",
+      "attribution": "Precise source authorship unestablished; separate anonymous candidate.",
+      "original_failure_witnesses": [
+        {
+          "name": "negative_subtraction",
+          "operation": 2,
+          "a": "1",
+          "b": "2",
+          "expected": "-1",
+          "actual": "1",
+          "expected_mean": "1",
+          "actual_mean": "1",
+          "status": "completed",
+          "returncode": 0,
+          "passed": false
+        },
+        {
+          "name": "addition_101digits",
+          "operation": 1,
+          "a": "9999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999",
+          "b": "1",
+          "expected": "10000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+          "actual": "0",
+          "expected_mean": "5000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+          "actual_mean": "0",
+          "status": "completed",
+          "returncode": 0,
+          "passed": false
+        },
+        {
+          "name": "mean_carry",
+          "operation": 1,
+          "a": "9999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999",
+          "b": "9999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999",
+          "expected": "19999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999998",
+          "actual": "9999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999998",
+          "expected_mean": "9999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999",
+          "actual_mean": "4999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999",
+          "status": "completed",
+          "returncode": 0,
+          "passed": false
+        },
+        {
+          "name": "multiplication_200digits",
+          "operation": 3,
+          "a": "9999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999",
+          "b": "9999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999",
+          "expected": "99999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999980000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000001",
+          "actual": "1",
+          "expected_mean": "9999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999",
+          "actual_mean": "4999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999",
+          "status": "completed",
+          "returncode": 0,
+          "passed": false
+        }
+      ]
+    }
+  }
+}

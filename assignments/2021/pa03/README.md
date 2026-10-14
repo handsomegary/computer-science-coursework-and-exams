@@ -62,3 +62,10 @@ Windows 編譯後可執行 `pa03_main.exe` 或 `pa03_bonus.exe`。編譯時保�
 | 原始版本 |
 |---|
 | [PA3_20211110_1100_Andy.pdf](originals/archive/PA3_20211110_1100_Andy.pdf) |
+
+## 匿名參考程式與有誤原版
+
+最新版修復、原版問題與可重跑測試見[總驗證紀錄](../../../reports/reference-repairs.md)。各來源將有誤 `original/` 與通過驗證的 `fixed/` 分開保存：
+
+- [cobalt-heron-2230](references/cobalt-heron-2230/README.md)
+- [moss-lynx-5375](references/moss-lynx-5375/README.md)

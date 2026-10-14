@@ -38,3 +38,10 @@ g++ -std=c++11 -Wall -Wextra -Wpedantic bonus.cpp -o pa02_bonus
 |---|
 | [PA2_20211018_0410_Andy.pdf](originals/archive/PA2_20211018_0410_Andy.pdf) |
 | [PA2_20211028_2006_Andy.pdf](originals/archive/PA2_20211028_2006_Andy.pdf) |
+
+## 匿名參考程式與有誤原版
+
+最新版修復、原版問題與可重跑測試見[總驗證紀錄](../../../reports/reference-repairs.md)。各來源將有誤 `original/` 與通過驗證的 `fixed/` 分開保存：
+
+- [jade-lynx-c0ee](references/jade-lynx-c0ee/README.md)
+- [moss-lynx-5375](references/moss-lynx-5375/README.md)

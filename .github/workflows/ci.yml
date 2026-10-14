@@ -25,9 +25,21 @@ jobs:
           - test_quizzes.py
           - test_exams.py
           - test_solution_book.py
+          - test_reference_pa1.py
+          - test_course_kmap.py
+          - test_repaired_pa1_pa2.py
+          - test_repaired_pa1_wallets.py
+          - test_repaired_pa3.py
+          - test_repaired_pa4.py
+          - test_repaired_final.py
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-python@v5
         with:
           python-version: '3.12'
-      - run: python tests/${{ matrix.suite }}
+      - if: matrix.suite != 'test_repaired_final.py'
+        run: python tests/${{ matrix.suite }}
+      - if: matrix.suite == 'test_repaired_pa1_pa2.py'
+        run: python tests/test_repaired_pa1_pa2.py --course-width --only-signed
+      - if: matrix.suite == 'test_repaired_final.py'
+        run: python tests/test_repaired_final.py --exhaustive

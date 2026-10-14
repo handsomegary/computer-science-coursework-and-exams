@@ -30,3 +30,9 @@ g++ -std=c++11 -Wall -Wextra -Wpedantic bonus.cpp -o synth_bonus
 | 補充說明 | [2021Fall_EE1003_IntroCS_Final_Project_supplymental_document.pdf](originals/2021Fall_EE1003_IntroCS_Final_Project_supplymental_document.pdf) |
 | 公開測資／範例 | [Final_Project_public_testcase_1.pdf](originals/Final_Project_public_testcase_1.pdf) |
 | 公開測資／範例 | [Final_Project_public_testcase_2.pdf](originals/Final_Project_public_testcase_2.pdf) |
+
+## 匿名參考程式與有誤原版
+
+最新版修復、原版問題與可重跑測試見[總驗證紀錄](../../../reports/reference-repairs.md)。各來源將有誤 `original/` 與通過驗證的 `fixed/` 分開保存：
+
+- [jade-lynx-c0ee](references/jade-lynx-c0ee/README.md)

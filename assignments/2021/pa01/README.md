@@ -41,3 +41,10 @@ g++ -std=c++11 -Wall -Wextra -Wpedantic bonus.cpp -o pa01_bonus
 ## 經驗證的匿名參考程式
 
 [moss-lynx-5375](references/moss-lynx-5375/README.md) 收錄一般版與最少損失擴充版；附測試範圍、介面差異與原碼 SHA256。
+
+## 匿名參考程式與有誤原版
+
+最新版修復、原版問題與可重跑測試見[總驗證紀錄](../../../reports/reference-repairs.md)。各來源將有誤 `original/` 與通過驗證的 `fixed/` 分開保存：
+
+- [jade-lynx-c0ee](references/jade-lynx-c0ee/README.md)
+- [moss-lynx-5375](references/moss-lynx-5375/README.md)
