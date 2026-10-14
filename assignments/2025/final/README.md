@@ -22,3 +22,13 @@ g++ -std=c++11 -O2 bonus.cpp -o preprocess
 | 03 | 5 | 187400.0 | 8320 | 946380.0 | 31536 |
 
 公開 ZIP 是原資料中的測試依據，完整權重與圖像沒有複製到此 repo。repo 內的驗證使用可重現的合成資料與獨立 CPU oracle，涵蓋三種 kernel、signed 卷積、FC、輸出格式及 bonus 插值。
+
+## 原始作業 PDF
+
+以下 PDF 保留來源檔名與原始內容；同一題目的不同修訂版分別保存。
+
+| 類型 | 原始檔案 |
+|---|---|
+| 作業題面／修訂版 | [2025Fall_EE1003_Intro_to_CS_Final_Project_Andy_20260101.pdf](originals/2025Fall_EE1003_Intro_to_CS_Final_Project_Andy_20260101.pdf) |
+| 補充說明 | [2025Fall_EE1003_Final_Project_Appendix1_Header_File_20251125.pdf](originals/2025Fall_EE1003_Final_Project_Appendix1_Header_File_20251125.pdf) |
+| 補充說明 | [2025Fall_EE1003_Intro_to_CS_Final_Project_Checker_20251224.pdf](originals/2025Fall_EE1003_Intro_to_CS_Final_Project_Checker_20251224.pdf) |

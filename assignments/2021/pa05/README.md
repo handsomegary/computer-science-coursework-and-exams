@@ -9,4 +9,15 @@ g++ -std=c++11 -Wall -Wextra -Wpedantic main.cpp -o logic_min
 
 未給命令列參數時會依序詢問輸入及輸出檔名。只需 `main.cpp` 與同目錄 `logic.hpp`；C++11 標準函式庫即可。有效的完整 minterm 輸入支援 1–26 個變數，精確選擇最少乘積項，再比較 literal 數與固定排序。Exact cover 的時間及記憶體最差呈指數成長，並非大型 EDA 工具。
 
-題面依課程提供的 2021 Logic Minimization bonus 說明、更新問答及三組公開測資重寫；演算法與程式碼為重新實作。公開測資的 Boolean 資料可於測試中核對，未收錄原始講義、其他人的答案或任何個人資料。
+題面依課程提供的 2021 Logic Minimization bonus 說明、更新問答及三組公開測資重寫；演算法與程式碼為重新實作。公開測資的 Boolean 資料可於測試中核對；原始題面與公開測資 PDF 見下方連結。
+
+## 原始作業 PDF
+
+以下 PDF 保留來源檔名與原始內容；同一題目的不同修訂版分別保存。
+
+| 類型 | 原始檔案 |
+|---|---|
+| 作業題面／修訂版 | [PA5_bonus_QM_Andy_20211209_1855.pdf](originals/PA5_bonus_QM_Andy_20211209_1855.pdf) |
+| 公開測資／範例 | [PA5_testcase1.pdf](originals/PA5_testcase1.pdf) |
+| 公開測資／範例 | [PA5_testcase2.pdf](originals/PA5_testcase2.pdf) |
+| 公開測資／範例 | [PA5_testcase3.pdf](originals/PA5_testcase3.pdf) |

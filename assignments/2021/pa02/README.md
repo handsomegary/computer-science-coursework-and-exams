@@ -14,3 +14,20 @@ g++ -std=c++11 -Wall -Wextra -Wpedantic bonus.cpp -o pa02_bonus
 完成範圍包括三個指定遞迴函式、二進位全加器、累計部分和、加分版符號延伸及二補數、可儲存範圍、防呆與重讀。同時遵守沒有全域／static 變數，所有本地變數和函式參數僅 `int`／`long long int`，輸入值放 `int`、二進位 0/1 數字放 `long long int`。沒有用字串、陣列、浮點數或十進位加減取代題目要求的數值運算。
 
 整理時解決了迴圈取代必需遞迴、用前兩個輸入而非累計值檢查、錯誤分支漏判 sentinel、二進位溢位和第 11/12/13/21 等序數問題。難點是 0/1 數字以十進位欄位儲存後只容納 19 位，以及負數符號延伸後的進位與溢位；以固定寬度全加器和獨立符號位處理。README 與題解提供文字報告，未另產生含個人身分的 PDF。建議原題明確統一「最少位數」和負的二次方範例。
+
+## 原始作業 PDF
+
+以下 PDF 保留來源檔名與原始內容；同一題目的不同修訂版分別保存。
+
+| 類型 | 原始檔案 |
+|---|---|
+| 作業題面／修訂版 | [PA2_20211018_0410_Andy.pdf](originals/PA2_20211018_0410_Andy.pdf) |
+| 作業題面／修訂版 | [PA2_20211028_2006_Andy.pdf](originals/PA2_20211028_2006_Andy.pdf) |
+| 作業題面／修訂版 | [PA2_20211114_1530_Andy.pdf](originals/PA2_20211114_1530_Andy.pdf) |
+| 公開測資／範例 | [PA2_1_測資.pdf](originals/PA2_1_%E6%B8%AC%E8%B3%87.pdf) |
+| 公開測資／範例 | [PA2_2_測資.pdf](originals/PA2_2_%E6%B8%AC%E8%B3%87.pdf) |
+| 公開測資／範例 | [PA2_3_測資.pdf](originals/PA2_3_%E6%B8%AC%E8%B3%87.pdf) |
+| 公開測資／範例 | [PA2_4_測資.pdf](originals/PA2_4_%E6%B8%AC%E8%B3%87.pdf) |
+| 公開測資／範例 | [PA2_5_測資.pdf](originals/PA2_5_%E6%B8%AC%E8%B3%87.pdf) |
+| 公開測資／範例 | [PA2_Bonus_1_測資.pdf](originals/PA2_Bonus_1_%E6%B8%AC%E8%B3%87.pdf) |
+| 公開測資／範例 | [PA2_Bonus_2_測資.pdf](originals/PA2_Bonus_2_%E6%B8%AC%E8%B3%87.pdf) |

@@ -10,3 +10,14 @@ g++ -std=c++11 -O2 main.cpp -o knight
 ```
 
 `--summary` 只輸出 `最佳分數 步數`，供機器讀取；預設輸出完整 replay 與棋盤。搜尋是精確的，未使用時間截止、隨機採樣或把上界當答案；大棋盤仍可能需要較長搜尋時間。測試包含 48 個獨立窮舉 oracle、官方基本範例與成長守衛範例。
+
+## 原始作業 PDF
+
+以下 PDF 保留來源檔名與原始內容；同一題目的不同修訂版分別保存。
+
+| 類型 | 原始檔案 |
+|---|---|
+| 作業題面／修訂版 | [2025Fall_EE1003_Intro_to_CS_PA2_Andy_20251015.pdf](originals/2025Fall_EE1003_Intro_to_CS_PA2_Andy_20251015.pdf) |
+| 補充說明 | [2025Fall_EE1003_IntroCS_PA2_Checker.pdf](originals/2025Fall_EE1003_IntroCS_PA2_Checker.pdf) |
+| 補充說明 | [2025Fall_EE1003_IntroCS_PA2_Detailed_Explanation.pdf](originals/2025Fall_EE1003_IntroCS_PA2_Detailed_Explanation.pdf) |
+| 補充說明 | [2025Fall_EE1003_IntroCS_PA2_Hint.pdf](originals/2025Fall_EE1003_IntroCS_PA2_Hint.pdf) |

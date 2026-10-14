@@ -43,3 +43,15 @@ Windows 編譯後可執行 `pa03_main.exe` 或 `pa03_bonus.exe`。編譯時保�
 - [samples.json](samples.json)：逐例記錄輸入、標準輸出、標準錯誤輸出、結束碼及該入口所需來源檔。
 
 程式只讀取標準輸入、寫入標準輸出，不建立運算結果檔案。
+
+## 原始作業 PDF
+
+以下 PDF 保留來源檔名與原始內容；同一題目的不同修訂版分別保存。
+
+| 類型 | 原始檔案 |
+|---|---|
+| 作業題面／修訂版 | [PA3_20211110_1100_Andy.pdf](originals/PA3_20211110_1100_Andy.pdf) |
+| 作業題面／修訂版 | [PA3_20211123_2330_Andy.pdf](originals/PA3_20211123_2330_Andy.pdf) |
+| 公開測資／範例 | [PA3_testcase1.pdf](originals/PA3_testcase1.pdf) |
+| 公開測資／範例 | [PA3_testcase2.pdf](originals/PA3_testcase2.pdf) |
+| 公開測資／範例 | [PA3_testcase3.pdf](originals/PA3_testcase3.pdf) |
