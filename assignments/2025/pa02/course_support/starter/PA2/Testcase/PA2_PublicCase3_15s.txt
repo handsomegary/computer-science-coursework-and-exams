@@ -1,0 +1,10 @@
+8 18 8
+5 3 10
+S O O O B O O O
+O X O # O E O O
+O O O O O O O E
+O O B O O X O X
+O O O O O O O B
+O # O O X O X X
+E O O X O B X O
+O X O # O E O O

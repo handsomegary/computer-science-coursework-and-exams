@@ -1,0 +1,6 @@
+4 14 4
+2 2 1
+S O O O
+O X X #
+O X O O
+O O B O

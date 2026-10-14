@@ -21,7 +21,29 @@ g++ -std=c++11 -O2 bonus.cpp -o preprocess
 | 02 | 7 | 294825.0 | 14130 | 697160.0 | 23232 |
 | 03 | 5 | 187400.0 | 8320 | 946380.0 | 31536 |
 
-公開 ZIP 是原資料中的測試依據，完整權重與圖像沒有複製到此 repo。repo 內的驗證使用可重現的合成資料與獨立 CPU oracle，涵蓋三種 kernel、signed 卷積、FC、輸出格式及 bonus 插值。
+三個官方 ZIP 原檔與完整解壓內容已提供：基本案例的全部權重／影像／golden、bonus PGM／PNG／歷史文字圖，以及歷史量化結果都在 `course_support/`。原名、位置、用途與 SHA256 見 [resources.json](../resources.json)；包內 `Bouns`／`bouns` 拼字也完整保留。另有可重現合成資料與獨立 CPU oracle，涵蓋三種 kernel、signed 卷積、FC、輸出格式及 bonus 插值。
+
+## 官方下載附件與可直接執行的例子
+
+| 原版下載包 | 解壓後內容 |
+|---|---|
+| [Final_Project_Public_Testcase.zip](originals/resources/Final_Project_Public_Testcase.zip) | [三套 CNN 輸入與原 golden](course_support/public_testcases) |
+| [Final_Project_Bouns_Public_Testcase.zip](originals/resources/Final_Project_Bouns_Public_Testcase.zip) | [三套 P2 PGM、PNG 及歷史量化文字圖](course_support/bonus_testcases) |
+| [Data after Quantization.zip](originals/resources/Data%20after%20Quantization.zip) | [三套歷史量化結果](course_support/quantization_examples) |
+
+在本目錄編譯後，建立自己的輸出目錄，避免覆寫保存的 golden：
+
+```sh
+mkdir output01
+./cnn course_support/public_testcases/Testcase01 output01
+./preprocess course_support/bonus_testcases/Testcase01/img_label.pgm output01/img_label_bonus.txt
+```
+
+PowerShell 改用 `.\cnn.exe` 與 `.\preprocess.exe`。Testcase02、Testcase03 可用同樣方式執行；輸入資料夾各有七個必要檔案，CNN 輸出四個結果檔。
+
+課程 PE API 的 byte-exact 原檔保存在 [course_support/hardware_architecture.h](course_support/hardware_architecture.h) 與 [course_support/hardware_architecture.cpp](course_support/hardware_architecture.cpp)。本目錄可直接編譯的 API 副本只移除原版未使用的區域變數，介面及運算行為相同；不需額外下載 header。
+
+從 repo 根目錄執行 `python tests/test_official_resources_2025.py`，會檢查所有原檔 hash，逐值比對三套官方 conv1／conv2／FC golden，核對量化誤差與預測，並以最新版 FP8／雙線性插值 oracle 核對三張官方 PGM。能耗與 steps 是目前 PE 排程的實際 API 計數，與舊 golden 的較慢排程不同。歷史量化文字圖保留作比較，不作為最新版 bonus 的正確答案。
 
 ## 作業說明（目前版本）
 

@@ -1,0 +1,49 @@
+======Welcome to the Dinosaur Game======
+Please enter the initial obstacle setup of the Dinosaur Game. Enter -1 to quit: 01234023
+|  |  |  |  |  |  |  |  |  |
+|  |  |  |  |  | P|  |  |  |
+| D|  |  | C| P|  |  | C| P|
+| D|  | C| C|  |  |  | C|  |
+Please enter a command to control the dinosaur, 0 for no action, 1=jump, 2=crouch: 0
+Please enter the next round's obstacle setup of the Dinosaur Game. Enter -1 to quit: 1
+|  |  |  |  |  |  |  |  |  |
+|  |  |  |  | P|  |  |  |  |
+| D|  | C| P|  |  | C| P|  |
+| D| C| C|  |  |  | C|  | C|
+Please enter a command to control the dinosaur, 0 for no action, 1=jump, 2=crouch: 1
+Please enter the next round's obstacle setup of the Dinosaur Game. Enter -1 to quit: 4
+|  |  |  |  |  |  |  |  |  |
+| D|  |  | P|  |  |  |  | P|
+| D| C| P|  |  | C| P|  |  |
+| C| C|  |  |  | C|  | C|  |
+Please enter a command to control the dinosaur, 0 for no action, 1=jump, 2=crouch: 1
+The dinosaur cannot jump again, please enter another command: 1
+The dinosaur cannot jump again, please enter another command: -100
+The dinosaur doesn't understand this command, try another one: 0
+Please enter the next round's obstacle setup of the Dinosaur Game. Enter -1 to quit: 0
+| D|  |  |  |  |  |  |  |  |
+| D|  | P|  |  |  |  | P|  |
+| C| P|  |  | C| P|  |  |  |
+| C|  |  |  | C|  | C|  |  |
+Please enter a command to control the dinosaur, 0 for no action, 1=jump, 2=crouch: 2
+Please enter the next round's obstacle setup of the Dinosaur Game. Enter -1 to quit: 0
+|  |  |  |  |  |  |  |  |  |
+|  | P|  |  |  |  | P|  |  |
+| P|  |  | C| P|  |  |  |  |
+| D|  |  | C|  | C|  |  |  |
+Please enter a command to control the dinosaur, 0 for no action, 1=jump, 2=crouch: 0
+Please enter the next round's obstacle setup of the Dinosaur Game. Enter -1 to quit: 0
+|  |  |  |  |  |  |  |  |  |
+| P|  |  |  |  | P|  |  |  |
+| D|  | C| P|  |  |  |  |  |
+| D|  | C|  | C|  |  |  |  |
+Please enter a command to control the dinosaur, 0 for no action, 1=jump, 2=crouch: 1
+Please enter the next round's obstacle setup of the Dinosaur Game. Enter -1 to quit: 0
+|  |  |  |  |  |  |  |  |  |
+| D|  |  |  | P|  |  |  |  |
+| D| C| P|  |  |  |  |  |  |
+|  | C|  | C|  |  |  |  |  |
+Please enter a command to control the dinosaur, 0 for no action, 1=jump, 2=crouch: 0
+Please enter the next round's obstacle setup of the Dinosaur Game. Enter -1 to quit: -1
+Congratulations, you WIN the game!!!
+======Thanks for playing Dinosaur Game, see you next time======

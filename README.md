@@ -6,7 +6,7 @@
 
 這是依提供資料重新實作的學習解答。考後回憶並非完整正式試卷；缺附件、選項不全、舊答案錯誤、公開範例與後續更新互相衝突的部分，均在各份解答標示重建或補定。沒有上傳原始試卷掃描、個人作答報告或個人識別資料。
 
-作業原始 PDF 已按年度與專案存放於各作業的 `originals/`：共 **58 份**，包括 10 份目前題面、8 份歷史題面、13 份補充說明，以及 27 份公開測資／範例。每份檔案保留來源檔名與原始內容；表格直接連到目前題面，舊版本保留於 `originals/archive/`。版本判定依文件內文、修訂差異及 PDF 日期交叉核對，以本次提供資料中最新版本為準。
+作業原始 PDF 已按年度與專案存放於各作業的 `originals/`：原初整理 **58 份作業文件**，包括 10 份目前題面、8 份歷史題面、13 份補充說明，以及 27 份公開測資／範例。另補齊 2025 官方下載附件中的三份 PA1 公開案例 PDF，以及 PA2 Final Explanation 一份，共 62 份 PDF。每份檔案保留來源檔名與原始內容；表格直接連到目前題面，舊版本保留於 `originals/archive/`。版本判定依文件內文、修訂差異及 PDF 日期交叉核對，以本次提供資料中最新版本為準。
 
 主要 `solution.md` 與作業入口為重新實作的解答。另收錄 13 份經重新驗證的匿名修正版、對應的 13 份有誤原版，以及原先通過的兩份匿名 PA1 程式；詳見[修復與驗證紀錄](reports/reference-repairs.md)。來源以隨機代稱呈現，原版位元組保留；[課程原版 K-map 支援程式](assignments/2021/final/course_support/README.md)另列介面與限制。[初次審查紀錄](reports/reference-validation.md)保留修復前的判定。
 
@@ -30,9 +30,29 @@ PA5 的資料只有 QM/Petrick 加分題面，實作完整該題；沒有憑空�
 | 專案 | 內容 | 完整題目、解答與程式 | 原始 PDF |
 |---|---|---|---|
 | PA1 | Dinosaur Game、雙層場景、自動規劃 | [solution](assignments/2025/pa01/solution.md) | [最新題面](assignments/2025/pa01/originals/2025Fall_EE1003_Intro_to_CS_PA1_Andy_20250925.pdf) · [全部 6 份](assignments/2025/pa01/originals) |
-| PA2 | Knight's Treasure Hunt、精確回溯、守衛範圍成長 | [solution](assignments/2025/pa02/solution.md) | [最新題面](assignments/2025/pa02/originals/2025Fall_EE1003_Intro_to_CS_PA2_Andy_20251015.pdf) · [全部 4 份](assignments/2025/pa02/originals) |
+| PA2 | Knight's Treasure Hunt、精確回溯、守衛範圍成長 | [solution](assignments/2025/pa02/solution.md) | [最新題面](assignments/2025/pa02/originals/2025Fall_EE1003_Intro_to_CS_PA2_Andy_20251015.pdf) · [全部 5 份](assignments/2025/pa02/originals) |
 | PA3 | 多進位大數能源分配與平均 | [solution](assignments/2025/pa03/solution.md) | [最新題面](assignments/2025/pa03/originals/2025Fall_EE1003_Intro_to_CS_PA3_Andy_20251126.pdf) · [全部 1 份](assignments/2025/pa03/originals) |
 | Final | What’s the Number CNN PE 模擬器、FP8、PGM 輸入 | [solution](assignments/2025/final/solution.md) | [最新題面](assignments/2025/final/originals/2025Fall_EE1003_Intro_to_CS_Final_Project_Andy_20260101.pdf) · [全部 3 份](assignments/2025/final/originals) |
+
+## 官方下載附件與 Windows 下載
+
+2025 的官方下載附件也已完整保存：[原檔與解壓內容 SHA256 清單](assignments/2025/resources.json)。五個 ZIP 原檔在各案 `originals/resources/`，解壓後的檔案在 `course_support/`，可直接使用，無須另找本機資料。
+
+| 專案 | 下載後可用的官方附件 |
+|---|---|
+| PA1 | [基本、雙層、自動版公開測資與文件](assignments/2025/pa01/course_support/public_testcases)、[Linux checker](assignments/2025/pa01/course_support/checker.out) |
+| PA2 | [八份測資、blank starter、makefile、Linux checker](assignments/2025/pa02/course_support/starter)，以及 [Final Explanation](assignments/2025/pa02/originals/2025Fall_EE1003_IntroCS_PA2_Final_Explanation.pdf) |
+| Final | [三套完整權重、影像與 golden](assignments/2025/final/course_support/public_testcases)、[PGM／PNG bonus 案例](assignments/2025/final/course_support/bonus_testcases)、[歷史量化結果](assignments/2025/final/course_support/quantization_examples)、[原版硬體 API](assignments/2025/final/course_support) |
+
+PA2 原下載包中的兩份 starter 程式本來就是空檔，供自己填寫；本 repo 的完整解答在各案 `main.cpp`。2025 PA3 沒有提供可下載的官方 OJ 測資，程式相依的 header 與自製測試均已附齊。課程 checker 是 Linux x86-64 ELF，供 Linux／WSL 或課程工作站使用；跨平台驗證指令不依賴這些 binary。官方 checker 的原檔已保存，本次未執行。
+
+Windows 建議在較短的目錄下載，以免原始 PDF 長檔名超過 Windows 的路徑限制；原檔名不需修改：
+
+```powershell
+git -c core.longpaths=true clone https://github.com/handsomegary/computer-science-coursework-and-exams.git
+cd computer-science-coursework-and-exams
+git config core.longpaths true
+```
 
 ## 2021 考古題
 
@@ -59,6 +79,7 @@ python tests/test_solution_book.py
 python tests/test_pa2021_01_03.py
 python tests/test_pa2021_04_05_final.py
 python tests/test_pa2025.py
+python tests/test_official_resources_2025.py
 python tests/test_quizzes.py
 python tests/test_exams.py
 ```

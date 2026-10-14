@@ -1,0 +1,11 @@
+9 25 5
+5 4 3
+A O # O E O O O A
+O O O O O O E E O
+O B O O X O X O O
+O O E B O O B # O
+# X O X S O X O B
+X X X O B X O B O
+B X # O E O O O E
+O O E B O O B # O
+A X O X O X X O A

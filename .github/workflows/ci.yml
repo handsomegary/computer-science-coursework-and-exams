@@ -32,6 +32,7 @@ jobs:
           - test_repaired_pa3.py
           - test_repaired_pa4.py
           - test_repaired_final.py
+          - test_official_resources_2025.py
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-python@v5

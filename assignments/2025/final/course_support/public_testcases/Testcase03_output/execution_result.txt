@@ -1,0 +1,4 @@
+Relative Error after Quantization: 0.35%
+Result of the Prediction: 9
+Energy Consumption: 946380.0
+Step Count: 31536

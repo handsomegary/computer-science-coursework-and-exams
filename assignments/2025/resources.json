@@ -1,0 +1,624 @@
+{
+  "schema_version": 1,
+  "source": "Provided EE1003 2025 Fall official course downloads; original folder year label was 2024.",
+  "archives": [
+    {
+      "assignment": "pa01",
+      "source_filename": "Public Testcases.zip",
+      "purpose": "Basic, double-layer and automatic Dinosaur Game public examples, including source TXT, PDF and DOCX.",
+      "path": "assignments/2025/pa01/originals/resources/Public Testcases.zip",
+      "size": 119678,
+      "sha256": "9706c20fa3bc51db2ff959030ec9fb0c4f41c6d39aa0f1904d352709d9be051b",
+      "source_prefix_removed": "Public Testcases/",
+      "extracted_root": "assignments/2025/pa01/course_support/public_testcases",
+      "members": [
+        {
+          "source_member": "Public Testcases/Basic testcase/",
+          "directory": true,
+          "path": "assignments/2025/pa01/course_support/public_testcases/Basic testcase"
+        },
+        {
+          "source_member": "Public Testcases/Basic testcase/PA1_in1.txt",
+          "path": "assignments/2025/pa01/course_support/public_testcases/Basic testcase/PA1_in1.txt",
+          "size": 88,
+          "sha256": "7e0af4db5ac83fc7f8efa61a5c714da3f91960971ac4e125351beda9aa75844b"
+        },
+        {
+          "source_member": "Public Testcases/Basic testcase/PA1_in2.txt",
+          "path": "assignments/2025/pa01/course_support/public_testcases/Basic testcase/PA1_in2.txt",
+          "size": 65,
+          "sha256": "237d4fcc1d58f11206e2f3235a4950ab0ff3f558e901875125722a9e1c2bfdeb"
+        },
+        {
+          "source_member": "Public Testcases/Basic testcase/PA1_out1.txt",
+          "path": "assignments/2025/pa01/course_support/public_testcases/Basic testcase/PA1_out1.txt",
+          "size": 3884,
+          "sha256": "e21e2eb6be4c39405fd23afd0fff9ea2c48a573cfc65702f882d05a52e3eb440"
+        },
+        {
+          "source_member": "Public Testcases/Basic testcase/PA1_out2.txt",
+          "path": "assignments/2025/pa01/course_support/public_testcases/Basic testcase/PA1_out2.txt",
+          "size": 2491,
+          "sha256": "2a0ce936c06c9316e07bd9b153ee828a7d610d20c9e1cd8d4437f743b38e627e"
+        },
+        {
+          "source_member": "Public Testcases/Basic testcase/PA1_Public_Testcase1.docx",
+          "path": "assignments/2025/pa01/course_support/public_testcases/Basic testcase/PA1_Public_Testcase1.docx",
+          "size": 15896,
+          "sha256": "521fe89bcb550a7b162d9c7127847f73a432359cc38ff731e0c597703cdce612"
+        },
+        {
+          "source_member": "Public Testcases/Basic testcase/PA1_Public_Testcase1.pdf",
+          "path": "assignments/2025/pa01/course_support/public_testcases/Basic testcase/PA1_Public_Testcase1.pdf",
+          "size": 36225,
+          "sha256": "4ac01de3ffde5abcdef4df43323fcde5f77921ad102ad532ed8b0f309d3a3641"
+        },
+        {
+          "source_member": "Public Testcases/Basic testcase/PA1_Public_Testcase2.docx",
+          "path": "assignments/2025/pa01/course_support/public_testcases/Basic testcase/PA1_Public_Testcase2.docx",
+          "size": 15452,
+          "sha256": "121a6d8b87f20219de60926e7b1f1a1b46989f2c16792eb09d0cfd430b223188"
+        },
+        {
+          "source_member": "Public Testcases/Basic testcase/PA1_Public_Testcase2.pdf",
+          "path": "assignments/2025/pa01/course_support/public_testcases/Basic testcase/PA1_Public_Testcase2.pdf",
+          "size": 30390,
+          "sha256": "164c45b19ffe60862aa577dae46ba3a8ec50a2ea8311d7af5675c69700f029f1"
+        },
+        {
+          "source_member": "Public Testcases/Bonus1 testcase/",
+          "directory": true,
+          "path": "assignments/2025/pa01/course_support/public_testcases/Bonus1 testcase"
+        },
+        {
+          "source_member": "Public Testcases/Bonus1 testcase/PA1_Bonus1_in1.txt",
+          "path": "assignments/2025/pa01/course_support/public_testcases/Bonus1 testcase/PA1_Bonus1_in1.txt",
+          "size": 116,
+          "sha256": "7b74f56b69f393a0c775d90423d4da597d773981cfcf38a2cf09154eb0af657e"
+        },
+        {
+          "source_member": "Public Testcases/Bonus1 testcase/PA1_Bonus1_out1.txt",
+          "path": "assignments/2025/pa01/course_support/public_testcases/Bonus1 testcase/PA1_Bonus1_out1.txt",
+          "size": 4594,
+          "sha256": "426c82a66959151c6c597045ccbc0f025b48e7696f77899a773c633ad1a8ee7c"
+        },
+        {
+          "source_member": "Public Testcases/Bonus1 testcase/PA1_Bonus1_Public_Testcase1.docx",
+          "path": "assignments/2025/pa01/course_support/public_testcases/Bonus1 testcase/PA1_Bonus1_Public_Testcase1.docx",
+          "size": 16246,
+          "sha256": "0e37406ca11f5d298d40be8614a8fb2fad50ecf26bbd4e800d377ed8c518a445"
+        },
+        {
+          "source_member": "Public Testcases/Bonus1 testcase/PA1_Bonus1_Public_Testcase1.pdf",
+          "path": "assignments/2025/pa01/course_support/public_testcases/Bonus1 testcase/PA1_Bonus1_Public_Testcase1.pdf",
+          "size": 39453,
+          "sha256": "e7d0c7c28b2b5ef90df81cbab3bd403df6d30ce43f44c61bbee080ec4191e049"
+        },
+        {
+          "source_member": "Public Testcases/Bonus2 testcase/",
+          "directory": true,
+          "path": "assignments/2025/pa01/course_support/public_testcases/Bonus2 testcase"
+        },
+        {
+          "source_member": "Public Testcases/Bonus2 testcase/PA1_Bonus2_in1.txt",
+          "path": "assignments/2025/pa01/course_support/public_testcases/Bonus2 testcase/PA1_Bonus2_in1.txt",
+          "size": 89,
+          "sha256": "88c6b1dfd6e6e4e06bc3a5bae3c49df3452ee7aee5a04fb65f40dec0f9fe7e67"
+        }
+      ]
+    },
+    {
+      "assignment": "pa02",
+      "source_filename": "PA2_STUDENT.zip",
+      "purpose": "Official blank starter layout, makefile, Linux checker, four basic and four bonus input files.",
+      "path": "assignments/2025/pa02/originals/resources/PA2_STUDENT.zip",
+      "size": 32260,
+      "sha256": "ab057bdcdd55ca148ff04ac1bd5183f699a64c545c5c1a78f32107934a3e0f66",
+      "source_prefix_removed": "PA2_STUDENT/",
+      "extracted_root": "assignments/2025/pa02/course_support/starter",
+      "members": [
+        {
+          "source_member": "PA2_STUDENT/checker",
+          "path": "assignments/2025/pa02/course_support/starter/checker",
+          "size": 65724,
+          "sha256": "da76efc65591766bc56da44f56944f9e4b65f4901a8ca78eac1e22781489712a"
+        },
+        {
+          "source_member": "PA2_STUDENT/makefile",
+          "path": "assignments/2025/pa02/course_support/starter/makefile",
+          "size": 4103,
+          "sha256": "0ae54ebaae4fcb7847c8b39b885878f02e875ec63496cedfd7f51c1e16b1865e"
+        },
+        {
+          "source_member": "PA2_STUDENT/PA2/",
+          "directory": true,
+          "path": "assignments/2025/pa02/course_support/starter/PA2"
+        },
+        {
+          "source_member": "PA2_STUDENT/PA2/PA2.cpp",
+          "path": "assignments/2025/pa02/course_support/starter/PA2/PA2.cpp",
+          "size": 0,
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        },
+        {
+          "source_member": "PA2_STUDENT/PA2/Result/",
+          "directory": true,
+          "path": "assignments/2025/pa02/course_support/starter/PA2/Result"
+        },
+        {
+          "source_member": "PA2_STUDENT/PA2/Testcase/",
+          "directory": true,
+          "path": "assignments/2025/pa02/course_support/starter/PA2/Testcase"
+        },
+        {
+          "source_member": "PA2_STUDENT/PA2/Testcase/PA2_PublicCase1_10s.txt",
+          "path": "assignments/2025/pa02/course_support/starter/PA2/Testcase/PA2_PublicCase1_10s.txt",
+          "size": 51,
+          "sha256": "e3f47beabb4046676a78e633bf4d1d4ce3f4c19adde5b87a51096a4835d4a956"
+        },
+        {
+          "source_member": "PA2_STUDENT/PA2/Testcase/PA2_PublicCase2_10s.txt",
+          "path": "assignments/2025/pa02/course_support/starter/PA2/Testcase/PA2_PublicCase2_10s.txt",
+          "size": 120,
+          "sha256": "c68c57198b7135ed47d00e960f1c23b19f16a807d9b3128ab661714da2b51fe4"
+        },
+        {
+          "source_member": "PA2_STUDENT/PA2/Testcase/PA2_PublicCase3_15s.txt",
+          "path": "assignments/2025/pa02/course_support/starter/PA2/Testcase/PA2_PublicCase3_15s.txt",
+          "size": 152,
+          "sha256": "d5a499791197748cf4660a006d0f0a2899cc1a082332cbb370e539d922f1d8dd"
+        },
+        {
+          "source_member": "PA2_STUDENT/PA2/Testcase/PA2_PublicCase4_10s.txt",
+          "path": "assignments/2025/pa02/course_support/starter/PA2/Testcase/PA2_PublicCase4_10s.txt",
+          "size": 71,
+          "sha256": "2a0482860003fe1f3f760273ab6d303280444d3d19a182596eb6264b82e293b4"
+        },
+        {
+          "source_member": "PA2_STUDENT/PA2_bonus/",
+          "directory": true,
+          "path": "assignments/2025/pa02/course_support/starter/PA2_bonus"
+        },
+        {
+          "source_member": "PA2_STUDENT/PA2_bonus/PA2_bonus.cpp",
+          "path": "assignments/2025/pa02/course_support/starter/PA2_bonus/PA2_bonus.cpp",
+          "size": 0,
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        },
+        {
+          "source_member": "PA2_STUDENT/PA2_bonus/Result/",
+          "directory": true,
+          "path": "assignments/2025/pa02/course_support/starter/PA2_bonus/Result"
+        },
+        {
+          "source_member": "PA2_STUDENT/PA2_bonus/Testcase/",
+          "directory": true,
+          "path": "assignments/2025/pa02/course_support/starter/PA2_bonus/Testcase"
+        },
+        {
+          "source_member": "PA2_STUDENT/PA2_bonus/Testcase/PA2_bonus_PublicCase1_10s.txt",
+          "path": "assignments/2025/pa02/course_support/starter/PA2_bonus/Testcase/PA2_bonus_PublicCase1_10s.txt",
+          "size": 51,
+          "sha256": "858a100209497aadefe42022d522b3b3d748b80e71b86285730bab314273dee1"
+        },
+        {
+          "source_member": "PA2_STUDENT/PA2_bonus/Testcase/PA2_bonus_PublicCase2_10s.txt",
+          "path": "assignments/2025/pa02/course_support/starter/PA2_bonus/Testcase/PA2_bonus_PublicCase2_10s.txt",
+          "size": 120,
+          "sha256": "b794d5df8a34250d160ba1a9f7ec7c8f27859bcfc4bef5cf3dd99c2b86867716"
+        },
+        {
+          "source_member": "PA2_STUDENT/PA2_bonus/Testcase/PA2_bonus_PublicCase3_15s.txt",
+          "path": "assignments/2025/pa02/course_support/starter/PA2_bonus/Testcase/PA2_bonus_PublicCase3_15s.txt",
+          "size": 175,
+          "sha256": "51cd5a6daa3cb7024538cd665d405146fe807d3171d80a65d5513ac80a34a276"
+        },
+        {
+          "source_member": "PA2_STUDENT/PA2_bonus/Testcase/PA2_bonus_PublicCase4_10s.txt",
+          "path": "assignments/2025/pa02/course_support/starter/PA2_bonus/Testcase/PA2_bonus_PublicCase4_10s.txt",
+          "size": 72,
+          "sha256": "11999ef52df8d4b58b6c5873d2c2ea7843a52f6b1dcf1326d14e9c65e83140b4"
+        }
+      ]
+    },
+    {
+      "assignment": "final",
+      "source_filename": "Final_Project_Public_Testcase.zip",
+      "purpose": "Three CNN weight/image input sets and their official convolution, FC and execution-result files.",
+      "path": "assignments/2025/final/originals/resources/Final_Project_Public_Testcase.zip",
+      "size": 36887,
+      "sha256": "41c6e43608179066b34f8fbf3324524effed50d93dd9fc15de367fc8bace89a1",
+      "source_prefix_removed": "Final_Project_Public_Testcase/",
+      "extracted_root": "assignments/2025/final/course_support/public_testcases",
+      "members": [
+        {
+          "source_member": "Final_Project_Public_Testcase/Testcase01/",
+          "directory": true,
+          "path": "assignments/2025/final/course_support/public_testcases/Testcase01"
+        },
+        {
+          "source_member": "Final_Project_Public_Testcase/Testcase01/conv1_bias.txt",
+          "path": "assignments/2025/final/course_support/public_testcases/Testcase01/conv1_bias.txt",
+          "size": 27,
+          "sha256": "527140e7af78a8e93a5fd961a659daf355390054ecf64c01ab0feda6a9539d91"
+        },
+        {
+          "source_member": "Final_Project_Public_Testcase/Testcase01/conv1_weight.txt",
+          "path": "assignments/2025/final/course_support/public_testcases/Testcase01/conv1_weight.txt",
+          "size": 237,
+          "sha256": "e0d1c04f4b4ac85e22b27fa107395cf4d4a6e85b627e7df27c3c012a9f030afc"
+        },
+        {
+          "source_member": "Final_Project_Public_Testcase/Testcase01/conv2_bias.txt",
+          "path": "assignments/2025/final/course_support/public_testcases/Testcase01/conv2_bias.txt",
+          "size": 53,
+          "sha256": "7c915be75afa28fa432b3b8807942ab070d9fc1bb6fb2f3e6a58d54bd88bca21"
+        },
+        {
+          "source_member": "Final_Project_Public_Testcase/Testcase01/conv2_weight.txt",
+          "path": "assignments/2025/final/course_support/public_testcases/Testcase01/conv2_weight.txt",
+          "size": 971,
+          "sha256": "acd9539fa030c4a40a73d031f8e3c3412a307465c7688c582b443739afbfe3f2"
+        },
+        {
+          "source_member": "Final_Project_Public_Testcase/Testcase01/fc_bias.txt",
+          "path": "assignments/2025/final/course_support/public_testcases/Testcase01/fc_bias.txt",
+          "size": 134,
+          "sha256": "0b366355d24668df24b07d9bbf882a9faab295c3f5a2dd16158f98ef3dcac147"
+        },
+        {
+          "source_member": "Final_Project_Public_Testcase/Testcase01/fc_weight.txt",
+          "path": "assignments/2025/final/course_support/public_testcases/Testcase01/fc_weight.txt",
+          "size": 19424,
+          "sha256": "424e85a87215274b05757b17c3dcc9d117c0a28e99577eed93c0396853abb7a0"
+        },
+        {
+          "source_member": "Final_Project_Public_Testcase/Testcase01/img_label.txt",
+          "path": "assignments/2025/final/course_support/public_testcases/Testcase01/img_label.txt",
+          "size": 10191,
+          "sha256": "f8c901e418e52fcfd4b0f6c763a2077a416d7f406dd770bcee62611ea177d303"
+        },
+        {
+          "source_member": "Final_Project_Public_Testcase/Testcase01_output/",
+          "directory": true,
+          "path": "assignments/2025/final/course_support/public_testcases/Testcase01_output"
+        },
+        {
+          "source_member": "Final_Project_Public_Testcase/Testcase01_output/execution_result.txt",
+          "path": "assignments/2025/final/course_support/public_testcases/Testcase01_output/execution_result.txt",
+          "size": 114,
+          "sha256": "28a574e2b6987cd078e36dbded381acdff03a940d216c915bbbc53e786c51857"
+        },
+        {
+          "source_member": "Final_Project_Public_Testcase/Testcase01_output/result_of_conv1.txt",
+          "path": "assignments/2025/final/course_support/public_testcases/Testcase01_output/result_of_conv1.txt",
+          "size": 2313,
+          "sha256": "744731af8c04d3d44222953f072196db6130213c83951f115e21b9093542d665"
+        },
+        {
+          "source_member": "Final_Project_Public_Testcase/Testcase01_output/result_of_conv2.txt",
+          "path": "assignments/2025/final/course_support/public_testcases/Testcase01_output/result_of_conv2.txt",
+          "size": 942,
+          "sha256": "ad5f9eb7b9bb546d27ceed688bafb7744303d740e381187536692e2d2220e234"
+        },
+        {
+          "source_member": "Final_Project_Public_Testcase/Testcase01_output/result_of_fc.txt",
+          "path": "assignments/2025/final/course_support/public_testcases/Testcase01_output/result_of_fc.txt",
+          "size": 66,
+          "sha256": "23d2fde17b94854ef1f0ff518d8de6e3c0eae8f47f194b4fbfa8ead24b0f7329"
+        },
+        {
+          "source_member": "Final_Project_Public_Testcase/Testcase02/",
+          "directory": true,
+          "path": "assignments/2025/final/course_support/public_testcases/Testcase02"
+        },
+        {
+          "source_member": "Final_Project_Public_Testcase/Testcase02/conv1_bias.txt",
+          "path": "assignments/2025/final/course_support/public_testcases/Testcase02/conv1_bias.txt",
+          "size": 25,
+          "sha256": "a7c5f2a65cf884276d318114381bcae350659ecfa350cd8eab84629cbc45638b"
+        },
+        {
+          "source_member": "Final_Project_Public_Testcase/Testcase02/conv1_weight.txt",
+          "path": "assignments/2025/final/course_support/public_testcases/Testcase02/conv1_weight.txt",
+          "size": 1328,
+          "sha256": "1340c79f3983d31a72ec5dd1b59e7be2787fea37abbf3f93415f62f98ed0e76f"
+        },
+        {
+          "source_member": "Final_Project_Public_Testcase/Testcase02/conv2_bias.txt",
+          "path": "assignments/2025/final/course_support/public_testcases/Testcase02/conv2_bias.txt",
+          "size": 55,
+          "sha256": "8377cf07f04c54f3a7d5e7a2514878a21629b94d5ea831cf0483607984731c67"
+        },
+        {
+          "source_member": "Final_Project_Public_Testcase/Testcase02/conv2_weight.txt",
+          "path": "assignments/2025/final/course_support/public_testcases/Testcase02/conv2_weight.txt",
+          "size": 5295,
+          "sha256": "0f30af5781c688ebc615ca778a93541786befe8b6edff1da8bc42a5a765ce2e3"
+        },
+        {
+          "source_member": "Final_Project_Public_Testcase/Testcase02/fc_bias.txt",
+          "path": "assignments/2025/final/course_support/public_testcases/Testcase02/fc_bias.txt",
+          "size": 133,
+          "sha256": "d29dc5b4beaa99ac6742324655e45aa87872da07d01b0ac6e0edc679c5b2a89b"
+        },
+        {
+          "source_member": "Final_Project_Public_Testcase/Testcase02/fc_weight.txt",
+          "path": "assignments/2025/final/course_support/public_testcases/Testcase02/fc_weight.txt",
+          "size": 4860,
+          "sha256": "f80154d77edf30ecfac1bb4153c68f4197378601d00390eb8d0fd884c77f1ce7"
+        },
+        {
+          "source_member": "Final_Project_Public_Testcase/Testcase02/img_label.txt",
+          "path": "assignments/2025/final/course_support/public_testcases/Testcase02/img_label.txt",
+          "size": 10191,
+          "sha256": "5cf51aa1f8c836fee4a37a9d855f232aaf17b166802f7d7285b91860e30ae89f"
+        },
+        {
+          "source_member": "Final_Project_Public_Testcase/Testcase02_output/",
+          "directory": true,
+          "path": "assignments/2025/final/course_support/public_testcases/Testcase02_output"
+        },
+        {
+          "source_member": "Final_Project_Public_Testcase/Testcase02_output/execution_result.txt",
+          "path": "assignments/2025/final/course_support/public_testcases/Testcase02_output/execution_result.txt",
+          "size": 113,
+          "sha256": "9c60f6a438aabe77f825ef7c48e1a9d56205afb95ea688033a64790a24e97e98"
+        },
+        {
+          "source_member": "Final_Project_Public_Testcase/Testcase02_output/result_of_conv1.txt",
+          "path": "assignments/2025/final/course_support/public_testcases/Testcase02_output/result_of_conv1.txt",
+          "size": 1523,
+          "sha256": "0c5423588b9e543a3dc5821906a8bcccc077524bc419f507a6ee663d469d4c06"
+        },
+        {
+          "source_member": "Final_Project_Public_Testcase/Testcase02_output/result_of_conv2.txt",
+          "path": "assignments/2025/final/course_support/public_testcases/Testcase02_output/result_of_conv2.txt",
+          "size": 237,
+          "sha256": "fe4386890a861504620448ae814f888520ea175ed07219221e61c9ddf386c049"
+        },
+        {
+          "source_member": "Final_Project_Public_Testcase/Testcase02_output/result_of_fc.txt",
+          "path": "assignments/2025/final/course_support/public_testcases/Testcase02_output/result_of_fc.txt",
+          "size": 65,
+          "sha256": "d254b01eaddee964f171c32ab21fbdf841cdd6144ec144a0b37e47ef1da4831c"
+        },
+        {
+          "source_member": "Final_Project_Public_Testcase/Testcase03/",
+          "directory": true,
+          "path": "assignments/2025/final/course_support/public_testcases/Testcase03"
+        },
+        {
+          "source_member": "Final_Project_Public_Testcase/Testcase03/conv1_bias.txt",
+          "path": "assignments/2025/final/course_support/public_testcases/Testcase03/conv1_bias.txt",
+          "size": 25,
+          "sha256": "1850b5c606438e994718ce9518d667adbdfc67a0f0d11268da506a3810525a52"
+        },
+        {
+          "source_member": "Final_Project_Public_Testcase/Testcase03/conv1_weight.txt",
+          "path": "assignments/2025/final/course_support/public_testcases/Testcase03/conv1_weight.txt",
+          "size": 687,
+          "sha256": "3cc356e7c3eb4c17e632ec3f53989c51f9dc6143262e24595ef5ea1e7ee4bdf7"
+        },
+        {
+          "source_member": "Final_Project_Public_Testcase/Testcase03/conv2_bias.txt",
+          "path": "assignments/2025/final/course_support/public_testcases/Testcase03/conv2_bias.txt",
+          "size": 52,
+          "sha256": "b7f1126a27e8704ff3ec9cf742629970ef528be4e38ee9dd116b55acba5c5f68"
+        },
+        {
+          "source_member": "Final_Project_Public_Testcase/Testcase03/conv2_weight.txt",
+          "path": "assignments/2025/final/course_support/public_testcases/Testcase03/conv2_weight.txt",
+          "size": 2695,
+          "sha256": "0b103ef0021b5cd157c35a38cf063d8a55cbe9820258a28b1169b7d97f7bd5b1"
+        },
+        {
+          "source_member": "Final_Project_Public_Testcase/Testcase03/fc_bias.txt",
+          "path": "assignments/2025/final/course_support/public_testcases/Testcase03/fc_bias.txt",
+          "size": 134,
+          "sha256": "2e471d9ef543c94c0928ee2f8f939d9f2a95bb99c6d4c59d9b2c6175946a83bd"
+        },
+        {
+          "source_member": "Final_Project_Public_Testcase/Testcase03/fc_weight.txt",
+          "path": "assignments/2025/final/course_support/public_testcases/Testcase03/fc_weight.txt",
+          "size": 8629,
+          "sha256": "37249d40395dda9b87399250e9dd228ad4f1a4d8f3cbca791d07f0aa85a94cfa"
+        },
+        {
+          "source_member": "Final_Project_Public_Testcase/Testcase03/img_label.txt",
+          "path": "assignments/2025/final/course_support/public_testcases/Testcase03/img_label.txt",
+          "size": 10191,
+          "sha256": "dd2b797a15bc0dc4b5de598a55f7ffbc15ef76a3d547d5e4f486cb9e41519215"
+        },
+        {
+          "source_member": "Final_Project_Public_Testcase/Testcase03_output/",
+          "directory": true,
+          "path": "assignments/2025/final/course_support/public_testcases/Testcase03_output"
+        },
+        {
+          "source_member": "Final_Project_Public_Testcase/Testcase03_output/execution_result.txt",
+          "path": "assignments/2025/final/course_support/public_testcases/Testcase03_output/execution_result.txt",
+          "size": 115,
+          "sha256": "575c60e4d3f961f968d377af08f78332a9195bd973e17244ef1b5e9a04e8344f"
+        },
+        {
+          "source_member": "Final_Project_Public_Testcase/Testcase03_output/result_of_conv1.txt",
+          "path": "assignments/2025/final/course_support/public_testcases/Testcase03_output/result_of_conv1.txt",
+          "size": 1846,
+          "sha256": "b2c3046928116492ef9bb1ba646c889117ad89059028fb1429817833ecb5f45e"
+        },
+        {
+          "source_member": "Final_Project_Public_Testcase/Testcase03_output/result_of_conv2.txt",
+          "path": "assignments/2025/final/course_support/public_testcases/Testcase03_output/result_of_conv2.txt",
+          "size": 424,
+          "sha256": "58fc8258a8f432cb7b70bde49162816bb16ae485d5690fae2853b65bb6739ddf"
+        },
+        {
+          "source_member": "Final_Project_Public_Testcase/Testcase03_output/result_of_fc.txt",
+          "path": "assignments/2025/final/course_support/public_testcases/Testcase03_output/result_of_fc.txt",
+          "size": 66,
+          "sha256": "09bedff3dc7880797ce6a463807fc43ab81e627b5c7d9836b7adc95459d46c5c"
+        }
+      ]
+    },
+    {
+      "assignment": "final",
+      "source_filename": "Final_Project_Bouns_Public_Testcase.zip",
+      "purpose": "Three P2 PGM images, PNG previews and historical quantized image text files.",
+      "path": "assignments/2025/final/originals/resources/Final_Project_Bouns_Public_Testcase.zip",
+      "size": 53877,
+      "sha256": "34daff38ca4e89575d7666b06ba596d0bd7ef0babea89955cc0fb8d3cf7eaad8",
+      "source_prefix_removed": "Final_Project_Bouns_Public_Testcase/",
+      "extracted_root": "assignments/2025/final/course_support/bonus_testcases",
+      "members": [
+        {
+          "source_member": "Final_Project_Bouns_Public_Testcase/Testcase01/",
+          "directory": true,
+          "path": "assignments/2025/final/course_support/bonus_testcases/Testcase01"
+        },
+        {
+          "source_member": "Final_Project_Bouns_Public_Testcase/Testcase01/img_label.pgm",
+          "path": "assignments/2025/final/course_support/bonus_testcases/Testcase01/img_label.pgm",
+          "size": 155176,
+          "sha256": "5d057633749860ac5a1b9805b86e3d781f27098d27aaff1db8911dfcaf36d29c"
+        },
+        {
+          "source_member": "Final_Project_Bouns_Public_Testcase/Testcase01/img_label.png",
+          "path": "assignments/2025/final/course_support/bonus_testcases/Testcase01/img_label.png",
+          "size": 854,
+          "sha256": "2f961c653714139a497219f396197e3a437169a1141bae98901d7779daaf562b"
+        },
+        {
+          "source_member": "Final_Project_Bouns_Public_Testcase/Testcase01/img_label_bonus.txt",
+          "path": "assignments/2025/final/course_support/bonus_testcases/Testcase01/img_label_bonus.txt",
+          "size": 10218,
+          "sha256": "8dd6783cf0dc827aebeb8891a73b705cdab28ce0ca3b78e81d8f660f8f434950"
+        },
+        {
+          "source_member": "Final_Project_Bouns_Public_Testcase/Testcase02/",
+          "directory": true,
+          "path": "assignments/2025/final/course_support/bonus_testcases/Testcase02"
+        },
+        {
+          "source_member": "Final_Project_Bouns_Public_Testcase/Testcase02/img_label.pgm",
+          "path": "assignments/2025/final/course_support/bonus_testcases/Testcase02/img_label.pgm",
+          "size": 152651,
+          "sha256": "5f319377fd5543ddcba6acbc640be92a3447c06d62def569a778bccef12dddd1"
+        },
+        {
+          "source_member": "Final_Project_Bouns_Public_Testcase/Testcase02/img_label.png",
+          "path": "assignments/2025/final/course_support/bonus_testcases/Testcase02/img_label.png",
+          "size": 844,
+          "sha256": "fbbdcafd9053b2248e76dcb23687d9495b52cf424e3db2f16aba8fc7da4a1d15"
+        },
+        {
+          "source_member": "Final_Project_Bouns_Public_Testcase/Testcase02/img_label_bouns.txt",
+          "path": "assignments/2025/final/course_support/bonus_testcases/Testcase02/img_label_bouns.txt",
+          "size": 10218,
+          "sha256": "fecfdc3afaefd03393e67aee6a15cdee95752cc9a9e9353bdd5aa907a6933c15"
+        },
+        {
+          "source_member": "Final_Project_Bouns_Public_Testcase/Testcase03/",
+          "directory": true,
+          "path": "assignments/2025/final/course_support/bonus_testcases/Testcase03"
+        },
+        {
+          "source_member": "Final_Project_Bouns_Public_Testcase/Testcase03/img_label.pgm",
+          "path": "assignments/2025/final/course_support/bonus_testcases/Testcase03/img_label.pgm",
+          "size": 154497,
+          "sha256": "c4e66f306f296b9af681e837533ea6002f3dbe571bfde411c8403f474dec5d52"
+        },
+        {
+          "source_member": "Final_Project_Bouns_Public_Testcase/Testcase03/img_label.png",
+          "path": "assignments/2025/final/course_support/bonus_testcases/Testcase03/img_label.png",
+          "size": 769,
+          "sha256": "5f23cba38d54df075dea3659018925ca204d78576bf18e5e10bf68e640144d45"
+        },
+        {
+          "source_member": "Final_Project_Bouns_Public_Testcase/Testcase03/img_label_bonus.txt",
+          "path": "assignments/2025/final/course_support/bonus_testcases/Testcase03/img_label_bonus.txt",
+          "size": 10218,
+          "sha256": "c21586285445db17b2ce974158e584e241c7770cfdb8a863e3d44daff4480d3b"
+        }
+      ]
+    },
+    {
+      "assignment": "final",
+      "source_filename": "Data after Quantization.zip",
+      "purpose": "Historical quantization examples retained for comparison with the latest FP8 specification.",
+      "path": "assignments/2025/final/originals/resources/Data after Quantization.zip",
+      "size": 2289,
+      "sha256": "4ed4feb8fc6eba3edbac5dd03cda8fad1633aa629840ac0604434d081f83daed",
+      "source_prefix_removed": "Data after Quantization/",
+      "extracted_root": "assignments/2025/final/course_support/quantization_examples",
+      "members": [
+        {
+          "source_member": "Data after Quantization/Testcase01.txt",
+          "path": "assignments/2025/final/course_support/quantization_examples/Testcase01.txt",
+          "size": 10220,
+          "sha256": "62b4c6f52b0d42e925ab53bca14787f1cf9c1f9954a4cb37d5c83857a2abab94"
+        },
+        {
+          "source_member": "Data after Quantization/Testcase02.txt",
+          "path": "assignments/2025/final/course_support/quantization_examples/Testcase02.txt",
+          "size": 10220,
+          "sha256": "d464c4f727eeab96bcb62cfdeab5f52f6af2a10e8892241cbb39e42c16942a02"
+        },
+        {
+          "source_member": "Data after Quantization/Testcase03.txt",
+          "path": "assignments/2025/final/course_support/quantization_examples/Testcase03.txt",
+          "size": 10220,
+          "sha256": "aafa2271040f6bde2543eb2314d800e58398e38c20428c0a62b75d5a277f2ae0"
+        }
+      ]
+    }
+  ],
+  "standalone": [
+    {
+      "assignment": "pa01",
+      "source_filename": "checker.out",
+      "purpose": "Official Linux ELF checker supplied separately; preserved without executing.",
+      "path": "assignments/2025/pa01/course_support/checker.out",
+      "size": 30096,
+      "sha256": "6cd71af4ba287d2475483f24f215cc69e9b52511a4de047d4159085eba351015"
+    },
+    {
+      "assignment": "pa02",
+      "source_filename": "2025Fall_EE1003_IntroCS_PA2_Final_Explanation.pdf",
+      "purpose": "Official instructor/TA Final Explanation slides dated November 2025; supplemental solution guidance, not a replacement assignment specification.",
+      "path": "assignments/2025/pa02/originals/2025Fall_EE1003_IntroCS_PA2_Final_Explanation.pdf",
+      "size": 418828,
+      "sha256": "4e634b041090eda8cbfe0214070a13b77656792161ef646f3f9c779d0d0466ee"
+    },
+    {
+      "assignment": "final",
+      "source_filename": "hardware_architecture.cpp",
+      "purpose": "Byte-exact original course PE API implementation; main solution uses its already published compatible copy.",
+      "path": "assignments/2025/final/course_support/hardware_architecture.cpp",
+      "size": 4748,
+      "sha256": "1a19ce2fe30e3fb88acb39820f69bc71580788e98fa52133f8cf86b576e2be23"
+    },
+    {
+      "assignment": "final",
+      "source_filename": "hardware_architecture.h",
+      "purpose": "Byte-exact original course PE API header.",
+      "path": "assignments/2025/final/course_support/hardware_architecture.h",
+      "size": 1376,
+      "sha256": "74ee9a11c38a7876e62f387de28361d35f067c436d65ac231a20c1ff4bad00c8"
+    }
+  ],
+  "generated_support_files": [
+    {
+      "purpose": "Keep the empty result directory required by the official makefile when downloading from Git.",
+      "path": "assignments/2025/pa02/course_support/starter/PA2/Result/.gitkeep",
+      "size": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "purpose": "Keep the empty result directory required by the official makefile when downloading from Git.",
+      "path": "assignments/2025/pa02/course_support/starter/PA2_bonus/Result/.gitkeep",
+      "size": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    }
+  ]
+}

@@ -1,0 +1,7 @@
+5 20 4
+2 10 8
+S B O O B
+B # X # O
+O X O X O
+O O X O O
+E O B O E

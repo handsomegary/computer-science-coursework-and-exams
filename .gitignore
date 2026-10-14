@@ -5,6 +5,7 @@ __pycache__/
 *.o
 *.bin
 *.out
+!assignments/2025/pa01/course_support/checker.out
 *.bench
 *.kmap
 integers.txt
