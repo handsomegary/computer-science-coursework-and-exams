@@ -1,0 +1,13 @@
+20251109
+    - Document released. 
+20251112
+    - Document update.
+20251114
+    - Document update. 
+20251118
+    - PA3 explanation video released: please refer to course material >> 2025Fall EE1003 IntroCS PA3 Detailed Explanation
+20251120
+    - Release all the public testcases on OJ
+20251126
+    -  PA3 hint video released: please refer to course material >> 2025Fall EE1003 IntroCS PA3 Hint
+    -  Document update. 

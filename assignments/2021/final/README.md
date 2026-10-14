@@ -1,5 +1,13 @@
 # 2021 Final Project：Design Synthesis
 
+下載後可從儲存庫根目錄直接生成範例輸入、編譯並保留真正的執行結果：
+
+```sh
+python tools/run_example.py assignments/2021/final --all --output-dir build/examples/2021-final
+```
+
+使用已附的 `samples.json` 與本案原始碼，無須本機其他檔案；產物與命令保存在新目錄，現有目錄會被拒絕。用法與結果位置見[根目錄 README](../../../README.md#編譯與驗證)。下方手動指令的輸入檔名可自行選擇。
+
 [solution.md](solution.md) 包含完整重建題目、K-map 中介格式、benchmark 格式、實跑範例及解法報告。
 
 ```sh
@@ -14,6 +22,8 @@ g++ -std=c++11 -Wall -Wextra -Wpedantic bonus.cpp -o synth_bonus
 一般版按官方 DFF、最多 4 個 present+input 變數，並支援任意列/section 順序與名稱。擴充版支援 D/T/JK、最多 8 個變數；加 `--allow-incomplete` 可把未提供的組合當 don't-care。資料中沒有另一份正式 bonus 題面，這些是明示擴充。`logic.hpp` 使用自寫 QM/Petrick 精確 SOP 最小化。
 
 官方 2021 題面、補充說明、更新問答與兩組公開案例提供本版格式依據。電路線名或 gate 輸入順序不必與公開答案相同，連線邏輯必須等價。
+
+原始兩組案例的 [test/state_table_1.txt／state_table_2.txt](course_support/public_testcases/test) 與同目錄上層的兩份原名 `circuit_1(可以用記事本開啟).bench`／`circuit_2(可以用記事本開啟).bench` 已原樣保留。可先在本案編譯 `synth`，建立全新的 `own-run/` 後，進入該目錄執行 `../synth ../course_support/public_testcases/test/state_table_1.txt circuit.bench`；中介檔與結果都留在自己的目錄。原件的映射與格式限制見[附件核對紀錄](../../document-companions.md)；[官方 Q&A 的本機保存副本](originals/相關問題.docx)另附原公告內容。
 
 [課程提供的原版 kmap.cpp](course_support/README.md)另存於 `course_support/`，附來源依據、使用方式及等價性／最小性驗證結果。
 

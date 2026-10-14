@@ -10,6 +10,8 @@
 
 主要 `solution.md` 與作業入口為重新實作的解答。另收錄 13 份經重新驗證的匿名修正版、對應的 13 份有誤原版，以及原先通過的兩份匿名 PA1 程式；詳見[修復與驗證紀錄](reports/reference-repairs.md)。來源以隨機代稱呈現，原版位元組保留；[課程原版 K-map 支援程式](assignments/2021/final/course_support/README.md)另列介面與限制。[初次審查紀錄](reports/reference-validation.md)保留修復前的判定。
 
+作業說明所搭配的原附件另有[逐案核對清單](assignments/document-companions.md)與[原件映射／SHA256／引用頁碼](assignments/document-companions.json)。2021 PA4／PA5／Final 的原始文字案例、舊公開輸出、四份官方 Q&A 保存副本，以及 2025 四案原始發布紀錄 `說明.txt` 也已補齊；測試生成的資料不冒充原附件。2025 Final 的課程工作站 `cs114_final_judge` 未隨本機資料提供，已明列這項缺件。
+
 ## 2021 作業
 
 目前題面與重要修訂差異見 [版本核對紀錄](assignments/version-notes.md)；各版本路徑與 SHA256 見 [specifications.json](assignments/specifications.json)。
@@ -71,10 +73,26 @@ git config core.longpaths true
 
 每個資料夾的 README 有單獨編譯與使用方式。需要 C++11 編譯器；所有 Python 工具僅使用標準函式庫，建議 Python 3.12。Python 檔負責獨立測試與解答同步，作業及考古題程式都是 C++。
 
+若要下載後直接跑出並保留結果，使用 [run_example.py](tools/run_example.py)。它從各案 `samples.json` 寫出真正的輸入檔／標準輸入，直接編譯 repo 內的 C++ 原始碼，再保存實際 stdout、stderr、產生檔、編譯紀錄、命令與逐項比對結果。預期答案放在獨立 `expected/`，不會充當程式的實際輸出。
+
+從 repo 根目錄執行：
+
+```sh
+python tools/run_example.py --list
+python tools/run_example.py assignments/2021/pa04 --example 1 --output-dir build/examples/pa04
+python tools/run_example.py assignments/2021/final --all --output-dir build/examples/synthesis
+python tools/run_example.py --all-assignments --output-dir build/examples/all-assignments
+```
+
+`--list` 列出全部 18 個題組及從 1 開始的範例編號。最後一條指令會執行十個作業的全部已發表範例；不是只印測試通過訊息。結果在指定目錄下的 `<題組>/example-XX/run/`，stdout 與 stderr 在相鄰的 `stdout.txt`／`stderr.txt`；`report.json` 記錄真正的 exit code 與比對。輸出目錄必須尚未存在，重跑時請改用新目錄。可加 `--cxx` 或設定 `CXX` 選擇編譯器；Windows 的 g++ 版本會使用靜態 runtime。`--prepare` 只產生輸入與執行計畫，會明確標示未執行，也不回報通過。
+
+各案手動指令中的 `input.txt`、`input.eqn`、`state_table.txt` 等是自選輸入檔名；範例內容已附在 `samples.json`，可用上面的工具直接取得，不需要本機其他私人資料。2025 官方測資另可依各案 README 的 `course_support/` 路徑直接執行。
+
 ```sh
 cmake -S . -B build -DCMAKE_BUILD_TYPE=Release
 cmake --build build --parallel 2
 python tools/sync_solutions.py --check
+python tools/check_document_companions.py
 python tests/test_solution_book.py
 python tests/test_pa2021_01_03.py
 python tests/test_pa2021_04_05_final.py

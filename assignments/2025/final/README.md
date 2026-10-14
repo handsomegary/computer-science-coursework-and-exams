@@ -1,5 +1,13 @@
 # Final：CNN Accelerator Simulator（2025）
 
+下載後可從儲存庫根目錄直接生成範例輸入、編譯並保留真正的執行結果：
+
+```sh
+python tools/run_example.py assignments/2025/final --all --output-dir build/examples/2025-final
+```
+
+使用已附的 `samples.json` 與本案原始碼，無須本機其他檔案；產物與命令保存在新目錄，現有目錄會被拒絕。用法與結果位置見[根目錄 README](../../../README.md#編譯與驗證)。下方手動指令的輸入檔名可自行選擇。
+
 [完整題目、解法、硬體介面與程式碼](solution.md)。使用課程提供的 3×3 PE API 完成兩層卷積，包含 FP8 量化、FC、實際硬體能耗／週期與 PGM 前處理 bonus。
 
 ```sh
@@ -44,6 +52,10 @@ PowerShell 改用 `.\cnn.exe` 與 `.\preprocess.exe`。Testcase02、Testcase03 �
 課程 PE API 的 byte-exact 原檔保存在 [course_support/hardware_architecture.h](course_support/hardware_architecture.h) 與 [course_support/hardware_architecture.cpp](course_support/hardware_architecture.cpp)。本目錄可直接編譯的 API 副本只移除原版未使用的區域變數，介面及運算行為相同；不需額外下載 header。
 
 從 repo 根目錄執行 `python tests/test_official_resources_2025.py`，會檢查所有原檔 hash，逐值比對三套官方 conv1／conv2／FC golden，核對量化誤差與預測，並以最新版 FP8／雙線性插值 oracle 核對三張官方 PGM。能耗與 steps 是目前 PE 排程的實際 API 計數，與舊 golden 的較慢排程不同。歷史量化文字圖保留作比較，不作為最新版 bonus 的正確答案。
+
+Checker 文件第 2 頁的 `cs114_final_judge` 是課程工作站的 grading 指令，本機提供資料沒有該 binary/script；[原附件核對清單](../../document-companions.md)與 manifest 明列為 `not_provided`。本機 CNN 與三套公開輸入可執行，但不把獨立測試冒充這個原工作站 grader。
+
+[原始發布紀錄 說明.txt](originals/release_notes/說明.txt) 完整保留 ZIP、header、12/22 量化規則與 12/25 API 更新公告。其中課程影片與選用 OpenCV workstation 設定是外部課程資源；本版 PGM 入口不依賴未提供的 `enable-opencv` script。
 
 ## 作業說明（目前版本）
 

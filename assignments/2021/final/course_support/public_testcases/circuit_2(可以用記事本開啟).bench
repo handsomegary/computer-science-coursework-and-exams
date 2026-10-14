@@ -1,0 +1,13 @@
+# 2 inputs
+# 0 output
+# 0 inverter
+# 1 flip-flop
+# 2 gates (1 AND + 1 OR)
+
+INPUT(x)
+INPUT(y)
+ 
+N1 = AND(x,y)
+DA = OR(A,N1)
+A = D(DA,CLK)
+#END

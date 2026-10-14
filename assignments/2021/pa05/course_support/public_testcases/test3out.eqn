@@ -1,0 +1,3 @@
+INORDER = a b c d e f g h i j k l m ;
+OUTORDER = output;
+output = (!b*!c*!d*!e*!f*!g*!h*!i*!j*k*!l*!m)+(!a*!b*!c*!d*!e*!f*!g*!h*!i*j*!k*!l)+(!a*!b*!c*!d*!e*!f*!g*!h*i*!j*!k*!l)+(!a*!b*!c*!d*!e*!f*!g*h*!i*!j*!k*!l)+(!a*!b*!c*!d*e*!f*!g*!h*!i*!j*!k*!l)+(!a*!b*!c*!d*!e*!f*!h*!i*!j*!k*m)+(!a*!b*!c*!d*!e*!f*!h*!i*!j*!k*l)+(!a*!b*!c*!d*!e*!g*!h*!i*!j*!k*m)+(!a*!b*!c*!d*!e*!g*!h*!i*!j*!k*l)+(!a*!b*!c*!e*!f*!g*!h*!i*!j*!k*m)+(!a*!b*!c*!e*!f*!g*!h*!i*!j*!k*l)+(!a*!b*!d*!e*!f*!g*!h*!i*!j*!k*m)+(!a*!b*!d*!e*!f*!g*!h*!i*!j*!k*l)+(!a*!c*!d*!e*!f*!g*!h*!i*!j*!k*l)+(a*!b*!c*!d*!e*!f*!g*!h*!i*!j*k*!l)+(a*!b*!c*!d*!e*!f*!g*!h*!i*!j*k*!m)

@@ -1,5 +1,15 @@
 # 2021 PA2：二進位累加與二補數加分版
 
+原 [PA2 Positive Binary Adder.docx](originals/PA2%20Positive%20Binary%20Adder.docx) 保存 11/04 官方 Q&A、11/02 溢位判斷公告與 10/28 修訂公告；按原 bytes 保存，來源與 SHA256 見[附件核對紀錄](../../document-companions.md)。較早公告供歷史核對，目前規格仍以 11/14 最新 PDF 為準。
+
+下載後可從儲存庫根目錄直接生成範例輸入、編譯並保留真正的執行結果：
+
+```sh
+python tools/run_example.py assignments/2021/pa02 --all --output-dir build/examples/2021-pa02
+```
+
+使用已附的 `samples.json` 與本案原始碼，無須本機其他檔案；產物與命令保存在新目錄，現有目錄會被拒絕。用法與結果位置見[根目錄 README](../../../README.md#編譯與驗證)。下方手動指令的輸入檔名可自行選擇。
+
 依提供的作業題目與參考程式完成，以 2021 年最後修訂規格和公開測資為準。一般版 `main.cpp` 使用 `-1` 結束，加分版 `bonus.cpp` 接受負數並使用 `0` 結束；兩版共用 `binary.hpp`，分別編譯。
 
 ```sh

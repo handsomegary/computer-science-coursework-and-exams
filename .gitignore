@@ -7,5 +7,6 @@ __pycache__/
 *.out
 !assignments/2025/pa01/course_support/checker.out
 *.bench
+!assignments/2021/final/course_support/public_testcases/*.bench
 *.kmap
 integers.txt

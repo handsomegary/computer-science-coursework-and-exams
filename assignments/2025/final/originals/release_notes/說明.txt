@@ -1,0 +1,34 @@
+20251105
+    - Document released
+20251125
+    - Document updated
+    - Release Appendix1: Header File and Header Files 
+        >> hardware_architecture.h
+        >> hardware_architecture.cpp
+    - Release all the public testcases in Final_Project_Public_Testcase.zip
+    - Release all the bouns public testcases in Final_Project_Bouns_Public_Testcase.zip
+    - Final Project explanation video released: please refer to Chapter 7: Pointers
+        >> 2025Fall EE1003 IntroCS Final Project Detailed Explanation (Chinese) 
+        >> 2025Fall EE1003 IntroCS Final Project Detailed Explanation (English)
+        >> 2025Fall EE1003 IntroCS Final Project Checker
+20251204
+    - Header Files updated: float return_energy() is a function you might call in your main.cpp
+        >> hardware_architecture.h
+        >> hardware_architecture.cpp
+20251221
+    - Upload the files of "Data after Quantization.zip" for you to debug
+20251222
+    - In our quantization setup, support for subnormal numbers has been disabled. Consequently, any values below the smallest normal number (2^{-6} = 0.015625) cannot be represented and are instead flushed to zero. Please perform all subsequent calculations based on this logic.
+20251224
+    - Checker document updated
+    - Ｍerry Christmas~
+20251225
+    - hardware_architecture.cpp updated
+    - Ｍerry Christmas~
+20251227
+    - To use OpenCV, please follow the steps below:
+Enable OpenCV environment variables: source /usr/local/bin/enable-opencv
+
+Compile your code: g++ -D_GLIBCXX_USE_CXX11_ABI=0 your_program.cpp -o your_program `pkg-config --cflags --libs opencv4`
+
+Run the program: ./your_program output

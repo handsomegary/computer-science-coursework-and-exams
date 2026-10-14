@@ -1,6 +1,9 @@
 * text=auto eol=lf
 *.md whitespace=-blank-at-eol
 *.pdf binary
+*.docx binary
+assignments/2021/**/course_support/public_testcases/** -text whitespace=-blank-at-eol,-blank-at-eof,cr-at-eol
+assignments/**/originals/release_notes/** -text whitespace=-blank-at-eol,-blank-at-eof,cr-at-eol
 assignments/2021/final/course_support/kmap.cpp -text whitespace=-blank-at-eol,cr-at-eol
 assignments/**/references/**/*.cpp -text whitespace=-blank-at-eol,cr-at-eol
 assignments/**/references/**/original/*.cpp -text whitespace=-blank-at-eol,-blank-at-eof,cr-at-eol

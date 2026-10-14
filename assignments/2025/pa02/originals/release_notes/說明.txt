@@ -1,0 +1,13 @@
+20251125
+    - PA2 explanation document and video released: please refer to course material >> 2025Fall EE1003 IntroCS PA2 Final Explanation
+
+20251104    
+    - PA2 hint document and video released: please refer to course material >> 2025Fall EE1003 IntroCS PA2 Hint
+
+20251027
+    - Release all the public testcases and checker in PA2_STUDENT.zip
+    - PA2 explanation document and video released: please refer to course material >> 2025Fall EE1003 IntroCS PA2 Detailed Explanation
+    - PA2 checker document and video released: please refer to course material >> 2025Fall EE1003 IntroCS PA2 Checker
+
+20251015 
+    - Document released

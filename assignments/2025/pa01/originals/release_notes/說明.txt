@@ -1,0 +1,21 @@
+20251024
+    - Final explain video released: please refer to course material >> 2025Fall EE1003 IntroCS PA1 Final Explanation
+
+20251007
+    - Hint video released:  please refer to course material >> 2025Fall EE1003 IntroCS PA1 Hint
+
+20250927
+    - Document updated
+    - Release all the public testcases in Public Testcases.zip
+    - Release Common Problem document
+    - Release OJ tutorial and video,  please also refer to course material >> 2025Fall EE1003 IntroCS PA1 OJ
+    - Release workstation guide and video, please also refer to course material >> 2025Fall EE1003 IntroCS PA1 Workstation Info
+    - Release checker tutorial and video, please also refer to course material >> 2025Fall EE1003 IntroCS PA1 Checker
+    - Release checker.out for PA1 Bonus Part 2
+
+20250919
+    - Document updated
+    - PA1 explanation video released: please refer to course material >> 2025Fall EE1003 IntroCS PA1 Detailed Explanation
+
+20250911
+    - Document released. 
