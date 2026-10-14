@@ -13,13 +13,15 @@ g++ -std=c++11 -O2 main.cpp -o dinosaur
 
 官方兩份基本範例、一份雙層範例已與文字 golden 核對（內容一致，程式另外保留最後換行）。自動版的官方測資已產生合法勝利路徑。額外測試涵蓋非法浮點命令、重複跳躍、碰撞、直接勝利，以及 10,000 tick 上限。
 
-## 原始作業 PDF
+## 作業說明（目前版本）
 
-以下 PDF 保留來源檔名與原始內容；同一題目的不同修訂版分別保存。
+以本次提供資料中最新的[作業題面（2025-09-25）](originals/2025Fall_EE1003_Intro_to_CS_PA1_Andy_20250925.pdf)為準。內文列 version 3（2025-09-21）；使用提供資料中 9/25 命名的修訂檔。
+
+原始檔名與 PDF 內容完整保留。後續補充說明／Q&A 與題面一起核對；舊題面另存於歷史版本，不作為目前預設規格。
 
 | 類型 | 原始檔案 |
 |---|---|
-| 作業題面／修訂版 | [2025Fall_EE1003_Intro_to_CS_PA1_Andy_20250925.pdf](originals/2025Fall_EE1003_Intro_to_CS_PA1_Andy_20250925.pdf) |
+| 目前題面 | [2025Fall_EE1003_Intro_to_CS_PA1_Andy_20250925.pdf](originals/2025Fall_EE1003_Intro_to_CS_PA1_Andy_20250925.pdf) |
 | 補充說明 | [2025Fall_EE1003_IntroCS_PA1_Checker.pdf](originals/2025Fall_EE1003_IntroCS_PA1_Checker.pdf) |
 | 補充說明 | [2025Fall_EE1003_IntroCS_PA1_Detailed_Explanation.pdf](originals/2025Fall_EE1003_IntroCS_PA1_Detailed_Explanation.pdf) |
 | 補充說明 | [2025Fall_EE1003_IntroCS_PA1_Workstation_Info.pdf](originals/2025Fall_EE1003_IntroCS_PA1_Workstation_Info.pdf) |

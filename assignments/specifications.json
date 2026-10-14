@@ -1,0 +1,98 @@
+{
+  "schema_version": 1,
+  "scope": "Latest versions among the supplied course documents",
+  "assignments": [
+    {
+      "assignment": "assignments/2021/final",
+      "current_specification": "assignments/2021/final/originals/2021Fall_EE1003_IntroCS_Final_Project_Andy_20211210_0030.pdf",
+      "revision": "2021-12-10",
+      "version_note": "搭配 2022-01-12 補充說明與課程 Q&A。",
+      "sha256": "19ae25165934c2b7d4a87a887decc888975fbf3917893378f996ffbed0ef829f",
+      "archive": []
+    },
+    {
+      "assignment": "assignments/2021/pa01",
+      "current_specification": "assignments/2021/pa01/originals/2021Fall_EE1003_IntroCS_PA1_Quintuple-Stimulus-Voicher_Andy_20211017_0400.pdf",
+      "revision": "2021-10-17",
+      "version_note": "V2；內文更新日為 2021-09-30，10/17 檔修正報告檔名範例。",
+      "sha256": "24b20e17c0df3aeb770a2320771ea4e813d75d90a03f8ac0140283deb9e6e23d",
+      "archive": [
+        "assignments/2021/pa01/originals/archive/2021Fall_EE1003_IntroCS_PA1_Quintuple-Stimulus-Voicher_Andy_20210927_0038.pdf",
+        "assignments/2021/pa01/originals/archive/2021Fall_EE1003_IntroCS_PA1_Quintuple-Stimulus-Voicher_V2_Andy_20210990_0022.pdf"
+      ]
+    },
+    {
+      "assignment": "assignments/2021/pa02",
+      "current_specification": "assignments/2021/pa02/originals/PA2_20211114_1530_Andy.pdf",
+      "revision": "2021-11-14",
+      "version_note": "11/14 修訂版。",
+      "sha256": "61663673eca19895546b5153bcb0b0eeeffc4c549afa366a8b5cb85a2b354fa2",
+      "archive": [
+        "assignments/2021/pa02/originals/archive/PA2_20211018_0410_Andy.pdf",
+        "assignments/2021/pa02/originals/archive/PA2_20211028_2006_Andy.pdf"
+      ]
+    },
+    {
+      "assignment": "assignments/2021/pa03",
+      "current_specification": "assignments/2021/pa03/originals/PA3_20211123_2330_Andy.pdf",
+      "revision": "2021-11-23",
+      "version_note": "11/23 修訂版。",
+      "sha256": "ad1718e52e9722eb07be7543c8463fb614d87e925563610ccc99b2c3d9871cf8",
+      "archive": [
+        "assignments/2021/pa03/originals/archive/PA3_20211110_1100_Andy.pdf"
+      ]
+    },
+    {
+      "assignment": "assignments/2021/pa04",
+      "current_specification": "assignments/2021/pa04/originals/PA4_MySpice_HO_20220104_1730.pdf",
+      "revision": "2022-01-04",
+      "version_note": "1/4 修訂版；仍屬 2021 Fall。",
+      "sha256": "94d17a6c71383ee640cde37a4d8e4bc23da85274f77532971eeee5e1034ed64e",
+      "archive": [
+        "assignments/2021/pa04/originals/archive/PA4_MySpice_Andy_20211207_0200.pdf",
+        "assignments/2021/pa04/originals/archive/PA4_MySpice_HO_20211223_2300.pdf",
+        "assignments/2021/pa04/originals/archive/PA4_MySpice_HO_20211228_2330.pdf"
+      ]
+    },
+    {
+      "assignment": "assignments/2021/pa05",
+      "current_specification": "assignments/2021/pa05/originals/PA5_bonus_QM_Andy_20211209_1855.pdf",
+      "revision": "2021-12-09",
+      "version_note": "提供資料中的 QM/Petrick bonus 題面。",
+      "sha256": "724b421dc4917e794ea570785cced69e4b0849df6d3623dd0295e10e7c40b056",
+      "archive": []
+    },
+    {
+      "assignment": "assignments/2025/final",
+      "current_specification": "assignments/2025/final/originals/2025Fall_EE1003_Intro_to_CS_Final_Project_Andy_20260101.pdf",
+      "revision": "2026-01-01",
+      "version_note": "內文 version 3（2026-01-01）；搭配 12/24 Checker 與 Appendix。",
+      "sha256": "e7be6b50f38eebe84f7daf94613299a72c68ac1823d903bfe1badfbe480dd045",
+      "archive": []
+    },
+    {
+      "assignment": "assignments/2025/pa01",
+      "current_specification": "assignments/2025/pa01/originals/2025Fall_EE1003_Intro_to_CS_PA1_Andy_20250925.pdf",
+      "revision": "2025-09-25",
+      "version_note": "內文列 version 3（2025-09-21）；使用提供資料中 9/25 命名的修訂檔。",
+      "sha256": "3436a132e1416e2409d3939b4e5c32deedd10ada42a349b72e503e283eca4178",
+      "archive": []
+    },
+    {
+      "assignment": "assignments/2025/pa02",
+      "current_specification": "assignments/2025/pa02/originals/2025Fall_EE1003_Intro_to_CS_PA2_Andy_20251015.pdf",
+      "revision": "2025-10-15",
+      "version_note": "搭配後續 Detailed Explanation、Checker 與 Hint。",
+      "sha256": "9e7e0983c8c7a9693740ea3dee29597779b536a83d9640d4725422eac0b48dc4",
+      "archive": []
+    },
+    {
+      "assignment": "assignments/2025/pa03",
+      "current_specification": "assignments/2025/pa03/originals/2025Fall_EE1003_Intro_to_CS_PA3_Andy_20251126.pdf",
+      "revision": "2025-11-26",
+      "version_note": "提供資料中的 11/26 題面。",
+      "sha256": "808a3718f30fa74f8df622719f73ac5abb3b3ad0b234be2a64d8ca178da07202",
+      "archive": []
+    }
+  ]
+}

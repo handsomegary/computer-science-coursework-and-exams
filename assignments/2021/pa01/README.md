@@ -15,18 +15,29 @@ g++ -std=c++11 -Wall -Wextra -Wpedantic bonus.cpp -o pa01_bonus
 
 完成範圍包括逐次消費、三種折扣、整數截尾、庫存更新、不足額拒絕、零元消費、超額付款無找零，以及 `-1` 和券用盡的結束流程。整理時消除了浮點截尾誤差、總額與實際剩券不同步、付款分支重複與錯誤輸入遺留的問題。主要難點是「能夠剛好付清」與「必須改付大面額」的分界；以較小面額的可付金額來判斷，並用不同模型驗證。未另製作原課程格式的 PDF 報告；本 README 與題解提供可重跑的實作報告。建議原題統一各範例的縮排與非法輸入訊息，避免格式歧義。
 
-## 原始作業 PDF
+## 作業說明（目前版本）
 
-以下 PDF 保留來源檔名與原始內容；同一題目的不同修訂版分別保存。
+以本次提供資料中最新的[作業題面（2021-10-17）](originals/2021Fall_EE1003_IntroCS_PA1_Quintuple-Stimulus-Voicher_Andy_20211017_0400.pdf)為準。V2；內文更新日為 2021-09-30，10/17 檔修正報告檔名範例。
+
+原始檔名與 PDF 內容完整保留。後續補充說明／Q&A 與題面一起核對；舊題面另存於歷史版本，不作為目前預設規格。
 
 | 類型 | 原始檔案 |
 |---|---|
-| 作業題面／修訂版 | [2021Fall_EE1003_IntroCS_PA1_Quintuple-Stimulus-Voicher_Andy_20210927_0038.pdf](originals/2021Fall_EE1003_IntroCS_PA1_Quintuple-Stimulus-Voicher_Andy_20210927_0038.pdf) |
-| 作業題面／修訂版 | [2021Fall_EE1003_IntroCS_PA1_Quintuple-Stimulus-Voicher_Andy_20211017_0400.pdf](originals/2021Fall_EE1003_IntroCS_PA1_Quintuple-Stimulus-Voicher_Andy_20211017_0400.pdf) |
-| 作業題面／修訂版 | [2021Fall_EE1003_IntroCS_PA1_Quintuple-Stimulus-Voicher_V2_Andy_20210990_0022.pdf](originals/2021Fall_EE1003_IntroCS_PA1_Quintuple-Stimulus-Voicher_V2_Andy_20210990_0022.pdf) |
+| 目前題面 | [2021Fall_EE1003_IntroCS_PA1_Quintuple-Stimulus-Voicher_Andy_20211017_0400.pdf](originals/2021Fall_EE1003_IntroCS_PA1_Quintuple-Stimulus-Voicher_Andy_20211017_0400.pdf) |
 | 公開測資／範例 | [PA1_corner case_1.pdf](originals/PA1_corner%20case_1.pdf) |
 | 公開測資／範例 | [PA1_testcase1.pdf](originals/PA1_testcase1.pdf) |
 | 公開測資／範例 | [PA1_testcase2.pdf](originals/PA1_testcase2.pdf) |
 | 公開測資／範例 | [PA1_testcase3.pdf](originals/PA1_testcase3.pdf) |
 | 公開測資／範例 | [PA1_testcase4.pdf](originals/PA1_testcase4.pdf) |
 | 公開測資／範例 | [PA1_testcase5.pdf](originals/PA1_testcase5.pdf) |
+
+### 歷史題面
+
+| 原始版本 |
+|---|
+| [2021Fall_EE1003_IntroCS_PA1_Quintuple-Stimulus-Voicher_Andy_20210927_0038.pdf](originals/archive/2021Fall_EE1003_IntroCS_PA1_Quintuple-Stimulus-Voicher_Andy_20210927_0038.pdf) |
+| [2021Fall_EE1003_IntroCS_PA1_Quintuple-Stimulus-Voicher_V2_Andy_20210990_0022.pdf](originals/archive/2021Fall_EE1003_IntroCS_PA1_Quintuple-Stimulus-Voicher_V2_Andy_20210990_0022.pdf) |
+
+## 經驗證的匿名參考程式
+
+[moss-lynx-5375](references/moss-lynx-5375/README.md) 收錄一般版與最少損失擴充版；附測試範圍、介面差異與原碼 SHA256。

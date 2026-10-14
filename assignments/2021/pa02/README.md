@@ -15,15 +15,15 @@ g++ -std=c++11 -Wall -Wextra -Wpedantic bonus.cpp -o pa02_bonus
 
 整理時解決了迴圈取代必需遞迴、用前兩個輸入而非累計值檢查、錯誤分支漏判 sentinel、二進位溢位和第 11/12/13/21 等序數問題。難點是 0/1 數字以十進位欄位儲存後只容納 19 位，以及負數符號延伸後的進位與溢位；以固定寬度全加器和獨立符號位處理。README 與題解提供文字報告，未另產生含個人身分的 PDF。建議原題明確統一「最少位數」和負的二次方範例。
 
-## 原始作業 PDF
+## 作業說明（目前版本）
 
-以下 PDF 保留來源檔名與原始內容；同一題目的不同修訂版分別保存。
+以本次提供資料中最新的[作業題面（2021-11-14）](originals/PA2_20211114_1530_Andy.pdf)為準。11/14 修訂版。
+
+原始檔名與 PDF 內容完整保留。後續補充說明／Q&A 與題面一起核對；舊題面另存於歷史版本，不作為目前預設規格。
 
 | 類型 | 原始檔案 |
 |---|---|
-| 作業題面／修訂版 | [PA2_20211018_0410_Andy.pdf](originals/PA2_20211018_0410_Andy.pdf) |
-| 作業題面／修訂版 | [PA2_20211028_2006_Andy.pdf](originals/PA2_20211028_2006_Andy.pdf) |
-| 作業題面／修訂版 | [PA2_20211114_1530_Andy.pdf](originals/PA2_20211114_1530_Andy.pdf) |
+| 目前題面 | [PA2_20211114_1530_Andy.pdf](originals/PA2_20211114_1530_Andy.pdf) |
 | 公開測資／範例 | [PA2_1_測資.pdf](originals/PA2_1_%E6%B8%AC%E8%B3%87.pdf) |
 | 公開測資／範例 | [PA2_2_測資.pdf](originals/PA2_2_%E6%B8%AC%E8%B3%87.pdf) |
 | 公開測資／範例 | [PA2_3_測資.pdf](originals/PA2_3_%E6%B8%AC%E8%B3%87.pdf) |
@@ -31,3 +31,10 @@ g++ -std=c++11 -Wall -Wextra -Wpedantic bonus.cpp -o pa02_bonus
 | 公開測資／範例 | [PA2_5_測資.pdf](originals/PA2_5_%E6%B8%AC%E8%B3%87.pdf) |
 | 公開測資／範例 | [PA2_Bonus_1_測資.pdf](originals/PA2_Bonus_1_%E6%B8%AC%E8%B3%87.pdf) |
 | 公開測資／範例 | [PA2_Bonus_2_測資.pdf](originals/PA2_Bonus_2_%E6%B8%AC%E8%B3%87.pdf) |
+
+### 歷史題面
+
+| 原始版本 |
+|---|
+| [PA2_20211018_0410_Andy.pdf](originals/archive/PA2_20211018_0410_Andy.pdf) |
+| [PA2_20211028_2006_Andy.pdf](originals/archive/PA2_20211028_2006_Andy.pdf) |

@@ -6,18 +6,22 @@
 
 這是依提供資料重新實作的學習解答。考後回憶並非完整正式試卷；缺附件、選項不全、舊答案錯誤、公開範例與後續更新互相衝突的部分，均在各份解答標示重建或補定。沒有上傳原始試卷掃描、個人作答報告或個人識別資料。
 
-作業原始 PDF 已按年度與專案存放於各作業的 `originals/`：共 **58 份**，包括 18 份題面／修訂版、13 份補充說明，以及 27 份公開測資／範例。每份檔案保留來源檔名與原始內容；各作業 README 提供逐檔連結。
+作業原始 PDF 已按年度與專案存放於各作業的 `originals/`：共 **58 份**，包括 10 份目前題面、8 份歷史題面、13 份補充說明，以及 27 份公開測資／範例。每份檔案保留來源檔名與原始內容；表格直接連到目前題面，舊版本保留於 `originals/archive/`。版本判定依文件內文、修訂差異及 PDF 日期交叉核對，以本次提供資料中最新版本為準。
+
+主要 `solution.md` 與作業入口為重新實作的解答。另收錄經篩選的兩份[匿名 PA1 參考程式](assignments/2021/pa01/references/moss-lynx-5375/README.md)與[課程原版 K-map 支援程式](assignments/2021/final/course_support/README.md)，各自說明來源、介面與限制。全部候選來源的匿名結果見 [驗證紀錄](reports/reference-validation.md)。
 
 ## 2021 作業
 
+目前題面與重要修訂差異見 [版本核對紀錄](assignments/version-notes.md)；各版本路徑與 SHA256 見 [specifications.json](assignments/specifications.json)。
+
 | 專案 | 內容 | 完整題目、解答與程式 | 原始 PDF |
 |---|---|---|---|
-| PA1 | 五倍券找零、加分版票券選擇 | [solution](assignments/2021/pa01/solution.md) | [9 份](assignments/2021/pa01/originals) |
-| PA2 | 遞迴二進位加法、溢位檢查 | [solution](assignments/2021/pa02/solution.md) | [10 份](assignments/2021/pa02/originals) |
-| PA3 | 大數加減乘、加分版除法與餘數 | [solution](assignments/2021/pa03/solution.md) | [5 份](assignments/2021/pa03/originals) |
-| PA4 | 電阻梯形電路、交換合併、戴維寧等效 | [solution](assignments/2021/pa04/solution.md) | [11 份](assignments/2021/pa04/originals) |
-| PA5 | Quine–McCluskey 與 Petrick 精確最小 SOP | [solution](assignments/2021/pa05/solution.md) | [4 份](assignments/2021/pa05/originals) |
-| Final | 狀態表 → K-map → 邏輯電路、DFF 與明示 T/JK 擴充 | [solution](assignments/2021/final/solution.md) | [5 份](assignments/2021/final/originals) |
+| PA1 | 五倍券找零、加分版票券選擇 | [solution](assignments/2021/pa01/solution.md) | [最新題面](assignments/2021/pa01/originals/2021Fall_EE1003_IntroCS_PA1_Quintuple-Stimulus-Voicher_Andy_20211017_0400.pdf) · [全部 9 份](assignments/2021/pa01/originals) |
+| PA2 | 遞迴二進位加法、溢位檢查 | [solution](assignments/2021/pa02/solution.md) | [最新題面](assignments/2021/pa02/originals/PA2_20211114_1530_Andy.pdf) · [全部 10 份](assignments/2021/pa02/originals) |
+| PA3 | 大數加減乘、加分版除法與餘數 | [solution](assignments/2021/pa03/solution.md) | [最新題面](assignments/2021/pa03/originals/PA3_20211123_2330_Andy.pdf) · [全部 5 份](assignments/2021/pa03/originals) |
+| PA4 | 電阻梯形電路、交換合併、戴維寧等效 | [solution](assignments/2021/pa04/solution.md) | [最新題面](assignments/2021/pa04/originals/PA4_MySpice_HO_20220104_1730.pdf) · [全部 11 份](assignments/2021/pa04/originals) |
+| PA5 | Quine–McCluskey 與 Petrick 精確最小 SOP | [solution](assignments/2021/pa05/solution.md) | [最新題面](assignments/2021/pa05/originals/PA5_bonus_QM_Andy_20211209_1855.pdf) · [全部 4 份](assignments/2021/pa05/originals) |
+| Final | 狀態表 → K-map → 邏輯電路、DFF 與明示 T/JK 擴充 | [solution](assignments/2021/final/solution.md) | [最新題面](assignments/2021/final/originals/2021Fall_EE1003_IntroCS_Final_Project_Andy_20211210_0030.pdf) · [全部 5 份](assignments/2021/final/originals) |
 
 PA5 的資料只有 QM/Petrick 加分題面，實作完整該題；沒有憑空聲稱另一份基礎題也經核對。2021 Final 沒有獨立加分題面，T/JK 是明示擴充。
 
@@ -25,10 +29,10 @@ PA5 的資料只有 QM/Petrick 加分題面，實作完整該題；沒有憑空�
 
 | 專案 | 內容 | 完整題目、解答與程式 | 原始 PDF |
 |---|---|---|---|
-| PA1 | Dinosaur Game、雙層場景、自動規劃 | [solution](assignments/2025/pa01/solution.md) | [6 份](assignments/2025/pa01/originals) |
-| PA2 | Knight's Treasure Hunt、精確回溯、守衛範圍成長 | [solution](assignments/2025/pa02/solution.md) | [4 份](assignments/2025/pa02/originals) |
-| PA3 | 多進位大數能源分配與平均 | [solution](assignments/2025/pa03/solution.md) | [1 份](assignments/2025/pa03/originals) |
-| Final | What’s the Number CNN PE 模擬器、FP8、PGM 輸入 | [solution](assignments/2025/final/solution.md) | [3 份](assignments/2025/final/originals) |
+| PA1 | Dinosaur Game、雙層場景、自動規劃 | [solution](assignments/2025/pa01/solution.md) | [最新題面](assignments/2025/pa01/originals/2025Fall_EE1003_Intro_to_CS_PA1_Andy_20250925.pdf) · [全部 6 份](assignments/2025/pa01/originals) |
+| PA2 | Knight's Treasure Hunt、精確回溯、守衛範圍成長 | [solution](assignments/2025/pa02/solution.md) | [最新題面](assignments/2025/pa02/originals/2025Fall_EE1003_Intro_to_CS_PA2_Andy_20251015.pdf) · [全部 4 份](assignments/2025/pa02/originals) |
+| PA3 | 多進位大數能源分配與平均 | [solution](assignments/2025/pa03/solution.md) | [最新題面](assignments/2025/pa03/originals/2025Fall_EE1003_Intro_to_CS_PA3_Andy_20251126.pdf) · [全部 1 份](assignments/2025/pa03/originals) |
+| Final | What’s the Number CNN PE 模擬器、FP8、PGM 輸入 | [solution](assignments/2025/final/solution.md) | [最新題面](assignments/2025/final/originals/2025Fall_EE1003_Intro_to_CS_Final_Project_Andy_20260101.pdf) · [全部 3 份](assignments/2025/final/originals) |
 
 ## 2021 考古題
 

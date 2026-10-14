@@ -11,10 +11,12 @@ g++ -std=c++11 -O2 main.cpp -o energy
 
 `--plain` 省略提示與結束訊息，只印結果矩陣；若加上 `--bonus`，矩陣後再印四捨五入平均。`big_number.h` 必須與 main.cpp 同目錄。測試透過 Python 任意精度整數獨立核對全部 15 種進位、乘加、負數四捨五入、100 位連續進位與輸入防呆。
 
-## 原始作業 PDF
+## 作業說明（目前版本）
 
-以下 PDF 保留來源檔名與原始內容；同一題目的不同修訂版分別保存。
+以本次提供資料中最新的[作業題面（2025-11-26）](originals/2025Fall_EE1003_Intro_to_CS_PA3_Andy_20251126.pdf)為準。提供資料中的 11/26 題面。
+
+原始檔名與 PDF 內容完整保留。後續補充說明／Q&A 與題面一起核對；舊題面另存於歷史版本，不作為目前預設規格。
 
 | 類型 | 原始檔案 |
 |---|---|
-| 作業題面／修訂版 | [2025Fall_EE1003_Intro_to_CS_PA3_Andy_20251126.pdf](originals/2025Fall_EE1003_Intro_to_CS_PA3_Andy_20251126.pdf) |
+| 目前題面 | [2025Fall_EE1003_Intro_to_CS_PA3_Andy_20251126.pdf](originals/2025Fall_EE1003_Intro_to_CS_PA3_Andy_20251126.pdf) |

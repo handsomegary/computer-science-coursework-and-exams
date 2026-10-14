@@ -23,12 +23,14 @@ g++ -std=c++11 -O2 bonus.cpp -o preprocess
 
 公開 ZIP 是原資料中的測試依據，完整權重與圖像沒有複製到此 repo。repo 內的驗證使用可重現的合成資料與獨立 CPU oracle，涵蓋三種 kernel、signed 卷積、FC、輸出格式及 bonus 插值。
 
-## 原始作業 PDF
+## 作業說明（目前版本）
 
-以下 PDF 保留來源檔名與原始內容；同一題目的不同修訂版分別保存。
+以本次提供資料中最新的[作業題面（2026-01-01）](originals/2025Fall_EE1003_Intro_to_CS_Final_Project_Andy_20260101.pdf)為準。內文 version 3（2026-01-01）；搭配 12/24 Checker 與 Appendix。
+
+原始檔名與 PDF 內容完整保留。後續補充說明／Q&A 與題面一起核對；舊題面另存於歷史版本，不作為目前預設規格。
 
 | 類型 | 原始檔案 |
 |---|---|
-| 作業題面／修訂版 | [2025Fall_EE1003_Intro_to_CS_Final_Project_Andy_20260101.pdf](originals/2025Fall_EE1003_Intro_to_CS_Final_Project_Andy_20260101.pdf) |
+| 目前題面 | [2025Fall_EE1003_Intro_to_CS_Final_Project_Andy_20260101.pdf](originals/2025Fall_EE1003_Intro_to_CS_Final_Project_Andy_20260101.pdf) |
 | 補充說明 | [2025Fall_EE1003_Final_Project_Appendix1_Header_File_20251125.pdf](originals/2025Fall_EE1003_Final_Project_Appendix1_Header_File_20251125.pdf) |
 | 補充說明 | [2025Fall_EE1003_Intro_to_CS_Final_Project_Checker_20251224.pdf](originals/2025Fall_EE1003_Intro_to_CS_Final_Project_Checker_20251224.pdf) |

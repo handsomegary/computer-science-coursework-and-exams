@@ -1,0 +1,1982 @@
+{
+  "regular": {
+    "source": "assignments/2021/pa01/references/moss-lynx-5375/basic.cpp",
+    "sha256": "1efbab9497a6e50ed6b71e1ecb5cf6807d2ae5a3af9be739838b4e966a02f0ad",
+    "cases": [
+      {
+        "label": "PA1 public 1",
+        "input": "255\nd\ny\n766\np\n640\np\n40\nd\nn\n-1\n",
+        "expected_stdout": "*** Welcome to Quintuple Stimulus Vouchers System ***\nPlease enter the good price: Please enter the type of vouchers (d/p): Are you a member of NCU Bank (y/n): The price you need to pay: 183\nThe payment is processed as follows:\n    1 $100 voucher\n    1 $ 50 voucher\n    3 $ 10 voucher\n    3 $  1 voucher\nThe remaining vouchers are as follows:\n    4 $100 voucher\n    4 $ 50 voucher\n    2 $ 10 voucher\n    5 $  5 voucher\n    2 $  1 voucher\n\nPlease enter the good price: Please enter the type of vouchers (d/p): The price you need to pay: 689\nYou don't have enough voucher to buy the good\n\nPlease enter the good price: Please enter the type of vouchers (d/p): The price you need to pay: 576\nThe payment is processed as follows:\n    4 $100 voucher\n    3 $ 50 voucher\n    2 $ 10 voucher\n    1 $  5 voucher\n    1 $  1 voucher\nThe remaining vouchers are as follows:\n    1 $ 50 voucher\n    4 $  5 voucher\n    1 $  1 voucher\n\nPlease enter the good price: Please enter the type of vouchers (d/p): Are you a member of NCU Bank (y/n): The price you need to pay: 32\nThe payment is processed as follows:\n    1 $ 50 voucher\nThe remaining vouchers are as follows:\n    4 $  5 voucher\n    1 $  1 voucher\n\nPlease enter the good price: Bye~\n"
+      },
+      {
+        "label": "PA1 public 2",
+        "input": "1000\np\n789\nd\ny\n766\np\n289\np\n3\nd\nn\n",
+        "expected_stdout": "*** Welcome to Quintuple Stimulus Vouchers System ***\nPlease enter the good price: Please enter the type of vouchers (d/p): The price you need to pay: 900\nYou don't have enough voucher to buy the good\n\nPlease enter the good price: Please enter the type of vouchers (d/p): Are you a member of NCU Bank (y/n): The price you need to pay: 568\nThe payment is processed as follows:\n    5 $100 voucher\n    1 $ 50 voucher\n    1 $ 10 voucher\n    1 $  5 voucher\n    3 $  1 voucher\nThe remaining vouchers are as follows:\n    4 $ 50 voucher\n    4 $ 10 voucher\n    4 $  5 voucher\n    2 $  1 voucher\n\nPlease enter the good price: Please enter the type of vouchers (d/p): The price you need to pay: 689\nYou don't have enough voucher to buy the good\n\nPlease enter the good price: Please enter the type of vouchers (d/p): The price you need to pay: 260\nThe payment is processed as follows:\n    4 $ 50 voucher\n    4 $ 10 voucher\n    4 $  5 voucher\nThe remaining vouchers are as follows:\n    2 $  1 voucher\n\nPlease enter the good price: Please enter the type of vouchers (d/p): Are you a member of NCU Bank (y/n): The price you need to pay: 2\nThe payment is processed as follows:\n    2 $  1 voucher\nYou do not remain any voucher\nBye~\n"
+      },
+      {
+        "label": "PA1 public 3",
+        "input": "956\nd\ny\n148\np\n-1\n",
+        "expected_stdout": "*** Welcome to Quintuple Stimulus Vouchers System ***\nPlease enter the good price: Please enter the type of vouchers (d/p): Are you a member of NCU Bank (y/n): The price you need to pay: 688\nThe payment is processed as follows:\n    5 $100 voucher\n    3 $ 50 voucher\n    3 $ 10 voucher\n    1 $  5 voucher\n    3 $  1 voucher\nThe remaining vouchers are as follows:\n    2 $ 50 voucher\n    2 $ 10 voucher\n    4 $  5 voucher\n    2 $  1 voucher\n\nPlease enter the good price: Please enter the type of vouchers (d/p): The price you need to pay: 133\nThe payment is processed as follows:\n    2 $ 50 voucher\n    2 $ 10 voucher\n    3 $  5 voucher\nThe remaining vouchers are as follows:\n    1 $  5 voucher\n    2 $  1 voucher\n\nPlease enter the good price: Bye~\n"
+      },
+      {
+        "label": "PA1 public 4",
+        "input": "849\nd\nn\n167\np\n2\np\n",
+        "expected_stdout": "*** Welcome to Quintuple Stimulus Vouchers System ***\nPlease enter the good price: Please enter the type of vouchers (d/p): Are you a member of NCU Bank (y/n): The price you need to pay: 679\nThe payment is processed as follows:\n    5 $100 voucher\n    3 $ 50 voucher\n    2 $ 10 voucher\n    1 $  5 voucher\n    4 $  1 voucher\nThe remaining vouchers are as follows:\n    2 $ 50 voucher\n    3 $ 10 voucher\n    4 $  5 voucher\n    1 $  1 voucher\n\nPlease enter the good price: Please enter the type of vouchers (d/p): The price you need to pay: 150\nThe payment is processed as follows:\n    2 $ 50 voucher\n    3 $ 10 voucher\n    4 $  5 voucher\nThe remaining vouchers are as follows:\n    1 $  1 voucher\n\nPlease enter the good price: Please enter the type of vouchers (d/p): The price you need to pay: 1\nThe payment is processed as follows:\n    1 $  1 voucher\nYou do not remain any voucher\nBye~\n"
+      },
+      {
+        "label": "PA1 public 5",
+        "input": "399\nd\nn\n408\nd\ny\n999\np\n-1\n",
+        "expected_stdout": "*** Welcome to Quintuple Stimulus Vouchers System ***\nPlease enter the good price: Please enter the type of vouchers (d/p): Are you a member of NCU Bank (y/n): The price you need to pay: 319\nThe payment is processed as follows:\n    3 $100 voucher\n    1 $ 10 voucher\n    1 $  5 voucher\n    4 $  1 voucher\nThe remaining vouchers are as follows:\n    2 $100 voucher\n    5 $ 50 voucher\n    4 $ 10 voucher\n    4 $  5 voucher\n    1 $  1 voucher\n\nPlease enter the good price: Please enter the type of vouchers (d/p): Are you a member of NCU Bank (y/n): The price you need to pay: 293\nThe payment is processed as follows:\n    2 $100 voucher\n    2 $ 50 voucher\nThe remaining vouchers are as follows:\n    3 $ 50 voucher\n    4 $ 10 voucher\n    4 $  5 voucher\n    1 $  1 voucher\n\nPlease enter the good price: Please enter the type of vouchers (d/p): The price you need to pay: 899\nYou don't have enough voucher to buy the good\n\nPlease enter the good price: Bye~\n"
+      },
+      {
+        "label": "official zero-discount corner",
+        "input": "1\nd\ny\n-1\n",
+        "expected_stdout": "*** Welcome to Quintuple Stimulus Vouchers System ***\nPlease enter the good price: Please enter the type of vouchers (d/p): Are you a member of NCU Bank (y/n): The price you need to pay: 0\nThe remaining vouchers are as follows:\n    5 $100 voucher\n    5 $ 50 voucher\n    5 $ 10 voucher\n    5 $  5 voucher\n    5 $  1 voucher\n\nPlease enter the good price: Bye~\n"
+      },
+      {
+        "label": "official zero input",
+        "input": "0\np\n-1\n",
+        "expected_stdout": "*** Welcome to Quintuple Stimulus Vouchers System ***\nPlease enter the good price: Please enter the type of vouchers (d/p): The price you need to pay: 0\nThe remaining vouchers are as follows:\n    5 $100 voucher\n    5 $ 50 voucher\n    5 $ 10 voucher\n    5 $  5 voucher\n    5 $  1 voucher\n\nPlease enter the good price: Bye~\n"
+      },
+      {
+        "label": "discount exact 72",
+        "input": "100\nd\ny\n-1\n",
+        "expected_stdout": "*** Welcome to Quintuple Stimulus Vouchers System ***\nPlease enter the good price: Please enter the type of vouchers (d/p): Are you a member of NCU Bank (y/n): The price you need to pay: 72\nThe payment is processed as follows:\n    1 $ 50 voucher\n    2 $ 10 voucher\n    2 $  1 voucher\nThe remaining vouchers are as follows:\n    5 $100 voucher\n    4 $ 50 voucher\n    3 $ 10 voucher\n    5 $  5 voucher\n    3 $  1 voucher\n\nPlease enter the good price: Bye~\n"
+      },
+      {
+        "label": "discount exact 144",
+        "input": "200\nd\ny\n-1\n",
+        "expected_stdout": "*** Welcome to Quintuple Stimulus Vouchers System ***\nPlease enter the good price: Please enter the type of vouchers (d/p): Are you a member of NCU Bank (y/n): The price you need to pay: 144\nThe payment is processed as follows:\n    1 $100 voucher\n    4 $ 10 voucher\n    4 $  1 voucher\nThe remaining vouchers are as follows:\n    4 $100 voucher\n    5 $ 50 voucher\n    1 $ 10 voucher\n    5 $  5 voucher\n    1 $  1 voucher\n\nPlease enter the good price: Bye~\n"
+      },
+      {
+        "label": "int max insufficient and wallet preserved",
+        "input": "2147483647\nd\ny\n923\np\n",
+        "expected_stdout": "*** Welcome to Quintuple Stimulus Vouchers System ***\nPlease enter the good price: Please enter the type of vouchers (d/p): Are you a member of NCU Bank (y/n): The price you need to pay: 1546188225\nYou don't have enough voucher to buy the good\n\nPlease enter the good price: Please enter the type of vouchers (d/p): The price you need to pay: 830\nThe payment is processed as follows:\n    5 $100 voucher\n    5 $ 50 voucher\n    5 $ 10 voucher\n    5 $  5 voucher\n    5 $  1 voucher\nYou do not remain any voucher\nBye~\n"
+      },
+      {
+        "label": "sentinel at first input",
+        "input": "-1\n",
+        "expected_stdout": "*** Welcome to Quintuple Stimulus Vouchers System ***\nPlease enter the good price: Bye~\n"
+      },
+      {
+        "label": "stateful seed202101 case0",
+        "input": "900\nd\nn\n692\nd\nn\n13\nd\ny\n634\nd\nn\n1164\nd\ny\n652\nd\ny\n-1\n",
+        "expected_stdout": "*** Welcome to Quintuple Stimulus Vouchers System ***\nPlease enter the good price: Please enter the type of vouchers (d/p): Are you a member of NCU Bank (y/n): The price you need to pay: 720\nThe payment is processed as follows:\n    5 $100 voucher\n    4 $ 50 voucher\n    2 $ 10 voucher\nThe remaining vouchers are as follows:\n    1 $ 50 voucher\n    3 $ 10 voucher\n    5 $  5 voucher\n    5 $  1 voucher\n\nPlease enter the good price: Please enter the type of vouchers (d/p): Are you a member of NCU Bank (y/n): The price you need to pay: 553\nYou don't have enough voucher to buy the good\n\nPlease enter the good price: Please enter the type of vouchers (d/p): Are you a member of NCU Bank (y/n): The price you need to pay: 9\nThe payment is processed as follows:\n    1 $  5 voucher\n    4 $  1 voucher\nThe remaining vouchers are as follows:\n    1 $ 50 voucher\n    3 $ 10 voucher\n    4 $  5 voucher\n    1 $  1 voucher\n\nPlease enter the good price: Please enter the type of vouchers (d/p): Are you a member of NCU Bank (y/n): The price you need to pay: 507\nYou don't have enough voucher to buy the good\n\nPlease enter the good price: Please enter the type of vouchers (d/p): Are you a member of NCU Bank (y/n): The price you need to pay: 838\nYou don't have enough voucher to buy the good\n\nPlease enter the good price: Please enter the type of vouchers (d/p): Are you a member of NCU Bank (y/n): The price you need to pay: 469\nYou don't have enough voucher to buy the good\n\nPlease enter the good price: Bye~\n"
+      },
+      {
+        "label": "stateful seed202101 case1",
+        "input": "801\nd\ny\n463\np\n256\np\n705\np\n1081\nd\ny\n461\nd\ny\n-1\n",
+        "expected_stdout": "*** Welcome to Quintuple Stimulus Vouchers System ***\nPlease enter the good price: Please enter the type of vouchers (d/p): Are you a member of NCU Bank (y/n): The price you need to pay: 576\nThe payment is processed as follows:\n    5 $100 voucher\n    1 $ 50 voucher\n    2 $ 10 voucher\n    1 $  5 voucher\n    1 $  1 voucher\nThe remaining vouchers are as follows:\n    4 $ 50 voucher\n    3 $ 10 voucher\n    4 $  5 voucher\n    4 $  1 voucher\n\nPlease enter the good price: Please enter the type of vouchers (d/p): The price you need to pay: 416\nYou don't have enough voucher to buy the good\n\nPlease enter the good price: Please enter the type of vouchers (d/p): The price you need to pay: 230\nThe payment is processed as follows:\n    4 $ 50 voucher\n    3 $ 10 voucher\nThe remaining vouchers are as follows:\n    4 $  5 voucher\n    4 $  1 voucher\n\nPlease enter the good price: Please enter the type of vouchers (d/p): The price you need to pay: 634\nYou don't have enough voucher to buy the good\n\nPlease enter the good price: Please enter the type of vouchers (d/p): Are you a member of NCU Bank (y/n): The price you need to pay: 778\nYou don't have enough voucher to buy the good\n\nPlease enter the good price: Please enter the type of vouchers (d/p): Are you a member of NCU Bank (y/n): The price you need to pay: 331\nYou don't have enough voucher to buy the good\n\nPlease enter the good price: Bye~\n"
+      },
+      {
+        "label": "stateful seed202101 case2",
+        "input": "694\np\n327\np\n95\nd\nn\n173\np\n138\nd\nn\n1039\nd\ny\n-1\n",
+        "expected_stdout": "*** Welcome to Quintuple Stimulus Vouchers System ***\nPlease enter the good price: Please enter the type of vouchers (d/p): The price you need to pay: 624\nThe payment is processed as follows:\n    5 $100 voucher\n    2 $ 50 voucher\n    2 $ 10 voucher\n    4 $  1 voucher\nThe remaining vouchers are as follows:\n    3 $ 50 voucher\n    3 $ 10 voucher\n    5 $  5 voucher\n    1 $  1 voucher\n\nPlease enter the good price: Please enter the type of vouchers (d/p): The price you need to pay: 294\nYou don't have enough voucher to buy the good\n\nPlease enter the good price: Please enter the type of vouchers (d/p): Are you a member of NCU Bank (y/n): The price you need to pay: 76\nThe payment is processed as follows:\n    1 $ 50 voucher\n    2 $ 10 voucher\n    1 $  5 voucher\n    1 $  1 voucher\nThe remaining vouchers are as follows:\n    2 $ 50 voucher\n    1 $ 10 voucher\n    4 $  5 voucher\n\nPlease enter the good price: Please enter the type of vouchers (d/p): The price you need to pay: 155\nYou don't have enough voucher to buy the good\n\nPlease enter the good price: Please enter the type of vouchers (d/p): Are you a member of NCU Bank (y/n): The price you need to pay: 110\nThe payment is processed as follows:\n    2 $ 50 voucher\n    1 $ 10 voucher\nThe remaining vouchers are as follows:\n    4 $  5 voucher\n\nPlease enter the good price: Please enter the type of vouchers (d/p): Are you a member of NCU Bank (y/n): The price you need to pay: 748\nYou don't have enough voucher to buy the good\n\nPlease enter the good price: Bye~\n"
+      },
+      {
+        "label": "stateful seed202101 case3",
+        "input": "664\nd\nn\n591\np\n335\nd\ny\n495\np\n885\np\n435\nd\ny\n-1\n",
+        "expected_stdout": "*** Welcome to Quintuple Stimulus Vouchers System ***\nPlease enter the good price: Please enter the type of vouchers (d/p): Are you a member of NCU Bank (y/n): The price you need to pay: 531\nThe payment is processed as follows:\n    5 $100 voucher\n    3 $ 10 voucher\n    1 $  1 voucher\nThe remaining vouchers are as follows:\n    5 $ 50 voucher\n    2 $ 10 voucher\n    5 $  5 voucher\n    4 $  1 voucher\n\nPlease enter the good price: Please enter the type of vouchers (d/p): The price you need to pay: 531\nYou don't have enough voucher to buy the good\n\nPlease enter the good price: Please enter the type of vouchers (d/p): Are you a member of NCU Bank (y/n): The price you need to pay: 241\nThe payment is processed as follows:\n    4 $ 50 voucher\n    2 $ 10 voucher\n    4 $  5 voucher\n    1 $  1 voucher\nThe remaining vouchers are as follows:\n    1 $ 50 voucher\n    1 $  5 voucher\n    3 $  1 voucher\n\nPlease enter the good price: Please enter the type of vouchers (d/p): The price you need to pay: 445\nYou don't have enough voucher to buy the good\n\nPlease enter the good price: Please enter the type of vouchers (d/p): The price you need to pay: 796\nYou don't have enough voucher to buy the good\n\nPlease enter the good price: Please enter the type of vouchers (d/p): Are you a member of NCU Bank (y/n): The price you need to pay: 313\nYou don't have enough voucher to buy the good\n\nPlease enter the good price: Bye~\n"
+      },
+      {
+        "label": "stateful seed202101 case4",
+        "input": "621\np\n1117\nd\nn\n511\np\n616\np\n1009\np\n191\np\n-1\n",
+        "expected_stdout": "*** Welcome to Quintuple Stimulus Vouchers System ***\nPlease enter the good price: Please enter the type of vouchers (d/p): The price you need to pay: 558\nThe payment is processed as follows:\n    5 $100 voucher\n    1 $ 50 voucher\n    1 $  5 voucher\n    3 $  1 voucher\nThe remaining vouchers are as follows:\n    4 $ 50 voucher\n    5 $ 10 voucher\n    4 $  5 voucher\n    2 $  1 voucher\n\nPlease enter the good price: Please enter the type of vouchers (d/p): Are you a member of NCU Bank (y/n): The price you need to pay: 893\nYou don't have enough voucher to buy the good\n\nPlease enter the good price: Please enter the type of vouchers (d/p): The price you need to pay: 459\nYou don't have enough voucher to buy the good\n\nPlease enter the good price: Please enter the type of vouchers (d/p): The price you need to pay: 554\nYou don't have enough voucher to buy the good\n\nPlease enter the good price: Please enter the type of vouchers (d/p): The price you need to pay: 908\nYou don't have enough voucher to buy the good\n\nPlease enter the good price: Please enter the type of vouchers (d/p): The price you need to pay: 171\nThe payment is processed as follows:\n    3 $ 50 voucher\n    2 $ 10 voucher\n    1 $  1 voucher\nThe remaining vouchers are as follows:\n    1 $ 50 voucher\n    3 $ 10 voucher\n    4 $  5 voucher\n    1 $  1 voucher\n\nPlease enter the good price: Bye~\n"
+      },
+      {
+        "label": "stateful seed202101 case5",
+        "input": "844\np\n48\nd\ny\n1010\nd\ny\n721\np\n905\nd\ny\n857\np\n-1\n",
+        "expected_stdout": "*** Welcome to Quintuple Stimulus Vouchers System ***\nPlease enter the good price: Please enter the type of vouchers (d/p): The price you need to pay: 759\nThe payment is processed as follows:\n    5 $100 voucher\n    5 $ 50 voucher\n    1 $  5 voucher\n    4 $  1 voucher\nThe remaining vouchers are as follows:\n    5 $ 10 voucher\n    4 $  5 voucher\n    1 $  1 voucher\n\nPlease enter the good price: Please enter the type of vouchers (d/p): Are you a member of NCU Bank (y/n): The price you need to pay: 34\nThe payment is processed as follows:\n    4 $ 10 voucher\nThe remaining vouchers are as follows:\n    1 $ 10 voucher\n    4 $  5 voucher\n    1 $  1 voucher\n\nPlease enter the good price: Please enter the type of vouchers (d/p): Are you a member of NCU Bank (y/n): The price you need to pay: 727\nYou don't have enough voucher to buy the good\n\nPlease enter the good price: Please enter the type of vouchers (d/p): The price you need to pay: 648\nYou don't have enough voucher to buy the good\n\nPlease enter the good price: Please enter the type of vouchers (d/p): Are you a member of NCU Bank (y/n): The price you need to pay: 651\nYou don't have enough voucher to buy the good\n\nPlease enter the good price: Please enter the type of vouchers (d/p): The price you need to pay: 771\nYou don't have enough voucher to buy the good\n\nPlease enter the good price: Bye~\n"
+      },
+      {
+        "label": "stateful seed202101 case6",
+        "input": "768\nd\nn\n723\nd\nn\n364\nd\nn\n1140\np\n505\np\n622\np\n-1\n",
+        "expected_stdout": "*** Welcome to Quintuple Stimulus Vouchers System ***\nPlease enter the good price: Please enter the type of vouchers (d/p): Are you a member of NCU Bank (y/n): The price you need to pay: 614\nThe payment is processed as follows:\n    5 $100 voucher\n    2 $ 50 voucher\n    1 $ 10 voucher\n    4 $  1 voucher\nThe remaining vouchers are as follows:\n    3 $ 50 voucher\n    4 $ 10 voucher\n    5 $  5 voucher\n    1 $  1 voucher\n\nPlease enter the good price: Please enter the type of vouchers (d/p): Are you a member of NCU Bank (y/n): The price you need to pay: 578\nYou don't have enough voucher to buy the good\n\nPlease enter the good price: Please enter the type of vouchers (d/p): Are you a member of NCU Bank (y/n): The price you need to pay: 291\nYou don't have enough voucher to buy the good\n\nPlease enter the good price: Please enter the type of vouchers (d/p): The price you need to pay: 1026\nYou don't have enough voucher to buy the good\n\nPlease enter the good price: Please enter the type of vouchers (d/p): The price you need to pay: 454\nYou don't have enough voucher to buy the good\n\nPlease enter the good price: Please enter the type of vouchers (d/p): The price you need to pay: 559\nYou don't have enough voucher to buy the good\n\nPlease enter the good price: Bye~\n"
+      },
+      {
+        "label": "stateful seed202101 case7",
+        "input": "1184\np\n419\np\n714\np\n1166\nd\nn\n544\nd\nn\n1010\np\n-1\n",
+        "expected_stdout": "*** Welcome to Quintuple Stimulus Vouchers System ***\nPlease enter the good price: Please enter the type of vouchers (d/p): The price you need to pay: 1065\nYou don't have enough voucher to buy the good\n\nPlease enter the good price: Please enter the type of vouchers (d/p): The price you need to pay: 377\nThe payment is processed as follows:\n    3 $100 voucher\n    1 $ 50 voucher\n    2 $ 10 voucher\n    1 $  5 voucher\n    2 $  1 voucher\nThe remaining vouchers are as follows:\n    2 $100 voucher\n    4 $ 50 voucher\n    3 $ 10 voucher\n    4 $  5 voucher\n    3 $  1 voucher\n\nPlease enter the good price: Please enter the type of vouchers (d/p): The price you need to pay: 642\nYou don't have enough voucher to buy the good\n\nPlease enter the good price: Please enter the type of vouchers (d/p): Are you a member of NCU Bank (y/n): The price you need to pay: 932\nYou don't have enough voucher to buy the good\n\nPlease enter the good price: Please enter the type of vouchers (d/p): Are you a member of NCU Bank (y/n): The price you need to pay: 435\nThe payment is processed as follows:\n    2 $100 voucher\n    4 $ 50 voucher\n    3 $ 10 voucher\n    1 $  5 voucher\nThe remaining vouchers are as follows:\n    3 $  5 voucher\n    3 $  1 voucher\n\nPlease enter the good price: Please enter the type of vouchers (d/p): The price you need to pay: 909\nYou don't have enough voucher to buy the good\n\nPlease enter the good price: Bye~\n"
+      },
+      {
+        "label": "stateful seed202101 case8",
+        "input": "381\nd\ny\n301\np\n1038\nd\ny\n561\np\n559\nd\nn\n238\nd\ny\n-1\n",
+        "expected_stdout": "*** Welcome to Quintuple Stimulus Vouchers System ***\nPlease enter the good price: Please enter the type of vouchers (d/p): Are you a member of NCU Bank (y/n): The price you need to pay: 274\nThe payment is processed as follows:\n    2 $100 voucher\n    1 $ 50 voucher\n    2 $ 10 voucher\n    4 $  1 voucher\nThe remaining vouchers are as follows:\n    3 $100 voucher\n    4 $ 50 voucher\n    3 $ 10 voucher\n    5 $  5 voucher\n    1 $  1 voucher\n\nPlease enter the good price: Please enter the type of vouchers (d/p): The price you need to pay: 270\nThe payment is processed as follows:\n    2 $100 voucher\n    1 $ 50 voucher\n    2 $ 10 voucher\nThe remaining vouchers are as follows:\n    1 $100 voucher\n    3 $ 50 voucher\n    1 $ 10 voucher\n    5 $  5 voucher\n    1 $  1 voucher\n\nPlease enter the good price: Please enter the type of vouchers (d/p): Are you a member of NCU Bank (y/n): The price you need to pay: 747\nYou don't have enough voucher to buy the good\n\nPlease enter the good price: Please enter the type of vouchers (d/p): The price you need to pay: 504\nYou don't have enough voucher to buy the good\n\nPlease enter the good price: Please enter the type of vouchers (d/p): Are you a member of NCU Bank (y/n): The price you need to pay: 447\nYou don't have enough voucher to buy the good\n\nPlease enter the good price: Please enter the type of vouchers (d/p): Are you a member of NCU Bank (y/n): The price you need to pay: 171\nThe payment is processed as follows:\n    1 $100 voucher\n    1 $ 50 voucher\n    1 $ 10 voucher\n    2 $  5 voucher\n    1 $  1 voucher\nThe remaining vouchers are as follows:\n    2 $ 50 voucher\n    3 $  5 voucher\n\nPlease enter the good price: Bye~\n"
+      },
+      {
+        "label": "stateful seed202101 case9",
+        "input": "734\nd\nn\n900\np\n535\nd\ny\n1173\nd\nn\n1018\nd\ny\n1118\np\n-1\n",
+        "expected_stdout": "*** Welcome to Quintuple Stimulus Vouchers System ***\nPlease enter the good price: Please enter the type of vouchers (d/p): Are you a member of NCU Bank (y/n): The price you need to pay: 587\nThe payment is processed as follows:\n    5 $100 voucher\n    1 $ 50 voucher\n    3 $ 10 voucher\n    1 $  5 voucher\n    2 $  1 voucher\nThe remaining vouchers are as follows:\n    4 $ 50 voucher\n    2 $ 10 voucher\n    4 $  5 voucher\n    3 $  1 voucher\n\nPlease enter the good price: Please enter the type of vouchers (d/p): The price you need to pay: 810\nYou don't have enough voucher to buy the good\n\nPlease enter the good price: Please enter the type of vouchers (d/p): Are you a member of NCU Bank (y/n): The price you need to pay: 385\nYou don't have enough voucher to buy the good\n\nPlease enter the good price: Please enter the type of vouchers (d/p): Are you a member of NCU Bank (y/n): The price you need to pay: 938\nYou don't have enough voucher to buy the good\n\nPlease enter the good price: Please enter the type of vouchers (d/p): Are you a member of NCU Bank (y/n): The price you need to pay: 732\nYou don't have enough voucher to buy the good\n\nPlease enter the good price: Please enter the type of vouchers (d/p): The price you need to pay: 1006\nYou don't have enough voucher to buy the good\n\nPlease enter the good price: Bye~\n"
+      },
+      {
+        "label": "stateful seed202101 case10",
+        "input": "364\np\n507\nd\ny\n1060\nd\ny\n141\nd\nn\n8\np\n1111\nd\nn\n-1\n",
+        "expected_stdout": "*** Welcome to Quintuple Stimulus Vouchers System ***\nPlease enter the good price: Please enter the type of vouchers (d/p): The price you need to pay: 327\nThe payment is processed as follows:\n    3 $100 voucher\n    2 $ 10 voucher\n    1 $  5 voucher\n    2 $  1 voucher\nThe remaining vouchers are as follows:\n    2 $100 voucher\n    5 $ 50 voucher\n    3 $ 10 voucher\n    4 $  5 voucher\n    3 $  1 voucher\n\nPlease enter the good price: Please enter the type of vouchers (d/p): Are you a member of NCU Bank (y/n): The price you need to pay: 365\nThe payment is processed as follows:\n    2 $100 voucher\n    3 $ 50 voucher\n    1 $ 10 voucher\n    1 $  5 voucher\nThe remaining vouchers are as follows:\n    2 $ 50 voucher\n    2 $ 10 voucher\n    3 $  5 voucher\n    3 $  1 voucher\n\nPlease enter the good price: Please enter the type of vouchers (d/p): Are you a member of NCU Bank (y/n): The price you need to pay: 763\nYou don't have enough voucher to buy the good\n\nPlease enter the good price: Please enter the type of vouchers (d/p): Are you a member of NCU Bank (y/n): The price you need to pay: 112\nThe payment is processed as follows:\n    2 $ 50 voucher\n    1 $ 10 voucher\n    2 $  1 voucher\nThe remaining vouchers are as follows:\n    1 $ 10 voucher\n    3 $  5 voucher\n    1 $  1 voucher\n\nPlease enter the good price: Please enter the type of vouchers (d/p): The price you need to pay: 7\nThe payment is processed as follows:\n    1 $ 10 voucher\nThe remaining vouchers are as follows:\n    3 $  5 voucher\n    1 $  1 voucher\n\nPlease enter the good price: Please enter the type of vouchers (d/p): Are you a member of NCU Bank (y/n): The price you need to pay: 888\nYou don't have enough voucher to buy the good\n\nPlease enter the good price: Bye~\n"
+      },
+      {
+        "label": "stateful seed202101 case11",
+        "input": "902\nd\ny\n197\np\n91\np\n1003\np\n710\nd\nn\n225\np\n-1\n",
+        "expected_stdout": "*** Welcome to Quintuple Stimulus Vouchers System ***\nPlease enter the good price: Please enter the type of vouchers (d/p): Are you a member of NCU Bank (y/n): The price you need to pay: 649\nThe payment is processed as follows:\n    5 $100 voucher\n    2 $ 50 voucher\n    4 $ 10 voucher\n    1 $  5 voucher\n    4 $  1 voucher\nThe remaining vouchers are as follows:\n    3 $ 50 voucher\n    1 $ 10 voucher\n    4 $  5 voucher\n    1 $  1 voucher\n\nPlease enter the good price: Please enter the type of vouchers (d/p): The price you need to pay: 177\nThe payment is processed as follows:\n    3 $ 50 voucher\n    1 $ 10 voucher\n    4 $  5 voucher\nThe remaining vouchers are as follows:\n    1 $  1 voucher\n\nPlease enter the good price: Please enter the type of vouchers (d/p): The price you need to pay: 81\nYou don't have enough voucher to buy the good\n\nPlease enter the good price: Please enter the type of vouchers (d/p): The price you need to pay: 902\nYou don't have enough voucher to buy the good\n\nPlease enter the good price: Please enter the type of vouchers (d/p): Are you a member of NCU Bank (y/n): The price you need to pay: 568\nYou don't have enough voucher to buy the good\n\nPlease enter the good price: Please enter the type of vouchers (d/p): The price you need to pay: 202\nYou don't have enough voucher to buy the good\n\nPlease enter the good price: Bye~\n"
+      },
+      {
+        "label": "stateful seed202101 case12",
+        "input": "536\np\n432\nd\nn\n270\nd\ny\n317\np\n508\nd\ny\n454\np\n-1\n",
+        "expected_stdout": "*** Welcome to Quintuple Stimulus Vouchers System ***\nPlease enter the good price: Please enter the type of vouchers (d/p): The price you need to pay: 482\nThe payment is processed as follows:\n    4 $100 voucher\n    1 $ 50 voucher\n    3 $ 10 voucher\n    2 $  1 voucher\nThe remaining vouchers are as follows:\n    1 $100 voucher\n    4 $ 50 voucher\n    2 $ 10 voucher\n    5 $  5 voucher\n    3 $  1 voucher\n\nPlease enter the good price: Please enter the type of vouchers (d/p): Are you a member of NCU Bank (y/n): The price you need to pay: 345\nThe payment is processed as follows:\n    1 $100 voucher\n    4 $ 50 voucher\n    2 $ 10 voucher\n    5 $  5 voucher\nThe remaining vouchers are as follows:\n    3 $  1 voucher\n\nPlease enter the good price: Please enter the type of vouchers (d/p): Are you a member of NCU Bank (y/n): The price you need to pay: 194\nYou don't have enough voucher to buy the good\n\nPlease enter the good price: Please enter the type of vouchers (d/p): The price you need to pay: 285\nYou don't have enough voucher to buy the good\n\nPlease enter the good price: Please enter the type of vouchers (d/p): Are you a member of NCU Bank (y/n): The price you need to pay: 365\nYou don't have enough voucher to buy the good\n\nPlease enter the good price: Please enter the type of vouchers (d/p): The price you need to pay: 408\nYou don't have enough voucher to buy the good\n\nPlease enter the good price: Bye~\n"
+      },
+      {
+        "label": "stateful seed202101 case13",
+        "input": "1156\nd\nn\n937\np\n706\np\n954\nd\nn\n379\np\n1074\nd\ny\n-1\n",
+        "expected_stdout": "*** Welcome to Quintuple Stimulus Vouchers System ***\nPlease enter the good price: Please enter the type of vouchers (d/p): Are you a member of NCU Bank (y/n): The price you need to pay: 924\nYou don't have enough voucher to buy the good\n\nPlease enter the good price: Please enter the type of vouchers (d/p): The price you need to pay: 843\nYou don't have enough voucher to buy the good\n\nPlease enter the good price: Please enter the type of vouchers (d/p): The price you need to pay: 635\nThe payment is processed as follows:\n    5 $100 voucher\n    2 $ 50 voucher\n    3 $ 10 voucher\n    1 $  5 voucher\nThe remaining vouchers are as follows:\n    3 $ 50 voucher\n    2 $ 10 voucher\n    4 $  5 voucher\n    5 $  1 voucher\n\nPlease enter the good price: Please enter the type of vouchers (d/p): Are you a member of NCU Bank (y/n): The price you need to pay: 763\nYou don't have enough voucher to buy the good\n\nPlease enter the good price: Please enter the type of vouchers (d/p): The price you need to pay: 341\nYou don't have enough voucher to buy the good\n\nPlease enter the good price: Please enter the type of vouchers (d/p): Are you a member of NCU Bank (y/n): The price you need to pay: 773\nYou don't have enough voucher to buy the good\n\nPlease enter the good price: Bye~\n"
+      },
+      {
+        "label": "stateful seed202101 case14",
+        "input": "1024\nd\nn\n1024\np\n316\nd\nn\n487\np\n356\np\n606\nd\ny\n-1\n",
+        "expected_stdout": "*** Welcome to Quintuple Stimulus Vouchers System ***\nPlease enter the good price: Please enter the type of vouchers (d/p): Are you a member of NCU Bank (y/n): The price you need to pay: 819\nThe payment is processed as follows:\n    5 $100 voucher\n    5 $ 50 voucher\n    5 $ 10 voucher\n    3 $  5 voucher\n    4 $  1 voucher\nThe remaining vouchers are as follows:\n    2 $  5 voucher\n    1 $  1 voucher\n\nPlease enter the good price: Please enter the type of vouchers (d/p): The price you need to pay: 921\nYou don't have enough voucher to buy the good\n\nPlease enter the good price: Please enter the type of vouchers (d/p): Are you a member of NCU Bank (y/n): The price you need to pay: 252\nYou don't have enough voucher to buy the good\n\nPlease enter the good price: Please enter the type of vouchers (d/p): The price you need to pay: 438\nYou don't have enough voucher to buy the good\n\nPlease enter the good price: Please enter the type of vouchers (d/p): The price you need to pay: 320\nYou don't have enough voucher to buy the good\n\nPlease enter the good price: Please enter the type of vouchers (d/p): Are you a member of NCU Bank (y/n): The price you need to pay: 436\nYou don't have enough voucher to buy the good\n\nPlease enter the good price: Bye~\n"
+      },
+      {
+        "label": "stateful seed202101 case15",
+        "input": "37\nd\nn\n605\np\n894\nd\nn\n860\nd\ny\n653\nd\nn\n758\nd\nn\n-1\n",
+        "expected_stdout": "*** Welcome to Quintuple Stimulus Vouchers System ***\nPlease enter the good price: Please enter the type of vouchers (d/p): Are you a member of NCU Bank (y/n): The price you need to pay: 29\nThe payment is processed as follows:\n    2 $ 10 voucher\n    1 $  5 voucher\n    4 $  1 voucher\nThe remaining vouchers are as follows:\n    5 $100 voucher\n    5 $ 50 voucher\n    3 $ 10 voucher\n    4 $  5 voucher\n    1 $  1 voucher\n\nPlease enter the good price: Please enter the type of vouchers (d/p): The price you need to pay: 544\nThe payment is processed as follows:\n    5 $100 voucher\n    1 $ 50 voucher\nThe remaining vouchers are as follows:\n    4 $ 50 voucher\n    3 $ 10 voucher\n    4 $  5 voucher\n    1 $  1 voucher\n\nPlease enter the good price: Please enter the type of vouchers (d/p): Are you a member of NCU Bank (y/n): The price you need to pay: 715\nYou don't have enough voucher to buy the good\n\nPlease enter the good price: Please enter the type of vouchers (d/p): Are you a member of NCU Bank (y/n): The price you need to pay: 619\nYou don't have enough voucher to buy the good\n\nPlease enter the good price: Please enter the type of vouchers (d/p): Are you a member of NCU Bank (y/n): The price you need to pay: 522\nYou don't have enough voucher to buy the good\n\nPlease enter the good price: Please enter the type of vouchers (d/p): Are you a member of NCU Bank (y/n): The price you need to pay: 606\nYou don't have enough voucher to buy the good\n\nPlease enter the good price: Bye~\n"
+      },
+      {
+        "label": "stateful seed202101 case16",
+        "input": "138\nd\nn\n53\nd\nn\n889\nd\ny\n1168\nd\ny\n143\np\n126\np\n-1\n",
+        "expected_stdout": "*** Welcome to Quintuple Stimulus Vouchers System ***\nPlease enter the good price: Please enter the type of vouchers (d/p): Are you a member of NCU Bank (y/n): The price you need to pay: 110\nThe payment is processed as follows:\n    1 $100 voucher\n    1 $ 10 voucher\nThe remaining vouchers are as follows:\n    4 $100 voucher\n    5 $ 50 voucher\n    4 $ 10 voucher\n    5 $  5 voucher\n    5 $  1 voucher\n\nPlease enter the good price: Please enter the type of vouchers (d/p): Are you a member of NCU Bank (y/n): The price you need to pay: 42\nThe payment is processed as follows:\n    4 $ 10 voucher\n    2 $  1 voucher\nThe remaining vouchers are as follows:\n    4 $100 voucher\n    5 $ 50 voucher\n    5 $  5 voucher\n    3 $  1 voucher\n\nPlease enter the good price: Please enter the type of vouchers (d/p): Are you a member of NCU Bank (y/n): The price you need to pay: 640\nThe payment is processed as follows:\n    4 $100 voucher\n    5 $ 50 voucher\nThe remaining vouchers are as follows:\n    5 $  5 voucher\n    3 $  1 voucher\n\nPlease enter the good price: Please enter the type of vouchers (d/p): Are you a member of NCU Bank (y/n): The price you need to pay: 840\nYou don't have enough voucher to buy the good\n\nPlease enter the good price: Please enter the type of vouchers (d/p): The price you need to pay: 128\nYou don't have enough voucher to buy the good\n\nPlease enter the good price: Please enter the type of vouchers (d/p): The price you need to pay: 113\nYou don't have enough voucher to buy the good\n\nPlease enter the good price: Bye~\n"
+      },
+      {
+        "label": "stateful seed202101 case17",
+        "input": "485\np\n776\np\n256\nd\nn\n657\np\n830\np\n238\np\n-1\n",
+        "expected_stdout": "*** Welcome to Quintuple Stimulus Vouchers System ***\nPlease enter the good price: Please enter the type of vouchers (d/p): The price you need to pay: 436\nThe payment is processed as follows:\n    4 $100 voucher\n    3 $ 10 voucher\n    1 $  5 voucher\n    1 $  1 voucher\nThe remaining vouchers are as follows:\n    1 $100 voucher\n    5 $ 50 voucher\n    2 $ 10 voucher\n    4 $  5 voucher\n    4 $  1 voucher\n\nPlease enter the good price: Please enter the type of vouchers (d/p): The price you need to pay: 698\nYou don't have enough voucher to buy the good\n\nPlease enter the good price: Please enter the type of vouchers (d/p): Are you a member of NCU Bank (y/n): The price you need to pay: 204\nThe payment is processed as follows:\n    1 $100 voucher\n    2 $ 50 voucher\n    4 $  1 voucher\nThe remaining vouchers are as follows:\n    3 $ 50 voucher\n    2 $ 10 voucher\n    4 $  5 voucher\n\nPlease enter the good price: Please enter the type of vouchers (d/p): The price you need to pay: 591\nYou don't have enough voucher to buy the good\n\nPlease enter the good price: Please enter the type of vouchers (d/p): The price you need to pay: 747\nYou don't have enough voucher to buy the good\n\nPlease enter the good price: Please enter the type of vouchers (d/p): The price you need to pay: 214\nYou don't have enough voucher to buy the good\n\nPlease enter the good price: Bye~\n"
+      },
+      {
+        "label": "stateful seed202101 case18",
+        "input": "794\np\n4\nd\nn\n49\nd\nn\n1100\np\n552\nd\nn\n140\np\n-1\n",
+        "expected_stdout": "*** Welcome to Quintuple Stimulus Vouchers System ***\nPlease enter the good price: Please enter the type of vouchers (d/p): The price you need to pay: 714\nThe payment is processed as follows:\n    5 $100 voucher\n    4 $ 50 voucher\n    1 $ 10 voucher\n    4 $  1 voucher\nThe remaining vouchers are as follows:\n    1 $ 50 voucher\n    4 $ 10 voucher\n    5 $  5 voucher\n    1 $  1 voucher\n\nPlease enter the good price: Please enter the type of vouchers (d/p): Are you a member of NCU Bank (y/n): The price you need to pay: 3\nThe payment is processed as follows:\n    1 $ 50 voucher\nThe remaining vouchers are as follows:\n    4 $ 10 voucher\n    5 $  5 voucher\n    1 $  1 voucher\n\nPlease enter the good price: Please enter the type of vouchers (d/p): Are you a member of NCU Bank (y/n): The price you need to pay: 39\nThe payment is processed as follows:\n    4 $ 10 voucher\nThe remaining vouchers are as follows:\n    5 $  5 voucher\n    1 $  1 voucher\n\nPlease enter the good price: Please enter the type of vouchers (d/p): The price you need to pay: 990\nYou don't have enough voucher to buy the good\n\nPlease enter the good price: Please enter the type of vouchers (d/p): Are you a member of NCU Bank (y/n): The price you need to pay: 441\nYou don't have enough voucher to buy the good\n\nPlease enter the good price: Please enter the type of vouchers (d/p): The price you need to pay: 126\nYou don't have enough voucher to buy the good\n\nPlease enter the good price: Bye~\n"
+      },
+      {
+        "label": "stateful seed202101 case19",
+        "input": "1111\nd\nn\n126\nd\ny\n1118\nd\ny\n999\np\n35\np\n1027\np\n-1\n",
+        "expected_stdout": "*** Welcome to Quintuple Stimulus Vouchers System ***\nPlease enter the good price: Please enter the type of vouchers (d/p): Are you a member of NCU Bank (y/n): The price you need to pay: 888\nYou don't have enough voucher to buy the good\n\nPlease enter the good price: Please enter the type of vouchers (d/p): Are you a member of NCU Bank (y/n): The price you need to pay: 90\nThe payment is processed as follows:\n    1 $ 50 voucher\n    4 $ 10 voucher\nThe remaining vouchers are as follows:\n    5 $100 voucher\n    4 $ 50 voucher\n    1 $ 10 voucher\n    5 $  5 voucher\n    5 $  1 voucher\n\nPlease enter the good price: Please enter the type of vouchers (d/p): Are you a member of NCU Bank (y/n): The price you need to pay: 804\nYou don't have enough voucher to buy the good\n\nPlease enter the good price: Please enter the type of vouchers (d/p): The price you need to pay: 899\nYou don't have enough voucher to buy the good\n\nPlease enter the good price: Please enter the type of vouchers (d/p): The price you need to pay: 31\nThe payment is processed as follows:\n    1 $ 10 voucher\n    4 $  5 voucher\n    1 $  1 voucher\nThe remaining vouchers are as follows:\n    5 $100 voucher\n    4 $ 50 voucher\n    1 $  5 voucher\n    4 $  1 voucher\n\nPlease enter the good price: Please enter the type of vouchers (d/p): The price you need to pay: 924\nYou don't have enough voucher to buy the good\n\nPlease enter the good price: Bye~\n"
+      },
+      {
+        "label": "stateful seed202101 case20",
+        "input": "896\np\n838\np\n823\np\n146\nd\nn\n818\nd\nn\n399\np\n-1\n",
+        "expected_stdout": "*** Welcome to Quintuple Stimulus Vouchers System ***\nPlease enter the good price: Please enter the type of vouchers (d/p): The price you need to pay: 806\nThe payment is processed as follows:\n    5 $100 voucher\n    5 $ 50 voucher\n    5 $ 10 voucher\n    1 $  5 voucher\n    1 $  1 voucher\nThe remaining vouchers are as follows:\n    4 $  5 voucher\n    4 $  1 voucher\n\nPlease enter the good price: Please enter the type of vouchers (d/p): The price you need to pay: 754\nYou don't have enough voucher to buy the good\n\nPlease enter the good price: Please enter the type of vouchers (d/p): The price you need to pay: 740\nYou don't have enough voucher to buy the good\n\nPlease enter the good price: Please enter the type of vouchers (d/p): Are you a member of NCU Bank (y/n): The price you need to pay: 116\nYou don't have enough voucher to buy the good\n\nPlease enter the good price: Please enter the type of vouchers (d/p): Are you a member of NCU Bank (y/n): The price you need to pay: 654\nYou don't have enough voucher to buy the good\n\nPlease enter the good price: Please enter the type of vouchers (d/p): The price you need to pay: 359\nYou don't have enough voucher to buy the good\n\nPlease enter the good price: Bye~\n"
+      },
+      {
+        "label": "stateful seed202101 case21",
+        "input": "91\np\n400\np\n456\nd\ny\n541\np\n747\np\n695\np\n-1\n",
+        "expected_stdout": "*** Welcome to Quintuple Stimulus Vouchers System ***\nPlease enter the good price: Please enter the type of vouchers (d/p): The price you need to pay: 81\nThe payment is processed as follows:\n    1 $ 50 voucher\n    3 $ 10 voucher\n    1 $  1 voucher\nThe remaining vouchers are as follows:\n    5 $100 voucher\n    4 $ 50 voucher\n    2 $ 10 voucher\n    5 $  5 voucher\n    4 $  1 voucher\n\nPlease enter the good price: Please enter the type of vouchers (d/p): The price you need to pay: 360\nThe payment is processed as follows:\n    3 $100 voucher\n    1 $ 50 voucher\n    1 $ 10 voucher\nThe remaining vouchers are as follows:\n    2 $100 voucher\n    3 $ 50 voucher\n    1 $ 10 voucher\n    5 $  5 voucher\n    4 $  1 voucher\n\nPlease enter the good price: Please enter the type of vouchers (d/p): Are you a member of NCU Bank (y/n): The price you need to pay: 328\nThe payment is processed as follows:\n    2 $100 voucher\n    2 $ 50 voucher\n    1 $ 10 voucher\n    3 $  5 voucher\n    3 $  1 voucher\nThe remaining vouchers are as follows:\n    1 $ 50 voucher\n    2 $  5 voucher\n    1 $  1 voucher\n\nPlease enter the good price: Please enter the type of vouchers (d/p): The price you need to pay: 486\nYou don't have enough voucher to buy the good\n\nPlease enter the good price: Please enter the type of vouchers (d/p): The price you need to pay: 672\nYou don't have enough voucher to buy the good\n\nPlease enter the good price: Please enter the type of vouchers (d/p): The price you need to pay: 625\nYou don't have enough voucher to buy the good\n\nPlease enter the good price: Bye~\n"
+      },
+      {
+        "label": "stateful seed202101 case22",
+        "input": "73\np\n692\np\n657\np\n456\nd\ny\n1014\nd\nn\n1006\nd\nn\n-1\n",
+        "expected_stdout": "*** Welcome to Quintuple Stimulus Vouchers System ***\nPlease enter the good price: Please enter the type of vouchers (d/p): The price you need to pay: 65\nThe payment is processed as follows:\n    1 $ 50 voucher\n    1 $ 10 voucher\n    1 $  5 voucher\nThe remaining vouchers are as follows:\n    5 $100 voucher\n    4 $ 50 voucher\n    4 $ 10 voucher\n    4 $  5 voucher\n    5 $  1 voucher\n\nPlease enter the good price: Please enter the type of vouchers (d/p): The price you need to pay: 622\nThe payment is processed as follows:\n    5 $100 voucher\n    2 $ 50 voucher\n    2 $ 10 voucher\n    2 $  1 voucher\nThe remaining vouchers are as follows:\n    2 $ 50 voucher\n    2 $ 10 voucher\n    4 $  5 voucher\n    3 $  1 voucher\n\nPlease enter the good price: Please enter the type of vouchers (d/p): The price you need to pay: 591\nYou don't have enough voucher to buy the good\n\nPlease enter the good price: Please enter the type of vouchers (d/p): Are you a member of NCU Bank (y/n): The price you need to pay: 328\nYou don't have enough voucher to buy the good\n\nPlease enter the good price: Please enter the type of vouchers (d/p): Are you a member of NCU Bank (y/n): The price you need to pay: 811\nYou don't have enough voucher to buy the good\n\nPlease enter the good price: Please enter the type of vouchers (d/p): Are you a member of NCU Bank (y/n): The price you need to pay: 804\nYou don't have enough voucher to buy the good\n\nPlease enter the good price: Bye~\n"
+      },
+      {
+        "label": "stateful seed202101 case23",
+        "input": "1177\np\n616\np\n613\np\n526\nd\ny\n1127\np\n201\np\n-1\n",
+        "expected_stdout": "*** Welcome to Quintuple Stimulus Vouchers System ***\nPlease enter the good price: Please enter the type of vouchers (d/p): The price you need to pay: 1059\nYou don't have enough voucher to buy the good\n\nPlease enter the good price: Please enter the type of vouchers (d/p): The price you need to pay: 554\nThe payment is processed as follows:\n    5 $100 voucher\n    1 $ 50 voucher\n    4 $  1 voucher\nThe remaining vouchers are as follows:\n    4 $ 50 voucher\n    5 $ 10 voucher\n    5 $  5 voucher\n    1 $  1 voucher\n\nPlease enter the good price: Please enter the type of vouchers (d/p): The price you need to pay: 551\nYou don't have enough voucher to buy the good\n\nPlease enter the good price: Please enter the type of vouchers (d/p): Are you a member of NCU Bank (y/n): The price you need to pay: 378\nYou don't have enough voucher to buy the good\n\nPlease enter the good price: Please enter the type of vouchers (d/p): The price you need to pay: 1014\nYou don't have enough voucher to buy the good\n\nPlease enter the good price: Please enter the type of vouchers (d/p): The price you need to pay: 180\nThe payment is processed as follows:\n    3 $ 50 voucher\n    3 $ 10 voucher\nThe remaining vouchers are as follows:\n    1 $ 50 voucher\n    2 $ 10 voucher\n    5 $  5 voucher\n    1 $  1 voucher\n\nPlease enter the good price: Bye~\n"
+      },
+      {
+        "label": "stateful seed202101 case24",
+        "input": "653\nd\nn\n513\np\n1169\np\n551\nd\nn\n701\np\n496\np\n-1\n",
+        "expected_stdout": "*** Welcome to Quintuple Stimulus Vouchers System ***\nPlease enter the good price: Please enter the type of vouchers (d/p): Are you a member of NCU Bank (y/n): The price you need to pay: 522\nThe payment is processed as follows:\n    5 $100 voucher\n    2 $ 10 voucher\n    2 $  1 voucher\nThe remaining vouchers are as follows:\n    5 $ 50 voucher\n    3 $ 10 voucher\n    5 $  5 voucher\n    3 $  1 voucher\n\nPlease enter the good price: Please enter the type of vouchers (d/p): The price you need to pay: 461\nYou don't have enough voucher to buy the good\n\nPlease enter the good price: Please enter the type of vouchers (d/p): The price you need to pay: 1052\nYou don't have enough voucher to buy the good\n\nPlease enter the good price: Please enter the type of vouchers (d/p): Are you a member of NCU Bank (y/n): The price you need to pay: 440\nYou don't have enough voucher to buy the good\n\nPlease enter the good price: Please enter the type of vouchers (d/p): The price you need to pay: 630\nYou don't have enough voucher to buy the good\n\nPlease enter the good price: Please enter the type of vouchers (d/p): The price you need to pay: 446\nYou don't have enough voucher to buy the good\n\nPlease enter the good price: Bye~\n"
+      },
+      {
+        "label": "stateful seed202101 case25",
+        "input": "430\np\n86\np\n611\nd\ny\n909\nd\ny\n415\nd\ny\n627\np\n-1\n",
+        "expected_stdout": "*** Welcome to Quintuple Stimulus Vouchers System ***\nPlease enter the good price: Please enter the type of vouchers (d/p): The price you need to pay: 387\nThe payment is processed as follows:\n    3 $100 voucher\n    1 $ 50 voucher\n    3 $ 10 voucher\n    1 $  5 voucher\n    2 $  1 voucher\nThe remaining vouchers are as follows:\n    2 $100 voucher\n    4 $ 50 voucher\n    2 $ 10 voucher\n    4 $  5 voucher\n    3 $  1 voucher\n\nPlease enter the good price: Please enter the type of vouchers (d/p): The price you need to pay: 77\nThe payment is processed as follows:\n    1 $ 50 voucher\n    2 $ 10 voucher\n    1 $  5 voucher\n    2 $  1 voucher\nThe remaining vouchers are as follows:\n    2 $100 voucher\n    3 $ 50 voucher\n    3 $  5 voucher\n    1 $  1 voucher\n\nPlease enter the good price: Please enter the type of vouchers (d/p): Are you a member of NCU Bank (y/n): The price you need to pay: 439\nYou don't have enough voucher to buy the good\n\nPlease enter the good price: Please enter the type of vouchers (d/p): Are you a member of NCU Bank (y/n): The price you need to pay: 654\nYou don't have enough voucher to buy the good\n\nPlease enter the good price: Please enter the type of vouchers (d/p): Are you a member of NCU Bank (y/n): The price you need to pay: 298\nThe payment is processed as follows:\n    2 $100 voucher\n    2 $ 50 voucher\nThe remaining vouchers are as follows:\n    1 $ 50 voucher\n    3 $  5 voucher\n    1 $  1 voucher\n\nPlease enter the good price: Please enter the type of vouchers (d/p): The price you need to pay: 564\nYou don't have enough voucher to buy the good\n\nPlease enter the good price: Bye~\n"
+      },
+      {
+        "label": "stateful seed202101 case26",
+        "input": "154\np\n1054\np\n466\np\n271\nd\ny\n746\nd\nn\n848\np\n-1\n",
+        "expected_stdout": "*** Welcome to Quintuple Stimulus Vouchers System ***\nPlease enter the good price: Please enter the type of vouchers (d/p): The price you need to pay: 138\nThe payment is processed as follows:\n    1 $100 voucher\n    3 $ 10 voucher\n    1 $  5 voucher\n    3 $  1 voucher\nThe remaining vouchers are as follows:\n    4 $100 voucher\n    5 $ 50 voucher\n    2 $ 10 voucher\n    4 $  5 voucher\n    2 $  1 voucher\n\nPlease enter the good price: Please enter the type of vouchers (d/p): The price you need to pay: 948\nYou don't have enough voucher to buy the good\n\nPlease enter the good price: Please enter the type of vouchers (d/p): The price you need to pay: 419\nThe payment is processed as follows:\n    4 $100 voucher\n    1 $ 50 voucher\nThe remaining vouchers are as follows:\n    4 $ 50 voucher\n    2 $ 10 voucher\n    4 $  5 voucher\n    2 $  1 voucher\n\nPlease enter the good price: Please enter the type of vouchers (d/p): Are you a member of NCU Bank (y/n): The price you need to pay: 195\nThe payment is processed as follows:\n    4 $ 50 voucher\nThe remaining vouchers are as follows:\n    2 $ 10 voucher\n    4 $  5 voucher\n    2 $  1 voucher\n\nPlease enter the good price: Please enter the type of vouchers (d/p): Are you a member of NCU Bank (y/n): The price you need to pay: 596\nYou don't have enough voucher to buy the good\n\nPlease enter the good price: Please enter the type of vouchers (d/p): The price you need to pay: 763\nYou don't have enough voucher to buy the good\n\nPlease enter the good price: Bye~\n"
+      },
+      {
+        "label": "stateful seed202101 case27",
+        "input": "283\np\n1018\np\n637\np\n43\np\n640\np\n615\np\n-1\n",
+        "expected_stdout": "*** Welcome to Quintuple Stimulus Vouchers System ***\nPlease enter the good price: Please enter the type of vouchers (d/p): The price you need to pay: 254\nThe payment is processed as follows:\n    2 $100 voucher\n    1 $ 50 voucher\n    4 $  1 voucher\nThe remaining vouchers are as follows:\n    3 $100 voucher\n    4 $ 50 voucher\n    5 $ 10 voucher\n    5 $  5 voucher\n    1 $  1 voucher\n\nPlease enter the good price: Please enter the type of vouchers (d/p): The price you need to pay: 916\nYou don't have enough voucher to buy the good\n\nPlease enter the good price: Please enter the type of vouchers (d/p): The price you need to pay: 573\nThe payment is processed as follows:\n    3 $100 voucher\n    4 $ 50 voucher\n    5 $ 10 voucher\n    5 $  5 voucher\nThe remaining vouchers are as follows:\n    1 $  1 voucher\n\nPlease enter the good price: Please enter the type of vouchers (d/p): The price you need to pay: 38\nYou don't have enough voucher to buy the good\n\nPlease enter the good price: Please enter the type of vouchers (d/p): The price you need to pay: 576\nYou don't have enough voucher to buy the good\n\nPlease enter the good price: Please enter the type of vouchers (d/p): The price you need to pay: 553\nYou don't have enough voucher to buy the good\n\nPlease enter the good price: Bye~\n"
+      },
+      {
+        "label": "stateful seed202101 case28",
+        "input": "32\np\n796\nd\ny\n358\np\n143\nd\ny\n106\np\n92\np\n-1\n",
+        "expected_stdout": "*** Welcome to Quintuple Stimulus Vouchers System ***\nPlease enter the good price: Please enter the type of vouchers (d/p): The price you need to pay: 28\nThe payment is processed as follows:\n    2 $ 10 voucher\n    1 $  5 voucher\n    3 $  1 voucher\nThe remaining vouchers are as follows:\n    5 $100 voucher\n    5 $ 50 voucher\n    3 $ 10 voucher\n    4 $  5 voucher\n    2 $  1 voucher\n\nPlease enter the good price: Please enter the type of vouchers (d/p): Are you a member of NCU Bank (y/n): The price you need to pay: 573\nThe payment is processed as follows:\n    5 $100 voucher\n    2 $ 50 voucher\nThe remaining vouchers are as follows:\n    3 $ 50 voucher\n    3 $ 10 voucher\n    4 $  5 voucher\n    2 $  1 voucher\n\nPlease enter the good price: Please enter the type of vouchers (d/p): The price you need to pay: 322\nYou don't have enough voucher to buy the good\n\nPlease enter the good price: Please enter the type of vouchers (d/p): Are you a member of NCU Bank (y/n): The price you need to pay: 102\nThe payment is processed as follows:\n    2 $ 50 voucher\n    2 $  1 voucher\nThe remaining vouchers are as follows:\n    1 $ 50 voucher\n    3 $ 10 voucher\n    4 $  5 voucher\n\nPlease enter the good price: Please enter the type of vouchers (d/p): The price you need to pay: 95\nThe payment is processed as follows:\n    1 $ 50 voucher\n    3 $ 10 voucher\n    3 $  5 voucher\nThe remaining vouchers are as follows:\n    1 $  5 voucher\n\nPlease enter the good price: Please enter the type of vouchers (d/p): The price you need to pay: 82\nYou don't have enough voucher to buy the good\n\nPlease enter the good price: Bye~\n"
+      },
+      {
+        "label": "stateful seed202101 case29",
+        "input": "1163\np\n1020\nd\nn\n641\np\n1150\nd\nn\n762\np\n300\np\n-1\n",
+        "expected_stdout": "*** Welcome to Quintuple Stimulus Vouchers System ***\nPlease enter the good price: Please enter the type of vouchers (d/p): The price you need to pay: 1046\nYou don't have enough voucher to buy the good\n\nPlease enter the good price: Please enter the type of vouchers (d/p): Are you a member of NCU Bank (y/n): The price you need to pay: 816\nThe payment is processed as follows:\n    5 $100 voucher\n    5 $ 50 voucher\n    5 $ 10 voucher\n    3 $  5 voucher\n    1 $  1 voucher\nThe remaining vouchers are as follows:\n    2 $  5 voucher\n    4 $  1 voucher\n\nPlease enter the good price: Please enter the type of vouchers (d/p): The price you need to pay: 576\nYou don't have enough voucher to buy the good\n\nPlease enter the good price: Please enter the type of vouchers (d/p): Are you a member of NCU Bank (y/n): The price you need to pay: 920\nYou don't have enough voucher to buy the good\n\nPlease enter the good price: Please enter the type of vouchers (d/p): The price you need to pay: 685\nYou don't have enough voucher to buy the good\n\nPlease enter the good price: Please enter the type of vouchers (d/p): The price you need to pay: 270\nYou don't have enough voucher to buy the good\n\nPlease enter the good price: Bye~\n"
+      },
+      {
+        "label": "stateful seed202101 case30",
+        "input": "1080\nd\ny\n84\nd\nn\n115\np\n1056\nd\nn\n222\np\n1124\nd\ny\n-1\n",
+        "expected_stdout": "*** Welcome to Quintuple Stimulus Vouchers System ***\nPlease enter the good price: Please enter the type of vouchers (d/p): Are you a member of NCU Bank (y/n): The price you need to pay: 777\nThe payment is processed as follows:\n    5 $100 voucher\n    5 $ 50 voucher\n    2 $ 10 voucher\n    1 $  5 voucher\n    2 $  1 voucher\nThe remaining vouchers are as follows:\n    3 $ 10 voucher\n    4 $  5 voucher\n    3 $  1 voucher\n\nPlease enter the good price: Please enter the type of vouchers (d/p): Are you a member of NCU Bank (y/n): The price you need to pay: 67\nYou don't have enough voucher to buy the good\n\nPlease enter the good price: Please enter the type of vouchers (d/p): The price you need to pay: 103\nYou don't have enough voucher to buy the good\n\nPlease enter the good price: Please enter the type of vouchers (d/p): Are you a member of NCU Bank (y/n): The price you need to pay: 844\nYou don't have enough voucher to buy the good\n\nPlease enter the good price: Please enter the type of vouchers (d/p): The price you need to pay: 199\nYou don't have enough voucher to buy the good\n\nPlease enter the good price: Please enter the type of vouchers (d/p): Are you a member of NCU Bank (y/n): The price you need to pay: 809\nYou don't have enough voucher to buy the good\n\nPlease enter the good price: Bye~\n"
+      },
+      {
+        "label": "stateful seed202101 case31",
+        "input": "1009\nd\ny\n108\np\n698\np\n759\nd\ny\n194\nd\ny\n115\nd\nn\n-1\n",
+        "expected_stdout": "*** Welcome to Quintuple Stimulus Vouchers System ***\nPlease enter the good price: Please enter the type of vouchers (d/p): Are you a member of NCU Bank (y/n): The price you need to pay: 726\nThe payment is processed as follows:\n    5 $100 voucher\n    4 $ 50 voucher\n    2 $ 10 voucher\n    1 $  5 voucher\n    1 $  1 voucher\nThe remaining vouchers are as follows:\n    1 $ 50 voucher\n    3 $ 10 voucher\n    4 $  5 voucher\n    4 $  1 voucher\n\nPlease enter the good price: Please enter the type of vouchers (d/p): The price you need to pay: 97\nThe payment is processed as follows:\n    1 $ 50 voucher\n    3 $ 10 voucher\n    3 $  5 voucher\n    2 $  1 voucher\nThe remaining vouchers are as follows:\n    1 $  5 voucher\n    2 $  1 voucher\n\nPlease enter the good price: Please enter the type of vouchers (d/p): The price you need to pay: 628\nYou don't have enough voucher to buy the good\n\nPlease enter the good price: Please enter the type of vouchers (d/p): Are you a member of NCU Bank (y/n): The price you need to pay: 546\nYou don't have enough voucher to buy the good\n\nPlease enter the good price: Please enter the type of vouchers (d/p): Are you a member of NCU Bank (y/n): The price you need to pay: 139\nYou don't have enough voucher to buy the good\n\nPlease enter the good price: Please enter the type of vouchers (d/p): Are you a member of NCU Bank (y/n): The price you need to pay: 92\nYou don't have enough voucher to buy the good\n\nPlease enter the good price: Bye~\n"
+      },
+      {
+        "label": "stateful seed202101 case32",
+        "input": "1050\np\n436\nd\nn\n802\nd\nn\n402\np\n98\np\n1020\np\n-1\n",
+        "expected_stdout": "*** Welcome to Quintuple Stimulus Vouchers System ***\nPlease enter the good price: Please enter the type of vouchers (d/p): The price you need to pay: 945\nYou don't have enough voucher to buy the good\n\nPlease enter the good price: Please enter the type of vouchers (d/p): Are you a member of NCU Bank (y/n): The price you need to pay: 348\nThe payment is processed as follows:\n    3 $100 voucher\n    4 $ 10 voucher\n    1 $  5 voucher\n    3 $  1 voucher\nThe remaining vouchers are as follows:\n    2 $100 voucher\n    5 $ 50 voucher\n    1 $ 10 voucher\n    4 $  5 voucher\n    2 $  1 voucher\n\nPlease enter the good price: Please enter the type of vouchers (d/p): Are you a member of NCU Bank (y/n): The price you need to pay: 641\nYou don't have enough voucher to buy the good\n\nPlease enter the good price: Please enter the type of vouchers (d/p): The price you need to pay: 361\nThe payment is processed as follows:\n    2 $100 voucher\n    3 $ 50 voucher\n    1 $ 10 voucher\n    1 $  1 voucher\nThe remaining vouchers are as follows:\n    2 $ 50 voucher\n    4 $  5 voucher\n    1 $  1 voucher\n\nPlease enter the good price: Please enter the type of vouchers (d/p): The price you need to pay: 88\nThe payment is processed as follows:\n    2 $ 50 voucher\nThe remaining vouchers are as follows:\n    4 $  5 voucher\n    1 $  1 voucher\n\nPlease enter the good price: Please enter the type of vouchers (d/p): The price you need to pay: 918\nYou don't have enough voucher to buy the good\n\nPlease enter the good price: Bye~\n"
+      },
+      {
+        "label": "stateful seed202101 case33",
+        "input": "728\np\n812\nd\nn\n574\nd\ny\n783\np\n520\nd\nn\n1058\np\n-1\n",
+        "expected_stdout": "*** Welcome to Quintuple Stimulus Vouchers System ***\nPlease enter the good price: Please enter the type of vouchers (d/p): The price you need to pay: 655\nThe payment is processed as follows:\n    5 $100 voucher\n    3 $ 50 voucher\n    1 $  5 voucher\nThe remaining vouchers are as follows:\n    2 $ 50 voucher\n    5 $ 10 voucher\n    4 $  5 voucher\n    5 $  1 voucher\n\nPlease enter the good price: Please enter the type of vouchers (d/p): Are you a member of NCU Bank (y/n): The price you need to pay: 649\nYou don't have enough voucher to buy the good\n\nPlease enter the good price: Please enter the type of vouchers (d/p): Are you a member of NCU Bank (y/n): The price you need to pay: 413\nYou don't have enough voucher to buy the good\n\nPlease enter the good price: Please enter the type of vouchers (d/p): The price you need to pay: 704\nYou don't have enough voucher to buy the good\n\nPlease enter the good price: Please enter the type of vouchers (d/p): Are you a member of NCU Bank (y/n): The price you need to pay: 416\nYou don't have enough voucher to buy the good\n\nPlease enter the good price: Please enter the type of vouchers (d/p): The price you need to pay: 952\nYou don't have enough voucher to buy the good\n\nPlease enter the good price: Bye~\n"
+      },
+      {
+        "label": "stateful seed202101 case34",
+        "input": "709\np\n168\np\n747\np\n742\nd\nn\n971\np\n66\nd\ny\n-1\n",
+        "expected_stdout": "*** Welcome to Quintuple Stimulus Vouchers System ***\nPlease enter the good price: Please enter the type of vouchers (d/p): The price you need to pay: 638\nThe payment is processed as follows:\n    5 $100 voucher\n    2 $ 50 voucher\n    3 $ 10 voucher\n    1 $  5 voucher\n    3 $  1 voucher\nThe remaining vouchers are as follows:\n    3 $ 50 voucher\n    2 $ 10 voucher\n    4 $  5 voucher\n    2 $  1 voucher\n\nPlease enter the good price: Please enter the type of vouchers (d/p): The price you need to pay: 151\nThe payment is processed as follows:\n    3 $ 50 voucher\n    1 $  1 voucher\nThe remaining vouchers are as follows:\n    2 $ 10 voucher\n    4 $  5 voucher\n    1 $  1 voucher\n\nPlease enter the good price: Please enter the type of vouchers (d/p): The price you need to pay: 672\nYou don't have enough voucher to buy the good\n\nPlease enter the good price: Please enter the type of vouchers (d/p): Are you a member of NCU Bank (y/n): The price you need to pay: 593\nYou don't have enough voucher to buy the good\n\nPlease enter the good price: Please enter the type of vouchers (d/p): The price you need to pay: 873\nYou don't have enough voucher to buy the good\n\nPlease enter the good price: Please enter the type of vouchers (d/p): Are you a member of NCU Bank (y/n): The price you need to pay: 47\nYou don't have enough voucher to buy the good\n\nPlease enter the good price: Bye~\n"
+      },
+      {
+        "label": "stateful seed202101 case35",
+        "input": "443\np\n1118\nd\ny\n334\nd\ny\n362\nd\ny\n845\nd\nn\n1018\nd\ny\n-1\n",
+        "expected_stdout": "*** Welcome to Quintuple Stimulus Vouchers System ***\nPlease enter the good price: Please enter the type of vouchers (d/p): The price you need to pay: 398\nThe payment is processed as follows:\n    3 $100 voucher\n    1 $ 50 voucher\n    4 $ 10 voucher\n    1 $  5 voucher\n    3 $  1 voucher\nThe remaining vouchers are as follows:\n    2 $100 voucher\n    4 $ 50 voucher\n    1 $ 10 voucher\n    4 $  5 voucher\n    2 $  1 voucher\n\nPlease enter the good price: Please enter the type of vouchers (d/p): Are you a member of NCU Bank (y/n): The price you need to pay: 804\nYou don't have enough voucher to buy the good\n\nPlease enter the good price: Please enter the type of vouchers (d/p): Are you a member of NCU Bank (y/n): The price you need to pay: 240\nThe payment is processed as follows:\n    2 $100 voucher\n    1 $ 50 voucher\nThe remaining vouchers are as follows:\n    3 $ 50 voucher\n    1 $ 10 voucher\n    4 $  5 voucher\n    2 $  1 voucher\n\nPlease enter the good price: Please enter the type of vouchers (d/p): Are you a member of NCU Bank (y/n): The price you need to pay: 260\nYou don't have enough voucher to buy the good\n\nPlease enter the good price: Please enter the type of vouchers (d/p): Are you a member of NCU Bank (y/n): The price you need to pay: 676\nYou don't have enough voucher to buy the good\n\nPlease enter the good price: Please enter the type of vouchers (d/p): Are you a member of NCU Bank (y/n): The price you need to pay: 732\nYou don't have enough voucher to buy the good\n\nPlease enter the good price: Bye~\n"
+      },
+      {
+        "label": "stateful seed202101 case36",
+        "input": "615\np\n237\nd\ny\n478\np\n553\nd\nn\n966\np\n1110\nd\ny\n-1\n",
+        "expected_stdout": "*** Welcome to Quintuple Stimulus Vouchers System ***\nPlease enter the good price: Please enter the type of vouchers (d/p): The price you need to pay: 553\nThe payment is processed as follows:\n    5 $100 voucher\n    1 $ 50 voucher\n    3 $  1 voucher\nThe remaining vouchers are as follows:\n    4 $ 50 voucher\n    5 $ 10 voucher\n    5 $  5 voucher\n    2 $  1 voucher\n\nPlease enter the good price: Please enter the type of vouchers (d/p): Are you a member of NCU Bank (y/n): The price you need to pay: 170\nThe payment is processed as follows:\n    3 $ 50 voucher\n    2 $ 10 voucher\nThe remaining vouchers are as follows:\n    1 $ 50 voucher\n    3 $ 10 voucher\n    5 $  5 voucher\n    2 $  1 voucher\n\nPlease enter the good price: Please enter the type of vouchers (d/p): The price you need to pay: 430\nYou don't have enough voucher to buy the good\n\nPlease enter the good price: Please enter the type of vouchers (d/p): Are you a member of NCU Bank (y/n): The price you need to pay: 442\nYou don't have enough voucher to buy the good\n\nPlease enter the good price: Please enter the type of vouchers (d/p): The price you need to pay: 869\nYou don't have enough voucher to buy the good\n\nPlease enter the good price: Please enter the type of vouchers (d/p): Are you a member of NCU Bank (y/n): The price you need to pay: 799\nYou don't have enough voucher to buy the good\n\nPlease enter the good price: Bye~\n"
+      },
+      {
+        "label": "stateful seed202101 case37",
+        "input": "63\np\n733\nd\ny\n623\np\n448\nd\nn\n76\np\n289\np\n-1\n",
+        "expected_stdout": "*** Welcome to Quintuple Stimulus Vouchers System ***\nPlease enter the good price: Please enter the type of vouchers (d/p): The price you need to pay: 56\nThe payment is processed as follows:\n    1 $ 50 voucher\n    1 $  5 voucher\n    1 $  1 voucher\nThe remaining vouchers are as follows:\n    5 $100 voucher\n    4 $ 50 voucher\n    5 $ 10 voucher\n    4 $  5 voucher\n    4 $  1 voucher\n\nPlease enter the good price: Please enter the type of vouchers (d/p): Are you a member of NCU Bank (y/n): The price you need to pay: 527\nThe payment is processed as follows:\n    5 $100 voucher\n    2 $ 10 voucher\n    1 $  5 voucher\n    2 $  1 voucher\nThe remaining vouchers are as follows:\n    4 $ 50 voucher\n    3 $ 10 voucher\n    3 $  5 voucher\n    2 $  1 voucher\n\nPlease enter the good price: Please enter the type of vouchers (d/p): The price you need to pay: 560\nYou don't have enough voucher to buy the good\n\nPlease enter the good price: Please enter the type of vouchers (d/p): Are you a member of NCU Bank (y/n): The price you need to pay: 358\nYou don't have enough voucher to buy the good\n\nPlease enter the good price: Please enter the type of vouchers (d/p): The price you need to pay: 68\nThe payment is processed as follows:\n    2 $ 50 voucher\nThe remaining vouchers are as follows:\n    2 $ 50 voucher\n    3 $ 10 voucher\n    3 $  5 voucher\n    2 $  1 voucher\n\nPlease enter the good price: Please enter the type of vouchers (d/p): The price you need to pay: 260\nYou don't have enough voucher to buy the good\n\nPlease enter the good price: Bye~\n"
+      },
+      {
+        "label": "stateful seed202101 case38",
+        "input": "246\nd\ny\n605\np\n908\np\n761\nd\ny\n485\np\n1157\np\n-1\n",
+        "expected_stdout": "*** Welcome to Quintuple Stimulus Vouchers System ***\nPlease enter the good price: Please enter the type of vouchers (d/p): Are you a member of NCU Bank (y/n): The price you need to pay: 177\nThe payment is processed as follows:\n    1 $100 voucher\n    1 $ 50 voucher\n    2 $ 10 voucher\n    1 $  5 voucher\n    2 $  1 voucher\nThe remaining vouchers are as follows:\n    4 $100 voucher\n    4 $ 50 voucher\n    3 $ 10 voucher\n    4 $  5 voucher\n    3 $  1 voucher\n\nPlease enter the good price: Please enter the type of vouchers (d/p): The price you need to pay: 544\nThe payment is processed as follows:\n    4 $100 voucher\n    3 $ 50 voucher\nThe remaining vouchers are as follows:\n    1 $ 50 voucher\n    3 $ 10 voucher\n    4 $  5 voucher\n    3 $  1 voucher\n\nPlease enter the good price: Please enter the type of vouchers (d/p): The price you need to pay: 817\nYou don't have enough voucher to buy the good\n\nPlease enter the good price: Please enter the type of vouchers (d/p): Are you a member of NCU Bank (y/n): The price you need to pay: 547\nYou don't have enough voucher to buy the good\n\nPlease enter the good price: Please enter the type of vouchers (d/p): The price you need to pay: 436\nYou don't have enough voucher to buy the good\n\nPlease enter the good price: Please enter the type of vouchers (d/p): The price you need to pay: 1041\nYou don't have enough voucher to buy the good\n\nPlease enter the good price: Bye~\n"
+      },
+      {
+        "label": "stateful seed202101 case39",
+        "input": "845\np\n598\np\n623\np\n159\nd\nn\n286\np\n742\np\n-1\n",
+        "expected_stdout": "*** Welcome to Quintuple Stimulus Vouchers System ***\nPlease enter the good price: Please enter the type of vouchers (d/p): The price you need to pay: 760\nThe payment is processed as follows:\n    5 $100 voucher\n    5 $ 50 voucher\n    1 $ 10 voucher\nThe remaining vouchers are as follows:\n    4 $ 10 voucher\n    5 $  5 voucher\n    5 $  1 voucher\n\nPlease enter the good price: Please enter the type of vouchers (d/p): The price you need to pay: 538\nYou don't have enough voucher to buy the good\n\nPlease enter the good price: Please enter the type of vouchers (d/p): The price you need to pay: 560\nYou don't have enough voucher to buy the good\n\nPlease enter the good price: Please enter the type of vouchers (d/p): Are you a member of NCU Bank (y/n): The price you need to pay: 127\nYou don't have enough voucher to buy the good\n\nPlease enter the good price: Please enter the type of vouchers (d/p): The price you need to pay: 257\nYou don't have enough voucher to buy the good\n\nPlease enter the good price: Please enter the type of vouchers (d/p): The price you need to pay: 667\nYou don't have enough voucher to buy the good\n\nPlease enter the good price: Bye~\n"
+      },
+      {
+        "label": "stateful seed202101 case40",
+        "input": "38\nd\nn\n318\nd\nn\n478\nd\ny\n845\np\n922\np\n146\np\n-1\n",
+        "expected_stdout": "*** Welcome to Quintuple Stimulus Vouchers System ***\nPlease enter the good price: Please enter the type of vouchers (d/p): Are you a member of NCU Bank (y/n): The price you need to pay: 30\nThe payment is processed as follows:\n    3 $ 10 voucher\nThe remaining vouchers are as follows:\n    5 $100 voucher\n    5 $ 50 voucher\n    2 $ 10 voucher\n    5 $  5 voucher\n    5 $  1 voucher\n\nPlease enter the good price: Please enter the type of vouchers (d/p): Are you a member of NCU Bank (y/n): The price you need to pay: 254\nThe payment is processed as follows:\n    2 $100 voucher\n    1 $ 50 voucher\n    4 $  1 voucher\nThe remaining vouchers are as follows:\n    3 $100 voucher\n    4 $ 50 voucher\n    2 $ 10 voucher\n    5 $  5 voucher\n    1 $  1 voucher\n\nPlease enter the good price: Please enter the type of vouchers (d/p): Are you a member of NCU Bank (y/n): The price you need to pay: 344\nThe payment is processed as follows:\n    3 $100 voucher\n    1 $ 50 voucher\nThe remaining vouchers are as follows:\n    3 $ 50 voucher\n    2 $ 10 voucher\n    5 $  5 voucher\n    1 $  1 voucher\n\nPlease enter the good price: Please enter the type of vouchers (d/p): The price you need to pay: 760\nYou don't have enough voucher to buy the good\n\nPlease enter the good price: Please enter the type of vouchers (d/p): The price you need to pay: 829\nYou don't have enough voucher to buy the good\n\nPlease enter the good price: Please enter the type of vouchers (d/p): The price you need to pay: 131\nThe payment is processed as follows:\n    2 $ 50 voucher\n    2 $ 10 voucher\n    2 $  5 voucher\n    1 $  1 voucher\nThe remaining vouchers are as follows:\n    1 $ 50 voucher\n    3 $  5 voucher\n\nPlease enter the good price: Bye~\n"
+      },
+      {
+        "label": "stateful seed202101 case41",
+        "input": "45\nd\ny\n607\nd\nn\n985\nd\ny\n348\np\n",
+        "expected_stdout": "*** Welcome to Quintuple Stimulus Vouchers System ***\nPlease enter the good price: Please enter the type of vouchers (d/p): Are you a member of NCU Bank (y/n): The price you need to pay: 32\nThe payment is processed as follows:\n    3 $ 10 voucher\n    2 $  1 voucher\nThe remaining vouchers are as follows:\n    5 $100 voucher\n    5 $ 50 voucher\n    2 $ 10 voucher\n    5 $  5 voucher\n    3 $  1 voucher\n\nPlease enter the good price: Please enter the type of vouchers (d/p): Are you a member of NCU Bank (y/n): The price you need to pay: 485\nThe payment is processed as follows:\n    4 $100 voucher\n    1 $ 50 voucher\n    2 $ 10 voucher\n    3 $  5 voucher\nThe remaining vouchers are as follows:\n    1 $100 voucher\n    4 $ 50 voucher\n    2 $  5 voucher\n    3 $  1 voucher\n\nPlease enter the good price: Please enter the type of vouchers (d/p): Are you a member of NCU Bank (y/n): The price you need to pay: 709\nYou don't have enough voucher to buy the good\n\nPlease enter the good price: Please enter the type of vouchers (d/p): The price you need to pay: 313\nThe payment is processed as follows:\n    1 $100 voucher\n    4 $ 50 voucher\n    2 $  5 voucher\n    3 $  1 voucher\nYou do not remain any voucher\nBye~\n"
+      },
+      {
+        "label": "stateful seed202101 case42",
+        "input": "953\nd\ny\n269\nd\ny\n950\np\n948\nd\nn\n1039\np\n1039\nd\nn\n-1\n",
+        "expected_stdout": "*** Welcome to Quintuple Stimulus Vouchers System ***\nPlease enter the good price: Please enter the type of vouchers (d/p): Are you a member of NCU Bank (y/n): The price you need to pay: 686\nThe payment is processed as follows:\n    5 $100 voucher\n    3 $ 50 voucher\n    3 $ 10 voucher\n    1 $  5 voucher\n    1 $  1 voucher\nThe remaining vouchers are as follows:\n    2 $ 50 voucher\n    2 $ 10 voucher\n    4 $  5 voucher\n    4 $  1 voucher\n\nPlease enter the good price: Please enter the type of vouchers (d/p): Are you a member of NCU Bank (y/n): The price you need to pay: 193\nYou don't have enough voucher to buy the good\n\nPlease enter the good price: Please enter the type of vouchers (d/p): The price you need to pay: 855\nYou don't have enough voucher to buy the good\n\nPlease enter the good price: Please enter the type of vouchers (d/p): Are you a member of NCU Bank (y/n): The price you need to pay: 758\nYou don't have enough voucher to buy the good\n\nPlease enter the good price: Please enter the type of vouchers (d/p): The price you need to pay: 935\nYou don't have enough voucher to buy the good\n\nPlease enter the good price: Please enter the type of vouchers (d/p): Are you a member of NCU Bank (y/n): The price you need to pay: 831\nYou don't have enough voucher to buy the good\n\nPlease enter the good price: Bye~\n"
+      },
+      {
+        "label": "stateful seed202101 case43",
+        "input": "228\np\n26\nd\ny\n1015\nd\ny\n54\np\n507\nd\ny\n996\np\n-1\n",
+        "expected_stdout": "*** Welcome to Quintuple Stimulus Vouchers System ***\nPlease enter the good price: Please enter the type of vouchers (d/p): The price you need to pay: 205\nThe payment is processed as follows:\n    2 $100 voucher\n    1 $  5 voucher\nThe remaining vouchers are as follows:\n    3 $100 voucher\n    5 $ 50 voucher\n    5 $ 10 voucher\n    4 $  5 voucher\n    5 $  1 voucher\n\nPlease enter the good price: Please enter the type of vouchers (d/p): Are you a member of NCU Bank (y/n): The price you need to pay: 18\nThe payment is processed as follows:\n    1 $ 10 voucher\n    1 $  5 voucher\n    3 $  1 voucher\nThe remaining vouchers are as follows:\n    3 $100 voucher\n    5 $ 50 voucher\n    4 $ 10 voucher\n    3 $  5 voucher\n    2 $  1 voucher\n\nPlease enter the good price: Please enter the type of vouchers (d/p): Are you a member of NCU Bank (y/n): The price you need to pay: 730\nYou don't have enough voucher to buy the good\n\nPlease enter the good price: Please enter the type of vouchers (d/p): The price you need to pay: 48\nThe payment is processed as follows:\n    1 $100 voucher\nThe remaining vouchers are as follows:\n    2 $100 voucher\n    5 $ 50 voucher\n    4 $ 10 voucher\n    3 $  5 voucher\n    2 $  1 voucher\n\nPlease enter the good price: Please enter the type of vouchers (d/p): Are you a member of NCU Bank (y/n): The price you need to pay: 365\nThe payment is processed as follows:\n    2 $100 voucher\n    3 $ 50 voucher\n    1 $ 10 voucher\n    1 $  5 voucher\nThe remaining vouchers are as follows:\n    2 $ 50 voucher\n    3 $ 10 voucher\n    2 $  5 voucher\n    2 $  1 voucher\n\nPlease enter the good price: Please enter the type of vouchers (d/p): The price you need to pay: 896\nYou don't have enough voucher to buy the good\n\nPlease enter the good price: Bye~\n"
+      },
+      {
+        "label": "stateful seed202101 case44",
+        "input": "1192\np\n130\np\n324\nd\ny\n544\np\n65\nd\ny\n277\nd\ny\n-1\n",
+        "expected_stdout": "*** Welcome to Quintuple Stimulus Vouchers System ***\nPlease enter the good price: Please enter the type of vouchers (d/p): The price you need to pay: 1072\nYou don't have enough voucher to buy the good\n\nPlease enter the good price: Please enter the type of vouchers (d/p): The price you need to pay: 117\nThe payment is processed as follows:\n    1 $100 voucher\n    1 $ 10 voucher\n    1 $  5 voucher\n    2 $  1 voucher\nThe remaining vouchers are as follows:\n    4 $100 voucher\n    5 $ 50 voucher\n    4 $ 10 voucher\n    4 $  5 voucher\n    3 $  1 voucher\n\nPlease enter the good price: Please enter the type of vouchers (d/p): Are you a member of NCU Bank (y/n): The price you need to pay: 233\nThe payment is processed as follows:\n    2 $100 voucher\n    3 $ 10 voucher\n    3 $  1 voucher\nThe remaining vouchers are as follows:\n    2 $100 voucher\n    5 $ 50 voucher\n    1 $ 10 voucher\n    4 $  5 voucher\n\nPlease enter the good price: Please enter the type of vouchers (d/p): The price you need to pay: 489\nYou don't have enough voucher to buy the good\n\nPlease enter the good price: Please enter the type of vouchers (d/p): Are you a member of NCU Bank (y/n): The price you need to pay: 46\nThe payment is processed as follows:\n    1 $100 voucher\nThe remaining vouchers are as follows:\n    1 $100 voucher\n    5 $ 50 voucher\n    1 $ 10 voucher\n    4 $  5 voucher\n\nPlease enter the good price: Please enter the type of vouchers (d/p): Are you a member of NCU Bank (y/n): The price you need to pay: 199\nThe payment is processed as follows:\n    1 $100 voucher\n    2 $ 50 voucher\nThe remaining vouchers are as follows:\n    3 $ 50 voucher\n    1 $ 10 voucher\n    4 $  5 voucher\n\nPlease enter the good price: Bye~\n"
+      },
+      {
+        "label": "stateful seed202101 case45",
+        "input": "695\nd\ny\n398\nd\nn\n688\np\n880\np\n53\np\n1087\nd\ny\n-1\n",
+        "expected_stdout": "*** Welcome to Quintuple Stimulus Vouchers System ***\nPlease enter the good price: Please enter the type of vouchers (d/p): Are you a member of NCU Bank (y/n): The price you need to pay: 500\nThe payment is processed as follows:\n    5 $100 voucher\nThe remaining vouchers are as follows:\n    5 $ 50 voucher\n    5 $ 10 voucher\n    5 $  5 voucher\n    5 $  1 voucher\n\nPlease enter the good price: Please enter the type of vouchers (d/p): Are you a member of NCU Bank (y/n): The price you need to pay: 318\nThe payment is processed as follows:\n    5 $ 50 voucher\n    5 $ 10 voucher\n    3 $  5 voucher\n    3 $  1 voucher\nThe remaining vouchers are as follows:\n    2 $  5 voucher\n    2 $  1 voucher\n\nPlease enter the good price: Please enter the type of vouchers (d/p): The price you need to pay: 619\nYou don't have enough voucher to buy the good\n\nPlease enter the good price: Please enter the type of vouchers (d/p): The price you need to pay: 792\nYou don't have enough voucher to buy the good\n\nPlease enter the good price: Please enter the type of vouchers (d/p): The price you need to pay: 47\nYou don't have enough voucher to buy the good\n\nPlease enter the good price: Please enter the type of vouchers (d/p): Are you a member of NCU Bank (y/n): The price you need to pay: 782\nYou don't have enough voucher to buy the good\n\nPlease enter the good price: Bye~\n"
+      },
+      {
+        "label": "stateful seed202101 case46",
+        "input": "794\np\n1047\nd\nn\n487\nd\ny\n763\nd\nn\n1117\np\n183\np\n-1\n",
+        "expected_stdout": "*** Welcome to Quintuple Stimulus Vouchers System ***\nPlease enter the good price: Please enter the type of vouchers (d/p): The price you need to pay: 714\nThe payment is processed as follows:\n    5 $100 voucher\n    4 $ 50 voucher\n    1 $ 10 voucher\n    4 $  1 voucher\nThe remaining vouchers are as follows:\n    1 $ 50 voucher\n    4 $ 10 voucher\n    5 $  5 voucher\n    1 $  1 voucher\n\nPlease enter the good price: Please enter the type of vouchers (d/p): Are you a member of NCU Bank (y/n): The price you need to pay: 837\nYou don't have enough voucher to buy the good\n\nPlease enter the good price: Please enter the type of vouchers (d/p): Are you a member of NCU Bank (y/n): The price you need to pay: 350\nYou don't have enough voucher to buy the good\n\nPlease enter the good price: Please enter the type of vouchers (d/p): Are you a member of NCU Bank (y/n): The price you need to pay: 610\nYou don't have enough voucher to buy the good\n\nPlease enter the good price: Please enter the type of vouchers (d/p): The price you need to pay: 1005\nYou don't have enough voucher to buy the good\n\nPlease enter the good price: Please enter the type of vouchers (d/p): The price you need to pay: 164\nYou don't have enough voucher to buy the good\n\nPlease enter the good price: Bye~\n"
+      },
+      {
+        "label": "stateful seed202101 case47",
+        "input": "508\nd\ny\n362\nd\nn\n856\np\n316\nd\ny\n338\nd\nn\n1085\nd\ny\n-1\n",
+        "expected_stdout": "*** Welcome to Quintuple Stimulus Vouchers System ***\nPlease enter the good price: Please enter the type of vouchers (d/p): Are you a member of NCU Bank (y/n): The price you need to pay: 365\nThe payment is processed as follows:\n    3 $100 voucher\n    1 $ 50 voucher\n    1 $ 10 voucher\n    1 $  5 voucher\nThe remaining vouchers are as follows:\n    2 $100 voucher\n    4 $ 50 voucher\n    4 $ 10 voucher\n    4 $  5 voucher\n    5 $  1 voucher\n\nPlease enter the good price: Please enter the type of vouchers (d/p): Are you a member of NCU Bank (y/n): The price you need to pay: 289\nThe payment is processed as follows:\n    2 $100 voucher\n    1 $ 50 voucher\n    3 $ 10 voucher\n    1 $  5 voucher\n    4 $  1 voucher\nThe remaining vouchers are as follows:\n    3 $ 50 voucher\n    1 $ 10 voucher\n    3 $  5 voucher\n    1 $  1 voucher\n\nPlease enter the good price: Please enter the type of vouchers (d/p): The price you need to pay: 770\nYou don't have enough voucher to buy the good\n\nPlease enter the good price: Please enter the type of vouchers (d/p): Are you a member of NCU Bank (y/n): The price you need to pay: 227\nYou don't have enough voucher to buy the good\n\nPlease enter the good price: Please enter the type of vouchers (d/p): Are you a member of NCU Bank (y/n): The price you need to pay: 270\nYou don't have enough voucher to buy the good\n\nPlease enter the good price: Please enter the type of vouchers (d/p): Are you a member of NCU Bank (y/n): The price you need to pay: 781\nYou don't have enough voucher to buy the good\n\nPlease enter the good price: Bye~\n"
+      },
+      {
+        "label": "stateful seed202101 case48",
+        "input": "204\np\n674\np\n132\nd\ny\n395\np\n1019\np\n85\nd\nn\n-1\n",
+        "expected_stdout": "*** Welcome to Quintuple Stimulus Vouchers System ***\nPlease enter the good price: Please enter the type of vouchers (d/p): The price you need to pay: 183\nThe payment is processed as follows:\n    1 $100 voucher\n    1 $ 50 voucher\n    3 $ 10 voucher\n    3 $  1 voucher\nThe remaining vouchers are as follows:\n    4 $100 voucher\n    4 $ 50 voucher\n    2 $ 10 voucher\n    5 $  5 voucher\n    2 $  1 voucher\n\nPlease enter the good price: Please enter the type of vouchers (d/p): The price you need to pay: 606\nThe payment is processed as follows:\n    4 $100 voucher\n    4 $ 50 voucher\n    1 $  5 voucher\n    1 $  1 voucher\nThe remaining vouchers are as follows:\n    2 $ 10 voucher\n    4 $  5 voucher\n    1 $  1 voucher\n\nPlease enter the good price: Please enter the type of vouchers (d/p): Are you a member of NCU Bank (y/n): The price you need to pay: 95\nYou don't have enough voucher to buy the good\n\nPlease enter the good price: Please enter the type of vouchers (d/p): The price you need to pay: 355\nYou don't have enough voucher to buy the good\n\nPlease enter the good price: Please enter the type of vouchers (d/p): The price you need to pay: 917\nYou don't have enough voucher to buy the good\n\nPlease enter the good price: Please enter the type of vouchers (d/p): Are you a member of NCU Bank (y/n): The price you need to pay: 68\nYou don't have enough voucher to buy the good\n\nPlease enter the good price: Bye~\n"
+      },
+      {
+        "label": "stateful seed202101 case49",
+        "input": "429\nd\ny\n855\np\n714\nd\ny\n1126\np\n1078\nd\ny\n198\np\n-1\n",
+        "expected_stdout": "*** Welcome to Quintuple Stimulus Vouchers System ***\nPlease enter the good price: Please enter the type of vouchers (d/p): Are you a member of NCU Bank (y/n): The price you need to pay: 308\nThe payment is processed as follows:\n    3 $100 voucher\n    1 $  5 voucher\n    3 $  1 voucher\nThe remaining vouchers are as follows:\n    2 $100 voucher\n    5 $ 50 voucher\n    5 $ 10 voucher\n    4 $  5 voucher\n    2 $  1 voucher\n\nPlease enter the good price: Please enter the type of vouchers (d/p): The price you need to pay: 769\nYou don't have enough voucher to buy the good\n\nPlease enter the good price: Please enter the type of vouchers (d/p): Are you a member of NCU Bank (y/n): The price you need to pay: 514\nThe payment is processed as follows:\n    2 $100 voucher\n    5 $ 50 voucher\n    5 $ 10 voucher\n    3 $  5 voucher\nThe remaining vouchers are as follows:\n    1 $  5 voucher\n    2 $  1 voucher\n\nPlease enter the good price: Please enter the type of vouchers (d/p): The price you need to pay: 1013\nYou don't have enough voucher to buy the good\n\nPlease enter the good price: Please enter the type of vouchers (d/p): Are you a member of NCU Bank (y/n): The price you need to pay: 776\nYou don't have enough voucher to buy the good\n\nPlease enter the good price: Please enter the type of vouchers (d/p): The price you need to pay: 178\nYou don't have enough voucher to buy the good\n\nPlease enter the good price: Bye~\n"
+      }
+    ]
+  },
+  "minimum_loss": {
+    "source": "assignments/2021/pa01/references/moss-lynx-5375/minimum_loss.cpp",
+    "sha256": "9241650d482b9b561b1b65f3c5094e87ff6be38147647d193e5934a273b875ed",
+    "cases": [
+      {
+        "label": "three exact purchases",
+        "input": "100\ny\np\n100\ny\nd\nn\n100\ny\nd\ny\n-1\ny\n",
+        "transactions": [
+          [
+            100,
+            "p",
+            ""
+          ],
+          [
+            100,
+            "d",
+            "n"
+          ],
+          [
+            100,
+            "d",
+            "y"
+          ]
+        ]
+      },
+      {
+        "label": "official fifth public payment sequence",
+        "input": "399\ny\nd\nn\n408\ny\nd\ny\n999\ny\np\n-1\ny\n",
+        "transactions": [
+          [
+            399,
+            "d",
+            "n"
+          ],
+          [
+            408,
+            "d",
+            "y"
+          ],
+          [
+            999,
+            "p",
+            ""
+          ]
+        ]
+      },
+      {
+        "label": "official zero input",
+        "input": "0\ny\np\n-1\ny\n",
+        "transactions": [
+          [
+            0,
+            "p",
+            ""
+          ]
+        ]
+      },
+      {
+        "label": "valid stateful seed202111 case0",
+        "input": "239\ny\nd\ny\n112\ny\nd\ny\n113\ny\np\n369\ny\np\n518\ny\np\n333\ny\nd\ny\n99\ny\nd\nn\n598\ny\np\n-1\ny\n",
+        "transactions": [
+          [
+            239,
+            "d",
+            "y"
+          ],
+          [
+            112,
+            "d",
+            "y"
+          ],
+          [
+            113,
+            "p",
+            "n"
+          ],
+          [
+            369,
+            "p",
+            "n"
+          ],
+          [
+            518,
+            "p",
+            "n"
+          ],
+          [
+            333,
+            "d",
+            "y"
+          ],
+          [
+            99,
+            "d",
+            "n"
+          ],
+          [
+            598,
+            "p",
+            "y"
+          ]
+        ]
+      },
+      {
+        "label": "valid stateful seed202111 case1",
+        "input": "162\ny\np\n633\ny\np\n346\ny\nd\ny\n283\ny\np\n477\ny\np\n547\ny\nd\ny\n605\ny\np\n222\ny\np\n-1\ny\n",
+        "transactions": [
+          [
+            162,
+            "p",
+            "n"
+          ],
+          [
+            633,
+            "p",
+            "y"
+          ],
+          [
+            346,
+            "d",
+            "y"
+          ],
+          [
+            283,
+            "p",
+            "y"
+          ],
+          [
+            477,
+            "p",
+            "y"
+          ],
+          [
+            547,
+            "d",
+            "y"
+          ],
+          [
+            605,
+            "p",
+            "y"
+          ],
+          [
+            222,
+            "p",
+            "n"
+          ]
+        ]
+      },
+      {
+        "label": "valid stateful seed202111 case2",
+        "input": "203\ny\nd\nn\n85\ny\nd\ny\n362\ny\np\n353\ny\np\n152\ny\nd\nn\n87\ny\nd\ny\n40\ny\nd\ny\n172\ny\np\n-1\ny\n",
+        "transactions": [
+          [
+            203,
+            "d",
+            "n"
+          ],
+          [
+            85,
+            "d",
+            "y"
+          ],
+          [
+            362,
+            "p",
+            "y"
+          ],
+          [
+            353,
+            "p",
+            "n"
+          ],
+          [
+            152,
+            "d",
+            "n"
+          ],
+          [
+            87,
+            "d",
+            "y"
+          ],
+          [
+            40,
+            "d",
+            "y"
+          ],
+          [
+            172,
+            "p",
+            "y"
+          ]
+        ]
+      },
+      {
+        "label": "valid stateful seed202111 case3",
+        "input": "589\ny\np\n627\ny\nd\ny\n275\ny\np\n135\ny\nd\nn\n473\ny\nd\nn\n538\ny\np\n654\ny\nd\nn\n697\ny\nd\nn\n-1\ny\n",
+        "transactions": [
+          [
+            589,
+            "p",
+            "y"
+          ],
+          [
+            627,
+            "d",
+            "y"
+          ],
+          [
+            275,
+            "p",
+            "n"
+          ],
+          [
+            135,
+            "d",
+            "n"
+          ],
+          [
+            473,
+            "d",
+            "n"
+          ],
+          [
+            538,
+            "p",
+            "n"
+          ],
+          [
+            654,
+            "d",
+            "n"
+          ],
+          [
+            697,
+            "d",
+            "n"
+          ]
+        ]
+      },
+      {
+        "label": "valid stateful seed202111 case4",
+        "input": "262\ny\nd\nn\n692\ny\nd\nn\n590\ny\np\n422\ny\nd\nn\n98\ny\np\n610\ny\np\n167\ny\nd\nn\n8\ny\np\n-1\ny\n",
+        "transactions": [
+          [
+            262,
+            "d",
+            "n"
+          ],
+          [
+            692,
+            "d",
+            "n"
+          ],
+          [
+            590,
+            "p",
+            "n"
+          ],
+          [
+            422,
+            "d",
+            "n"
+          ],
+          [
+            98,
+            "p",
+            "y"
+          ],
+          [
+            610,
+            "p",
+            "n"
+          ],
+          [
+            167,
+            "d",
+            "n"
+          ],
+          [
+            8,
+            "p",
+            "n"
+          ]
+        ]
+      },
+      {
+        "label": "valid stateful seed202111 case5",
+        "input": "401\ny\np\n463\ny\np\n408\ny\np\n332\ny\np\n552\ny\np\n470\ny\nd\ny\n50\ny\nd\nn\n433\ny\np\n-1\ny\n",
+        "transactions": [
+          [
+            401,
+            "p",
+            "n"
+          ],
+          [
+            463,
+            "p",
+            "y"
+          ],
+          [
+            408,
+            "p",
+            "y"
+          ],
+          [
+            332,
+            "p",
+            "y"
+          ],
+          [
+            552,
+            "p",
+            "y"
+          ],
+          [
+            470,
+            "d",
+            "y"
+          ],
+          [
+            50,
+            "d",
+            "n"
+          ],
+          [
+            433,
+            "p",
+            "n"
+          ]
+        ]
+      },
+      {
+        "label": "valid stateful seed202111 case6",
+        "input": "246\ny\np\n74\ny\np\n241\ny\nd\nn\n305\ny\nd\nn\n602\ny\nd\nn\n326\ny\np\n89\ny\nd\ny\n144\ny\np\n-1\ny\n",
+        "transactions": [
+          [
+            246,
+            "p",
+            "y"
+          ],
+          [
+            74,
+            "p",
+            "y"
+          ],
+          [
+            241,
+            "d",
+            "n"
+          ],
+          [
+            305,
+            "d",
+            "n"
+          ],
+          [
+            602,
+            "d",
+            "n"
+          ],
+          [
+            326,
+            "p",
+            "n"
+          ],
+          [
+            89,
+            "d",
+            "y"
+          ],
+          [
+            144,
+            "p",
+            "n"
+          ]
+        ]
+      },
+      {
+        "label": "valid stateful seed202111 case7",
+        "input": "677\ny\np\n531\ny\nd\ny\n185\ny\nd\nn\n213\ny\np\n163\ny\nd\ny\n598\ny\np\n381\ny\np\n516\ny\nd\ny\n-1\ny\n",
+        "transactions": [
+          [
+            677,
+            "p",
+            "y"
+          ],
+          [
+            531,
+            "d",
+            "y"
+          ],
+          [
+            185,
+            "d",
+            "n"
+          ],
+          [
+            213,
+            "p",
+            "n"
+          ],
+          [
+            163,
+            "d",
+            "y"
+          ],
+          [
+            598,
+            "p",
+            "y"
+          ],
+          [
+            381,
+            "p",
+            "n"
+          ],
+          [
+            516,
+            "d",
+            "y"
+          ]
+        ]
+      },
+      {
+        "label": "valid stateful seed202111 case8",
+        "input": "426\ny\nd\ny\n215\ny\nd\nn\n313\ny\nd\ny\n34\ny\np\n24\ny\nd\ny\n692\ny\np\n83\ny\nd\nn\n350\ny\nd\ny\n-1\ny\n",
+        "transactions": [
+          [
+            426,
+            "d",
+            "y"
+          ],
+          [
+            215,
+            "d",
+            "n"
+          ],
+          [
+            313,
+            "d",
+            "y"
+          ],
+          [
+            34,
+            "p",
+            "n"
+          ],
+          [
+            24,
+            "d",
+            "y"
+          ],
+          [
+            692,
+            "p",
+            "y"
+          ],
+          [
+            83,
+            "d",
+            "n"
+          ],
+          [
+            350,
+            "d",
+            "y"
+          ]
+        ]
+      },
+      {
+        "label": "valid stateful seed202111 case9",
+        "input": "51\ny\nd\ny\n275\ny\np\n239\ny\np\n129\ny\nd\nn\n36\ny\np\n42\ny\np\n168\ny\nd\nn\n311\ny\nd\nn\n-1\ny\n",
+        "transactions": [
+          [
+            51,
+            "d",
+            "y"
+          ],
+          [
+            275,
+            "p",
+            "y"
+          ],
+          [
+            239,
+            "p",
+            "y"
+          ],
+          [
+            129,
+            "d",
+            "n"
+          ],
+          [
+            36,
+            "p",
+            "y"
+          ],
+          [
+            42,
+            "p",
+            "y"
+          ],
+          [
+            168,
+            "d",
+            "n"
+          ],
+          [
+            311,
+            "d",
+            "n"
+          ]
+        ]
+      },
+      {
+        "label": "valid stateful seed202111 case10",
+        "input": "282\ny\np\n688\ny\np\n577\ny\np\n458\ny\nd\ny\n114\ny\np\n695\ny\nd\nn\n35\ny\nd\ny\n53\ny\nd\nn\n-1\ny\n",
+        "transactions": [
+          [
+            282,
+            "p",
+            "y"
+          ],
+          [
+            688,
+            "p",
+            "y"
+          ],
+          [
+            577,
+            "p",
+            "y"
+          ],
+          [
+            458,
+            "d",
+            "y"
+          ],
+          [
+            114,
+            "p",
+            "n"
+          ],
+          [
+            695,
+            "d",
+            "n"
+          ],
+          [
+            35,
+            "d",
+            "y"
+          ],
+          [
+            53,
+            "d",
+            "n"
+          ]
+        ]
+      },
+      {
+        "label": "valid stateful seed202111 case11",
+        "input": "569\ny\nd\ny\n670\ny\nd\ny\n621\ny\np\n617\ny\nd\ny\n538\ny\np\n322\ny\np\n599\ny\nd\nn\n410\ny\nd\ny\n-1\ny\n",
+        "transactions": [
+          [
+            569,
+            "d",
+            "y"
+          ],
+          [
+            670,
+            "d",
+            "y"
+          ],
+          [
+            621,
+            "p",
+            "n"
+          ],
+          [
+            617,
+            "d",
+            "y"
+          ],
+          [
+            538,
+            "p",
+            "n"
+          ],
+          [
+            322,
+            "p",
+            "y"
+          ],
+          [
+            599,
+            "d",
+            "n"
+          ],
+          [
+            410,
+            "d",
+            "y"
+          ]
+        ]
+      },
+      {
+        "label": "valid stateful seed202111 case12",
+        "input": "293\ny\np\n641\ny\nd\nn\n313\ny\np\n71\ny\np\n622\ny\np\n579\ny\np\n448\ny\np\n359\ny\np\n-1\ny\n",
+        "transactions": [
+          [
+            293,
+            "p",
+            "y"
+          ],
+          [
+            641,
+            "d",
+            "n"
+          ],
+          [
+            313,
+            "p",
+            "n"
+          ],
+          [
+            71,
+            "p",
+            "y"
+          ],
+          [
+            622,
+            "p",
+            "y"
+          ],
+          [
+            579,
+            "p",
+            "n"
+          ],
+          [
+            448,
+            "p",
+            "n"
+          ],
+          [
+            359,
+            "p",
+            "n"
+          ]
+        ]
+      },
+      {
+        "label": "valid stateful seed202111 case13",
+        "input": "692\ny\nd\nn\n456\ny\np\n27\ny\np\n362\ny\np\n15\ny\np\n35\ny\nd\ny\n536\ny\np\n411\ny\nd\ny\n-1\ny\n",
+        "transactions": [
+          [
+            692,
+            "d",
+            "n"
+          ],
+          [
+            456,
+            "p",
+            "y"
+          ],
+          [
+            27,
+            "p",
+            "n"
+          ],
+          [
+            362,
+            "p",
+            "n"
+          ],
+          [
+            15,
+            "p",
+            "y"
+          ],
+          [
+            35,
+            "d",
+            "y"
+          ],
+          [
+            536,
+            "p",
+            "y"
+          ],
+          [
+            411,
+            "d",
+            "y"
+          ]
+        ]
+      },
+      {
+        "label": "valid stateful seed202111 case14",
+        "input": "513\ny\np\n660\ny\np\n469\ny\np\n263\ny\np\n588\ny\nd\nn\n321\ny\np\n229\ny\nd\ny\n346\ny\np\n-1\ny\n",
+        "transactions": [
+          [
+            513,
+            "p",
+            "y"
+          ],
+          [
+            660,
+            "p",
+            "n"
+          ],
+          [
+            469,
+            "p",
+            "y"
+          ],
+          [
+            263,
+            "p",
+            "y"
+          ],
+          [
+            588,
+            "d",
+            "n"
+          ],
+          [
+            321,
+            "p",
+            "n"
+          ],
+          [
+            229,
+            "d",
+            "y"
+          ],
+          [
+            346,
+            "p",
+            "y"
+          ]
+        ]
+      },
+      {
+        "label": "valid stateful seed202111 case15",
+        "input": "319\ny\np\n509\ny\nd\nn\n656\ny\nd\nn\n123\ny\np\n372\ny\np\n1\ny\np\n517\ny\nd\ny\n291\ny\np\n-1\ny\n",
+        "transactions": [
+          [
+            319,
+            "p",
+            "y"
+          ],
+          [
+            509,
+            "d",
+            "n"
+          ],
+          [
+            656,
+            "d",
+            "n"
+          ],
+          [
+            123,
+            "p",
+            "n"
+          ],
+          [
+            372,
+            "p",
+            "y"
+          ],
+          [
+            1,
+            "p",
+            "y"
+          ],
+          [
+            517,
+            "d",
+            "y"
+          ],
+          [
+            291,
+            "p",
+            "n"
+          ]
+        ]
+      },
+      {
+        "label": "valid stateful seed202111 case16",
+        "input": "263\ny\nd\nn\n610\ny\np\n184\ny\nd\ny\n455\ny\nd\ny\n22\ny\np\n278\ny\nd\ny\n475\ny\nd\ny\n498\ny\np\n-1\ny\n",
+        "transactions": [
+          [
+            263,
+            "d",
+            "n"
+          ],
+          [
+            610,
+            "p",
+            "n"
+          ],
+          [
+            184,
+            "d",
+            "y"
+          ],
+          [
+            455,
+            "d",
+            "y"
+          ],
+          [
+            22,
+            "p",
+            "n"
+          ],
+          [
+            278,
+            "d",
+            "y"
+          ],
+          [
+            475,
+            "d",
+            "y"
+          ],
+          [
+            498,
+            "p",
+            "y"
+          ]
+        ]
+      },
+      {
+        "label": "valid stateful seed202111 case17",
+        "input": "371\ny\nd\nn\n445\ny\np\n668\ny\np\n263\ny\nd\ny\n226\ny\np\n98\ny\np\n316\ny\np\n459\ny\nd\nn\n-1\ny\n",
+        "transactions": [
+          [
+            371,
+            "d",
+            "n"
+          ],
+          [
+            445,
+            "p",
+            "y"
+          ],
+          [
+            668,
+            "p",
+            "n"
+          ],
+          [
+            263,
+            "d",
+            "y"
+          ],
+          [
+            226,
+            "p",
+            "y"
+          ],
+          [
+            98,
+            "p",
+            "n"
+          ],
+          [
+            316,
+            "p",
+            "y"
+          ],
+          [
+            459,
+            "d",
+            "n"
+          ]
+        ]
+      },
+      {
+        "label": "valid stateful seed202111 case18",
+        "input": "546\ny\nd\nn\n479\ny\np\n356\ny\nd\ny\n49\ny\np\n39\ny\np\n375\ny\nd\ny\n456\ny\np\n633\ny\nd\ny\n-1\ny\n",
+        "transactions": [
+          [
+            546,
+            "d",
+            "n"
+          ],
+          [
+            479,
+            "p",
+            "n"
+          ],
+          [
+            356,
+            "d",
+            "y"
+          ],
+          [
+            49,
+            "p",
+            "n"
+          ],
+          [
+            39,
+            "p",
+            "n"
+          ],
+          [
+            375,
+            "d",
+            "y"
+          ],
+          [
+            456,
+            "p",
+            "y"
+          ],
+          [
+            633,
+            "d",
+            "y"
+          ]
+        ]
+      },
+      {
+        "label": "valid stateful seed202111 case19",
+        "input": "298\ny\np\n678\ny\nd\ny\n227\ny\nd\nn\n471\ny\np\n659\ny\np\n171\ny\nd\nn\n190\ny\np\n497\ny\np\n-1\ny\n",
+        "transactions": [
+          [
+            298,
+            "p",
+            "n"
+          ],
+          [
+            678,
+            "d",
+            "y"
+          ],
+          [
+            227,
+            "d",
+            "n"
+          ],
+          [
+            471,
+            "p",
+            "y"
+          ],
+          [
+            659,
+            "p",
+            "n"
+          ],
+          [
+            171,
+            "d",
+            "n"
+          ],
+          [
+            190,
+            "p",
+            "n"
+          ],
+          [
+            497,
+            "p",
+            "y"
+          ]
+        ]
+      },
+      {
+        "label": "valid stateful seed202111 case20",
+        "input": "92\ny\np\n343\ny\nd\ny\n82\ny\np\n395\ny\nd\ny\n370\ny\nd\nn\n184\ny\nd\ny\n283\ny\np\n669\ny\nd\nn\n-1\ny\n",
+        "transactions": [
+          [
+            92,
+            "p",
+            "y"
+          ],
+          [
+            343,
+            "d",
+            "y"
+          ],
+          [
+            82,
+            "p",
+            "n"
+          ],
+          [
+            395,
+            "d",
+            "y"
+          ],
+          [
+            370,
+            "d",
+            "n"
+          ],
+          [
+            184,
+            "d",
+            "y"
+          ],
+          [
+            283,
+            "p",
+            "n"
+          ],
+          [
+            669,
+            "d",
+            "n"
+          ]
+        ]
+      },
+      {
+        "label": "valid stateful seed202111 case21",
+        "input": "328\ny\np\n355\ny\np\n49\ny\nd\nn\n110\ny\nd\ny\n19\ny\nd\ny\n484\ny\nd\ny\n635\ny\np\n110\ny\np\n-1\ny\n",
+        "transactions": [
+          [
+            328,
+            "p",
+            "y"
+          ],
+          [
+            355,
+            "p",
+            "n"
+          ],
+          [
+            49,
+            "d",
+            "n"
+          ],
+          [
+            110,
+            "d",
+            "y"
+          ],
+          [
+            19,
+            "d",
+            "y"
+          ],
+          [
+            484,
+            "d",
+            "y"
+          ],
+          [
+            635,
+            "p",
+            "n"
+          ],
+          [
+            110,
+            "p",
+            "y"
+          ]
+        ]
+      },
+      {
+        "label": "valid stateful seed202111 case22",
+        "input": "426\ny\nd\ny\n559\ny\np\n583\ny\np\n39\ny\nd\nn\n316\ny\nd\nn\n427\ny\np\n85\ny\np\n525\ny\nd\nn\n-1\ny\n",
+        "transactions": [
+          [
+            426,
+            "d",
+            "y"
+          ],
+          [
+            559,
+            "p",
+            "y"
+          ],
+          [
+            583,
+            "p",
+            "y"
+          ],
+          [
+            39,
+            "d",
+            "n"
+          ],
+          [
+            316,
+            "d",
+            "n"
+          ],
+          [
+            427,
+            "p",
+            "n"
+          ],
+          [
+            85,
+            "p",
+            "y"
+          ],
+          [
+            525,
+            "d",
+            "n"
+          ]
+        ]
+      },
+      {
+        "label": "valid stateful seed202111 case23",
+        "input": "321\ny\nd\nn\n458\ny\nd\nn\n629\ny\nd\nn\n386\ny\np\n443\ny\np\n301\ny\nd\nn\n400\ny\nd\nn\n582\ny\nd\ny\n-1\ny\n",
+        "transactions": [
+          [
+            321,
+            "d",
+            "n"
+          ],
+          [
+            458,
+            "d",
+            "n"
+          ],
+          [
+            629,
+            "d",
+            "n"
+          ],
+          [
+            386,
+            "p",
+            "n"
+          ],
+          [
+            443,
+            "p",
+            "n"
+          ],
+          [
+            301,
+            "d",
+            "n"
+          ],
+          [
+            400,
+            "d",
+            "n"
+          ],
+          [
+            582,
+            "d",
+            "y"
+          ]
+        ]
+      },
+      {
+        "label": "valid stateful seed202111 case24",
+        "input": "19\ny\np\n359\ny\np\n229\ny\nd\nn\n238\ny\np\n17\ny\np\n679\ny\np\n169\ny\nd\ny\n261\ny\nd\nn\n-1\ny\n",
+        "transactions": [
+          [
+            19,
+            "p",
+            "y"
+          ],
+          [
+            359,
+            "p",
+            "y"
+          ],
+          [
+            229,
+            "d",
+            "n"
+          ],
+          [
+            238,
+            "p",
+            "n"
+          ],
+          [
+            17,
+            "p",
+            "y"
+          ],
+          [
+            679,
+            "p",
+            "y"
+          ],
+          [
+            169,
+            "d",
+            "y"
+          ],
+          [
+            261,
+            "d",
+            "n"
+          ]
+        ]
+      },
+      {
+        "label": "valid stateful seed202111 case25",
+        "input": "645\ny\nd\nn\n415\ny\np\n90\ny\nd\ny\n288\ny\np\n499\ny\np\n635\ny\nd\nn\n110\ny\np\n373\ny\np\n-1\ny\n",
+        "transactions": [
+          [
+            645,
+            "d",
+            "n"
+          ],
+          [
+            415,
+            "p",
+            "n"
+          ],
+          [
+            90,
+            "d",
+            "y"
+          ],
+          [
+            288,
+            "p",
+            "n"
+          ],
+          [
+            499,
+            "p",
+            "n"
+          ],
+          [
+            635,
+            "d",
+            "n"
+          ],
+          [
+            110,
+            "p",
+            "n"
+          ],
+          [
+            373,
+            "p",
+            "y"
+          ]
+        ]
+      },
+      {
+        "label": "valid stateful seed202111 case26",
+        "input": "158\ny\np\n262\ny\np\n663\ny\np\n268\ny\np\n47\ny\np\n203\ny\np\n474\ny\nd\ny\n607\ny\np\n-1\ny\n",
+        "transactions": [
+          [
+            158,
+            "p",
+            "y"
+          ],
+          [
+            262,
+            "p",
+            "y"
+          ],
+          [
+            663,
+            "p",
+            "y"
+          ],
+          [
+            268,
+            "p",
+            "n"
+          ],
+          [
+            47,
+            "p",
+            "y"
+          ],
+          [
+            203,
+            "p",
+            "n"
+          ],
+          [
+            474,
+            "d",
+            "y"
+          ],
+          [
+            607,
+            "p",
+            "y"
+          ]
+        ]
+      },
+      {
+        "label": "valid stateful seed202111 case27",
+        "input": "560\ny\np\n492\ny\nd\ny\n490\ny\nd\ny\n224\ny\nd\ny\n377\ny\np\n500\ny\nd\ny\n129\ny\np\n113\ny\np\n-1\ny\n",
+        "transactions": [
+          [
+            560,
+            "p",
+            "n"
+          ],
+          [
+            492,
+            "d",
+            "y"
+          ],
+          [
+            490,
+            "d",
+            "y"
+          ],
+          [
+            224,
+            "d",
+            "y"
+          ],
+          [
+            377,
+            "p",
+            "y"
+          ],
+          [
+            500,
+            "d",
+            "y"
+          ],
+          [
+            129,
+            "p",
+            "y"
+          ],
+          [
+            113,
+            "p",
+            "n"
+          ]
+        ]
+      },
+      {
+        "label": "valid stateful seed202111 case28",
+        "input": "466\ny\np\n119\ny\nd\ny\n241\ny\np\n186\ny\nd\nn\n611\ny\np\n110\ny\np\n202\ny\nd\ny\n484\ny\nd\ny\n-1\ny\n",
+        "transactions": [
+          [
+            466,
+            "p",
+            "n"
+          ],
+          [
+            119,
+            "d",
+            "y"
+          ],
+          [
+            241,
+            "p",
+            "y"
+          ],
+          [
+            186,
+            "d",
+            "n"
+          ],
+          [
+            611,
+            "p",
+            "n"
+          ],
+          [
+            110,
+            "p",
+            "y"
+          ],
+          [
+            202,
+            "d",
+            "y"
+          ],
+          [
+            484,
+            "d",
+            "y"
+          ]
+        ]
+      },
+      {
+        "label": "valid stateful seed202111 case29",
+        "input": "246\ny\nd\ny\n444\ny\np\n336\ny\nd\ny\n508\ny\nd\nn\n204\ny\nd\nn\n400\ny\nd\ny\n285\ny\nd\ny\n274\ny\np\n-1\ny\n",
+        "transactions": [
+          [
+            246,
+            "d",
+            "y"
+          ],
+          [
+            444,
+            "p",
+            "y"
+          ],
+          [
+            336,
+            "d",
+            "y"
+          ],
+          [
+            508,
+            "d",
+            "n"
+          ],
+          [
+            204,
+            "d",
+            "n"
+          ],
+          [
+            400,
+            "d",
+            "y"
+          ],
+          [
+            285,
+            "d",
+            "y"
+          ],
+          [
+            274,
+            "p",
+            "n"
+          ]
+        ]
+      },
+      {
+        "label": "valid stateful seed202111 case30",
+        "input": "297\ny\nd\ny\n17\ny\np\n517\ny\nd\nn\n76\ny\nd\nn\n202\ny\nd\ny\n155\ny\np\n234\ny\nd\ny\n82\ny\np\n-1\ny\n",
+        "transactions": [
+          [
+            297,
+            "d",
+            "y"
+          ],
+          [
+            17,
+            "p",
+            "n"
+          ],
+          [
+            517,
+            "d",
+            "n"
+          ],
+          [
+            76,
+            "d",
+            "n"
+          ],
+          [
+            202,
+            "d",
+            "y"
+          ],
+          [
+            155,
+            "p",
+            "n"
+          ],
+          [
+            234,
+            "d",
+            "y"
+          ],
+          [
+            82,
+            "p",
+            "y"
+          ]
+        ]
+      },
+      {
+        "label": "valid stateful seed202111 case31",
+        "input": "39\ny\nd\nn\n119\ny\np\n66\ny\nd\ny\n673\ny\nd\nn\n463\ny\np\n303\ny\np\n173\ny\np\n312\ny\nd\nn\n-1\ny\n",
+        "transactions": [
+          [
+            39,
+            "d",
+            "n"
+          ],
+          [
+            119,
+            "p",
+            "n"
+          ],
+          [
+            66,
+            "d",
+            "y"
+          ],
+          [
+            673,
+            "d",
+            "n"
+          ],
+          [
+            463,
+            "p",
+            "y"
+          ],
+          [
+            303,
+            "p",
+            "y"
+          ],
+          [
+            173,
+            "p",
+            "n"
+          ],
+          [
+            312,
+            "d",
+            "n"
+          ]
+        ]
+      },
+      {
+        "label": "valid stateful seed202111 case32",
+        "input": "256\ny\nd\nn\n468\ny\np\n234\ny\nd\ny\n406\ny\nd\ny\n403\ny\np\n291\ny\nd\nn\n276\ny\np\n275\ny\np\n-1\ny\n",
+        "transactions": [
+          [
+            256,
+            "d",
+            "n"
+          ],
+          [
+            468,
+            "p",
+            "y"
+          ],
+          [
+            234,
+            "d",
+            "y"
+          ],
+          [
+            406,
+            "d",
+            "y"
+          ],
+          [
+            403,
+            "p",
+            "y"
+          ],
+          [
+            291,
+            "d",
+            "n"
+          ],
+          [
+            276,
+            "p",
+            "n"
+          ],
+          [
+            275,
+            "p",
+            "y"
+          ]
+        ]
+      },
+      {
+        "label": "valid stateful seed202111 case33",
+        "input": "319\ny\nd\nn\n108\ny\np\n555\ny\nd\nn\n147\ny\np\n256\ny\nd\nn\n555\ny\nd\ny\n216\ny\np\n279\ny\np\n-1\ny\n",
+        "transactions": [
+          [
+            319,
+            "d",
+            "n"
+          ],
+          [
+            108,
+            "p",
+            "n"
+          ],
+          [
+            555,
+            "d",
+            "n"
+          ],
+          [
+            147,
+            "p",
+            "n"
+          ],
+          [
+            256,
+            "d",
+            "n"
+          ],
+          [
+            555,
+            "d",
+            "y"
+          ],
+          [
+            216,
+            "p",
+            "y"
+          ],
+          [
+            279,
+            "p",
+            "y"
+          ]
+        ]
+      },
+      {
+        "label": "valid stateful seed202111 case34",
+        "input": "639\ny\nd\nn\n669\ny\np\n280\ny\nd\ny\n202\ny\np\n169\ny\nd\ny\n617\ny\nd\nn\n299\ny\np\n614\ny\nd\nn\n-1\ny\n",
+        "transactions": [
+          [
+            639,
+            "d",
+            "n"
+          ],
+          [
+            669,
+            "p",
+            "n"
+          ],
+          [
+            280,
+            "d",
+            "y"
+          ],
+          [
+            202,
+            "p",
+            "n"
+          ],
+          [
+            169,
+            "d",
+            "y"
+          ],
+          [
+            617,
+            "d",
+            "n"
+          ],
+          [
+            299,
+            "p",
+            "y"
+          ],
+          [
+            614,
+            "d",
+            "n"
+          ]
+        ]
+      }
+    ]
+  }
+}

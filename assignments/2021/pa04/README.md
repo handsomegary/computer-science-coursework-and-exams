@@ -24,16 +24,15 @@ Thevenin 預設觀察最後 stage 節點對地，包含原電路最後的 `RP` �
 
 `main.cpp`、`bonus.cpp` 各自包含 `myspice.hpp`，應分開編譯。範例檔、執行參數和精確輸出都收在 [samples.json](samples.json)。獨立測試位於儲存庫 `tests/test_pa2021_04_05_final.py`，使用一般節點矩陣與 Gaussian elimination 驗證，而非複製程式的 ladder 遞推。
 
-## 原始作業 PDF
+## 作業說明（目前版本）
 
-以下 PDF 保留來源檔名與原始內容；同一題目的不同修訂版分別保存。
+以本次提供資料中最新的[作業題面（2022-01-04）](originals/PA4_MySpice_HO_20220104_1730.pdf)為準。1/4 修訂版；仍屬 2021 Fall。
+
+原始檔名與 PDF 內容完整保留。後續補充說明／Q&A 與題面一起核對；舊題面另存於歷史版本，不作為目前預設規格。
 
 | 類型 | 原始檔案 |
 |---|---|
-| 作業題面／修訂版 | [PA4_MySpice_Andy_20211207_0200.pdf](originals/PA4_MySpice_Andy_20211207_0200.pdf) |
-| 作業題面／修訂版 | [PA4_MySpice_HO_20211223_2300.pdf](originals/PA4_MySpice_HO_20211223_2300.pdf) |
-| 作業題面／修訂版 | [PA4_MySpice_HO_20211228_2330.pdf](originals/PA4_MySpice_HO_20211228_2330.pdf) |
-| 作業題面／修訂版 | [PA4_MySpice_HO_20220104_1730.pdf](originals/PA4_MySpice_HO_20220104_1730.pdf) |
+| 目前題面 | [PA4_MySpice_HO_20220104_1730.pdf](originals/PA4_MySpice_HO_20220104_1730.pdf) |
 | 補充說明 | [PA4_sample_code_Stud.pdf](originals/PA4_sample_code_Stud.pdf) |
 | 公開測資／範例 | [PA4_Public_Case_01.pdf](originals/PA4_Public_Case_01.pdf) |
 | 公開測資／範例 | [PA4_Public_Case_02.pdf](originals/PA4_Public_Case_02.pdf) |
@@ -41,3 +40,11 @@ Thevenin 預設觀察最後 stage 節點對地，包含原電路最後的 `RP` �
 | 公開測資／範例 | [PA4_bonus_Case_01.pdf](originals/PA4_bonus_Case_01.pdf) |
 | 公開測資／範例 | [PA4_bonus_Case_02.pdf](originals/PA4_bonus_Case_02.pdf) |
 | 公開測資／範例 | [PA4_merge(middle)_example.pdf](originals/PA4_merge%28middle%29_example.pdf) |
+
+### 歷史題面
+
+| 原始版本 |
+|---|
+| [PA4_MySpice_Andy_20211207_0200.pdf](originals/archive/PA4_MySpice_Andy_20211207_0200.pdf) |
+| [PA4_MySpice_HO_20211223_2300.pdf](originals/archive/PA4_MySpice_HO_20211223_2300.pdf) |
+| [PA4_MySpice_HO_20211228_2330.pdf](originals/archive/PA4_MySpice_HO_20211228_2330.pdf) |

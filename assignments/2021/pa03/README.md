@@ -44,14 +44,21 @@ Windows 編譯後可執行 `pa03_main.exe` 或 `pa03_bonus.exe`。編譯時保�
 
 程式只讀取標準輸入、寫入標準輸出，不建立運算結果檔案。
 
-## 原始作業 PDF
+## 作業說明（目前版本）
 
-以下 PDF 保留來源檔名與原始內容；同一題目的不同修訂版分別保存。
+以本次提供資料中最新的[作業題面（2021-11-23）](originals/PA3_20211123_2330_Andy.pdf)為準。11/23 修訂版。
+
+原始檔名與 PDF 內容完整保留。後續補充說明／Q&A 與題面一起核對；舊題面另存於歷史版本，不作為目前預設規格。
 
 | 類型 | 原始檔案 |
 |---|---|
-| 作業題面／修訂版 | [PA3_20211110_1100_Andy.pdf](originals/PA3_20211110_1100_Andy.pdf) |
-| 作業題面／修訂版 | [PA3_20211123_2330_Andy.pdf](originals/PA3_20211123_2330_Andy.pdf) |
+| 目前題面 | [PA3_20211123_2330_Andy.pdf](originals/PA3_20211123_2330_Andy.pdf) |
 | 公開測資／範例 | [PA3_testcase1.pdf](originals/PA3_testcase1.pdf) |
 | 公開測資／範例 | [PA3_testcase2.pdf](originals/PA3_testcase2.pdf) |
 | 公開測資／範例 | [PA3_testcase3.pdf](originals/PA3_testcase3.pdf) |
+
+### 歷史題面
+
+| 原始版本 |
+|---|
+| [PA3_20211110_1100_Andy.pdf](originals/archive/PA3_20211110_1100_Andy.pdf) |
