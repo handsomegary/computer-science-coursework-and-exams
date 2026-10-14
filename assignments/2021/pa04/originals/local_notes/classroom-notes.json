@@ -1,0 +1,1551 @@
+{
+  "format_version": 1,
+  "description": "29 local 2021 PA4 classroom captures preserved as lossless instructional PDF pages.",
+  "pdf": "classroom-notes.pdf",
+  "sha256": "3cb3bfc28aa7efda282b63dd2a6894dbe16d5cfab7aa4e2f235fcdb95f4e4ca8",
+  "bytes": 17999471,
+  "page_count": 29,
+  "byte_exact": false,
+  "source_files_modified": false,
+  "transformations": [
+    "Source PNGs were decoded without resampling or JPEG compression and placed in a PDF.",
+    "Pixels outside each retained instructional rectangle were permanently removed using PDF image redaction.",
+    "One meeting notification overlapping a decorative slide corner was additionally redacted; instructional text, code and diagrams remain unchanged.",
+    "Unreferenced original image streams were removed by full PDF garbage collection; CropBox is used only after actual pixel redaction.",
+    "Each retained nonredacted pixel was checked against the original decoded RGB pixel; all other embedded image pixels were checked to be white."
+  ],
+  "limitations": [
+    "These are classroom screenshots, not the original editable slides or C++ source files.",
+    "Content that was already outside the original capture is not reconstructed."
+  ],
+  "pages": [
+    {
+      "page": 1,
+      "source_filename": "2021-12-15.png",
+      "source_sha256": "abc05496ca6b5f945a81b4fb22d24bc04eb8acca91f7f27197f3779b4bb8b328",
+      "source_bytes": 919133,
+      "source_dimensions_px": [
+        1920,
+        1080
+      ],
+      "retained_rect_px": [
+        405,
+        150,
+        1515,
+        981
+      ],
+      "redaction_rects_px": [
+        [
+          0,
+          0,
+          1920,
+          150
+        ],
+        [
+          0,
+          981,
+          1920,
+          1080
+        ],
+        [
+          0,
+          150,
+          405,
+          981
+        ],
+        [
+          1515,
+          150,
+          1920,
+          981
+        ]
+      ],
+      "byte_exact": false,
+      "embedded_image_sha256": "d70b7063085a474d5fe689c2f39c1251453f1bf20aa95dac8079710750b45df2",
+      "retained_rgb_pixels_sha256": "fc52e2ba430966eb012d0cd01205948cc3d63895cc8faf4e626dbf5becd9cbc9",
+      "retained_pixel_count": 922410,
+      "removed_pixel_count": 1151190,
+      "retained_pixels_equal_source": true,
+      "all_removed_pixels_white": true,
+      "source_sha256_unchanged": true,
+      "rendered_page_visually_reviewed": true,
+      "qa_render_sha256": "b3229c54f6ca5974bed9f9a4b0d2d6ba5eaede9c897a9678d02c8347018f9597"
+    },
+    {
+      "page": 2,
+      "source_filename": "2021-12-15 (1).png",
+      "source_sha256": "e9fb972d5144f0da26213c71919f1fcc1f46d9c233aca64d2cbd07b2f30b43fc",
+      "source_bytes": 861129,
+      "source_dimensions_px": [
+        1920,
+        1080
+      ],
+      "retained_rect_px": [
+        405,
+        150,
+        1515,
+        981
+      ],
+      "redaction_rects_px": [
+        [
+          0,
+          0,
+          1920,
+          150
+        ],
+        [
+          0,
+          981,
+          1920,
+          1080
+        ],
+        [
+          0,
+          150,
+          405,
+          981
+        ],
+        [
+          1515,
+          150,
+          1920,
+          981
+        ]
+      ],
+      "byte_exact": false,
+      "embedded_image_sha256": "5a0fba63922b387aba33646ffb57ea8d03c28e0a5255fb2d57cc17e12806e6fe",
+      "retained_rgb_pixels_sha256": "86bf79c058c55fbfa83c01d487628c4d5a14ac731572f2cc8a0aacdbfe951c4f",
+      "retained_pixel_count": 922410,
+      "removed_pixel_count": 1151190,
+      "retained_pixels_equal_source": true,
+      "all_removed_pixels_white": true,
+      "source_sha256_unchanged": true,
+      "rendered_page_visually_reviewed": true,
+      "qa_render_sha256": "4a558460714b076165c6d15854dc71d65242aca580feeab86395a0d3984180ff"
+    },
+    {
+      "page": 3,
+      "source_filename": "2021-12-15 (2).png",
+      "source_sha256": "1eb1b4ab36b6c9b38ac3b07312c1c63a7ae75eedb6f3d455665c382715a61470",
+      "source_bytes": 757972,
+      "source_dimensions_px": [
+        1920,
+        1080
+      ],
+      "retained_rect_px": [
+        365,
+        90,
+        1555,
+        981
+      ],
+      "redaction_rects_px": [
+        [
+          0,
+          0,
+          1920,
+          90
+        ],
+        [
+          0,
+          981,
+          1920,
+          1080
+        ],
+        [
+          0,
+          90,
+          365,
+          981
+        ],
+        [
+          1555,
+          90,
+          1920,
+          981
+        ]
+      ],
+      "byte_exact": false,
+      "embedded_image_sha256": "1ff67007be6b0b630fbe2efbbe3714ee86b013a38022eaeb44770b92f89f78bd",
+      "retained_rgb_pixels_sha256": "7c7baca9f739daa0c28b1c21611ade11f3c3f8f221082bd9b91735e04c4af8f8",
+      "retained_pixel_count": 1060290,
+      "removed_pixel_count": 1013310,
+      "retained_pixels_equal_source": true,
+      "all_removed_pixels_white": true,
+      "source_sha256_unchanged": true,
+      "rendered_page_visually_reviewed": true,
+      "qa_render_sha256": "2c659da15505856938f9e5ce5ef28c75c6c96f8bb0e38a1ec863a9e5c09bfb62"
+    },
+    {
+      "page": 4,
+      "source_filename": "2021-12-15 (3).png",
+      "source_sha256": "1ab88da9f00d8d630ad88ea20998290eb4e030af96e4afda495e7ed50c200333",
+      "source_bytes": 1075898,
+      "source_dimensions_px": [
+        1920,
+        1080
+      ],
+      "retained_rect_px": [
+        365,
+        90,
+        1555,
+        981
+      ],
+      "redaction_rects_px": [
+        [
+          0,
+          0,
+          1920,
+          90
+        ],
+        [
+          0,
+          981,
+          1920,
+          1080
+        ],
+        [
+          0,
+          90,
+          365,
+          981
+        ],
+        [
+          1555,
+          90,
+          1920,
+          981
+        ]
+      ],
+      "byte_exact": false,
+      "embedded_image_sha256": "5667a45a75e8fdb331a8cb8f1d744fe44c2dc01386c19cc12f3b813a91dff506",
+      "retained_rgb_pixels_sha256": "928d19bcbfe965aac52508412a7d0db61d3dc70e1748fe22441432ebf7b7c3d4",
+      "retained_pixel_count": 1060290,
+      "removed_pixel_count": 1013310,
+      "retained_pixels_equal_source": true,
+      "all_removed_pixels_white": true,
+      "source_sha256_unchanged": true,
+      "rendered_page_visually_reviewed": true,
+      "qa_render_sha256": "ba777fe38a25e031578313992260fc186c452903db37ac4f6427a6e9a114b02d"
+    },
+    {
+      "page": 5,
+      "source_filename": "2021-12-15 (4).png",
+      "source_sha256": "9d72d1eed0cb4897be9487f7023c390527f309623d11e3cf75deae29c736068b",
+      "source_bytes": 696135,
+      "source_dimensions_px": [
+        1920,
+        1080
+      ],
+      "retained_rect_px": [
+        365,
+        90,
+        1555,
+        981
+      ],
+      "redaction_rects_px": [
+        [
+          0,
+          0,
+          1920,
+          90
+        ],
+        [
+          0,
+          981,
+          1920,
+          1080
+        ],
+        [
+          0,
+          90,
+          365,
+          981
+        ],
+        [
+          1555,
+          90,
+          1920,
+          981
+        ]
+      ],
+      "byte_exact": false,
+      "embedded_image_sha256": "2eb840c7b0e35da0ef2adc3eea26891fcb05b48a6e3d6c79ce9a02f576c6a1b0",
+      "retained_rgb_pixels_sha256": "1e7066c55d7955f2ee3e6816720288d785c37d93c9d975c107ecdc00f954b146",
+      "retained_pixel_count": 1060290,
+      "removed_pixel_count": 1013310,
+      "retained_pixels_equal_source": true,
+      "all_removed_pixels_white": true,
+      "source_sha256_unchanged": true,
+      "rendered_page_visually_reviewed": true,
+      "qa_render_sha256": "c88e9d3637493e3d54057887587ef127bef6cbdce36d8f6f4c146e3d1e2b6444"
+    },
+    {
+      "page": 6,
+      "source_filename": "2021-12-15 (5).png",
+      "source_sha256": "ba2ce9024ffeb5869d779a9d95a8be69d8efef4ad55d3c892f5e524a90a01ff2",
+      "source_bytes": 784638,
+      "source_dimensions_px": [
+        1920,
+        1080
+      ],
+      "retained_rect_px": [
+        365,
+        90,
+        1555,
+        981
+      ],
+      "redaction_rects_px": [
+        [
+          0,
+          0,
+          1920,
+          90
+        ],
+        [
+          0,
+          981,
+          1920,
+          1080
+        ],
+        [
+          0,
+          90,
+          365,
+          981
+        ],
+        [
+          1555,
+          90,
+          1920,
+          981
+        ]
+      ],
+      "byte_exact": false,
+      "embedded_image_sha256": "1133a6bb669aaecb86e4d9007fc38878fedea861e3dbfa098c2cd4296e8fa14a",
+      "retained_rgb_pixels_sha256": "2897e08414f350a6723b680c7ac2cfc1a904375075a9ae5da8dc8e122e436c75",
+      "retained_pixel_count": 1060290,
+      "removed_pixel_count": 1013310,
+      "retained_pixels_equal_source": true,
+      "all_removed_pixels_white": true,
+      "source_sha256_unchanged": true,
+      "rendered_page_visually_reviewed": true,
+      "qa_render_sha256": "42890f78270a7a5ad0752ac6f3e679fa3842ffce79a2e46371bbf13c2552a580"
+    },
+    {
+      "page": 7,
+      "source_filename": "2021-12-15 (6).png",
+      "source_sha256": "14a4a55335a22a8b5cc79f6eb0f0c7cb5600348c74f3c6cd7535ea7b4eaba459",
+      "source_bytes": 976810,
+      "source_dimensions_px": [
+        1920,
+        1080
+      ],
+      "retained_rect_px": [
+        365,
+        90,
+        1555,
+        981
+      ],
+      "redaction_rects_px": [
+        [
+          0,
+          0,
+          1920,
+          90
+        ],
+        [
+          0,
+          981,
+          1920,
+          1080
+        ],
+        [
+          0,
+          90,
+          365,
+          981
+        ],
+        [
+          1555,
+          90,
+          1920,
+          981
+        ]
+      ],
+      "byte_exact": false,
+      "embedded_image_sha256": "a9c2c1f4da3c429c1c78d78bb86643ba74cb064687443cd8ad53418f4079c1ca",
+      "retained_rgb_pixels_sha256": "4cee4d5b5a3b63056421f34023ac4a10f78890bfd1105993d386d16687c5b775",
+      "retained_pixel_count": 1060290,
+      "removed_pixel_count": 1013310,
+      "retained_pixels_equal_source": true,
+      "all_removed_pixels_white": true,
+      "source_sha256_unchanged": true,
+      "rendered_page_visually_reviewed": true,
+      "qa_render_sha256": "39dd04268f910b43fef077989dc9c877404af21790d45ef419b1e0b24fa70948"
+    },
+    {
+      "page": 8,
+      "source_filename": "2021-12-15 (7).png",
+      "source_sha256": "166448b2d13978776d607868e2f9b2c174bcfda53ef3e20db2cdfe01739663f2",
+      "source_bytes": 935201,
+      "source_dimensions_px": [
+        1920,
+        1080
+      ],
+      "retained_rect_px": [
+        365,
+        90,
+        1555,
+        981
+      ],
+      "redaction_rects_px": [
+        [
+          0,
+          0,
+          1920,
+          90
+        ],
+        [
+          0,
+          981,
+          1920,
+          1080
+        ],
+        [
+          0,
+          90,
+          365,
+          981
+        ],
+        [
+          1555,
+          90,
+          1920,
+          981
+        ]
+      ],
+      "byte_exact": false,
+      "embedded_image_sha256": "a63976d53f66b431db7fb7f185042ee430447c7eaeab94b200dafc1d65064ed7",
+      "retained_rgb_pixels_sha256": "ddd1acbc4d92d74fb5ff4f3ebf5381abd784051d1dfc7d111c196004def2a6d8",
+      "retained_pixel_count": 1060290,
+      "removed_pixel_count": 1013310,
+      "retained_pixels_equal_source": true,
+      "all_removed_pixels_white": true,
+      "source_sha256_unchanged": true,
+      "rendered_page_visually_reviewed": true,
+      "qa_render_sha256": "5d13153c71e6abf8e5a1474922df88991591d7a074b6de3e0058d95a3f7ec491"
+    },
+    {
+      "page": 9,
+      "source_filename": "2021-12-15 (8).png",
+      "source_sha256": "9c2779d09f254120b4c45426d7b84055bc3170e59ffe9abb388c63c570fee264",
+      "source_bytes": 901391,
+      "source_dimensions_px": [
+        1920,
+        1080
+      ],
+      "retained_rect_px": [
+        365,
+        90,
+        1555,
+        981
+      ],
+      "redaction_rects_px": [
+        [
+          0,
+          0,
+          1920,
+          90
+        ],
+        [
+          0,
+          981,
+          1920,
+          1080
+        ],
+        [
+          0,
+          90,
+          365,
+          981
+        ],
+        [
+          1555,
+          90,
+          1920,
+          981
+        ]
+      ],
+      "byte_exact": false,
+      "embedded_image_sha256": "5f0d87b43cf16027efe4b28fbef229c8ca2423ef8ed7dd267491473c57ce72bd",
+      "retained_rgb_pixels_sha256": "229cb0d1708c30030f480d5632231b9f6eaac6d171484df51d1cbf519a7e9317",
+      "retained_pixel_count": 1060290,
+      "removed_pixel_count": 1013310,
+      "retained_pixels_equal_source": true,
+      "all_removed_pixels_white": true,
+      "source_sha256_unchanged": true,
+      "rendered_page_visually_reviewed": true,
+      "qa_render_sha256": "cca0f26dbac1a038740b34beeadcf772576c2bb0c24441f95394f432a906397b"
+    },
+    {
+      "page": 10,
+      "source_filename": "2021-12-15 (9).png",
+      "source_sha256": "bd376e863be02aedd7e3623be5c53a6b111e323024c2fe0f33efbfba121c6be5",
+      "source_bytes": 659883,
+      "source_dimensions_px": [
+        1920,
+        1080
+      ],
+      "retained_rect_px": [
+        365,
+        90,
+        1555,
+        981
+      ],
+      "redaction_rects_px": [
+        [
+          0,
+          0,
+          1920,
+          90
+        ],
+        [
+          0,
+          981,
+          1920,
+          1080
+        ],
+        [
+          0,
+          90,
+          365,
+          981
+        ],
+        [
+          1555,
+          90,
+          1920,
+          981
+        ]
+      ],
+      "byte_exact": false,
+      "embedded_image_sha256": "6da5c89432c417a92f303660aa0181cd040be1676355968bcccfc9cf17f55cd4",
+      "retained_rgb_pixels_sha256": "ea558631437f82127b2797adb52b899f91f1d65e1450b23104cf85d658c5bb51",
+      "retained_pixel_count": 1060290,
+      "removed_pixel_count": 1013310,
+      "retained_pixels_equal_source": true,
+      "all_removed_pixels_white": true,
+      "source_sha256_unchanged": true,
+      "rendered_page_visually_reviewed": true,
+      "qa_render_sha256": "a037c700a7d39003cdf2a99e6d37840f1d7e3acb7b970ad7a365aa112b2bd78b"
+    },
+    {
+      "page": 11,
+      "source_filename": "2021-12-15 (10).png",
+      "source_sha256": "c91364559eaaf93ccabbd5631d7c768eaf692c01a75fc8576452d3038f761d73",
+      "source_bytes": 826080,
+      "source_dimensions_px": [
+        1920,
+        1080
+      ],
+      "retained_rect_px": [
+        365,
+        90,
+        1555,
+        981
+      ],
+      "redaction_rects_px": [
+        [
+          0,
+          0,
+          1920,
+          90
+        ],
+        [
+          0,
+          981,
+          1920,
+          1080
+        ],
+        [
+          0,
+          90,
+          365,
+          981
+        ],
+        [
+          1555,
+          90,
+          1920,
+          981
+        ]
+      ],
+      "byte_exact": false,
+      "embedded_image_sha256": "ecb5220c40079fa20e72f445f2a4f64a35796512c4b8b38176f36b6bc7ed1776",
+      "retained_rgb_pixels_sha256": "0376092bf6099646f634f9384a196726654a5f580422ed9e8706abe23ecac608",
+      "retained_pixel_count": 1060290,
+      "removed_pixel_count": 1013310,
+      "retained_pixels_equal_source": true,
+      "all_removed_pixels_white": true,
+      "source_sha256_unchanged": true,
+      "rendered_page_visually_reviewed": true,
+      "qa_render_sha256": "0b9ba086c3083ca627ed50cbca661a9286b8a8d95166d4f4b10f6ee3cec16998"
+    },
+    {
+      "page": 12,
+      "source_filename": "2021-12-15 (11).png",
+      "source_sha256": "8992728cdc8fdd884310ddaeaec72bad98c65ae70de6a0c2afc0dd9f9f203974",
+      "source_bytes": 728776,
+      "source_dimensions_px": [
+        1920,
+        1080
+      ],
+      "retained_rect_px": [
+        365,
+        90,
+        1555,
+        981
+      ],
+      "redaction_rects_px": [
+        [
+          0,
+          0,
+          1920,
+          90
+        ],
+        [
+          0,
+          981,
+          1920,
+          1080
+        ],
+        [
+          0,
+          90,
+          365,
+          981
+        ],
+        [
+          1555,
+          90,
+          1920,
+          981
+        ]
+      ],
+      "byte_exact": false,
+      "embedded_image_sha256": "637cb936374e16f923d7fbd24614bc4d64adab6e948a816b24523185e66a08fa",
+      "retained_rgb_pixels_sha256": "453c21f8a0df8f6f46e34ffb8f1a5e527858598e398a22c63de111121dbd396d",
+      "retained_pixel_count": 1060290,
+      "removed_pixel_count": 1013310,
+      "retained_pixels_equal_source": true,
+      "all_removed_pixels_white": true,
+      "source_sha256_unchanged": true,
+      "rendered_page_visually_reviewed": true,
+      "qa_render_sha256": "4516ba91019107653c0d57895096d7a2caf933cba7e0aa542c40dd2bee8245c8"
+    },
+    {
+      "page": 13,
+      "source_filename": "2021-12-15 (12).png",
+      "source_sha256": "28413eb6f8bc6a332f9351f9ad67f20a91647c605ccccf596a34bf22a9b2bf9f",
+      "source_bytes": 852778,
+      "source_dimensions_px": [
+        1920,
+        1080
+      ],
+      "retained_rect_px": [
+        365,
+        90,
+        1555,
+        981
+      ],
+      "redaction_rects_px": [
+        [
+          0,
+          0,
+          1920,
+          90
+        ],
+        [
+          0,
+          981,
+          1920,
+          1080
+        ],
+        [
+          0,
+          90,
+          365,
+          981
+        ],
+        [
+          1555,
+          90,
+          1920,
+          981
+        ]
+      ],
+      "byte_exact": false,
+      "embedded_image_sha256": "7da48bb8096454b9b6e5fdfb807c742dab51665b2a468d80e343596b90eb52b0",
+      "retained_rgb_pixels_sha256": "fb4e7977ff0d793aee6a6e8c1da699da0882ca9ae9d44fc9325c64b2e0103d01",
+      "retained_pixel_count": 1060290,
+      "removed_pixel_count": 1013310,
+      "retained_pixels_equal_source": true,
+      "all_removed_pixels_white": true,
+      "source_sha256_unchanged": true,
+      "rendered_page_visually_reviewed": true,
+      "qa_render_sha256": "24d8037c0045a82b4c07c124d187b576dc74e2055509ccfdac52402692c5f196"
+    },
+    {
+      "page": 14,
+      "source_filename": "2021-12-29 (7).png",
+      "source_sha256": "f17239a24b80189639541a9de52d0a00f342a95266fd90681610f30d4c8920d4",
+      "source_bytes": 655026,
+      "source_dimensions_px": [
+        1920,
+        1080
+      ],
+      "retained_rect_px": [
+        365,
+        90,
+        1555,
+        981
+      ],
+      "redaction_rects_px": [
+        [
+          0,
+          0,
+          1920,
+          90
+        ],
+        [
+          0,
+          981,
+          1920,
+          1080
+        ],
+        [
+          0,
+          90,
+          365,
+          981
+        ],
+        [
+          1555,
+          90,
+          1920,
+          981
+        ]
+      ],
+      "byte_exact": false,
+      "embedded_image_sha256": "6de02d476b24e6528d7cecb2d709996676dc689b7d04b23ed321414c5e75518b",
+      "retained_rgb_pixels_sha256": "4ea6854ab4377acf4bd5261322773cb5e0d8f10e38114a0c88361f7c0234a47d",
+      "retained_pixel_count": 1060290,
+      "removed_pixel_count": 1013310,
+      "retained_pixels_equal_source": true,
+      "all_removed_pixels_white": true,
+      "source_sha256_unchanged": true,
+      "rendered_page_visually_reviewed": true,
+      "qa_render_sha256": "8adfad1143e9bb602eb35c33942a3ba041527172e0cccfc44789912cc2f0fc91"
+    },
+    {
+      "page": 15,
+      "source_filename": "2021-12-29 (8).png",
+      "source_sha256": "1568d636ddfc9e71daf79882d4eb45f00baf16f075170d54a20edcb656fa2767",
+      "source_bytes": 643055,
+      "source_dimensions_px": [
+        1920,
+        1080
+      ],
+      "retained_rect_px": [
+        365,
+        90,
+        1555,
+        981
+      ],
+      "redaction_rects_px": [
+        [
+          0,
+          0,
+          1920,
+          90
+        ],
+        [
+          0,
+          981,
+          1920,
+          1080
+        ],
+        [
+          0,
+          90,
+          365,
+          981
+        ],
+        [
+          1555,
+          90,
+          1920,
+          981
+        ]
+      ],
+      "byte_exact": false,
+      "embedded_image_sha256": "529dbd01c90d817064e13275797d37bce9f42dcdc703dbe26346d7a00a9b96aa",
+      "retained_rgb_pixels_sha256": "34e6e0bb61a311321ca7821a0fd0ed7bef551471aca77d8d766725b6dbcb0a61",
+      "retained_pixel_count": 1060290,
+      "removed_pixel_count": 1013310,
+      "retained_pixels_equal_source": true,
+      "all_removed_pixels_white": true,
+      "source_sha256_unchanged": true,
+      "rendered_page_visually_reviewed": true,
+      "qa_render_sha256": "5cf443432e3f0b487b39d81ad45e22464e2bf830051c92d04dfbf0f8fd022f40"
+    },
+    {
+      "page": 16,
+      "source_filename": "2021-12-29 (9).png",
+      "source_sha256": "661e677bc3117e077bc9a4206a9e5c67c91f14f7ffed392fe983f6afc0bdbd2f",
+      "source_bytes": 624966,
+      "source_dimensions_px": [
+        1920,
+        1080
+      ],
+      "retained_rect_px": [
+        365,
+        90,
+        1555,
+        981
+      ],
+      "redaction_rects_px": [
+        [
+          0,
+          0,
+          1920,
+          90
+        ],
+        [
+          0,
+          981,
+          1920,
+          1080
+        ],
+        [
+          0,
+          90,
+          365,
+          981
+        ],
+        [
+          1555,
+          90,
+          1920,
+          981
+        ],
+        [
+          365,
+          879,
+          391,
+          941
+        ]
+      ],
+      "byte_exact": false,
+      "embedded_image_sha256": "09d8e0feaff0949386ab3d638ece4c0cb82e07293a6512ce44f72f98cab60ef0",
+      "retained_rgb_pixels_sha256": "8cd40d13238c436fed8170766403701ee256a802dca6497cd5836d79df52c1cc",
+      "retained_pixel_count": 1058678,
+      "removed_pixel_count": 1014922,
+      "retained_pixels_equal_source": true,
+      "all_removed_pixels_white": true,
+      "source_sha256_unchanged": true,
+      "rendered_page_visually_reviewed": true,
+      "qa_render_sha256": "e079e02ccd89e8d8440d26eecb3436b5973363d6e4795bf29c1e1801079e6cb8"
+    },
+    {
+      "page": 17,
+      "source_filename": "2021-12-29 (10).png",
+      "source_sha256": "db577ff88009f2367132277d2db8b30ed21ffb9889be07828523cc908cdce38e",
+      "source_bytes": 731266,
+      "source_dimensions_px": [
+        1920,
+        1080
+      ],
+      "retained_rect_px": [
+        365,
+        90,
+        1555,
+        981
+      ],
+      "redaction_rects_px": [
+        [
+          0,
+          0,
+          1920,
+          90
+        ],
+        [
+          0,
+          981,
+          1920,
+          1080
+        ],
+        [
+          0,
+          90,
+          365,
+          981
+        ],
+        [
+          1555,
+          90,
+          1920,
+          981
+        ]
+      ],
+      "byte_exact": false,
+      "embedded_image_sha256": "e8049a7a94aeb4e5999f62e103b9fe70e7b2862d95b6e4c8dddbde720697a35e",
+      "retained_rgb_pixels_sha256": "19bed9ae0e047651177f82cbabcea5efd3ed2e3184c26927ec6729beaa7a7381",
+      "retained_pixel_count": 1060290,
+      "removed_pixel_count": 1013310,
+      "retained_pixels_equal_source": true,
+      "all_removed_pixels_white": true,
+      "source_sha256_unchanged": true,
+      "rendered_page_visually_reviewed": true,
+      "qa_render_sha256": "f1fb5e88fae68d94164205128fe8087c83cf42591839686805cc0842814636b9"
+    },
+    {
+      "page": 18,
+      "source_filename": "2021-12-29 (11).png",
+      "source_sha256": "60d045ee5790c12c0fa8e28edc1319cc5f1d5613ef747b36b53a8a432978ddd7",
+      "source_bytes": 789619,
+      "source_dimensions_px": [
+        1920,
+        1080
+      ],
+      "retained_rect_px": [
+        365,
+        90,
+        1555,
+        981
+      ],
+      "redaction_rects_px": [
+        [
+          0,
+          0,
+          1920,
+          90
+        ],
+        [
+          0,
+          981,
+          1920,
+          1080
+        ],
+        [
+          0,
+          90,
+          365,
+          981
+        ],
+        [
+          1555,
+          90,
+          1920,
+          981
+        ]
+      ],
+      "byte_exact": false,
+      "embedded_image_sha256": "88793640d8b06eea8e06ebce0fa768a98bcc4b95847e975d1d8cc5db3decb93c",
+      "retained_rgb_pixels_sha256": "1f108289e9dec09a60a4b40f695950596980970b434c5140e7681cca4e2e68de",
+      "retained_pixel_count": 1060290,
+      "removed_pixel_count": 1013310,
+      "retained_pixels_equal_source": true,
+      "all_removed_pixels_white": true,
+      "source_sha256_unchanged": true,
+      "rendered_page_visually_reviewed": true,
+      "qa_render_sha256": "6b2096948f16dc4cc4009f94ca3e06ee2213416c75a6e25d08b287da9f66d78e"
+    },
+    {
+      "page": 19,
+      "source_filename": "2021-12-29 (12).png",
+      "source_sha256": "1905e1354b83a575c7a0bede1c1bbd8d9c561033a81aeec1712e5b0d784ba31d",
+      "source_bytes": 494217,
+      "source_dimensions_px": [
+        1920,
+        1080
+      ],
+      "retained_rect_px": [
+        365,
+        90,
+        1555,
+        981
+      ],
+      "redaction_rects_px": [
+        [
+          0,
+          0,
+          1920,
+          90
+        ],
+        [
+          0,
+          981,
+          1920,
+          1080
+        ],
+        [
+          0,
+          90,
+          365,
+          981
+        ],
+        [
+          1555,
+          90,
+          1920,
+          981
+        ]
+      ],
+      "byte_exact": false,
+      "embedded_image_sha256": "10d87230b28612cff5abbbcb7940acb0c414fd2e42104245750ed98515f7215e",
+      "retained_rgb_pixels_sha256": "d6169724afc6131a42e7e39f1831a3cff5ae02b02b05ab4df322bf2889f263c0",
+      "retained_pixel_count": 1060290,
+      "removed_pixel_count": 1013310,
+      "retained_pixels_equal_source": true,
+      "all_removed_pixels_white": true,
+      "source_sha256_unchanged": true,
+      "rendered_page_visually_reviewed": true,
+      "qa_render_sha256": "396122ec7f8b0f805e3257909c9968bbfcff488665bd29c818961278269612ff"
+    },
+    {
+      "page": 20,
+      "source_filename": "2021-12-29 (13).png",
+      "source_sha256": "9cc8856b30338fc63a21abefc9d62b0740ecd9c42d99739cfcaaeb1b2610b8b3",
+      "source_bytes": 710388,
+      "source_dimensions_px": [
+        1920,
+        1080
+      ],
+      "retained_rect_px": [
+        365,
+        90,
+        1555,
+        981
+      ],
+      "redaction_rects_px": [
+        [
+          0,
+          0,
+          1920,
+          90
+        ],
+        [
+          0,
+          981,
+          1920,
+          1080
+        ],
+        [
+          0,
+          90,
+          365,
+          981
+        ],
+        [
+          1555,
+          90,
+          1920,
+          981
+        ]
+      ],
+      "byte_exact": false,
+      "embedded_image_sha256": "647a9aa378fb45640cd1df5eb83c3a6de9f53ab5017aacaf3b31b6ff27e8b804",
+      "retained_rgb_pixels_sha256": "8629023cd6ecd853dba16f208bdece65312330fd19da68490aadbbbbf1a3248f",
+      "retained_pixel_count": 1060290,
+      "removed_pixel_count": 1013310,
+      "retained_pixels_equal_source": true,
+      "all_removed_pixels_white": true,
+      "source_sha256_unchanged": true,
+      "rendered_page_visually_reviewed": true,
+      "qa_render_sha256": "0742ef9394e00d75672d88d324e4e600ee2f85a0f32e4af91b2ab5250b69f736"
+    },
+    {
+      "page": 21,
+      "source_filename": "2021-12-29 (14).png",
+      "source_sha256": "dd7587b87b9757a2f182714ea6a7487ce24ebd4b0000e47ce0f62eec7385d295",
+      "source_bytes": 544008,
+      "source_dimensions_px": [
+        1920,
+        1080
+      ],
+      "retained_rect_px": [
+        365,
+        90,
+        1555,
+        981
+      ],
+      "redaction_rects_px": [
+        [
+          0,
+          0,
+          1920,
+          90
+        ],
+        [
+          0,
+          981,
+          1920,
+          1080
+        ],
+        [
+          0,
+          90,
+          365,
+          981
+        ],
+        [
+          1555,
+          90,
+          1920,
+          981
+        ]
+      ],
+      "byte_exact": false,
+      "embedded_image_sha256": "e1057615e01e83ec8b2cd94936bc5cc3ed8da327a0626c413d56b8f27c87360b",
+      "retained_rgb_pixels_sha256": "7ee5b901d39ad8257db56cde366ba25044b431649ca51bc76113b0c2f704a001",
+      "retained_pixel_count": 1060290,
+      "removed_pixel_count": 1013310,
+      "retained_pixels_equal_source": true,
+      "all_removed_pixels_white": true,
+      "source_sha256_unchanged": true,
+      "rendered_page_visually_reviewed": true,
+      "qa_render_sha256": "f7874c5097eef17a45860f049c6add888053931e8f6eb4f5686bea0eaf71b063"
+    },
+    {
+      "page": 22,
+      "source_filename": "2021-12-29 (15).png",
+      "source_sha256": "fe296c7854f7b3bcf4bf483342cb55e962e726aaf4985fa5082d54931bf57a66",
+      "source_bytes": 677509,
+      "source_dimensions_px": [
+        1920,
+        1080
+      ],
+      "retained_rect_px": [
+        365,
+        90,
+        1555,
+        981
+      ],
+      "redaction_rects_px": [
+        [
+          0,
+          0,
+          1920,
+          90
+        ],
+        [
+          0,
+          981,
+          1920,
+          1080
+        ],
+        [
+          0,
+          90,
+          365,
+          981
+        ],
+        [
+          1555,
+          90,
+          1920,
+          981
+        ]
+      ],
+      "byte_exact": false,
+      "embedded_image_sha256": "ff37f7d69a6c9890167d2039062e1644aa8773f53a587e7989f7652709cef321",
+      "retained_rgb_pixels_sha256": "1781bdb2059c9d53c7c38eed8396263e02b51b0099f48aea4e6e0cb3750220d8",
+      "retained_pixel_count": 1060290,
+      "removed_pixel_count": 1013310,
+      "retained_pixels_equal_source": true,
+      "all_removed_pixels_white": true,
+      "source_sha256_unchanged": true,
+      "rendered_page_visually_reviewed": true,
+      "qa_render_sha256": "b58a32077f6526bed6e5e9b96b883bdbc32598e4c4dab6103e81935e25d64c8f"
+    },
+    {
+      "page": 23,
+      "source_filename": "2021-12-29 (16).png",
+      "source_sha256": "e8b06bc74d5d1173cfb05139ec97fe350d8b29d07d8545087100403fd38d72aa",
+      "source_bytes": 469332,
+      "source_dimensions_px": [
+        1920,
+        1080
+      ],
+      "retained_rect_px": [
+        365,
+        90,
+        1555,
+        981
+      ],
+      "redaction_rects_px": [
+        [
+          0,
+          0,
+          1920,
+          90
+        ],
+        [
+          0,
+          981,
+          1920,
+          1080
+        ],
+        [
+          0,
+          90,
+          365,
+          981
+        ],
+        [
+          1555,
+          90,
+          1920,
+          981
+        ]
+      ],
+      "byte_exact": false,
+      "embedded_image_sha256": "cdb4bffe94f5a333be20147d826522f8cf4ddf978df5f3c8c5e23031af91a70a",
+      "retained_rgb_pixels_sha256": "88e45245a054a0abd7f4028d06f14b5f39f008d37d21d0c5708e1ef1e09e9678",
+      "retained_pixel_count": 1060290,
+      "removed_pixel_count": 1013310,
+      "retained_pixels_equal_source": true,
+      "all_removed_pixels_white": true,
+      "source_sha256_unchanged": true,
+      "rendered_page_visually_reviewed": true,
+      "qa_render_sha256": "b4c3e21e6d1b4b8cee475d387a078be76c92131738edc582c32adf5540ebdd3c"
+    },
+    {
+      "page": 24,
+      "source_filename": "2021-12-29 (17).png",
+      "source_sha256": "9a8c6f8fd7928f40fa00fe65de87959080ead6f05a9dde69ec2239ae9527d86f",
+      "source_bytes": 687955,
+      "source_dimensions_px": [
+        1920,
+        1080
+      ],
+      "retained_rect_px": [
+        365,
+        90,
+        1555,
+        981
+      ],
+      "redaction_rects_px": [
+        [
+          0,
+          0,
+          1920,
+          90
+        ],
+        [
+          0,
+          981,
+          1920,
+          1080
+        ],
+        [
+          0,
+          90,
+          365,
+          981
+        ],
+        [
+          1555,
+          90,
+          1920,
+          981
+        ]
+      ],
+      "byte_exact": false,
+      "embedded_image_sha256": "57a766c6b80608e34624ba4f0f4b911544ba834f4477681a9256345aab9ab94d",
+      "retained_rgb_pixels_sha256": "82f36c01e798e2d6778f13e0940c096c32211f476195aa94496ba371bb512106",
+      "retained_pixel_count": 1060290,
+      "removed_pixel_count": 1013310,
+      "retained_pixels_equal_source": true,
+      "all_removed_pixels_white": true,
+      "source_sha256_unchanged": true,
+      "rendered_page_visually_reviewed": true,
+      "qa_render_sha256": "2f726ad03b516d5da905cf3e2c1401dff6f5965f521a5b9de54078b67fb46e78"
+    },
+    {
+      "page": 25,
+      "source_filename": "2021-12-29 (18).png",
+      "source_sha256": "2dc01f65545f8d6a6271aa2ea44e09543c125fb5f5566ed2c594152ceb4990c8",
+      "source_bytes": 685244,
+      "source_dimensions_px": [
+        1920,
+        1080
+      ],
+      "retained_rect_px": [
+        365,
+        90,
+        1555,
+        981
+      ],
+      "redaction_rects_px": [
+        [
+          0,
+          0,
+          1920,
+          90
+        ],
+        [
+          0,
+          981,
+          1920,
+          1080
+        ],
+        [
+          0,
+          90,
+          365,
+          981
+        ],
+        [
+          1555,
+          90,
+          1920,
+          981
+        ]
+      ],
+      "byte_exact": false,
+      "embedded_image_sha256": "2fb87e44aa6147be7c426549a05d6af63a7bbff3966c2c8b33d84b2db09d907e",
+      "retained_rgb_pixels_sha256": "d9204e3360e34ba021ec97d12901a6302f3183d86a52cffce3aeb6506e0ef7e1",
+      "retained_pixel_count": 1060290,
+      "removed_pixel_count": 1013310,
+      "retained_pixels_equal_source": true,
+      "all_removed_pixels_white": true,
+      "source_sha256_unchanged": true,
+      "rendered_page_visually_reviewed": true,
+      "qa_render_sha256": "3446ae6ec1b6ec97a26988376227193679ddf69918d156926aa0c1fa05d3e8a0"
+    },
+    {
+      "page": 26,
+      "source_filename": "2021-12-29 (19).png",
+      "source_sha256": "d8d2ec50e493094e801df7976ddf8abb80b18e19b27320ce7e8f97534e16439a",
+      "source_bytes": 890237,
+      "source_dimensions_px": [
+        1920,
+        1080
+      ],
+      "retained_rect_px": [
+        365,
+        90,
+        1555,
+        981
+      ],
+      "redaction_rects_px": [
+        [
+          0,
+          0,
+          1920,
+          90
+        ],
+        [
+          0,
+          981,
+          1920,
+          1080
+        ],
+        [
+          0,
+          90,
+          365,
+          981
+        ],
+        [
+          1555,
+          90,
+          1920,
+          981
+        ]
+      ],
+      "byte_exact": false,
+      "embedded_image_sha256": "c0aaee490880687c334f7f9b13a4206f3573d94ad156fdc6ba32101c2d2853f3",
+      "retained_rgb_pixels_sha256": "4282919c0a89794d89872a287e230b121da3f0519484c2d5694ddfc0686add71",
+      "retained_pixel_count": 1060290,
+      "removed_pixel_count": 1013310,
+      "retained_pixels_equal_source": true,
+      "all_removed_pixels_white": true,
+      "source_sha256_unchanged": true,
+      "rendered_page_visually_reviewed": true,
+      "qa_render_sha256": "6b5722e9391a50bf8b5f9842b5d8cf352c04831d7ce3a0baa885a997abcbe261"
+    },
+    {
+      "page": 27,
+      "source_filename": "2021-12-29 (20).png",
+      "source_sha256": "66110c25dfb64745058fc50ef6e463153dbb193da10eb84350908dd9d9bb8245",
+      "source_bytes": 973816,
+      "source_dimensions_px": [
+        1920,
+        1080
+      ],
+      "retained_rect_px": [
+        365,
+        90,
+        1555,
+        981
+      ],
+      "redaction_rects_px": [
+        [
+          0,
+          0,
+          1920,
+          90
+        ],
+        [
+          0,
+          981,
+          1920,
+          1080
+        ],
+        [
+          0,
+          90,
+          365,
+          981
+        ],
+        [
+          1555,
+          90,
+          1920,
+          981
+        ]
+      ],
+      "byte_exact": false,
+      "embedded_image_sha256": "d24adc15a9d5e04136d4aeea5fcbfa9d28cf9bdc59a80212b1dc9931d4fbcc9b",
+      "retained_rgb_pixels_sha256": "ed3621570ec0cae6ec9a62596ba4e9b9c2bde69f9529925cf95f3d3cf3d87084",
+      "retained_pixel_count": 1060290,
+      "removed_pixel_count": 1013310,
+      "retained_pixels_equal_source": true,
+      "all_removed_pixels_white": true,
+      "source_sha256_unchanged": true,
+      "rendered_page_visually_reviewed": true,
+      "qa_render_sha256": "77b6f00495289cdf42f07ffc078353bf411df4a329f9ccffc80c6b364eed9298"
+    },
+    {
+      "page": 28,
+      "source_filename": "2021-12-29 (21).png",
+      "source_sha256": "293e1b65e36b0cbfb734766d386cd83e4c5fd56378142036be3cde392e57d0a0",
+      "source_bytes": 1230490,
+      "source_dimensions_px": [
+        1920,
+        1080
+      ],
+      "retained_rect_px": [
+        365,
+        90,
+        1555,
+        981
+      ],
+      "redaction_rects_px": [
+        [
+          0,
+          0,
+          1920,
+          90
+        ],
+        [
+          0,
+          981,
+          1920,
+          1080
+        ],
+        [
+          0,
+          90,
+          365,
+          981
+        ],
+        [
+          1555,
+          90,
+          1920,
+          981
+        ]
+      ],
+      "byte_exact": false,
+      "embedded_image_sha256": "be0b4b794a37b527d8ae9be53f303200f09e51463838b4c64f2e672862f6312c",
+      "retained_rgb_pixels_sha256": "8dd492db0ebae6ac7ef001b247287c121bfbf1047501728157104f82b89297b2",
+      "retained_pixel_count": 1060290,
+      "removed_pixel_count": 1013310,
+      "retained_pixels_equal_source": true,
+      "all_removed_pixels_white": true,
+      "source_sha256_unchanged": true,
+      "rendered_page_visually_reviewed": true,
+      "qa_render_sha256": "51d0458aa0d2839f3dce039babf19222dbd77d7483ed4ae262170c62a14bbbf1"
+    },
+    {
+      "page": 29,
+      "source_filename": "2021-12-29 (22).png",
+      "source_sha256": "77cd76c93eec676057cf433941d6bac24ff04b921ba7b08783cb7379f215e0e1",
+      "source_bytes": 582877,
+      "source_dimensions_px": [
+        1920,
+        1080
+      ],
+      "retained_rect_px": [
+        42,
+        179,
+        1874,
+        1001
+      ],
+      "redaction_rects_px": [
+        [
+          0,
+          0,
+          1920,
+          179
+        ],
+        [
+          0,
+          1001,
+          1920,
+          1080
+        ],
+        [
+          0,
+          179,
+          42,
+          1001
+        ],
+        [
+          1874,
+          179,
+          1920,
+          1001
+        ]
+      ],
+      "byte_exact": false,
+      "embedded_image_sha256": "ad68704e992218f8022834baa2dc86279f3899fbfa37f740d7133a245fedcc22",
+      "retained_rgb_pixels_sha256": "6b734efccaa4570017027e87e4894d846e5ad9e46ed458264c4344e1da994a13",
+      "retained_pixel_count": 1505904,
+      "removed_pixel_count": 567696,
+      "retained_pixels_equal_source": true,
+      "all_removed_pixels_white": true,
+      "source_sha256_unchanged": true,
+      "rendered_page_visually_reviewed": true,
+      "qa_render_sha256": "8b0c4d4ff3530d5c8f67e711f1d6277a5d0c218ac958f9dbd4df56cd6b0b6acc"
+    }
+  ],
+  "verification": {
+    "all_29_source_png_hashes_unchanged": true,
+    "decoded_embedded_image_count": 29,
+    "unreferenced_image_stream_count": 0,
+    "embedded_source_png_stream_count": 0,
+    "all_retained_nonredacted_pixels_equal_source": true,
+    "all_removed_pixels_are_white": true,
+    "total_retained_pixel_count": 30916652,
+    "total_removed_pixel_count": 29217748,
+    "rendered_pages_visually_reviewed": true,
+    "visual_review_page_count": 29,
+    "renderer": "Poppler pdftoppm, CropBox, 72 dpi (one rendered pixel per source pixel)",
+    "no_private_ui_in_retained_instructional_areas": true
+  }
+}

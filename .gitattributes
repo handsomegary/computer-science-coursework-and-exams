@@ -9,3 +9,4 @@ assignments/**/references/**/*.cpp -text whitespace=-blank-at-eol,cr-at-eol
 assignments/**/references/**/original/*.cpp -text whitespace=-blank-at-eol,-blank-at-eof,cr-at-eol
 assignments/2025/**/originals/resources/** -text
 assignments/2025/**/course_support/** -text whitespace=-blank-at-eol,-blank-at-eof,cr-at-eol
+source_archive/** -text whitespace=-blank-at-eol,-blank-at-eof,-space-before-tab,cr-at-eol

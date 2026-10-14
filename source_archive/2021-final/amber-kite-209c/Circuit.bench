@@ -1,0 +1,8 @@
+# 1 input
+# 1 output
+# 1 inverter
+# 2 flip-flops
+# 6 gates (4 ANDs+ 2 ORs)
+
+INPUT(x)
+

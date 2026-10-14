@@ -1,0 +1,9 @@
+鳥哥的 Linux 私房菜 -- Linux 基礎學習篇訓練教材 (vbird.org)
+
+Linux下編譯C++ 指令 - IT閱讀 (itread01.com)
+
+GCC 編譯器基本使用教學與範例 - G. T. Wang (gtwang.org)
+
+https://blog.gtwang.org/programming/gcc-comipler-basic-tutorial-examples/
+https://www.itread01.com/content/1544694304.html
+http://linux.vbird.org/linux_basic_train/

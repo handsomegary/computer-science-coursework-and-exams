@@ -1,0 +1,803 @@
+{
+  "schema_version": 1,
+  "scope": "Additional 2021 local source drafts, other student submissions, accompanying student header, small local data and retained project configuration. Previously archived selected sources and instructor resources are not duplicated.",
+  "validation": "Archive presence, hashes, anonymity and source token preservation only. These historical drafts/submissions have not been repaired or validated against assignment specifications.",
+  "privacy": "Source identity mappings remain private. Filenames use random collection names. Absolute local paths and include/project references are redacted or rebased. Hashes distinguish original content from changed archive content.",
+  "files": [
+    {
+      "path": "source_archive/2021-final/amber-owl-7c30/amber-owl-7c30_Final.cpp",
+      "source_filename_sanitized": "amber-owl-7c30_Final.cpp",
+      "source_sha256": "800adeb3765b3141ca17e783e5d2da4fcb0466e7b6014d77a5faca881af30493",
+      "archived_sha256": "ced528a9cd97f53d6b200bc0377cb9ba2dfb9eaaf11582f8e5831ef36d6aed90",
+      "size": 19366,
+      "status": "original_student_submission_unverified",
+      "content_transformed": true,
+      "transformations": [
+        {
+          "kind": "source_filename_anonymized"
+        },
+        {
+          "kind": "reference_to_anonymously_renamed_supplied_student_header",
+          "reference": "amber-owl-7c30_final.h"
+        },
+        {
+          "kind": "nonliteral_cpp_tokens_preserved",
+          "changed_string_tokens": 1
+        }
+      ],
+      "original_cpp_nonliteral_token_sha256": "d3868abb889bdb9977ee0863071e29d28afd1bfc0e3374cc60e80d679392dfc7"
+    },
+    {
+      "path": "source_archive/2021-final/amber-owl-7c30/amber-owl-7c30_final.h",
+      "source_filename_sanitized": "amber-owl-7c30_final.h",
+      "source_sha256": "08a95a5b4667b0e5c24475cb37a54b5954d16983e3e5ce1670fc8e1f8dfd7cc8",
+      "archived_sha256": "08a95a5b4667b0e5c24475cb37a54b5954d16983e3e5ce1670fc8e1f8dfd7cc8",
+      "size": 48392,
+      "status": "original_student_header_unverified",
+      "content_transformed": false,
+      "transformations": [
+        {
+          "kind": "source_filename_anonymized"
+        },
+        {
+          "kind": "nonliteral_cpp_tokens_preserved",
+          "changed_string_tokens": 0
+        }
+      ],
+      "original_cpp_nonliteral_token_sha256": "e49c68d97499451c997ed3f4d562cd40d9a45640fa41c526e935ede3066c0b51"
+    },
+    {
+      "path": "source_archive/2021-final/silver-ibis-4820/silver-ibis-4820_Final.cout.cpp",
+      "source_filename_sanitized": "silver-ibis-4820_Final.cout.cpp",
+      "source_sha256": "a329940299924d8d588817971399f1da7054d1202d1885eefa12914af2b3d6a7",
+      "archived_sha256": "7e3d6634cda629a700face61cfb06bb20bc6fd1d7c0ee11b2251f2363562bbe2",
+      "size": 8183,
+      "status": "original_student_submission_unverified",
+      "content_transformed": true,
+      "transformations": [
+        {
+          "kind": "source_filename_anonymized"
+        },
+        {
+          "kind": "relative_reference_to_preserved_instructor_source",
+          "reference": "../../../assignments/2021/final/course_support/kmap.cpp"
+        },
+        {
+          "kind": "nonliteral_cpp_tokens_preserved",
+          "changed_string_tokens": 1
+        }
+      ],
+      "original_cpp_nonliteral_token_sha256": "191a016c45c4e4ebc773ae44b9fea388dc804090bbbcd6251622ac9acc0f9f3a"
+    },
+    {
+      "path": "source_archive/2021-final/silver-ibis-4820/silver-ibis-4820_Final.cpp",
+      "source_filename_sanitized": "silver-ibis-4820_Final.cpp",
+      "source_sha256": "d52d779a64f9cf2bc34ad3af12a69a7fef468641af45606bd752cef2d9fffb9b",
+      "archived_sha256": "4f293744063bb9d58e4d1c26a5000beb2800dd2ac17003d96646f186a2d8fe23",
+      "size": 9976,
+      "status": "original_student_submission_unverified",
+      "content_transformed": true,
+      "transformations": [
+        {
+          "kind": "source_filename_anonymized"
+        },
+        {
+          "kind": "relative_reference_to_preserved_instructor_source",
+          "reference": "../../../assignments/2021/final/course_support/kmap.cpp"
+        },
+        {
+          "kind": "nonliteral_cpp_tokens_preserved",
+          "changed_string_tokens": 1
+        }
+      ],
+      "original_cpp_nonliteral_token_sha256": "d355f89df91aad6786e22235340a171c9cf6ba6f2053648739b308f06c83caea"
+    },
+    {
+      "path": "source_archive/2021-final/amber-kite-209c/develope.cpp",
+      "source_filename_sanitized": "develope.cpp",
+      "source_sha256": "d604871d0586387f35e40d1fe17f06c3359e7cad01ca7ebc34bad0d93afeaad2",
+      "archived_sha256": "3d5d04a8752d5ea976eda3ccf51dcac6f701efca0a2548ecbcd7b8e336db9c2d",
+      "size": 10651,
+      "status": "original_local_draft_unverified",
+      "content_transformed": true,
+      "transformations": [
+        {
+          "kind": "relative_reference_to_preserved_instructor_source",
+          "reference": "../../../assignments/2021/final/course_support/kmap.cpp"
+        },
+        {
+          "kind": "nonliteral_cpp_tokens_preserved",
+          "changed_string_tokens": 1
+        }
+      ],
+      "original_cpp_nonliteral_token_sha256": "4f7a4845b8d525bc96eba259b0baaca5ca05e5298fa1b38818a82a94326bdf75"
+    },
+    {
+      "path": "source_archive/2021-final/amber-kite-209c/test/main.cpp",
+      "source_filename_sanitized": "main.cpp",
+      "source_sha256": "8d72d292a4590f64e728c1da91a76dc44c1cee40e0c151048b18cc204ce59cd7",
+      "archived_sha256": "8d72d292a4590f64e728c1da91a76dc44c1cee40e0c151048b18cc204ce59cd7",
+      "size": 117,
+      "status": "original_local_draft_unverified",
+      "content_transformed": false,
+      "transformations": [
+        {
+          "kind": "nonliteral_cpp_tokens_preserved",
+          "changed_string_tokens": 0
+        }
+      ],
+      "original_cpp_nonliteral_token_sha256": "eff4f6bd20ee9673dff187a77e1c20da437dae8309d5e675228ae3f5689cb55d"
+    },
+    {
+      "path": "source_archive/2021-final/amber-kite-209c/主程式fine.cpp",
+      "source_filename_sanitized": "主程式fine.cpp",
+      "source_sha256": "accd26ef2fb0e86da367cdf7bfbf4cd7baeffbfda87f175820d808fe330f870e",
+      "archived_sha256": "4dace4faf65daaa91cd1b38e2f6634219aabc9ed7e5ad4d722522744932667e3",
+      "size": 10597,
+      "status": "original_local_draft_unverified",
+      "content_transformed": true,
+      "transformations": [
+        {
+          "kind": "relative_reference_to_preserved_instructor_source",
+          "reference": "../../../assignments/2021/final/course_support/kmap.cpp"
+        },
+        {
+          "kind": "nonliteral_cpp_tokens_preserved",
+          "changed_string_tokens": 1
+        }
+      ],
+      "original_cpp_nonliteral_token_sha256": "6600f8d203ecfa7e1c053163ddb36134b1b40365eb5ba63917d5e5fda24bf583"
+    },
+    {
+      "path": "source_archive/2021-final/amber-kite-209c/程式開發.cpp",
+      "source_filename_sanitized": "程式開發.cpp",
+      "source_sha256": "0e4130bc6d9976ffab341870131e216c8bde088fef2479ddbc9f51cd3f4f1bb4",
+      "archived_sha256": "0e4130bc6d9976ffab341870131e216c8bde088fef2479ddbc9f51cd3f4f1bb4",
+      "size": 4314,
+      "status": "original_local_draft_unverified",
+      "content_transformed": false,
+      "transformations": [
+        {
+          "kind": "nonliteral_cpp_tokens_preserved",
+          "changed_string_tokens": 0
+        }
+      ],
+      "original_cpp_nonliteral_token_sha256": "a76c9c0e90295542b59380e9932560c33ccbfae76711f8f103dae994d650a6e8"
+    },
+    {
+      "path": "source_archive/2021-final/amber-kite-209c/程式開發2.cpp",
+      "source_filename_sanitized": "程式開發2.cpp",
+      "source_sha256": "30781a2d92b186d32c89893a0c7d959b2521a90f4810f737d1b32ccfa3a0daa4",
+      "archived_sha256": "6c92d6856883cea8d63064e63766b11abac43cfab1cbc03af0494216782f795f",
+      "size": 6912,
+      "status": "original_local_draft_unverified",
+      "content_transformed": true,
+      "transformations": [
+        {
+          "kind": "relative_reference_to_preserved_instructor_source",
+          "reference": "../../../assignments/2021/final/course_support/kmap.cpp"
+        },
+        {
+          "kind": "nonliteral_cpp_tokens_preserved",
+          "changed_string_tokens": 1
+        }
+      ],
+      "original_cpp_nonliteral_token_sha256": "2e61fe216248d792bec955dcd41c9d427b0ee360b9f9a639c12c9725ff3fa5d5"
+    },
+    {
+      "path": "source_archive/2021-final/amber-kite-209c/程式開發終.cpp",
+      "source_filename_sanitized": "程式開發終.cpp",
+      "source_sha256": "936c572b0214a088114e63ca0a4b2f307fce0d9ce7004cfe14ba7cb118bb94ea",
+      "archived_sha256": "80e1eab77cdc31accfa0b74d473756f452ce5185526bf252abd837bd3c8e83a5",
+      "size": 8666,
+      "status": "original_local_draft_unverified",
+      "content_transformed": true,
+      "transformations": [
+        {
+          "kind": "relative_reference_to_preserved_instructor_source",
+          "reference": "../../../assignments/2021/final/course_support/kmap.cpp"
+        },
+        {
+          "kind": "nonliteral_cpp_tokens_preserved",
+          "changed_string_tokens": 1
+        }
+      ],
+      "original_cpp_nonliteral_token_sha256": "a4f7502a5653840b44ffb921dbea64189c20fe6810efb08729619c28180e4236"
+    },
+    {
+      "path": "source_archive/2021-pa01/amber-kite-209c/1017五倍券作業.cpp",
+      "source_filename_sanitized": "1017五倍券作業.cpp",
+      "source_sha256": "2c7b989280c97eed11b69c68fcbe8f4386e054e2df47dc6ed79c56378779a205",
+      "archived_sha256": "2c7b989280c97eed11b69c68fcbe8f4386e054e2df47dc6ed79c56378779a205",
+      "size": 5214,
+      "status": "original_local_draft_unverified",
+      "content_transformed": false,
+      "transformations": [
+        {
+          "kind": "nonliteral_cpp_tokens_preserved",
+          "changed_string_tokens": 0
+        }
+      ],
+      "original_cpp_nonliteral_token_sha256": "936ce8ee153593ca152e9b7d850265626396ea1eda06a9cebc3c6e223b0cfebe"
+    },
+    {
+      "path": "source_archive/2021-pa01/amber-kite-209c/1017作業(oringinal).cpp",
+      "source_filename_sanitized": "1017作業(oringinal).cpp",
+      "source_sha256": "ba1f4a0790df844f7147e111cab40ee0b3c04c1d12b3b2a9fe3eaa5d2278717c",
+      "archived_sha256": "ba1f4a0790df844f7147e111cab40ee0b3c04c1d12b3b2a9fe3eaa5d2278717c",
+      "size": 5048,
+      "status": "original_local_draft_unverified",
+      "content_transformed": false,
+      "transformations": [
+        {
+          "kind": "nonliteral_cpp_tokens_preserved",
+          "changed_string_tokens": 0
+        }
+      ],
+      "original_cpp_nonliteral_token_sha256": "c6a4876724928ac0c7151924aa0ff00c8c5b7e9c822e109b4a7c551ccb451fa8"
+    },
+    {
+      "path": "source_archive/2021-pa01/silver-ibis-4820/silver-ibis-4820_PA1.cpp",
+      "source_filename_sanitized": "silver-ibis-4820_PA1.cpp",
+      "source_sha256": "3630bd1293731e2974c1d4d6b0773e8a8c9d6ebeaf29574379cca7e6e10d7e37",
+      "archived_sha256": "3630bd1293731e2974c1d4d6b0773e8a8c9d6ebeaf29574379cca7e6e10d7e37",
+      "size": 10156,
+      "status": "original_student_submission_unverified",
+      "content_transformed": false,
+      "transformations": [
+        {
+          "kind": "source_filename_anonymized"
+        },
+        {
+          "kind": "nonliteral_cpp_tokens_preserved",
+          "changed_string_tokens": 0
+        }
+      ],
+      "original_cpp_nonliteral_token_sha256": "709fdcde912d19449ba0fe0b086a683c67ec579526da638447aee17aac181a3a"
+    },
+    {
+      "path": "source_archive/2021-pa02/violet-marten-a86c/violet-marten-a86c_PA2(bonus).cpp",
+      "source_filename_sanitized": "violet-marten-a86c_PA2(bonus).cpp",
+      "source_sha256": "a9e17803287a61c34121633cce2ad5693fb8ede56c5b8473aba2bff6fbcd345b",
+      "archived_sha256": "a9e17803287a61c34121633cce2ad5693fb8ede56c5b8473aba2bff6fbcd345b",
+      "size": 3200,
+      "status": "original_student_submission_unverified",
+      "content_transformed": false,
+      "transformations": [
+        {
+          "kind": "source_filename_anonymized"
+        },
+        {
+          "kind": "nonliteral_cpp_tokens_preserved",
+          "changed_string_tokens": 0
+        }
+      ],
+      "original_cpp_nonliteral_token_sha256": "f1607acdda2c082f2a40ebcc34d779eb28419d2c2e81e9e016196806496956c1"
+    },
+    {
+      "path": "source_archive/2021-pa02/violet-marten-a86c/violet-marten-a86c_PA2.cpp",
+      "source_filename_sanitized": "violet-marten-a86c_PA2.cpp",
+      "source_sha256": "96c02d9865f7f12ec89228f61d832cff7964e435fc087d8cba6148fcdd394d7d",
+      "archived_sha256": "96c02d9865f7f12ec89228f61d832cff7964e435fc087d8cba6148fcdd394d7d",
+      "size": 3717,
+      "status": "original_student_submission_unverified",
+      "content_transformed": false,
+      "transformations": [
+        {
+          "kind": "source_filename_anonymized"
+        },
+        {
+          "kind": "nonliteral_cpp_tokens_preserved",
+          "changed_string_tokens": 0
+        }
+      ],
+      "original_cpp_nonliteral_token_sha256": "5a5fc0bfe2117574189a892c8339a74f0fa5cffdae35debed8b5d40958145855"
+    },
+    {
+      "path": "source_archive/2021-pa02/silver-ibis-4820/silver-ibis-4820_PA2(bonus).cpp",
+      "source_filename_sanitized": "silver-ibis-4820_PA2(bonus).cpp",
+      "source_sha256": "57dc712a32d2e437b993211b14c7c108961169dd72cad44d91e65a370778f13e",
+      "archived_sha256": "57dc712a32d2e437b993211b14c7c108961169dd72cad44d91e65a370778f13e",
+      "size": 5444,
+      "status": "original_student_submission_unverified",
+      "content_transformed": false,
+      "transformations": [
+        {
+          "kind": "source_filename_anonymized"
+        },
+        {
+          "kind": "nonliteral_cpp_tokens_preserved",
+          "changed_string_tokens": 0
+        }
+      ],
+      "original_cpp_nonliteral_token_sha256": "72246907991a46cb2180c8ebbc061a96e24b09f0713da5951fd3b5286e21d5c9"
+    },
+    {
+      "path": "source_archive/2021-pa02/silver-ibis-4820/silver-ibis-4820_PA2.cpp",
+      "source_filename_sanitized": "silver-ibis-4820_PA2.cpp",
+      "source_sha256": "33a4210d3922f5c4f25980bfe55f2dab711fdfc5939480b239a0fca0fce86b9a",
+      "archived_sha256": "33a4210d3922f5c4f25980bfe55f2dab711fdfc5939480b239a0fca0fce86b9a",
+      "size": 6699,
+      "status": "original_student_submission_unverified",
+      "content_transformed": false,
+      "transformations": [
+        {
+          "kind": "source_filename_anonymized"
+        },
+        {
+          "kind": "nonliteral_cpp_tokens_preserved",
+          "changed_string_tokens": 0
+        }
+      ],
+      "original_cpp_nonliteral_token_sha256": "2e66dcc5b978da83260dfb76c27642041c562646b28065d7e7ea9ba09f836996"
+    },
+    {
+      "path": "source_archive/2021-pa02/amber-kite-209c/binaryaddition.cpp",
+      "source_filename_sanitized": "binaryaddition.cpp",
+      "source_sha256": "6885f81bd4ad6a8421c067a46f2b8d15f91396f5920b45ccc5647bcbde2ca68a",
+      "archived_sha256": "6885f81bd4ad6a8421c067a46f2b8d15f91396f5920b45ccc5647bcbde2ca68a",
+      "size": 687,
+      "status": "original_local_draft_unverified",
+      "content_transformed": false,
+      "transformations": [
+        {
+          "kind": "nonliteral_cpp_tokens_preserved",
+          "changed_string_tokens": 0
+        }
+      ],
+      "original_cpp_nonliteral_token_sha256": "bbe914ec55e53ae1c4b96daf775005ec1ca75f3a61eaad5c94b14424c271956b"
+    },
+    {
+      "path": "source_archive/2021-pa03/violet-marten-a86c/violet-marten-a86c_PA3.cpp",
+      "source_filename_sanitized": "violet-marten-a86c_PA3.cpp",
+      "source_sha256": "7f0b547b161869dce29cc36053bb704af5bb63a3408f92e515880027bf642433",
+      "archived_sha256": "7f0b547b161869dce29cc36053bb704af5bb63a3408f92e515880027bf642433",
+      "size": 10320,
+      "status": "original_student_submission_unverified",
+      "content_transformed": false,
+      "transformations": [
+        {
+          "kind": "source_filename_anonymized"
+        },
+        {
+          "kind": "nonliteral_cpp_tokens_preserved",
+          "changed_string_tokens": 0
+        }
+      ],
+      "original_cpp_nonliteral_token_sha256": "a42feb272a65615ffb3c77d18ff9103f6a0b31aedc91c316e64084ad32612470"
+    },
+    {
+      "path": "source_archive/2021-pa03/silver-ibis-4820/silver-ibis-4820_PA3.cpp",
+      "source_filename_sanitized": "silver-ibis-4820_PA3.cpp",
+      "source_sha256": "36ca800e2fa87ef12d4ac25c3a08bce2dd1b6212dba9b10459e1b7e34a6d5642",
+      "archived_sha256": "36ca800e2fa87ef12d4ac25c3a08bce2dd1b6212dba9b10459e1b7e34a6d5642",
+      "size": 20523,
+      "status": "original_student_submission_unverified",
+      "content_transformed": false,
+      "transformations": [
+        {
+          "kind": "source_filename_anonymized"
+        },
+        {
+          "kind": "nonliteral_cpp_tokens_preserved",
+          "changed_string_tokens": 0
+        }
+      ],
+      "original_cpp_nonliteral_token_sha256": "d0aa7d88300eb78684666a95192655a8b0d8778b5a80ee0efd5bc413ce5739a2"
+    },
+    {
+      "path": "source_archive/2021-pa03/amber-kite-209c/大整數相加1.cpp",
+      "source_filename_sanitized": "大整數相加1.cpp",
+      "source_sha256": "6bc7149231ce5460f10eb17f66a4942781dc909aeab813bc2ed4602f64189fb1",
+      "archived_sha256": "6bc7149231ce5460f10eb17f66a4942781dc909aeab813bc2ed4602f64189fb1",
+      "size": 4117,
+      "status": "original_local_draft_unverified",
+      "content_transformed": false,
+      "transformations": [
+        {
+          "kind": "nonliteral_cpp_tokens_preserved",
+          "changed_string_tokens": 0
+        }
+      ],
+      "original_cpp_nonliteral_token_sha256": "49eb3996a734b29c5adc7355bd2a3559a878c42d526dd58764366ed378cb9f86"
+    },
+    {
+      "path": "source_archive/2021-pa03/amber-kite-209c/大整數相加2.cpp",
+      "source_filename_sanitized": "大整數相加2.cpp",
+      "source_sha256": "eab601ca312d00e6332e8870926f74be15dcf778aae1f1fed648397ac394a3db",
+      "archived_sha256": "eab601ca312d00e6332e8870926f74be15dcf778aae1f1fed648397ac394a3db",
+      "size": 1794,
+      "status": "original_local_draft_unverified",
+      "content_transformed": false,
+      "transformations": [
+        {
+          "kind": "nonliteral_cpp_tokens_preserved",
+          "changed_string_tokens": 0
+        }
+      ],
+      "original_cpp_nonliteral_token_sha256": "99be86cc0454d8a40a1e46b22513e26b8f0590fd52b6b5e66101466797787f1e"
+    },
+    {
+      "path": "source_archive/2021-pa03/amber-kite-209c/大整數相加3.cpp",
+      "source_filename_sanitized": "大整數相加3.cpp",
+      "source_sha256": "e2d674e98d03ed91d4a4e49f7dc0fb67f8e5cba3f3d11c30b590d406442129d3",
+      "archived_sha256": "e2d674e98d03ed91d4a4e49f7dc0fb67f8e5cba3f3d11c30b590d406442129d3",
+      "size": 1222,
+      "status": "original_local_draft_unverified",
+      "content_transformed": false,
+      "transformations": [
+        {
+          "kind": "nonliteral_cpp_tokens_preserved",
+          "changed_string_tokens": 0
+        }
+      ],
+      "original_cpp_nonliteral_token_sha256": "4a1419e14de6d4dbc461f8ef951689d2fd89345f115fa3504d2e6a352031de87"
+    },
+    {
+      "path": "source_archive/2021-pa04/amber-kite-209c/inload(程式開發.cpp",
+      "source_filename_sanitized": "inload(程式開發.cpp",
+      "source_sha256": "62c5b612be3a24be70de4538ac7e760919061da389c70210417c6f64fd74d096",
+      "archived_sha256": "f63ec4ca09e1883340389f2845ae5b3c5897be5ad99fb12de569f5c74a689504",
+      "size": 5398,
+      "status": "original_local_draft_unverified",
+      "content_transformed": true,
+      "transformations": [
+        {
+          "kind": "private_absolute_input_path_rebased",
+          "reference": "PA4/data/"
+        },
+        {
+          "kind": "nonliteral_cpp_tokens_preserved",
+          "changed_string_tokens": 1
+        }
+      ],
+      "original_cpp_nonliteral_token_sha256": "c5f99e0dd6bcd80822216213978f769ded7011c47b4da5443fd25cd1afb71ce8"
+    },
+    {
+      "path": "source_archive/2021-pa04/amber-kite-209c/main.cpp",
+      "source_filename_sanitized": "main.cpp",
+      "source_sha256": "276edd50fecc2136d1fb251aaf0615bb5251f3c7ac94938481a149407649e156",
+      "archived_sha256": "276edd50fecc2136d1fb251aaf0615bb5251f3c7ac94938481a149407649e156",
+      "size": 983,
+      "status": "original_local_draft_unverified",
+      "content_transformed": false,
+      "transformations": [
+        {
+          "kind": "nonliteral_cpp_tokens_preserved",
+          "changed_string_tokens": 0
+        }
+      ],
+      "original_cpp_nonliteral_token_sha256": "6dffadcca4525c41b06758c376e6ac28c1e76cebb7e9202363e2c98643dc768c"
+    },
+    {
+      "path": "source_archive/2021-pa04/silver-ibis-4820/PA4/silver-ibis-4820_PA4(註解版).cpp",
+      "source_filename_sanitized": "silver-ibis-4820_PA4(註解版).cpp",
+      "source_sha256": "2cd6ed2b60d4931b49a0b1ca7f537fc0acdc64b6ceaf4a649c46935480099410",
+      "archived_sha256": "e5a8ecee6e43bc1c1a593a43c6f68a06c2afda53fe613c7b0c65cb1d039a4dac",
+      "size": 18186,
+      "status": "original_student_submission_unverified",
+      "content_transformed": true,
+      "transformations": [
+        {
+          "kind": "source_filename_anonymized"
+        },
+        {
+          "kind": "private_absolute_input_path_rebased",
+          "reference": "../../amber-kite-209c/PA4/data/"
+        },
+        {
+          "kind": "private_absolute_output_path_rebased",
+          "reference": "../../amber-kite-209c/PA4/result/"
+        },
+        {
+          "kind": "nonliteral_cpp_tokens_preserved",
+          "changed_string_tokens": 2
+        }
+      ],
+      "original_cpp_nonliteral_token_sha256": "ff10f69f93cc834176028ab94c0eca1e00e05a13b984dbccd829072bcac55b7c"
+    },
+    {
+      "path": "source_archive/2021-pa04/amber-kite-209c/主程式0103(應該排好了.cpp",
+      "source_filename_sanitized": "主程式0103(應該排好了.cpp",
+      "source_sha256": "503aa881a7f09293eeee5262859db95693f96a0c12e00a344ca32cfc0f80723f",
+      "archived_sha256": "d40a0f65a30c5552dc9718ee6c6904d46cffaec80b14174cd60293ffe1571d8d",
+      "size": 17468,
+      "status": "original_local_draft_unverified",
+      "content_transformed": true,
+      "transformations": [
+        {
+          "kind": "private_absolute_path_redacted_preserving_historical_invalid_directory",
+          "reference": "PA4/data.txt/"
+        },
+        {
+          "kind": "private_absolute_output_path_rebased",
+          "reference": "PA4/result/"
+        },
+        {
+          "kind": "nonliteral_cpp_tokens_preserved",
+          "changed_string_tokens": 2
+        }
+      ],
+      "original_cpp_nonliteral_token_sha256": "7e8465999242cac5b466ce70504a8e2b826b3d5b2613f6564f58a30d0068dd33"
+    },
+    {
+      "path": "source_archive/2021-pa04/amber-kite-209c/主程式0103(未排版.cpp",
+      "source_filename_sanitized": "主程式0103(未排版.cpp",
+      "source_sha256": "b1025bf96327a56ae4725d3d339fde9a073c0edbe90d215be6c1726c272e3c91",
+      "archived_sha256": "1194903eeb19b8a03e26b7c928b871cd9ba9e6825dd946114ed6afed80ec9c0d",
+      "size": 16269,
+      "status": "original_local_draft_unverified",
+      "content_transformed": true,
+      "transformations": [
+        {
+          "kind": "private_absolute_path_redacted_preserving_historical_invalid_directory",
+          "reference": "PA4/data.txt/"
+        },
+        {
+          "kind": "private_absolute_output_path_rebased",
+          "reference": "PA4/result/"
+        },
+        {
+          "kind": "nonliteral_cpp_tokens_preserved",
+          "changed_string_tokens": 2
+        }
+      ],
+      "original_cpp_nonliteral_token_sha256": "1fca2a8f6bdbf7a7000fa06baabea61b011fd3152e9bf91fbf7acf4e6f11213e"
+    },
+    {
+      "path": "source_archive/2021-pa04/amber-kite-209c/主程式1230(待檢驗.cpp",
+      "source_filename_sanitized": "主程式1230(待檢驗.cpp",
+      "source_sha256": "54f7df5928402689cffdb8d0aac22796dea21f13e407f679f732c0ffd7f345e3",
+      "archived_sha256": "ecb8856a572f1ac5647755c4a19418880ec6be4cad7a7e7b9127403f5165825e",
+      "size": 16160,
+      "status": "original_local_draft_unverified",
+      "content_transformed": true,
+      "transformations": [
+        {
+          "kind": "private_absolute_path_redacted_preserving_historical_invalid_directory",
+          "reference": "PA4/data.txt/"
+        },
+        {
+          "kind": "private_absolute_output_path_rebased",
+          "reference": "PA4/result/"
+        },
+        {
+          "kind": "nonliteral_cpp_tokens_preserved",
+          "changed_string_tokens": 2
+        }
+      ],
+      "original_cpp_nonliteral_token_sha256": "b49443fd506409792b2f2c10da49fbed18b538ea5680b4ddc2a6c7677964b629"
+    },
+    {
+      "path": "source_archive/2021-pa04/amber-kite-209c/主程式final.cpp",
+      "source_filename_sanitized": "主程式final.cpp",
+      "source_sha256": "7b37aff6ca35bb200134c191a57c7b6a4fd21c5e0d1b4d08b07372694fc64ded",
+      "archived_sha256": "042414fe14a6fd399ca801f418b4ab53901d479cd268e97a5bc3f6d735ae9e5b",
+      "size": 17086,
+      "status": "original_local_draft_unverified",
+      "content_transformed": true,
+      "transformations": [
+        {
+          "kind": "private_absolute_input_path_rebased",
+          "reference": "PA4/data/"
+        },
+        {
+          "kind": "private_absolute_output_path_rebased",
+          "reference": "PA4/result/"
+        },
+        {
+          "kind": "nonliteral_cpp_tokens_preserved",
+          "changed_string_tokens": 2
+        }
+      ],
+      "original_cpp_nonliteral_token_sha256": "5ea9a48308be3fc741e7987c3ea9058758937231df782ee67db6958d83bec5da"
+    },
+    {
+      "path": "source_archive/2021-pa04/amber-kite-209c/程式開發.cpp",
+      "source_filename_sanitized": "程式開發.cpp",
+      "source_sha256": "2a2cfeb546d71cfde8d099c9b633cacd50afbfba825b78dbc974a7ea51be0791",
+      "archived_sha256": "576da8e4e8f0743cbe876ac02048071cb8b5afce52c5eb93176024221d6469f2",
+      "size": 15355,
+      "status": "original_local_draft_unverified",
+      "content_transformed": true,
+      "transformations": [
+        {
+          "kind": "private_absolute_input_path_rebased",
+          "reference": "PA4/data/"
+        },
+        {
+          "kind": "private_absolute_input_path_rebased",
+          "reference": "PA4/data/"
+        },
+        {
+          "kind": "nonliteral_cpp_tokens_preserved",
+          "changed_string_tokens": 2
+        }
+      ],
+      "original_cpp_nonliteral_token_sha256": "71c5fedd89361c08969c14c202dc67de4293ed83098897312e9c43d6b28a1db5"
+    },
+    {
+      "path": "source_archive/2021-final/amber-kite-209c/Circuit.bench",
+      "source_filename_sanitized": "Circuit.bench",
+      "source_sha256": "ebcaab5ac8b84aad6d4e173401f2ca4ccc1ab1428f025813f42a375e179c4050",
+      "archived_sha256": "ebcaab5ac8b84aad6d4e173401f2ca4ccc1ab1428f025813f42a375e179c4050",
+      "size": 94,
+      "status": "program_generated_local_output",
+      "content_transformed": false,
+      "transformations": []
+    },
+    {
+      "path": "source_archive/2021-pa04/amber-kite-209c/PA4/data/input.txt",
+      "source_filename_sanitized": "input.txt",
+      "source_sha256": "f0ed6568f12910647cfd1be511a07293386b680cab714d149e0a563bc3db4300",
+      "archived_sha256": "f0ed6568f12910647cfd1be511a07293386b680cab714d149e0a563bc3db4300",
+      "size": 146,
+      "status": "original_local_input_or_expected_output_copy_unverified",
+      "content_transformed": false,
+      "transformations": []
+    },
+    {
+      "path": "source_archive/2021-pa04/amber-kite-209c/PA4/data/input1.txt",
+      "source_filename_sanitized": "input1.txt",
+      "source_sha256": "0a399fdbfe087b835b8630c835f828693b9628638836bc963595737cad934034",
+      "archived_sha256": "0a399fdbfe087b835b8630c835f828693b9628638836bc963595737cad934034",
+      "size": 144,
+      "status": "original_local_input_or_expected_output_copy_unverified",
+      "content_transformed": false,
+      "transformations": []
+    },
+    {
+      "path": "source_archive/2021-pa04/amber-kite-209c/PA4/data/input2.txt",
+      "source_filename_sanitized": "input2.txt",
+      "source_sha256": "3a2ea41169a07d773aadc6fedfa30b73f7ee3a23d2ded3d7f6e4c374c6a77506",
+      "archived_sha256": "3a2ea41169a07d773aadc6fedfa30b73f7ee3a23d2ded3d7f6e4c374c6a77506",
+      "size": 265,
+      "status": "original_local_input_or_expected_output_copy_unverified",
+      "content_transformed": false,
+      "transformations": []
+    },
+    {
+      "path": "source_archive/2021-pa04/amber-kite-209c/PA4/data/input3.txt",
+      "source_filename_sanitized": "input3.txt",
+      "source_sha256": "c544ffae31b44685e6d7e43ab88ef90d7706abd7421e0ef8aae914f82b0bafbf",
+      "archived_sha256": "c544ffae31b44685e6d7e43ab88ef90d7706abd7421e0ef8aae914f82b0bafbf",
+      "size": 310,
+      "status": "original_local_input_or_expected_output_copy_unverified",
+      "content_transformed": false,
+      "transformations": []
+    },
+    {
+      "path": "source_archive/2021-pa04/amber-kite-209c/PA4/data/output1.txt",
+      "source_filename_sanitized": "output1.txt",
+      "source_sha256": "af6d74ef23c475926736e32b3cabadd3a8da364dda3ef9546841307df9e572b9",
+      "archived_sha256": "af6d74ef23c475926736e32b3cabadd3a8da364dda3ef9546841307df9e572b9",
+      "size": 375,
+      "status": "original_local_input_or_expected_output_copy_unverified",
+      "content_transformed": false,
+      "transformations": []
+    },
+    {
+      "path": "source_archive/2021-pa04/amber-kite-209c/PA4/data/output2.txt",
+      "source_filename_sanitized": "output2.txt",
+      "source_sha256": "40c38cfa5446ac9182b425212cf9aa8a1c4e0e8eefa6f62187e38b49344c9ade",
+      "archived_sha256": "40c38cfa5446ac9182b425212cf9aa8a1c4e0e8eefa6f62187e38b49344c9ade",
+      "size": 933,
+      "status": "original_local_input_or_expected_output_copy_unverified",
+      "content_transformed": false,
+      "transformations": []
+    },
+    {
+      "path": "source_archive/2021-pa04/amber-kite-209c/PA4/data/output3.txt",
+      "source_filename_sanitized": "output3.txt",
+      "source_sha256": "466368512fb368521289a0918bfc58536e2a3a67b37cb6ac2e8a1f35879dee16",
+      "archived_sha256": "466368512fb368521289a0918bfc58536e2a3a67b37cb6ac2e8a1f35879dee16",
+      "size": 769,
+      "status": "original_local_input_or_expected_output_copy_unverified",
+      "content_transformed": false,
+      "transformations": []
+    },
+    {
+      "path": "source_archive/2021-pa04/amber-kite-209c/PA4/result/output.txt",
+      "source_filename_sanitized": "output.txt",
+      "source_sha256": "8bc069479f8143ea8ceb8001c9f8dcfbd0ebfe2dcc4939dd1207c6f70cd49f40",
+      "archived_sha256": "8bc069479f8143ea8ceb8001c9f8dcfbd0ebfe2dcc4939dd1207c6f70cd49f40",
+      "size": 782,
+      "status": "program_generated_local_output",
+      "content_transformed": false,
+      "transformations": []
+    },
+    {
+      "path": "source_archive/2021-pa04/amber-kite-209c/PA4/result/output1.txt",
+      "source_filename_sanitized": "output1.txt",
+      "source_sha256": "fcac70e9edcbc842b65f3d8229e2dbfc9abef5c1abb98f75fa6823297036e81e",
+      "archived_sha256": "fcac70e9edcbc842b65f3d8229e2dbfc9abef5c1abb98f75fa6823297036e81e",
+      "size": 534,
+      "status": "program_generated_local_output",
+      "content_transformed": false,
+      "transformations": []
+    },
+    {
+      "path": "source_archive/2021-pa04/amber-kite-209c/PA4/result/output2.txt",
+      "source_filename_sanitized": "output2.txt",
+      "source_sha256": "91aaf38179cfe76f2d19d76448b7a2a9887121369415b583ac78eee2ae7c0ae2",
+      "archived_sha256": "91aaf38179cfe76f2d19d76448b7a2a9887121369415b583ac78eee2ae7c0ae2",
+      "size": 1631,
+      "status": "program_generated_local_output",
+      "content_transformed": false,
+      "transformations": []
+    },
+    {
+      "path": "source_archive/2021-pa04/amber-kite-209c/PA4/result/output3.txt",
+      "source_filename_sanitized": "output3.txt",
+      "source_sha256": "babd36ae8c77a79a7a13b5dfac1fff52af3c8195d6637251e6c285b75f9b6674",
+      "archived_sha256": "babd36ae8c77a79a7a13b5dfac1fff52af3c8195d6637251e6c285b75f9b6674",
+      "size": 1233,
+      "status": "program_generated_local_output",
+      "content_transformed": false,
+      "transformations": []
+    },
+    {
+      "path": "source_archive/2021-pa04/amber-kite-209c/PA4/測資.txt",
+      "source_filename_sanitized": "測資.txt",
+      "source_sha256": "2f7775b7376222d5cb7d632a010825ab726c77a7813756f2cc4415342cc999f4",
+      "archived_sha256": "2f7775b7376222d5cb7d632a010825ab726c77a7813756f2cc4415342cc999f4",
+      "size": 172,
+      "status": "original_local_command_sequence_unverified",
+      "content_transformed": false,
+      "transformations": []
+    },
+    {
+      "path": "source_archive/2021-final/amber-kite-209c/test/000.cbp",
+      "source_filename_sanitized": "000.cbp",
+      "source_sha256": "9f034e0db93797c6985a5a36bdf142388a8f03c5e7f68a75e1d2ad9a2be21df8",
+      "archived_sha256": "c7653dc4d36502e77c3cff6a8bf67ec36f03b698204f387da6f77dfb098b52b0",
+      "size": 1124,
+      "status": "original_project_configuration_unverified",
+      "content_transformed": true,
+      "transformations": [
+        {
+          "kind": "missing_legacy_project_path_matched_to_supplied_same_assignment_basename",
+          "reference": "../../silver-ibis-4820/silver-ibis-4820_Final.cpp"
+        },
+        {
+          "kind": "project_xml_serialized_without_private_paths"
+        }
+      ]
+    },
+    {
+      "path": "source_archive/2021-pa04/amber-kite-209c/PA4/PA4.cbp",
+      "source_filename_sanitized": "PA4.cbp",
+      "source_sha256": "4da04b2043f63bac0c4272adb8960badb4d1dbc7dd6ec8ca2f7c17fdf9e864d7",
+      "archived_sha256": "5aff8ae0d7f8c0710a855da8fc8ef401bb885bfe57049487e939d6d19cb4624b",
+      "size": 1024,
+      "status": "original_project_configuration_unverified",
+      "content_transformed": true,
+      "transformations": [
+        {
+          "kind": "missing_legacy_project_path_matched_to_supplied_same_assignment_basename",
+          "reference": "../main.cpp"
+        },
+        {
+          "kind": "project_xml_serialized_without_private_paths"
+        }
+      ]
+    }
+  ],
+  "external_preserved_dependencies": [
+    {
+      "path": "assignments/2021/final/course_support/kmap.cpp",
+      "sha256": "9244d692c0376befd7ae49498f5262fd77c9e0a3b4dc280805d5bd8178d39e1d",
+      "role": "Existing byte-exact instructor K-map support, used by archived historical programs."
+    }
+  ],
+  "historical_limitations": [
+    "Some local drafts originally named a data.txt directory which does not exist in the provided source. The invalid final component remains visible after private path redaction.",
+    "Program-generated output files are historical observations, not official golden answers or evidence that a program passed.",
+    "The supplied student header has been renamed anonymously and the accompanying source include rebased to it. Its algorithms remain unverified.",
+    "The original CBP project files reference obsolete locations or a source basename absent in their own project directory. Archive references were rebased to the uniquely matching supplied source basename in the same assignment; this does not establish the historical intended configuration or a working build."
+  ],
+  "excluded_regenerable_files": {
+    "compiled_executables_objects_and_bin_obj_directories": true,
+    "codeblocks_depend_and_layout_ide_cache_files": true
+  }
+}

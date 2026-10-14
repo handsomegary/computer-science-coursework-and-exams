@@ -18,7 +18,7 @@
 
 2025 四個作業根目錄的原始 `說明.txt` 也按原名保存：[PA1](2025/pa01/originals/release_notes/說明.txt)、[PA2](2025/pa02/originals/release_notes/說明.txt)、[PA3](2025/pa03/originals/release_notes/說明.txt)、[Final](2025/final/originals/release_notes/說明.txt)。它們包含題面／ZIP／API 的發布與更新紀錄；Final 的 12/22 flush-subnormal、12/25 hardware API 更新也完整保留。課程影片、OJ、選用的 `/usr/local/bin/enable-opencv` 環境設定以 `remote_external` 分類，沒有補造本機影片、OJ 題庫或 workstation script，也不將它們列為此重寫版執行所需檔案。
 
-未混入學生報告或開發中結果。無題面具名參照的圖片為主 `Doc1.docx` 來源不明、`Final Project參考網站.docx` 僅含選讀外部 Linux/GCC 連結，均未冒充官方必要附件；排除範圍另在 manifest 記錄。
+本清單只核對正式說明與附件；非編譯的本地筆記、草稿與原學生報告另保存於 [source_archive](../source_archive/README.txt)，沒有因重寫解答不使用就略去。`Doc1.docx` 以原位元組保存並標本地筆記；參考網站文件的全部可見內容／三個網址保存為去除作者 metadata 的 TXT。它們不冒充官方必要附件。正式附件 manifest 的排除紀錄只表示不屬本清單，並指向另存分類。
 
 原始輸出可能有舊格式或數值限制，manifest 明列 `historical_expected`：PA4 bonus 的原 Rth／Vth 使用舊公開表定義；PA4 的 K/k、空格及換行格式不一致；PA5 可以有等價的不同排列；Final 的 benchmark 使用課程格式與隱含 CLK；2025 歷史量化與能耗／step golden 不代表最新版的量化規則或更佳排程必須使用相同數字。原 bytes 保留，正確性由各案最新版說明與獨立驗證判定。
 

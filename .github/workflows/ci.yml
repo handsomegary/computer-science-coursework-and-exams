@@ -12,6 +12,7 @@ jobs:
           python-version: '3.12'
       - run: python tools/sync_solutions.py --check
       - run: python tools/check_document_companions.py
+      - run: python tools/check_source_archive.py
       - run: cmake -S . -B build -DCMAKE_BUILD_TYPE=Release
       - run: cmake --build build --parallel 2
       - run: python tools/run_example.py --all-assignments --output-dir build/course-examples

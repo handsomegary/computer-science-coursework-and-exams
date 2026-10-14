@@ -1,0 +1,14 @@
+stage 3
+
+
+v1 vdd gnd 6V
+
+RS1_1 vdd n1  2K
+RP1_1 n1  gnd 16K
+RS2_1 n1  n2  8K
+RP2_1 n2  gnd 8K
+RS3_1 n2  n3  4K
+RP3_1 n3  gnd 4K
+
+
+end

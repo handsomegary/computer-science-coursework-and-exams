@@ -5468,15 +5468,23 @@
   "excluded_local_material": [
     {
       "source_relative_path": "2021/PA4 My Spice/Doc1.docx",
-      "reason": "Unidentified image-heavy local document with no extracted text or named reference in the assignment documents; not represented as an official attachment."
+      "reason": "Unidentified image-heavy local document with no extracted text or named reference in the assignment documents; not represented as an official attachment.",
+      "preserved_elsewhere": "source_archive/notes/2021/pa04/Doc1.docx"
     },
     {
       "source_relative_path": "2021/Final Project Design Synthesis/Final Project參考網站.docx",
-      "reason": "Optional Linux/GCC external reading-links note, not a named required file/template/data attachment in the assignment documents."
+      "reason": "Optional Linux/GCC external reading-links note, not a named required file/template/data attachment in the assignment documents.",
+      "content_preserved_elsewhere": "source_archive/notes/2021/final/Final Project參考網站.txt"
     },
     {
       "category": "student_reports_and_development_artifacts",
-      "reason": "Personal student reports, screenshots, development versions and locally produced incorrect result files are excluded from the official-companion collection."
+      "reason": "Personal student reports, screenshots, development versions and locally produced incorrect result files are excluded from the official-companion collection.",
+      "preserved_collections": [
+        "source_archive/manifest.json",
+        "source_archive/notes/manifest.json",
+        "source_archive/reports/manifest.json",
+        "assignments/2021/pa04/originals/local_notes/classroom-notes.json"
+      ]
     }
   ],
   "file_count": 107,

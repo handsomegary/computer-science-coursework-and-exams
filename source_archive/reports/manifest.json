@@ -1,0 +1,754 @@
+{
+  "schema_version": 1,
+  "scope": "Eight reports from the two previously selected anonymous submission sources. No other cohort submissions are included.",
+  "role": "Preserved original learning material with identity-only privacy edits. Reports may document buggy or incomplete historical programs.",
+  "attribution_note": "A report records its own anonymous source; the archive does not infer source-code authorship from a report folder or filename.",
+  "files": [
+    {
+      "path": "source_archive/reports/jade-lynx-c0ee/final-report.pdf",
+      "alias": "jade-lynx-c0ee",
+      "assignment": "2021/final",
+      "role": "historical student submission report",
+      "source_sha256": "7244f992787e8235291e53b0faffb3215addf520e0cebd49875a6fb54cc647cf",
+      "published_sha256": "c354d940c98254049e5c6d42d54141213793c5ad5fac14bd3e9db7344f715607",
+      "bytes": 221127,
+      "page_count": 4,
+      "content_status": "archival only; original report claims and calculations were not corrected or validated",
+      "privacy_transform": {
+        "identity_in_filename": "random alias",
+        "document_metadata": "replaced with anonymous archive metadata; XMP removed",
+        "visible_identity": "irreversibly removed PDF text and affected screenshot pixels; anonymous alias substituted",
+        "tagged_semantic_identity_fields_removed": 0,
+        "original_sensitive_image_streams": "removed by full garbage-collected rewrite",
+        "annotation_identity": "none present in source",
+        "embedded_files": "none present in source",
+        "validation": [
+          "all page text inspected",
+          "all full embedded images inspected, including cropped source pixels and image metadata",
+          "no known student identities or personal paths in PDF text, objects, or decoded streams",
+          "body text unchanged outside identity substitutions",
+          "all rendered content unchanged outside documented identity regions",
+          "all final rendered pages visually reviewed",
+          "affected embedded screenshots extracted from published PDFs and visually reviewed"
+        ]
+      },
+      "pages": [
+        {
+          "page": 1,
+          "redactions": [],
+          "visible_text_and_embedded_images_reviewed": true,
+          "render_unchanged_outside_redaction_regions": true,
+          "final_render_visually_reviewed": true
+        },
+        {
+          "page": 2,
+          "redactions": [],
+          "visible_text_and_embedded_images_reviewed": true,
+          "render_unchanged_outside_redaction_regions": true,
+          "final_render_visually_reviewed": true
+        },
+        {
+          "page": 3,
+          "redactions": [],
+          "visible_text_and_embedded_images_reviewed": true,
+          "render_unchanged_outside_redaction_regions": true,
+          "final_render_visually_reviewed": true
+        },
+        {
+          "page": 4,
+          "redactions": [],
+          "visible_text_and_embedded_images_reviewed": true,
+          "render_unchanged_outside_redaction_regions": true,
+          "final_render_visually_reviewed": true
+        }
+      ]
+    },
+    {
+      "path": "source_archive/reports/jade-lynx-c0ee/pa1-report.pdf",
+      "alias": "jade-lynx-c0ee",
+      "assignment": "2021/pa1",
+      "role": "historical student submission report",
+      "source_sha256": "ab04ab19f7cb272ff7036124bef96c0c1f28987b6757402c684d031f3d463a23",
+      "published_sha256": "d217d0fdb2632b1b049cb3f0f4ee93a233bf9ac96e23bc4f0e5d54043d4fae5c",
+      "bytes": 658671,
+      "page_count": 19,
+      "content_status": "archival only; original report claims and calculations were not corrected or validated",
+      "privacy_transform": {
+        "identity_in_filename": "random alias",
+        "document_metadata": "replaced with anonymous archive metadata; XMP removed",
+        "visible_identity": "irreversibly removed PDF text and affected screenshot pixels; anonymous alias substituted",
+        "tagged_semantic_identity_fields_removed": 2,
+        "original_sensitive_image_streams": "removed by full garbage-collected rewrite",
+        "annotation_identity": "none present in source",
+        "embedded_files": "none present in source",
+        "validation": [
+          "all page text inspected",
+          "all full embedded images inspected, including cropped source pixels and image metadata",
+          "no known student identities or personal paths in PDF text, objects, or decoded streams",
+          "body text unchanged outside identity substitutions",
+          "all rendered content unchanged outside documented identity regions",
+          "all final rendered pages visually reviewed",
+          "affected embedded screenshots extracted from published PDFs and visually reviewed"
+        ]
+      },
+      "pages": [
+        {
+          "page": 1,
+          "redactions": [
+            {
+              "kind": "PDF-text-removal",
+              "rect_points": [
+                528.56,
+                415.826,
+                716.06,
+                442.05
+              ],
+              "reason": "student author line"
+            }
+          ],
+          "visible_text_and_embedded_images_reviewed": true,
+          "render_unchanged_outside_redaction_regions": true,
+          "final_render_visually_reviewed": true
+        },
+        {
+          "page": 2,
+          "redactions": [],
+          "visible_text_and_embedded_images_reviewed": true,
+          "render_unchanged_outside_redaction_regions": true,
+          "final_render_visually_reviewed": true
+        },
+        {
+          "page": 3,
+          "redactions": [],
+          "visible_text_and_embedded_images_reviewed": true,
+          "render_unchanged_outside_redaction_regions": true,
+          "final_render_visually_reviewed": true
+        },
+        {
+          "page": 4,
+          "redactions": [],
+          "visible_text_and_embedded_images_reviewed": true,
+          "render_unchanged_outside_redaction_regions": true,
+          "final_render_visually_reviewed": true
+        },
+        {
+          "page": 5,
+          "redactions": [],
+          "visible_text_and_embedded_images_reviewed": true,
+          "render_unchanged_outside_redaction_regions": true,
+          "final_render_visually_reviewed": true
+        },
+        {
+          "page": 6,
+          "redactions": [],
+          "visible_text_and_embedded_images_reviewed": true,
+          "render_unchanged_outside_redaction_regions": true,
+          "final_render_visually_reviewed": true
+        },
+        {
+          "page": 7,
+          "redactions": [],
+          "visible_text_and_embedded_images_reviewed": true,
+          "render_unchanged_outside_redaction_regions": true,
+          "final_render_visually_reviewed": true
+        },
+        {
+          "page": 8,
+          "redactions": [],
+          "visible_text_and_embedded_images_reviewed": true,
+          "render_unchanged_outside_redaction_regions": true,
+          "final_render_visually_reviewed": true
+        },
+        {
+          "page": 9,
+          "redactions": [],
+          "visible_text_and_embedded_images_reviewed": true,
+          "render_unchanged_outside_redaction_regions": true,
+          "final_render_visually_reviewed": true
+        },
+        {
+          "page": 10,
+          "redactions": [],
+          "visible_text_and_embedded_images_reviewed": true,
+          "render_unchanged_outside_redaction_regions": true,
+          "final_render_visually_reviewed": true
+        },
+        {
+          "page": 11,
+          "redactions": [],
+          "visible_text_and_embedded_images_reviewed": true,
+          "render_unchanged_outside_redaction_regions": true,
+          "final_render_visually_reviewed": true
+        },
+        {
+          "page": 12,
+          "redactions": [],
+          "visible_text_and_embedded_images_reviewed": true,
+          "render_unchanged_outside_redaction_regions": true,
+          "final_render_visually_reviewed": true
+        },
+        {
+          "page": 13,
+          "redactions": [],
+          "visible_text_and_embedded_images_reviewed": true,
+          "render_unchanged_outside_redaction_regions": true,
+          "final_render_visually_reviewed": true
+        },
+        {
+          "page": 14,
+          "redactions": [],
+          "visible_text_and_embedded_images_reviewed": true,
+          "render_unchanged_outside_redaction_regions": true,
+          "final_render_visually_reviewed": true
+        },
+        {
+          "page": 15,
+          "redactions": [],
+          "visible_text_and_embedded_images_reviewed": true,
+          "render_unchanged_outside_redaction_regions": true,
+          "final_render_visually_reviewed": true
+        },
+        {
+          "page": 16,
+          "redactions": [],
+          "visible_text_and_embedded_images_reviewed": true,
+          "render_unchanged_outside_redaction_regions": true,
+          "final_render_visually_reviewed": true
+        },
+        {
+          "page": 17,
+          "redactions": [],
+          "visible_text_and_embedded_images_reviewed": true,
+          "render_unchanged_outside_redaction_regions": true,
+          "final_render_visually_reviewed": true
+        },
+        {
+          "page": 18,
+          "redactions": [],
+          "visible_text_and_embedded_images_reviewed": true,
+          "render_unchanged_outside_redaction_regions": true,
+          "final_render_visually_reviewed": true
+        },
+        {
+          "page": 19,
+          "redactions": [],
+          "visible_text_and_embedded_images_reviewed": true,
+          "render_unchanged_outside_redaction_regions": true,
+          "final_render_visually_reviewed": true
+        }
+      ]
+    },
+    {
+      "path": "source_archive/reports/moss-lynx-5375/pa2-report.pdf",
+      "alias": "moss-lynx-5375",
+      "assignment": "2021/pa2",
+      "role": "historical student submission report",
+      "source_sha256": "19347dde200de755b93d1db64d54164758231b34db29b59727d2ee22b6c3cd6a",
+      "published_sha256": "20e216aaddec05de2c62adccb19cd46ac9775bd5700b240d6f6dc90a9286ebef",
+      "bytes": 621691,
+      "page_count": 8,
+      "content_status": "archival only; original report claims and calculations were not corrected or validated",
+      "privacy_transform": {
+        "identity_in_filename": "random alias",
+        "document_metadata": "replaced with anonymous archive metadata; XMP removed",
+        "visible_identity": "irreversibly removed PDF text and affected screenshot pixels; anonymous alias substituted",
+        "tagged_semantic_identity_fields_removed": 0,
+        "original_sensitive_image_streams": "removed by full garbage-collected rewrite",
+        "annotation_identity": "none present in source",
+        "embedded_files": "none present in source",
+        "validation": [
+          "all page text inspected",
+          "all full embedded images inspected, including cropped source pixels and image metadata",
+          "no known student identities or personal paths in PDF text, objects, or decoded streams",
+          "body text unchanged outside identity substitutions",
+          "all rendered content unchanged outside documented identity regions",
+          "all final rendered pages visually reviewed",
+          "affected embedded screenshots extracted from published PDFs and visually reviewed"
+        ]
+      },
+      "pages": [
+        {
+          "page": 1,
+          "redactions": [],
+          "visible_text_and_embedded_images_reviewed": true,
+          "render_unchanged_outside_redaction_regions": true,
+          "final_render_visually_reviewed": true
+        },
+        {
+          "page": 2,
+          "redactions": [],
+          "visible_text_and_embedded_images_reviewed": true,
+          "render_unchanged_outside_redaction_regions": true,
+          "final_render_visually_reviewed": true
+        },
+        {
+          "page": 3,
+          "redactions": [],
+          "visible_text_and_embedded_images_reviewed": true,
+          "render_unchanged_outside_redaction_regions": true,
+          "final_render_visually_reviewed": true
+        },
+        {
+          "page": 4,
+          "redactions": [],
+          "visible_text_and_embedded_images_reviewed": true,
+          "render_unchanged_outside_redaction_regions": true,
+          "final_render_visually_reviewed": true
+        },
+        {
+          "page": 5,
+          "redactions": [],
+          "visible_text_and_embedded_images_reviewed": true,
+          "render_unchanged_outside_redaction_regions": true,
+          "final_render_visually_reviewed": true
+        },
+        {
+          "page": 6,
+          "redactions": [],
+          "visible_text_and_embedded_images_reviewed": true,
+          "render_unchanged_outside_redaction_regions": true,
+          "final_render_visually_reviewed": true
+        },
+        {
+          "page": 7,
+          "redactions": [],
+          "visible_text_and_embedded_images_reviewed": true,
+          "render_unchanged_outside_redaction_regions": true,
+          "final_render_visually_reviewed": true
+        },
+        {
+          "page": 8,
+          "redactions": [],
+          "visible_text_and_embedded_images_reviewed": true,
+          "render_unchanged_outside_redaction_regions": true,
+          "final_render_visually_reviewed": true
+        }
+      ]
+    },
+    {
+      "path": "source_archive/reports/jade-lynx-c0ee/pa2-report.pdf",
+      "alias": "jade-lynx-c0ee",
+      "assignment": "2021/pa2",
+      "role": "historical student submission report",
+      "source_sha256": "e7f297e7e75e79a5113a58c67b8aa81a35e0f26ccf57803fed2dbf7b29fdb03c",
+      "published_sha256": "6b0b52aabbd050b615c09aeac865bb09d11598df0e1f47ade4199fe955068725",
+      "bytes": 486891,
+      "page_count": 4,
+      "content_status": "archival only; original report claims and calculations were not corrected or validated",
+      "privacy_transform": {
+        "identity_in_filename": "random alias",
+        "document_metadata": "replaced with anonymous archive metadata; XMP removed",
+        "visible_identity": "irreversibly removed PDF text and affected screenshot pixels; anonymous alias substituted",
+        "tagged_semantic_identity_fields_removed": 0,
+        "original_sensitive_image_streams": "removed by full garbage-collected rewrite",
+        "annotation_identity": "none present in source",
+        "embedded_files": "none present in source",
+        "validation": [
+          "all page text inspected",
+          "all full embedded images inspected, including cropped source pixels and image metadata",
+          "no known student identities or personal paths in PDF text, objects, or decoded streams",
+          "body text unchanged outside identity substitutions",
+          "all rendered content unchanged outside documented identity regions",
+          "all final rendered pages visually reviewed",
+          "affected embedded screenshots extracted from published PDFs and visually reviewed"
+        ]
+      },
+      "pages": [
+        {
+          "page": 1,
+          "redactions": [],
+          "visible_text_and_embedded_images_reviewed": true,
+          "render_unchanged_outside_redaction_regions": true,
+          "final_render_visually_reviewed": true
+        },
+        {
+          "page": 2,
+          "redactions": [
+            {
+              "kind": "embedded-image-pixel-removal",
+              "rect_points": [
+                299.513,
+                202.37,
+                686.754,
+                214.825
+              ],
+              "reason": "personal executable path"
+            }
+          ],
+          "visible_text_and_embedded_images_reviewed": true,
+          "render_unchanged_outside_redaction_regions": true,
+          "final_render_visually_reviewed": true
+        },
+        {
+          "page": 3,
+          "redactions": [],
+          "visible_text_and_embedded_images_reviewed": true,
+          "render_unchanged_outside_redaction_regions": true,
+          "final_render_visually_reviewed": true
+        },
+        {
+          "page": 4,
+          "redactions": [],
+          "visible_text_and_embedded_images_reviewed": true,
+          "render_unchanged_outside_redaction_regions": true,
+          "final_render_visually_reviewed": true
+        }
+      ]
+    },
+    {
+      "path": "source_archive/reports/moss-lynx-5375/pa3-report.pdf",
+      "alias": "moss-lynx-5375",
+      "assignment": "2021/pa3",
+      "role": "historical student submission report",
+      "source_sha256": "e8f584302ece9c8144642398b56ab415b9269b9aa511004e00452197a4bfc775",
+      "published_sha256": "5126a9906a282f7a23604f17ce2ee59c6d447f2fc61f3260a1ad11b98f628df4",
+      "bytes": 254081,
+      "page_count": 6,
+      "content_status": "archival only; original report claims and calculations were not corrected or validated",
+      "privacy_transform": {
+        "identity_in_filename": "random alias",
+        "document_metadata": "replaced with anonymous archive metadata; XMP removed",
+        "visible_identity": "irreversibly removed PDF text and affected screenshot pixels; anonymous alias substituted",
+        "tagged_semantic_identity_fields_removed": 0,
+        "original_sensitive_image_streams": "removed by full garbage-collected rewrite",
+        "annotation_identity": "none present in source",
+        "embedded_files": "none present in source",
+        "validation": [
+          "all page text inspected",
+          "all full embedded images inspected, including cropped source pixels and image metadata",
+          "no known student identities or personal paths in PDF text, objects, or decoded streams",
+          "body text unchanged outside identity substitutions",
+          "all rendered content unchanged outside documented identity regions",
+          "all final rendered pages visually reviewed",
+          "affected embedded screenshots extracted from published PDFs and visually reviewed"
+        ]
+      },
+      "pages": [
+        {
+          "page": 1,
+          "redactions": [],
+          "visible_text_and_embedded_images_reviewed": true,
+          "render_unchanged_outside_redaction_regions": true,
+          "final_render_visually_reviewed": true
+        },
+        {
+          "page": 2,
+          "redactions": [],
+          "visible_text_and_embedded_images_reviewed": true,
+          "render_unchanged_outside_redaction_regions": true,
+          "final_render_visually_reviewed": true
+        },
+        {
+          "page": 3,
+          "redactions": [],
+          "visible_text_and_embedded_images_reviewed": true,
+          "render_unchanged_outside_redaction_regions": true,
+          "final_render_visually_reviewed": true
+        },
+        {
+          "page": 4,
+          "redactions": [],
+          "visible_text_and_embedded_images_reviewed": true,
+          "render_unchanged_outside_redaction_regions": true,
+          "final_render_visually_reviewed": true
+        },
+        {
+          "page": 5,
+          "redactions": [],
+          "visible_text_and_embedded_images_reviewed": true,
+          "render_unchanged_outside_redaction_regions": true,
+          "final_render_visually_reviewed": true
+        },
+        {
+          "page": 6,
+          "redactions": [],
+          "visible_text_and_embedded_images_reviewed": true,
+          "render_unchanged_outside_redaction_regions": true,
+          "final_render_visually_reviewed": true
+        }
+      ]
+    },
+    {
+      "path": "source_archive/reports/jade-lynx-c0ee/pa3-report.pdf",
+      "alias": "jade-lynx-c0ee",
+      "assignment": "2021/pa3",
+      "role": "historical student submission report",
+      "source_sha256": "f2c25499ae0a154b6d8ae771c5381d6ddc04e297bb9828f99637614d1fbcd320",
+      "published_sha256": "ed8ee36f93df16a8218577f1e8ab5269b5ebd4d2153d0f6b5f74eef2ebcb7116",
+      "bytes": 303708,
+      "page_count": 6,
+      "content_status": "archival only; original report claims and calculations were not corrected or validated",
+      "privacy_transform": {
+        "identity_in_filename": "random alias",
+        "document_metadata": "replaced with anonymous archive metadata; XMP removed",
+        "visible_identity": "irreversibly removed PDF text and affected screenshot pixels; anonymous alias substituted",
+        "tagged_semantic_identity_fields_removed": 0,
+        "original_sensitive_image_streams": "removed by full garbage-collected rewrite",
+        "annotation_identity": "none present in source",
+        "embedded_files": "none present in source",
+        "validation": [
+          "all page text inspected",
+          "all full embedded images inspected, including cropped source pixels and image metadata",
+          "no known student identities or personal paths in PDF text, objects, or decoded streams",
+          "body text unchanged outside identity substitutions",
+          "all rendered content unchanged outside documented identity regions",
+          "all final rendered pages visually reviewed",
+          "affected embedded screenshots extracted from published PDFs and visually reviewed"
+        ]
+      },
+      "pages": [
+        {
+          "page": 1,
+          "redactions": [
+            {
+              "kind": "embedded-image-pixel-removal",
+              "rect_points": [
+                175.021,
+                182.88,
+                274.412,
+                199.116
+              ],
+              "reason": "student source filename"
+            },
+            {
+              "kind": "embedded-image-pixel-removal",
+              "rect_points": [
+                383.546,
+                340.044,
+                486.835,
+                356.28
+              ],
+              "reason": "student source tab"
+            }
+          ],
+          "visible_text_and_embedded_images_reviewed": true,
+          "render_unchanged_outside_redaction_regions": true,
+          "final_render_visually_reviewed": true
+        },
+        {
+          "page": 2,
+          "redactions": [],
+          "visible_text_and_embedded_images_reviewed": true,
+          "render_unchanged_outside_redaction_regions": true,
+          "final_render_visually_reviewed": true
+        },
+        {
+          "page": 3,
+          "redactions": [],
+          "visible_text_and_embedded_images_reviewed": true,
+          "render_unchanged_outside_redaction_regions": true,
+          "final_render_visually_reviewed": true
+        },
+        {
+          "page": 4,
+          "redactions": [],
+          "visible_text_and_embedded_images_reviewed": true,
+          "render_unchanged_outside_redaction_regions": true,
+          "final_render_visually_reviewed": true
+        },
+        {
+          "page": 5,
+          "redactions": [],
+          "visible_text_and_embedded_images_reviewed": true,
+          "render_unchanged_outside_redaction_regions": true,
+          "final_render_visually_reviewed": true
+        },
+        {
+          "page": 6,
+          "redactions": [
+            {
+              "kind": "embedded-image-pixel-removal",
+              "rect_points": [
+                106.168,
+                178.68,
+                426.0,
+                191.366
+              ],
+              "reason": "personal executable path"
+            },
+            {
+              "kind": "embedded-image-pixel-removal",
+              "rect_points": [
+                499.187,
+                181.4,
+                798.0,
+                193.797
+              ],
+              "reason": "personal executable path"
+            },
+            {
+              "kind": "embedded-image-pixel-removal",
+              "rect_points": [
+                897.109,
+                178.68,
+                1120.476,
+                191.224
+              ],
+              "reason": "personal executable path"
+            }
+          ],
+          "visible_text_and_embedded_images_reviewed": true,
+          "render_unchanged_outside_redaction_regions": true,
+          "final_render_visually_reviewed": true
+        }
+      ]
+    },
+    {
+      "path": "source_archive/reports/moss-lynx-5375/pa4-report.pdf",
+      "alias": "moss-lynx-5375",
+      "assignment": "2021/pa4",
+      "role": "historical student submission report",
+      "source_sha256": "99c64fb6b0edd836fb1b6d0163cd7c1157680eb482aac193a92217a6e51c4c40",
+      "published_sha256": "6a959108c0915b30a1f67d565ad627a401cecc15acd9030a190e1690fabb7cc2",
+      "bytes": 30635,
+      "page_count": 1,
+      "content_status": "archival only; original report claims and calculations were not corrected or validated",
+      "privacy_transform": {
+        "identity_in_filename": "random alias",
+        "document_metadata": "replaced with anonymous archive metadata; XMP removed",
+        "visible_identity": "irreversibly removed PDF text and affected screenshot pixels; anonymous alias substituted",
+        "tagged_semantic_identity_fields_removed": 0,
+        "original_sensitive_image_streams": "removed by full garbage-collected rewrite",
+        "annotation_identity": "none present in source",
+        "embedded_files": "none present in source",
+        "validation": [
+          "all page text inspected",
+          "all full embedded images inspected, including cropped source pixels and image metadata",
+          "no known student identities or personal paths in PDF text, objects, or decoded streams",
+          "body text unchanged outside identity substitutions",
+          "all rendered content unchanged outside documented identity regions",
+          "all final rendered pages visually reviewed",
+          "affected embedded screenshots extracted from published PDFs and visually reviewed"
+        ]
+      },
+      "pages": [
+        {
+          "page": 1,
+          "redactions": [],
+          "visible_text_and_embedded_images_reviewed": true,
+          "render_unchanged_outside_redaction_regions": true,
+          "final_render_visually_reviewed": true
+        }
+      ]
+    },
+    {
+      "path": "source_archive/reports/jade-lynx-c0ee/pa4-report.pdf",
+      "alias": "jade-lynx-c0ee",
+      "assignment": "2021/pa4",
+      "role": "historical student submission report",
+      "source_sha256": "c19d871675dce9394d1607ec676915cb6de4cc1a353af784846fd9717be9c5dd",
+      "published_sha256": "ee9b98210c4444e7e1e462def465eb226ad7b8db34ed11da8ee06d5bf63cbf11",
+      "bytes": 331180,
+      "page_count": 5,
+      "content_status": "archival only; original report claims and calculations were not corrected or validated",
+      "privacy_transform": {
+        "identity_in_filename": "random alias",
+        "document_metadata": "replaced with anonymous archive metadata; XMP removed",
+        "visible_identity": "irreversibly removed PDF text and affected screenshot pixels; anonymous alias substituted",
+        "tagged_semantic_identity_fields_removed": 0,
+        "original_sensitive_image_streams": "removed by full garbage-collected rewrite",
+        "annotation_identity": "none present in source",
+        "embedded_files": "none present in source",
+        "validation": [
+          "all page text inspected",
+          "all full embedded images inspected, including cropped source pixels and image metadata",
+          "no known student identities or personal paths in PDF text, objects, or decoded streams",
+          "body text unchanged outside identity substitutions",
+          "all rendered content unchanged outside documented identity regions",
+          "all final rendered pages visually reviewed",
+          "affected embedded screenshots extracted from published PDFs and visually reviewed"
+        ]
+      },
+      "pages": [
+        {
+          "page": 1,
+          "redactions": [
+            {
+              "kind": "embedded-image-pixel-removal",
+              "rect_points": [
+                166.827,
+                214.172,
+                259.532,
+                225.539
+              ],
+              "reason": "student source tab"
+            }
+          ],
+          "visible_text_and_embedded_images_reviewed": true,
+          "render_unchanged_outside_redaction_regions": true,
+          "final_render_visually_reviewed": true
+        },
+        {
+          "page": 2,
+          "redactions": [],
+          "visible_text_and_embedded_images_reviewed": true,
+          "render_unchanged_outside_redaction_regions": true,
+          "final_render_visually_reviewed": true
+        },
+        {
+          "page": 3,
+          "redactions": [
+            {
+              "kind": "embedded-image-pixel-removal",
+              "rect_points": [
+                72.981,
+                107.76,
+                451.2,
+                116.958
+              ],
+              "reason": "personal executable path"
+            },
+            {
+              "kind": "embedded-image-pixel-removal",
+              "rect_points": [
+                482.626,
+                107.76,
+                837.48,
+                112.678
+              ],
+              "reason": "personal executable path"
+            }
+          ],
+          "visible_text_and_embedded_images_reviewed": true,
+          "render_unchanged_outside_redaction_regions": true,
+          "final_render_visually_reviewed": true
+        },
+        {
+          "page": 4,
+          "redactions": [
+            {
+              "kind": "embedded-image-pixel-removal",
+              "rect_points": [
+                66.137,
+                28.8,
+                480.0,
+                37.365
+              ],
+              "reason": "personal executable path"
+            }
+          ],
+          "visible_text_and_embedded_images_reviewed": true,
+          "render_unchanged_outside_redaction_regions": true,
+          "final_render_visually_reviewed": true
+        },
+        {
+          "page": 5,
+          "redactions": [],
+          "visible_text_and_embedded_images_reviewed": true,
+          "render_unchanged_outside_redaction_regions": true,
+          "final_render_visually_reviewed": true
+        }
+      ]
+    }
+  ],
+  "verification_summary": {
+    "reports": 8,
+    "pages": 53,
+    "source_embedded_images_inspected": 66,
+    "affected_final_embedded_images_inspected": 9,
+    "identity_redaction_regions": 11,
+    "identity_bearing_tagged_fields_removed": 2,
+    "source_metadata_and_image_metadata_inspected": true,
+    "outside_redaction_render_comparison": "53 of 53 pages identical"
+  }
+}

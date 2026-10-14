@@ -8,5 +8,7 @@ __pycache__/
 !assignments/2025/pa01/course_support/checker.out
 *.bench
 !assignments/2021/final/course_support/public_testcases/*.bench
+!source_archive/**/*.bench
 *.kmap
 integers.txt
+!source_archive/**/integers.txt
