@@ -10,7 +10,7 @@
 
 主要 `solution.md` 與作業入口為重新實作的解答。另收錄 13 份經重新驗證的匿名修正版、對應的 13 份有誤原版，以及原先通過的兩份匿名 PA1 程式；詳見[修復與驗證紀錄](reports/reference-repairs.md)。來源以隨機代稱呈現，原版位元組保留；[課程原版 K-map 支援程式](assignments/2021/final/course_support/README.md)另列介面與限制。[初次審查紀錄](reports/reference-validation.md)保留修復前的判定。
 
-本機提供的非編譯資料也保存於 [source_archive](source_archive/README.txt)：30 份原 C++、1 份學生 header、13 份小資料、2 份 CBP、7 份筆記／講解及 8 份匿名原報告。原草稿與歷史輸出明確標為未驗證，未混入完成版；教授原程式、header、模板、測資與五個 ZIP 另依原附件清單保存。保留依據是原資料的用途，不限於重寫解答實際用到的檔案。只省略學生編譯的 `bin/obj/exe`、編譯暫存及可再生 IDE cache。
+本機提供的非編譯資料也保存於 [source_archive](source_archive/README.txt)：30 份原 C++、1 份學生 header、13 份小資料、2 份 CBP、7 份筆記／講解及 18 份匿名原報告（共 122 頁）。原草稿與歷史輸出明確標為未驗證，未混入完成版；教授原程式、header、模板、測資與五個 ZIP 另依原附件清單保存。保留依據是原資料的用途，不限於重寫解答實際用到的檔案。只省略學生編譯的 `bin/obj/exe`、編譯暫存及可再生 IDE cache。
 
 [29 頁原課堂教學內容](assignments/2021/pa04/originals/local_notes/classroom-notes.pdf)從本機截圖保存，僅真正移除私人會議／瀏覽器 UI；[轉換對照](assignments/2021/pa04/originals/local_notes/classroom-notes.json)記錄原圖 SHA256 與保留區域。圖片筆記與原報告均保留原內容，沒有因程式碼重寫而被丟棄。匿名及格式轉換的檔案不宣稱為原始位元組。
 
